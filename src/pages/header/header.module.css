@@ -1,0 +1,62 @@
+.header {
+    background-color: black;
+    height: 76px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 30px;
+}
+.header .logo {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header .menuList {
+    display: flex;
+    margin-right: 40px;
+}
+.header .menuList li {
+    padding-left: 40px;
+}
+.header .menuList a {
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: normal;
+    height: 76px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid transparent;
+    transition: border-bottom 0.5s ease-out;
+    cursor: pointer;
+}
+.header .menuList a:hover {
+    border-bottom: 5px solid #05A7B1;
+}
+.header .menuList a.active {
+    border-bottom: 5px solid #05A7B1;
+}
+.btnDemo {
+    background-color: #68326F;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    min-width: 150px;
+    box-shadow: none;
+    border-radius: 0;
+}

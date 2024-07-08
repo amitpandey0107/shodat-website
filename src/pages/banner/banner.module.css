@@ -1,0 +1,65 @@
+.carouselContainer {
+    height: 770px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.sliderImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.carouselContent {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.carouselContent h1{
+    font-size: 46px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+    line-height: 60px;
+}
+.carouselContent h1 span {
+    display: block;
+}
+.carouselContent p{
+    font-size: 23px;
+    font-weight: 300;
+    color: white;
+    margin-bottom: 20px;
+}
+.btnGetStarted {
+    background-color: #68326F;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    min-width: 150px;
+    box-shadow: none;
+    border-radius: 0;
+}
+.btnGetStarted img {
+    margin-left: 10px;
+}
+.carouselContainer .carouselCaption {
+    right: auto;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.mouseIcon {
+    position: absolute;
+    left: 50%;
+    bottom: -12px;
+    transform: translate(-50%, -50%);
+}

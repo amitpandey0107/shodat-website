@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{padding: 0; margin: 0;}
+body {font-family: "Open Sans", sans-serif;}
+
+.banner .carousel-indicators [data-bs-target] {
+    background-color: #757575;
+}
+.banner .carousel-indicators [data-bs-target].active {
+    background-color: #05A7B1;
+}
+.banner .carousel-indicators {
+    bottom: 35px;
+}
+.banner .carousel-item img {
+    height: 770px;
+}
