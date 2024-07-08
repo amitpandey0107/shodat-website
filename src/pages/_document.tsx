@@ -8,6 +8,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <title>Shodat</title>
+      <link rel="icon" type="image/x-icon" href="/img/favicon.svg" />
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
