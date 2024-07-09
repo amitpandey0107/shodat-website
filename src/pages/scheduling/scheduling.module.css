@@ -1,6 +1,6 @@
 .scheduling {
     position: relative;
-    margin-bottom: 30px;
+    background-color: #F0F0F0;
 }
 .growingTeam {
     position: relative;
@@ -37,5 +37,103 @@
     justify-content: space-between;
     align-items: center;
 }
-.growingTeam .clients ul li {}
-.growingTeam .clients ul li img{}
+
+.schedulingInfo {
+    height: 574px;
+    /* width: 574px; */
+    background-color: #68326F;
+    padding: 50px;
+}
+.schedulingInfo h2 {
+    font-size: 33px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.schedulingInfo p {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 35px;
+    line-height: 33px;
+}
+.schedulingForm {
+    height: 574px;
+    background-color: #FFFFFF;
+    padding: 50px;
+}
+.schedulingForm h2 {
+    font-size: 33px;
+    color: #68326F;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.formWrap {
+    position: relative;
+}
+.formWrap .formRow{    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.formWrap .formGroup {
+    margin-bottom: 15px;
+    width: 48%;
+}
+.formWrap  label{
+    margin-bottom: 5px;
+}
+.formWrap .formGroup input[type="text"] {
+    border: 1px solid #CCCCCC;
+    border-radius: 0;
+}
+.formWrap textarea {
+    border: 1px solid #CCCCCC;
+    border-radius: 0;
+    min-height: 100px;
+}
+.formWrap .formGroupFull {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.btnSubmit {
+    background-color: #68326F;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    min-width: 154px;
+    box-shadow: none;
+    border-radius: 0;
+    margin-top: 10px;
+}
+
+.cta {
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.cta .ctaContent {
+    margin-right: 40px;
+}
+.cta .ctaContent h3 {
+    font-size: 33px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.cta .ctaContent p {
+    font-weight: 400;
+    line-height: 24px;
+    color: black;
+    width: 60%;
+}
