@@ -22,6 +22,46 @@ body {font-family: "Open Sans", sans-serif;}
     animation: action 1s infinite alternate;
 }
 
+#featuresSlider .carousel-control-prev {
+    background-color: rgba(104, 50, 111, 0.5);
+    opacity: 1;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    position: absolute;
+    right: 35px;
+    bottom: -35px;
+    top: auto;
+    left: auto;
+    display: flex;
+    transition: background-color 0.5s ease-out;
+}
+#featuresSlider .carousel-control-prev:hover {
+    background-color: rgba(104, 50, 111, 1);
+   
+}
+#featuresSlider .carousel-control-next {
+    background-color: rgba(104, 50, 111, 1);
+    opacity: 1;
+    height: 30px;
+    width: 30px;
+    font-size: 18px;
+    position: absolute;
+    right: 0px;
+    bottom: -35px;
+    top: auto;
+    left: auto;
+    display: flex;
+    transition: background-color 0.5s ease-out;
+}
+#featuresSlider .carousel-control-next:hover {
+    background-color: rgba(104, 50, 111, 1);
+   
+}
+#featuresSlider  .carousel-control-prev-icon, #featuresSlider .carousel-control-next-icon {
+    height: 1.2rem;
+    width: 1.2rem;
+}
 
 /* Animations */
 @-webkit-keyframes action {

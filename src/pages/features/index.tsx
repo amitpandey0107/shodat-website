@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./features.module.css";
+import "bootstrap/dist/css/bootstrap.css";
+import Carousel from "react-bootstrap/Carousel";
+import { Card, Stack, Button } from "react-bootstrap";
 
 export default function Features() {
   return (
@@ -88,6 +91,79 @@ export default function Features() {
                   width={20}
                 />
               </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-sm-12">
+            <div className={`${styles.serviceTitle}`}>
+              <h2>
+                Discover how Shodat can elevate your business with <br />
+                our bespoke data analytics solutions
+              </h2>
+              <div className={`${styles.line}`}></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className={`container-fluid ${styles.featuresSlider}`} id="featuresSlider">
+        <div className="row">
+          <div className="col-sm-12">
+            <div className={`${styles.sliderWrapper}`}>
+              <Carousel controls={true} indicators={false}>
+                <Carousel.Item interval={10500}>
+                  <Stack
+                    direction="horizontal"
+                    className="h-100 justify-content-center align-items-center"
+                    gap={3}
+                  >
+                    <Card className={`${styles.sliderItem}`}>
+                      <h4>Data Engineering</h4>
+                      <p>Empowering insights through robust data engineering</p>
+                    </Card>
+                    <Card className={`${styles.sliderItem}`}>
+                      <h4>AI Innovation</h4>
+                      <p>Pioneering AI innovations, transforming data into intelligent action.</p>
+                    </Card>
+                    <Card className={`${styles.sliderItem}`}>
+                      <h4>Advanced Analytics + BI</h4>
+                      <p>Seeing beyond data, decision-making with vision AI</p>
+                    </Card>
+                    <Card className={`${styles.sliderItem}`}>
+                      <h4>Security & Compliance</h4>
+                      <p>Navigate compliance with Precision and Speed.</p>
+                    </Card>
+                  </Stack>
+                </Carousel.Item>
+                <Carousel.Item interval={10500}>
+                  <Stack
+                    direction="horizontal"
+                    className="h-100 justify-content-center align-items-center"
+                    gap={3}
+                  >
+                    <Card className={`${styles.sliderItem}`}>
+                      <h4>Data Engineering</h4>
+                      <p>Empowering insights through robust data engineering</p>
+                    </Card>
+                    <Card className={`${styles.sliderItem}`}>
+                      <h4>AI Innovation</h4>
+                      <p>Pioneering AI innovations, transforming data into intelligent action.</p>
+                    </Card>
+                    <Card className={`${styles.sliderItem}`}>
+                      <h4>Advanced Analytics + BI</h4>
+                      <p>Seeing beyond data, decision-making with vision AI</p>
+                    </Card>
+                    <Card className={`${styles.sliderItem}`}>
+                      <h4>Security & Compliance</h4>
+                      <p>Navigate compliance with Precision and Speed.</p>
+                    </Card>
+                  </Stack>
+                </Carousel.Item>
+              </Carousel>
             </div>
           </div>
         </div>
