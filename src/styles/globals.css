@@ -63,6 +63,25 @@ body {font-family: "Open Sans", sans-serif;}
     width: 1.2rem;
 }
 
+.btnBlack {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    min-width: 154px;
+    box-shadow: none;
+    border-radius: 0;
+}
+.btnBlack img {
+    margin-left: 5px;
+}
+
 /* Animations */
 @-webkit-keyframes action {
     0% { transform: translateY(0); }

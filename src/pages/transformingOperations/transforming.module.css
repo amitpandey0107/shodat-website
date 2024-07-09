@@ -1,0 +1,38 @@
+.transformingOperations {
+    background-color: white;
+    padding: 50px 0;
+    position: relative;
+} 
+.opsImage {
+    text-align: center;
+}
+.opsImage img{
+    display: inline-block;
+}
+.opsContent {}
+.opsContent h2{
+    font-size: 33px;
+    color: #68326F;
+    font-weight: 600;
+}
+.opsContent h2 span {
+    display: block;
+}
+.opsContent .line{
+    height: 2px;
+    width: 200px;
+    background-color: rgba(0,0,0,0.2);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+.opsContent p{
+    font-size: 16px;
+    color: #606060;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.btnGetStart {
+    margin-top: 15px;
+}

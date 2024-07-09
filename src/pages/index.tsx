@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Header from "./header";
 import Banner from "./banner";
 import Features from "./features";
+import TransformingOperations from "./transformingOperations";
 
 
 export default function Home() {
@@ -17,6 +18,9 @@ export default function Home() {
 
       {/* -- Features -- */}
       <Features />
+
+      {/* -- Transforming Operations -- */}
+      <TransformingOperations />
 
     </div>
   );
