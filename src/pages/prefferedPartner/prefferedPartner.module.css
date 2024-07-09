@@ -1,0 +1,147 @@
+.prefferedPartner {
+    position: relative;
+}
+.experienceFuture {
+    height: 223px;
+    background-image: url(/img/future.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.experienceFuture:after {
+    background-color: rgba(000,000,000,0.7);
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+.experienceFuture .experienceContent {
+    position: relative;
+    z-index: 1;
+}
+.experienceFuture .experienceContent h2 {
+    color: white;
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experienceFuture .experienceContent p {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    padding: 0 15%;
+}
+
+
+.prefferedPartner .titleSection {
+    height: 145px;
+    text-align: center;
+    background-color: #68326F;
+    padding: 15px;
+}
+.prefferedPartner .titleSection h2 {
+    color: white;
+    font-size: 33px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.tabSection {
+    background-color: black;
+}
+.tabSection .tabs {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -60px;
+}
+.btnTab {
+    background-color: #DEC6E0;
+    height: 60px;
+    cursor: pointer;
+    border: 0;
+    border-right: 1px solid #68326F;
+    font-size: 16px;
+    color: #68326F;
+    font-weight: 400;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.btnTab.active {
+    background-color: #000000;
+    color: #FFFFFF;
+}
+.tabsContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.tabsContent .contentLeft {
+    width: 50%;
+    min-height: 470px;
+    padding: 40px 50px;
+    background-image: url(/img/proven.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.tabsContent .contentLeft h3 {
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+.tabsContent .contentLeft ul {
+    padding-left: 40px;
+}
+.tabsContent .contentLeft ul li {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    list-style-type: disc;
+    padding: 6px 0;
+}
+.tabsContent .contentRight {
+    width: 50%;
+    min-height: 470px;
+    padding: 40px 50px;
+}
+.tabsContent .contentRight .couonterRow {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.tabsContent .contentRight .counterBox {
+    border: 1px solid #68326F;
+    height: 158px;
+    width: 179px;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 20px;
+}
+.tabsContent .contentRight .counterBox h6 {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.tabsContent .contentRight .counterBox .count {
+    color: white;
+    font-size: 33px;
+    font-weight: 600;
+}

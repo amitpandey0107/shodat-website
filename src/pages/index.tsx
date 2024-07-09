@@ -4,6 +4,9 @@ import Header from "./header";
 import Banner from "./banner";
 import Features from "./features";
 import TransformingOperations from "./transformingOperations";
+import Slider from "./sliders";
+import PrefferedPartner from "./prefferedPartner";
+import Scheduling from "./scheduling";
 
 
 export default function Home() {
@@ -21,6 +24,15 @@ export default function Home() {
 
       {/* -- Transforming Operations -- */}
       <TransformingOperations />
+
+      {/* Shodat X */}
+      <Slider />
+
+      {/* preffered Partner */}
+      <PrefferedPartner />
+
+      {/* Scheduling a meeting */}
+      <Scheduling />
 
     </div>
   );

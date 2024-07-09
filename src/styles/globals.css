@@ -81,6 +81,79 @@ body {font-family: "Open Sans", sans-serif;}
 .btnBlack img {
     margin-left: 5px;
 }
+#shodatX .carousel-control-prev-icon {
+    background-image: url("/img/arrow-left.png") !important;
+    height: 20px;
+    width: 24px;
+}
+   
+#shodatX .carousel-control-next-icon {
+    background-image: url("/img/arrow-right.png") !important;
+    height: 20px;
+    width: 24px;
+}
+
+#shodatX .carousel-control-next {
+    position: absolute;
+    top: auto;
+    bottom: -107px;
+    right: 160px;
+    opacity: 1;
+    z-index: 9;
+}
+#shodatX .carousel-control-prev {
+    position: absolute;
+    top: auto;
+    bottom: -107px;
+    left: 160px;
+    opacity: 1;
+    z-index: 9;
+}
+#shodatX .carousel-indicators {
+    position: absolute;
+    bottom: -123px;
+    top: auto;
+}
+
+#sliderIndustries .carousel-control-next {
+    position: absolute;
+    top: auto;
+    bottom: 17px;
+    right: 30%;
+    opacity: 1;
+    z-index: 99;
+}
+#sliderIndustries .carousel-control-prev {
+    position: absolute;
+    top: auto;
+    bottom: 17px;
+    left: 30%;
+    opacity: 1;
+    z-index: 99;
+}
+#sliderIndustries .carousel-control-next-icon {
+    background-image: url("/img/angleRightPurple.svg") !important;
+    height: 28px;
+    width: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Animations */
 @-webkit-keyframes action {

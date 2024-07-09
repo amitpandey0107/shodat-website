@@ -1,0 +1,41 @@
+.scheduling {
+    position: relative;
+    margin-bottom: 30px;
+}
+.growingTeam {
+    position: relative;
+    padding: 15px;
+    min-height: 136px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.whiteBox {
+    background-color: white;
+    min-height: 610px;
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
+    margin-top: -30px;
+}
+.growingTeam .title {
+    font-size: 33px;
+    color: #68326F;
+    font-weight: bold;
+    width: 35%;
+}
+.growingTeam .line {
+    height: 1px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 10px;
+}
+.growingTeam .clients {
+    width: 65%;
+}
+.growingTeam .clients ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.growingTeam .clients ul li {}
+.growingTeam .clients ul li img{}
