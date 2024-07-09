@@ -60,6 +60,6 @@
 .mouseIcon {
     position: absolute;
     left: 50%;
-    bottom: -12px;
+    bottom: 0px;
     transform: translate(-50%, -50%);
 }

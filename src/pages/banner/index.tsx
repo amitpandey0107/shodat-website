@@ -111,14 +111,14 @@ export default function Banner() {
         
       </Carousel>
       
-      <button className={`${styles.mouseIcon}`}>
+      <Link href="#features" className={`${styles.mouseIcon} iconmouse`}>
         <Image
         src="/img/mouseIcon.svg" 
         alt="mouse icon"
         height={30}
         width={30}
         />
-      </button>
+      </Link>
     </div>
   );
 }

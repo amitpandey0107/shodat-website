@@ -16,3 +16,68 @@ body {font-family: "Open Sans", sans-serif;}
 .banner .carousel-item img {
     height: 770px;
 }
+
+.iconmouse{
+    -webkit-animation: action 1s infinite alternate;
+    animation: action 1s infinite alternate;
+}
+
+
+/* Animations */
+@-webkit-keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes action {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@keyframes scaleEffect {
+    0% { transform: scale(0.8); }
+    100% { transform: scale(1.1); }
+}
+
+@keyframes heartbeat {
+    0% {
+        transform: scale(.75);
+    }
+
+    20% {
+        transform: scale(1);
+    }
+
+    40% {
+        transform: scale(.75);
+    }
+
+    60% {
+        transform: scale(1);
+    }
+
+    80% {
+        transform: scale(.75);
+    }
+
+    100% {
+        transform: scale(.75);
+    }
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.90);
+		box-shadow: 0 0 0 0 rgba(212,166,40, 0.4);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(212,166,40, 0);
+	}
+	
+	100% {
+		transform: scale(0.90);
+		box-shadow: 0 0 0 0 rgba(212,166,40, 0);
+	}
+}

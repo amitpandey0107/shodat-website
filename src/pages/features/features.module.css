@@ -1,0 +1,70 @@
+.features {
+    background-color: #EBEBEB;
+    padding: 15px 0;
+}
+.infoBox {
+    background-color: #68326F;
+    padding: 40px 15px 30px 15px;
+    min-height: 390px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: 31px;
+}
+.infoBox p {
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    font-weight: 300;
+}
+.featuresBox {
+    min-height: 390px;
+    background-color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.featuresInfo {
+    border-right: 1px solid #E0E0E0;
+    width: 33.3%;
+    padding: 15px 30px;
+    min-height: 295px;
+}
+.featuresBox .featuresInfo:nth-child(3) {
+    border-right: 0;
+}
+.featuresBox .featuresInfo:last-child {
+    border-right: 0;
+}
+.featuresInfo .logo {
+    margin-bottom: 40px;
+}
+.featuresInfo .logo img{}
+.featuresInfo .text {}
+.featuresInfo .text strong {
+    color: #68326F;
+}
+
+.btnLetsTalk {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    min-width: 154px;
+    box-shadow: none;
+    border-radius: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.btnLetsTalk img {
+    margin-left: 5px;
+}

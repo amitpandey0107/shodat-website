@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from 'next/link';
 import Header from "./header";
 import Banner from "./banner";
+import Features from "./features";
 
 
 export default function Home() {
@@ -13,6 +14,9 @@ export default function Home() {
 
       {/* -- Banner -- */}
       <Banner />
+
+      {/* -- Features -- */}
+      <Features />
 
     </div>
   );
