@@ -7,6 +7,7 @@ import TransformingOperations from "./transformingOperations";
 import Slider from "./sliders";
 import PrefferedPartner from "./prefferedPartner";
 import Scheduling from "./scheduling";
+import Footer from "./footer";
 
 
 export default function Home() {
@@ -33,6 +34,9 @@ export default function Home() {
 
       {/* Scheduling a meeting */}
       <Scheduling />
+
+      {/* Footer */}
+      <Footer />
 
     </div>
   );
