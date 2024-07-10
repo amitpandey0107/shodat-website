@@ -12,7 +12,7 @@ export default function Banner() {
         <Carousel.Item interval={10500}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/bannerBG.png"
+            src="/img/banner_1.png"
             alt="Image One"
             width={500}
             height={500}
@@ -37,7 +37,7 @@ export default function Banner() {
         <Carousel.Item interval={10500}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/bannerBG.png"
+            src="/img/banner_2.png"
             alt="Image One"
             width={500}
             height={500}
@@ -62,7 +62,7 @@ export default function Banner() {
         <Carousel.Item interval={10500}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/bannerBG.png"
+            src="/img/banner_2.png"
             alt="Image One"
             width={500}
             height={500}
@@ -87,7 +87,7 @@ export default function Banner() {
         <Carousel.Item interval={10500}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/bannerBG.png"
+            src="/img/banner_4.png"
             alt="Image One"
             width={500}
             height={500}
