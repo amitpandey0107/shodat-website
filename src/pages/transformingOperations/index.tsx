@@ -18,8 +18,8 @@ export default function TransformingOperations() {
               <Image
                 src="/img/ops.png"
                 alt="operations"
-                width={500}
-                height={500}
+                width={546}
+                height={546}
               />
             </div>
           </div>
@@ -33,14 +33,14 @@ export default function TransformingOperations() {
               <p>
                 Redefining the infusion of machine learning in heavy industries
                 with our professional services, we at Shodat Inc. are now poised
-                for a paradigm shift with eOps™, an asset tracking and quality
+                for a paradigm shift with <strong>eOps™</strong>, an asset tracking and quality
                 management platform. The platform leverages a powerful
                 combination of computer vision, predictive analytics, and
                 generative AI to detect and predict operational defects,
                 automate RCA reports and propose impactful enhancements that
                 promise significant cost benefits.
               </p>
-              <p>
+              <p className={`${styles.lastChildP}`}>
                 Shodat eOps serves as the vehicle to deliver Shodat X and Shodat
                 YAI capabilities, transforming how organizations operate. With
                 Shodat eOps, businesses can streamline their operations, enhance

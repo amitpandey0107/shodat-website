@@ -4,10 +4,17 @@ import Link from "next/link";
 import styles from "./prefferedPartner.module.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
+import Proven from "./proven";
+import Expertise from "./expertise";
+import Customization from "./customization";
+import Innovation from "./innovation";
+import ResponsibleAI from "./responsibleAI";
 
 export default function PrefferedPartner() {
   const [index, setIndex] = useState(1);
+  const [bgClass, setBgClass] = useState("bg1");
   console.log("INDEX", index)
+  
   return (
     <>
       <div className={`${styles.experienceFuture}`}>
@@ -38,83 +45,60 @@ export default function PrefferedPartner() {
               <div className="col-sm-12">
                 <div className={`${styles.tabs}`}>
                   <button
-                    className={`${styles.btnTab} ${styles.active}`}
+                    className={`${styles.btnTab} ${index === 1 && styles.active}`}
                     onClick={() => setIndex(1)}
                   >
                     Proven
                   </button>
                   <button
-                    className={`${styles.btnTab}`}
+                    className={`${styles.btnTab} ${index === 2 && styles.active}`}
                     onClick={() => setIndex(2)}
                   >
                     Expertise
                   </button>
                   <button
-                    className={`${styles.btnTab}`}
+                    className={`${styles.btnTab} ${index === 3 && styles.active}`}
                     onClick={() => setIndex(3)}
                   >
                     Customization
                   </button>
                   <button
-                    className={`${styles.btnTab}`}
+                    className={`${styles.btnTab} ${index === 4 && styles.active}`}
                     onClick={() => setIndex(4)}
                   >
                     Innovation
                   </button>
                   <button
-                    className={`${styles.btnTab}`}
+                    className={`${styles.btnTab} ${index === 5 && styles.active}`}
                     onClick={() => setIndex(5)}
                   >
                     Responsible AI
                   </button>
                 </div>
               </div>
+
               <div className="col-sm-12">
-                <div className={`${styles.tabsContent}`}>
-                  <div className={`${styles.contentLeft}`}>
-                    <h3>
-                      Shodat experience in developing Analytics & AI
-                      technologies includes
-                    </h3>
-                    <ul>
-                      <li>
-                        Turnkey enterprise platforms for all data integration &
-                        analytics needs
-                      </li>
-                      <li>
-                        No implementation delays with critical customizations
-                      </li>
-                      <li>Seamless deployments & built for global scale</li>
-                      <li>
-                        Low/No code data ingestion, harmonization & ML features
-                      </li>
-                      <li>Industry-proven ML models</li>
-                    </ul>
-                  </div>
-                  <div className={`${styles.contentRight}`}>
-                    <div className={`${styles.couonterRow}`}>
-                      <div className={`${styles.counterBox}`}>
-                        <h6>Consistent CSAT ratings</h6>
-                        <div className={`${styles.count}`}>97%</div>
-                      </div>
-                      <div className={`${styles.counterBox}`}>
-                        <h6>Renewal ratio</h6>
-                        <div className={`${styles.count}`}>95%</div>
-                      </div>
-                    </div>
-                    <div className={`${styles.couonterRow}`}>
-                      <div className={`${styles.counterBox}`}>
-                        <h6>Successful Implementations</h6>
-                        <div className={`${styles.count}`}>50+</div>
-                      </div>
-                      <div className={`${styles.counterBox}`}>
-                        <h6>Data volume managed</h6>
-                        <div className={`${styles.count}`}>100 TB+</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                {
+                  index === 1 && <Proven />
+                }
+
+                {
+                  index === 2 && <Expertise />
+                }
+
+                {
+                  index === 3 && <Customization />
+                }
+
+                {
+                  index === 4 && <Innovation />
+                }
+
+                {
+                  index === 5 && <ResponsibleAI />
+                }
               </div>
+
             </div>
           </div>
         </div>

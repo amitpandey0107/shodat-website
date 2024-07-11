@@ -23,8 +23,8 @@ export default function Scheduling() {
                       <Image
                         src="/img/L&T.png"
                         alt="clients"
-                        height={100}
-                        width={200}
+                        height={120}
+                        width={280}
                       />
                     </li>
                     <li>
@@ -32,7 +32,7 @@ export default function Scheduling() {
                         src="/img/infoChips.png"
                         alt="infoChips"
                         height={100}
-                        width={100}
+                        width={140}
                       />
                     </li>
                     <li>
@@ -56,7 +56,7 @@ export default function Scheduling() {
                         src="/img/sganalyst.png"
                         alt="sganalyst"
                         height={200}
-                        width={120}
+                        width={200}
                       />
                     </li>
                   </ul>
@@ -65,7 +65,7 @@ export default function Scheduling() {
 
               <div className={`${styles.contactForm}`}>
                 <div className="row">
-                  <div className="col-sm-5 col-md-5 col-lg-5">
+                  <div className="col-sm-6 col-md-6 col-lg-6">
                     <div className={`${styles.schedulingInfo}`}>
                       <h2>
                         Unlock the untapped potential of your business with the
@@ -90,7 +90,7 @@ export default function Scheduling() {
                       </Link>
                     </div>
                   </div>
-                  <div className="col-sm-7 col-md-7 col-lg-7">
+                  <div className="col-sm-6 col-md-6 col-lg-6">
                     <div className={`${styles.schedulingForm}`}>
                       <h2>Scheduling a meeting</h2>
                       <div className={`${styles.formWrap}`}>

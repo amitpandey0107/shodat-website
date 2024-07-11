@@ -14,7 +14,7 @@
     position: relative;
 }
 .experienceFuture:after {
-    background-color: rgba(000,000,000,0.7);
+    background-color: rgba(000,000,000,0.3);
     content: "";
     position: absolute;
     height: 100%;
@@ -28,14 +28,13 @@
 .experienceFuture .experienceContent h2 {
     color: white;
     font-size: 33px;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 20px;
 }
 .experienceFuture .experienceContent p {
     color: white;
     font-size: 16px;
-    font-weight: 300;
-    line-height: 30px;
+    line-height: 26px;
     padding: 0 15%;
 }
 
@@ -55,6 +54,7 @@
 }
 .tabSection {
     background-color: black;
+    height: 560px;
 }
 .tabSection .tabs {
     display: flex;
@@ -70,7 +70,7 @@
     border-right: 1px solid #68326F;
     font-size: 16px;
     color: #68326F;
-    font-weight: 400;
+    font-weight: 500;
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -86,12 +86,13 @@
     align-items: flex-start;
 }
 .tabsContent .contentLeft {
-    width: 50%;
+    width: 60%;
     min-height: 470px;
-    padding: 40px 50px;
-    background-image: url(/img/proven.png);
+    height: 558px;
+    padding: 60px 30px 40px 30px;
+    /* background-image: url(/img/proven.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     background-position: top;
 }
 .tabsContent .contentLeft h3 {
@@ -102,7 +103,7 @@
     line-height: 35px;
 }
 .tabsContent .contentLeft ul {
-    padding-left: 40px;
+    padding-left: 26px;
 }
 .tabsContent .contentLeft ul li {
     color: white;
@@ -111,13 +112,21 @@
     list-style-type: disc;
     padding: 6px 0;
 }
+.tabsContent .contentLeft p {
+    margin-bottom: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
 .tabsContent .contentRight {
-    width: 50%;
+    width: 40%;
     min-height: 470px;
+    height: 558px;
     padding: 40px 50px;
 }
 .tabsContent .contentRight .couonterRow {
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     display: flex;
 }
@@ -130,7 +139,7 @@
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     margin: 20px;
 }
 .tabsContent .contentRight .counterBox h6 {
@@ -143,5 +152,117 @@
 .tabsContent .contentRight .counterBox .count {
     color: white;
     font-size: 33px;
+    font-weight: bold;
+}
+
+.expertise .contentLeft {
+    width: 50%;
+}
+.expertise .contentRight {
+    width: 50%;
+    padding: 40px 0;
+}
+.expertise .contentRight .counterBox {
+    width: 303px;
+    height: 190px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.customization .contentRight .counterBox {
+    width: 303px;
+    height: 190px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contentBlock {
+    margin-bottom: 70px;
+}
+.mbzero {
+    margin-bottom: 0;
+}
+.contentBlock h3 {
+    color: white;
+    font-size: 23px;
     font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+.contentBlock ul {
+    padding-left: 26px;
+}
+.contentBlock ul li {
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    list-style-type: disc;
+    padding: 6px 0;
+}
+.contentBlock p {
+    margin-bottom: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.contentFull {
+    padding: 50px 30px 0px 30px;
+}
+.contentFull h3 {
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 35px;
+}
+
+.innovation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.responsibleAI {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.innovationBG {
+    background-image: url('/img/innovationBG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.responsibleAIBG {
+    background-image: url('/img/responsibleBG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.provenBG {
+    background-image: url('/img/innovationBG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.expertiseBG {
+    background-image: url('/img/expertiseBG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+.customizationBG {
+    background-image: url('/img/customizationBG.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
 }

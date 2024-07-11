@@ -2,6 +2,7 @@
     background-color: #EBEBEB;
     padding: 15px 0;
 }
+
 .infoBox {
     background-color: #68326F;
     padding: 40px 15px 30px 15px;
@@ -11,12 +12,14 @@
     align-items: flex-start;
     line-height: 31px;
 }
+
 .infoBox p {
     color: white;
     font-size: 16px;
     margin: 0;
     font-weight: 300;
 }
+
 .featuresBox {
     min-height: 390px;
     background-color: white;
@@ -25,23 +28,28 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
-    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
 }
+
 .featuresInfo {
     border-right: 1px solid #E0E0E0;
     width: 33.3%;
     padding: 15px 30px;
     min-height: 295px;
 }
+
 .featuresBox .featuresInfo:nth-child(3) {
     border-right: 0;
 }
+
 .featuresBox .featuresInfo:last-child {
     border-right: 0;
 }
+
 .featuresInfo .logo {
     margin-bottom: 40px;
 }
+
 .featuresInfo .text strong {
     color: #68326F;
 }
@@ -64,48 +72,99 @@
     bottom: 0;
     right: 0;
 }
+
 .btnLetsTalk img {
     margin-left: 5px;
 }
 
 .serviceTitle {
-    margin-top: 50px;  
+    margin-top: 70px;
     text-align: center;
 }
+
 .serviceTitle h2 {
     color: #68326F;
     font-weight: bold;
     font-size: 33px;
-    text-align: center; 
+    text-align: center;
 }
+
 .line {
     height: 1px;
     width: 200px;
     background-color: black;
     display: inline-block;
 }
+
 .sliderItem {
     height: 353px;
     background-color: white;
     border-radius: 0;
-    padding: 20px;
+    cursor: pointer;
     border: none;
     width: 25%;
+    position: relative;
+    overflow: hidden;
 }
+
+.sliderItem .sliderImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: grayscale(1) contrast(1.5) brightness(1);
+    mix-blend-mode: multiply;
+    transition: all ease-in-out 0.1s;
+}
+
+.sliderItem:hover>.sliderImage {
+    filter: none;
+    mix-blend-mode: normal;
+}
+
+.sliderItem:before {
+    content: "";
+    background-image: url('/img/feature_box_black_bg.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    z-index: 1;
+}
+
 .sliderItem h4 {
     font-weight: 500;
     font-size: 23px;
     margin-bottom: 15px;
+    color: white;
 }
+
 .sliderItem p {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
+    color: white;
 }
+
 .featuresSlider {
     padding-bottom: 35px;
     position: relative;
-    margin-top: 20px;
+    margin-top: 15px;
 }
+
 .sliderWrapper {
     position: relative;
+}
+
+.sliderItem .sliderContent {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+    color: white;
+    padding: 30px 20px;
 }

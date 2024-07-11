@@ -8,13 +8,13 @@ export default function Footer() {
 
       <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-7">
+          <div className="col-sm-8">
             <h2 className={`${styles.footertitle}`}>
               How can Shodat AI help scale your business? Lets talk and discover
               the answers together.
             </h2>
           </div>
-          <div className="col-sm-5">
+          <div className="col-sm-4">
             <div className={`${styles.newsletter}`}>
               <h4>Our Newsletter</h4>
               <div className={`${styles.newsletterInput}`}>
@@ -33,7 +33,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="container-fluid">
+      <div className={`container-fluid ${styles.footerMidMargin}`}>
         <div className="row">
           <div className="col-sm-12">
             <div className={`${styles.fotterContent}`}>

@@ -9,7 +9,6 @@
 .opsImage img{
     display: inline-block;
 }
-.opsContent {}
 .opsContent h2{
     font-size: 33px;
     color: #68326F;
@@ -30,9 +29,12 @@
     font-size: 16px;
     color: #606060;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 34px;
+    line-height: 26px;
 }
-
+/* .opsContent > p.lastChildP {
+    margin-bottom: 0;
+} */
 .btnGetStart {
     margin-top: 15px;
 }

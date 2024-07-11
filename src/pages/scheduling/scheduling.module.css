@@ -21,7 +21,7 @@
     font-size: 33px;
     color: #68326F;
     font-weight: bold;
-    width: 35%;
+    width: 30%;
 }
 .growingTeam .line {
     height: 1px;
@@ -30,7 +30,7 @@
     margin-top: 10px;
 }
 .growingTeam .clients {
-    width: 65%;
+    width: 70%;
 }
 .growingTeam .clients ul {
     display: flex;
@@ -42,7 +42,7 @@
     height: 574px;
     /* width: 574px; */
     background-color: #68326F;
-    padding: 50px;
+    padding: 50px 70px;
 }
 .schedulingInfo h2 {
     font-size: 33px;
@@ -59,7 +59,7 @@
 .schedulingForm {
     height: 574px;
     background-color: #FFFFFF;
-    padding: 50px;
+    padding: 50px 20px;
 }
 .schedulingForm h2 {
     font-size: 33px;
@@ -104,7 +104,6 @@
     color: white;
     border: none;
     font-size: 16px;
-    font-weight: 300;
     cursor: pointer;
     display: inline-flex;
     align-items: center;

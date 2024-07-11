@@ -110,11 +110,15 @@ export default function Features() {
         </div>
       </div>
 
-      <div className={`container-fluid ${styles.featuresSlider}`} id="featuresSlider">
+      <div
+        className={`container-fluid ${styles.featuresSlider}`}
+        id="featuresSlider"
+      >
         <div className="row">
           <div className="col-sm-12">
             <div className={`${styles.sliderWrapper}`}>
-              <Carousel controls={true} indicators={false}>
+              <Carousel controls={true} indicators={false} interval={null}>
+
                 <Carousel.Item interval={10500}>
                   <Stack
                     direction="horizontal"
@@ -122,23 +126,67 @@ export default function Features() {
                     gap={3}
                   >
                     <Card className={`${styles.sliderItem}`}>
-                      <h4>Data Engineering</h4>
-                      <p>Empowering insights through robust data engineering</p>
+                      <Image
+                        className={`${styles.sliderImage}`}
+                        src="/img/dataEngineering.png"
+                        alt="Image One"
+                        width={324}
+                        height={353}
+                      />
+                      <div className={`${styles.sliderContent}`}>
+                        <h4>Data Engineering</h4>
+                        <p>
+                          Empowering insights through robust data engineering
+                        </p>
+                      </div>
                     </Card>
                     <Card className={`${styles.sliderItem}`}>
-                      <h4>AI Innovation</h4>
-                      <p>Pioneering AI innovations, transforming data into intelligent action.</p>
+                      <Image
+                        className={`${styles.sliderImage}`}
+                        src="/img/aiInnovation.png"
+                        alt="Image One"
+                        width={324}
+                        height={353}
+                      />
+                      <div className={`${styles.sliderContent}`}>
+                        <h4>AI Innovation</h4>
+                        <p>
+                          Pioneering AI innovations, transforming data into
+                          intelligent action.
+                        </p>
+                      </div>
                     </Card>
                     <Card className={`${styles.sliderItem}`}>
-                      <h4>Advanced Analytics + BI</h4>
-                      <p>Seeing beyond data, decision-making with vision AI</p>
+                      <Image
+                        className={`${styles.sliderImage}`}
+                        src="/img/advancedAnalytics.png"
+                        alt="Image One"
+                        width={324}
+                        height={353}
+                      />
+                      <div className={`${styles.sliderContent}`}>
+                        <h4>Advanced Analytics + BI</h4>
+                        <p>
+                          Seeing beyond data, decision-making with vision AI
+                        </p>
+                      </div>
                     </Card>
                     <Card className={`${styles.sliderItem}`}>
-                      <h4>Security & Compliance</h4>
-                      <p>Navigate compliance with Precision and Speed.</p>
+                      <Image
+                        className={`${styles.sliderImage}`}
+                        src="/img/security.png"
+                        alt="Image One"
+                        width={324}
+                        height={353}
+                      />
+                      <div className={`${styles.sliderContent}`}>
+                        <h4>Security & Compliance</h4>
+                        <p>Navigate compliance with Precision and Speed.</p>
+                      </div>
                     </Card>
                   </Stack>
                 </Carousel.Item>
+
                 <Carousel.Item interval={10500}>
                   <Stack
                     direction="horizontal"
@@ -146,23 +194,67 @@ export default function Features() {
                     gap={3}
                   >
                     <Card className={`${styles.sliderItem}`}>
-                      <h4>Data Engineering</h4>
-                      <p>Empowering insights through robust data engineering</p>
+                      <Image
+                        className={`${styles.sliderImage}`}
+                        src="/img/dataEngineering.png"
+                        alt="Image One"
+                        width={324}
+                        height={353}
+                      />
+                      <div className={`${styles.sliderContent}`}>
+                        <h4>Data Engineering</h4>
+                        <p>
+                          Empowering insights through robust data engineering
+                        </p>
+                      </div>
                     </Card>
                     <Card className={`${styles.sliderItem}`}>
-                      <h4>AI Innovation</h4>
-                      <p>Pioneering AI innovations, transforming data into intelligent action.</p>
+                      <Image
+                        className={`${styles.sliderImage}`}
+                        src="/img/aiInnovation.png"
+                        alt="Image One"
+                        width={324}
+                        height={353}
+                      />
+                      <div className={`${styles.sliderContent}`}>
+                        <h4>AI Innovation</h4>
+                        <p>
+                          Pioneering AI innovations, transforming data into
+                          intelligent action.
+                        </p>
+                      </div>
                     </Card>
                     <Card className={`${styles.sliderItem}`}>
-                      <h4>Advanced Analytics + BI</h4>
-                      <p>Seeing beyond data, decision-making with vision AI</p>
+                      <Image
+                        className={`${styles.sliderImage}`}
+                        src="/img/advancedAnalytics.png"
+                        alt="Image One"
+                        width={324}
+                        height={353}
+                      />
+                      <div className={`${styles.sliderContent}`}>
+                        <h4>Advanced Analytics + BI</h4>
+                        <p>
+                          Seeing beyond data, decision-making with vision AI
+                        </p>
+                      </div>
                     </Card>
                     <Card className={`${styles.sliderItem}`}>
-                      <h4>Security & Compliance</h4>
-                      <p>Navigate compliance with Precision and Speed.</p>
+                      <Image
+                        className={`${styles.sliderImage}`}
+                        src="/img/security.png"
+                        alt="Image One"
+                        width={324}
+                        height={353}
+                      />
+                      <div className={`${styles.sliderContent}`}>
+                        <h4>Security & Compliance</h4>
+                        <p>Navigate compliance with Precision and Speed.</p>
+                      </div>
                     </Card>
                   </Stack>
                 </Carousel.Item>
+
               </Carousel>
             </div>
           </div>

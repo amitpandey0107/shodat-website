@@ -12,7 +12,7 @@
     line-height: 35px;
 }
 .newsletter {
-    padding-left: 30px;
+    /* padding-left: 10px; */
     position: relative;
 }
 .newsletter h4 {
@@ -57,8 +57,9 @@
 .footerLogo {
     margin-bottom: 40px;
 }
-.footerLogo img {}
-.footerList {}
+.footerMidMargin {
+    margin-top: 30px;
+}
 .footerList li {
     display: flex;
     justify-content: flex-start;
