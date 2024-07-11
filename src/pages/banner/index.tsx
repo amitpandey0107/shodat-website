@@ -8,11 +8,18 @@ import Carousel from "react-bootstrap/Carousel";
 export default function Banner() {
   return (
     <div className={`banner ${styles.carouselContainer}`}>
+      <Image
+            className={`${styles.ellipseImage}`}
+            src="/img/banner/ellipse.png"
+            alt="ellipse"
+            width={557}
+            height={557}
+          />
       <Carousel controls={false}>
-        <Carousel.Item interval={20000}>
+        <Carousel.Item interval={3000}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/banner/banner_1.jpg"
+            src="/img/banner/slider_1_1.jpg"
             alt="Image One"
             width={1400}
             height={700}
@@ -23,7 +30,7 @@ export default function Banner() {
                 Innovating Insights, <span>Accelerating Growth</span>
               </h2>
               <p>Your Data, Our Expertise. </p>
-              <Link href="/" className={`${styles.btnGetStarted}`}>
+              <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image
                   src="/img/arrowRight.svg"
@@ -36,10 +43,10 @@ export default function Banner() {
           </div>
         </Carousel.Item>
 
-        <Carousel.Item interval={20000}>
+        <Carousel.Item interval={3000}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/banner/banner_2.jpg"
+            src="/img/banner/slider_4.jpg"
             alt="Image One"
             width={1400}
             height={700}
@@ -53,7 +60,7 @@ export default function Banner() {
                 Empower Your Enterprise With <br />
                 Shodat eOps&apos; AI-Driven Intelligence.
               </p>
-              <Link href="/" className={`${styles.btnGetStarted}`}>
+              <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image
                   src="/img/arrowRight.svg"
@@ -66,10 +73,10 @@ export default function Banner() {
           </div>
         </Carousel.Item>
 
-        <Carousel.Item interval={20000}>
+        <Carousel.Item interval={3000}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/banner/banner_1.jpg"
+            src="/img/banner/slider_2.jpg"
             alt="Image One"
             width={1400}
             height={700}
@@ -78,7 +85,7 @@ export default function Banner() {
             <div className={`${styles.carouselContent}`}>
               <h1 className={`${styles.banner_title}`}>Introducing Shodat X</h1>
               <p>Unlocking AI-Powered Insights</p>
-              <Link href="/" className={`${styles.btnGetStarted}`}>
+              <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image
                   src="/img/arrowRight.svg"
@@ -91,10 +98,10 @@ export default function Banner() {
           </div>
         </Carousel.Item>
 
-        <Carousel.Item interval={20000}>
+        <Carousel.Item interval={3000}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/banner/banner_4.jpg"
+            src="/img/banner/slider_3.jpg"
             alt="Image One"
             width={1400}
             height={700}
@@ -105,7 +112,7 @@ export default function Banner() {
                 Introducing Shodat YAI
               </h1>
               <p>The Future Of Enterprise Decision-Making</p>
-              <Link href="/" className={`${styles.btnGetStarted}`}>
+              <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image
                   src="/img/arrowRight.svg"

@@ -5,7 +5,6 @@ import styles from "./footer.module.css";
 export default function Footer() {
   return (
     <header className={`${styles.footer}`}>
-
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-8">
@@ -152,7 +151,6 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-
             </div>
           </div>
         </div>
@@ -160,25 +158,25 @@ export default function Footer() {
 
       <div className={`${styles.copyright}`}>
         <div className="container">
-            <div className="row">
-                <div className="col-sm-4"></div>
-                <div className="col-sm-4">
-                    <p>&copy; 2024 Shodat Inc. All rights reserved</p>
-                </div>
-                <div className="col-sm-4">
-                <ul className={`${styles.copyrightMenu}`}>
-                  <li>
-                    <Link href="">Cookie Policy</Link>
-                  </li>
-                  <li>
-                    <Link href="">Terms of Use</Link>
-                  </li>
-                  <li>
-                    <Link href="">Privacy Policy</Link>
-                  </li>
-                </ul>
-                </div>
+          <div className="row">
+            <div className="col-sm-4"></div>
+            <div className="col-sm-4">
+              <p>&copy; 2024 Shodat Inc. All rights reserved</p>
             </div>
+            <div className="col-sm-4">
+              <ul className={`${styles.copyrightMenu}`}>
+                <li>
+                  <Link href="">Cookie Policy</Link>
+                </li>
+                <li>
+                  <Link href="">Terms of Use</Link>
+                </li>
+                <li>
+                  <Link href="">Privacy Policy</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </header>

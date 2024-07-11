@@ -53,7 +53,7 @@
 }
 .carouselContainer .carouselCaption {
     right: auto;
-    top: 50%;
+    top: 40%;
     left: 30%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -71,4 +71,11 @@
     color: white;
     margin-bottom: 10px;
     line-height: 60px;
+}
+.ellipseImage {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    z-index: 9;
+    transform: translate(-50%, -50%);
 }

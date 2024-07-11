@@ -8,6 +8,7 @@ import Slider from "./sliders";
 import PrefferedPartner from "./prefferedPartner";
 import Scheduling from "./scheduling";
 import Footer from "./footer";
+import FooterVersionSecond from "./footerv2";
 
 
 export default function Home() {
@@ -36,7 +37,7 @@ export default function Home() {
       <Scheduling />
 
       {/* Footer */}
-      <Footer />
+      <FooterVersionSecond />
 
     </div>
   );

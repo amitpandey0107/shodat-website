@@ -49,7 +49,7 @@ export default function TransformingOperations() {
                 issue tracking, Shodat eOps empowers organizations to unlock the
                 full potential of Data-Driven Intelligence.
               </p>
-              <Link href="/" className={`${styles.btnGetStart} btnBlack`}>
+              {/* <Link href="/" className={`${styles.btnGetStart} btnBlack`}>
                 <span>Get Started</span>
                 <Image
                   src="/img/arrowRight.svg"
@@ -57,7 +57,7 @@ export default function TransformingOperations() {
                   height={20}
                   width={20}
                 />
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

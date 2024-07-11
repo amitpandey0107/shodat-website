@@ -12,15 +12,15 @@
 .opsContent h2{
     font-size: 33px;
     color: #68326F;
-    font-weight: 600;
+    font-weight: bold;
 }
 .opsContent h2 span {
     display: block;
 }
 .opsContent .line{
-    height: 2px;
-    width: 200px;
-    background-color: rgba(0,0,0,0.2);
+    height: 1px;
+    width: 250px;
+    background-color: rgba(0,0,0,1);
     margin-top: 10px;
     margin-bottom: 20px;
     
@@ -30,11 +30,8 @@
     color: #606060;
     font-weight: 400;
     margin-bottom: 34px;
-    line-height: 26px;
+    line-height: 30px;
 }
-/* .opsContent > p.lastChildP {
-    margin-bottom: 0;
-} */
 .btnGetStart {
     margin-top: 15px;
 }

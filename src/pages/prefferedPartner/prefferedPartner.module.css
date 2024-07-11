@@ -48,7 +48,7 @@
 .prefferedPartner .titleSection h2 {
     color: white;
     font-size: 33px;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -90,15 +90,12 @@
     min-height: 470px;
     height: 558px;
     padding: 60px 30px 40px 30px;
-    /* background-image: url(/img/proven.png);
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-position: top;
 }
 .tabsContent .contentLeft h3 {
     color: white;
     font-size: 23px;
-    font-weight: 600;
+    font-weight: bold;
     margin-bottom: 20px;
     line-height: 35px;
 }
@@ -116,7 +113,7 @@
     margin-bottom: 40px;
     color: white;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 26px;
 }
 .tabsContent .contentRight {
@@ -131,7 +128,8 @@
     display: flex;
 }
 .tabsContent .contentRight .counterBox {
-    border: 1px solid #68326F;
+    border: 1px solid #03656B;
+    background-color: #03656B;
     height: 158px;
     width: 179px;
     padding: 18px;
@@ -139,7 +137,7 @@
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     margin: 20px;
 }
 .tabsContent .contentRight .counterBox h6 {
@@ -167,7 +165,9 @@
     height: 190px;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .customization .contentRight .counterBox {
@@ -175,7 +175,9 @@
     height: 190px;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .contentBlock {
@@ -249,7 +251,7 @@
     background-position: top;
 }
 .provenBG {
-    background-image: url('/img/innovationBG.jpg');
+    background-image: url('/img/provenBG.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;

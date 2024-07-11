@@ -7,14 +7,14 @@ import Carousel from "react-bootstrap/Carousel";
 
 export default function Scheduling() {
   return (
-    <div className={`${styles.scheduling}`}>
+    <div className={`${styles.scheduling}`} id="scheduling">
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-12">
             <div className={`${styles.whiteBox}`}>
               <div className={`${styles.growingTeam}`}>
                 <div className={`${styles.title}`}>
-                  <h3>Our Growing team of Technology Partners</h3>
+                  <h3>Some of Our <br />Esteemed Clients</h3>
                   <div className={`${styles.line}`}></div>
                 </div>
                 <div className={`${styles.clients}`}>
@@ -80,7 +80,7 @@ export default function Scheduling() {
                         href="/"
                         className={`${styles.btnLetsTalkAI} btnBlack`}
                       >
-                        <span>Lets Talk AI</span>
+                        <span>Let&apos;s Talk AI</span>
                         <Image
                           src="/img/arrowRight.svg"
                           alt="arrow right"
@@ -167,7 +167,7 @@ export default function Scheduling() {
       </div>
 
       {/* CTA */}
-      <div className="container-fluid">
+      <div className="container-fluid displayNone">
         <div className="row">
           <div className="col-sm-12">
             <div className={`${styles.cta}`}>

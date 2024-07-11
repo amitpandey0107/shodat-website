@@ -28,12 +28,12 @@ body {font-family: "Open Sans", sans-serif;}
 #featuresSlider .carousel-control-prev {
     background-color: rgba(104, 50, 111, 0.5);
     opacity: 1;
-    height: 30px;
-    width: 30px;
-    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    font-size: 22px;
     position: absolute;
-    right: 35px;
-    bottom: -35px;
+    right: 48px;
+    bottom: -45px;
     top: auto;
     left: auto;
     display: flex;
@@ -46,12 +46,12 @@ body {font-family: "Open Sans", sans-serif;}
 #featuresSlider .carousel-control-next {
     background-color: rgba(104, 50, 111, 1);
     opacity: 1;
-    height: 30px;
-    width: 30px;
-    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    font-size: 22px;
     position: absolute;
     right: 0px;
-    bottom: -35px;
+    bottom: -45px;
     top: auto;
     left: auto;
     display: flex;
@@ -71,7 +71,6 @@ body {font-family: "Open Sans", sans-serif;}
     color: white;
     border: none;
     font-size: 16px;
-    /* font-weight: 300; */
     cursor: pointer;
     display: inline-flex;
     align-items: center;
@@ -80,6 +79,11 @@ body {font-family: "Open Sans", sans-serif;}
     min-width: 154px;
     box-shadow: none;
     border-radius: 0;
+    transition: all ease-in 0.25s;
+}
+.btnBlack:hover {
+    background-color: #06bcc6;
+    transition: all ease-out 0.25s;
 }
 .btnBlack img {
     margin-left: 5px;
@@ -121,28 +125,37 @@ body {font-family: "Open Sans", sans-serif;}
 #sliderIndustries .carousel-control-next {
     position: absolute;
     top: auto;
-    bottom: 17px;
-    right: 30%;
+    bottom: 75px;
+    right: 20%;
     opacity: 1;
     z-index: 99;
 }
 #sliderIndustries .carousel-control-prev {
     position: absolute;
     top: auto;
-    bottom: 17px;
-    left: 30%;
+    bottom: 75px;
+    left: 25%;
     opacity: 1;
     z-index: 99;
 }
 #sliderIndustries .carousel-control-next-icon {
     background-image: url("/img/angleRightPurple.svg") !important;
-    height: 28px;
-    width: 28px;
+    height: 38px;
+    width: 38px;
+}
+#sliderIndustries .carousel-control-prev-icon {
+    background-image: url("/img/angle_left.svg") !important;
+    height: 38px;
+    width: 38px;
 }
 
 .container-fluid {
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.displayNone {
+    display: none;
 }
 
 
