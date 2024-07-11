@@ -20,7 +20,7 @@ export default function Banner() {
           <div className={`${styles.carouselCaption}`}>
             <div className={`${styles.carouselContent}`}>
               <h2 className={`${styles.banner_title}`}>
-                Innovating Insights, <span>Accelerating Growth vercel test</span>
+                Innovating Insights, <span>Accelerating Growth</span>
               </h2>
               <p>Your Data, Our Expertise. </p>
               <Link href="/" className={`${styles.btnGetStarted}`}>
