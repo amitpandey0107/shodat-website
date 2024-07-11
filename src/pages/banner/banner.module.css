@@ -62,7 +62,7 @@
 .mouseIcon {
     position: absolute;
     left: 48%;
-    bottom: 0px;
+    bottom: 58px;
     transform: translate(-50%, -50%);
 }
 .banner_title {

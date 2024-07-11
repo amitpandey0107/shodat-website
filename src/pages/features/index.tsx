@@ -8,7 +8,7 @@ import { Card, Stack, Button } from "react-bootstrap";
 export default function Features() {
   return (
     <section className={`${styles.features}`} id="features">
-      <div className="container-fluid">
+      <div className={`container-fluid ${styles.featTobContainer}`}>
         <div className="row">
           <div className="col-sm-4 col-md-4 col-lg-4">
             <div className={`${styles.infoBox}`}>

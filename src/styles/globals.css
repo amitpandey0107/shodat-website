@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 *{padding: 0; margin: 0;}
+.main {
+    position: relative;
+}
 body {font-family: "Open Sans", sans-serif;}
 
 .banner .carousel-indicators [data-bs-target] {
@@ -11,7 +14,7 @@ body {font-family: "Open Sans", sans-serif;}
     background-color: #05A7B1;
 }
 .banner .carousel-indicators {
-    bottom: 35px;
+    bottom: 85px;
 }
 .banner .carousel-item img {
     height: 770px;
