@@ -17,14 +17,14 @@ export default function Header() {
             </Link>
         </div>
         <div className={`${styles.menu}`}>
-            <ul className={`${styles.menuList}`}>
+            {/* <ul className={`${styles.menuList}`}>
                 <li><Link href="/" className={`${styles.active}`}>Home</Link></li>
                 <li><Link href="/platform">Platform</Link></li>
                 <li><Link href="/solutions">Solutions</Link></li>
                 <li><Link href="/industries">Industries</Link></li>
                 <li><Link href="/about">About</Link></li>
-            </ul>
-            <button className={`${styles.btnDemo}`}><span>Request Demo</span></button>
+            </ul> */}
+            <Link href="#scheduling" className={`${styles.btnDemo}`}><span>Request Demo</span></Link>
         </div>
     </header>
   );

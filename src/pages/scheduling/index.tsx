@@ -77,7 +77,7 @@ export default function Scheduling() {
                         solutions is the key to scalability and innovation.
                       </p>
                       <Link
-                        href="/"
+                        href="#scheduling"
                         className={`${styles.btnLetsTalkAI} btnBlack`}
                       >
                         <span>Let&apos;s Talk AI</span>

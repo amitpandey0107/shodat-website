@@ -3,7 +3,7 @@
 }
 .experienceFuture {
     height: 223px;
-    background-image: url(/img/future.png);
+    background-image: url('/img/future-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -13,14 +13,16 @@
     overflow: hidden;
     position: relative;
 }
-.experienceFuture:after {
+
+/* .experienceFuture:after {
     background-color: rgba(000,000,000,0.3);
     content: "";
     position: absolute;
     height: 100%;
     width: 100%;
     top: 0;
-}
+} */
+
 .experienceFuture .experienceContent {
     position: relative;
     z-index: 1;
@@ -132,7 +134,7 @@
     background-color: #03656B;
     height: 158px;
     width: 179px;
-    padding: 18px;
+    padding: 12px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -143,7 +145,7 @@
 .tabsContent .contentRight .counterBox h6 {
     color: white;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 700;
     text-align: left;
     margin-bottom: 10px;
 }
@@ -164,7 +166,7 @@
     width: 303px;
     height: 190px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
@@ -174,7 +176,7 @@
     width: 303px;
     height: 190px;
     display: flex;
-    justify-content: flex-start;
+    justify-content:center;
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
@@ -182,6 +184,9 @@
 
 .contentBlock {
     margin-bottom: 70px;
+}
+.customization .contentBlock {
+    margin-bottom: 30px;
 }
 .mbzero {
     margin-bottom: 0;

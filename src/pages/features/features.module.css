@@ -5,12 +5,11 @@
 
 .infoBox {
     background-color: #68326F;
-    padding: 40px 15px 30px 15px;
-    min-height: 390px;
+    padding: 50px 30px;
+    height: 390px;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
-    line-height: 31px;
+    align-items: flex-start;    
 }
 
 .infoBox p {
@@ -18,12 +17,13 @@
     font-size: 16px;
     margin: 0;
     font-weight: 300;
+    line-height: 28px;
 }
 
 .featuresBox {
-    min-height: 390px;
+    height: 390px;
     background-color: white;
-    padding: 30px;
+    padding: 50px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -132,9 +132,11 @@
     content: "";
     background-image: url('/img/feature_box_black_bg.png');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
     position: absolute;
     top: 0;
-    height: 100%;
+    height: 55%;
     width: 100%;
     left: 0;
     z-index: 1;

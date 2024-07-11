@@ -17,32 +17,34 @@ export default function Slider() {
                     <div className={`${styles.carouselCaption}`}>
                       <h2>Shodat X: Redefining Quality with Deeper Insights</h2>
                       <p>
-                        The Shodat X Series represents a suite of innovative
-                        AI-driven solutions designed to empower industries with
-                        unparalleled insights into their operations. With Shodat
-                        X, businesses can uncover the underlying defects in
-                        products and processes, optimize supply chain
-                        operations, and improve operational safety. Our suite of
-                        explainable intelligence solutions delivers actionable
-                        insights that drive smarter decisions and foster
-                        continuous improvement
+                        The Shodat X Series will represent a suite of innovative
+                        AI-driven solutions and a collection of ML models
+                        designed to empower industries with clear insights into
+                        their operations. With Shodat X, businesses will be able
+                        to uncover underlying defects in products and processes,
+                        optimize supply chain operations, and improve
+                        operational safety. Our suite of explainable
+                        intelligence solutions will deliver actionable insights
+                        that drive smarter decisions and foster continuous
+                        improvement.
                       </p>
                     </div>
                   </Carousel.Item>
                   <Carousel.Item interval={20500}>
                     <div className={`${styles.carouselCaption}`}>
                       <h2>
-                        Shodat YAI: The Intelligence Behind Real-World Insights
+                        Shodat YAI: The Intelligence Behind Real-World Events
+                        Insights
                       </h2>
                       <p>
                         Experience the power of AI-driven intelligence with
                         Shodat YAI. Combining generative and causal AI
-                        capabilities, Shodat YAI offers unparalleled insights
+                        capabilities, Shodat YAI will offer valuable insights
                         and reasoning capabilities. From understanding the
                         cause-and-effect relationships behind real-world
                         incidents to driving growth and innovation across
-                        industries, Shodat YAI empowers organizations to achieve
-                        new levels of operational excellence.
+                        industries, Shodat YAI will empower organizations to
+                        achieve new levels of operational excellence.
                       </p>
                     </div>
                   </Carousel.Item>
@@ -66,24 +68,26 @@ export default function Slider() {
                 />
               </div>
               <div className={`${styles.indText}`}>
-                <h4>Industries</h4>
+                <h4>Manufacturing</h4>
                 <div className={`${styles.line}`}></div>
-                <h2>How a leading machine parts manufacturer </h2>
+                <h2>
+                  Drive Efficiency and Reliability with Advanced Analytics.
+                </h2>
                 <p>
-                  A leading automotive manufacturer adopted AI-powered system
-                  that reduced the risk of tire-related accidents by 16% . By
-                  accurately predicting tire wear patterns, monitoring tread
-                  depth in real-time, and generating timely alerts the
-                  manufacturer achieved enhanced vehicle safety and optimised
-                  maintenance practices
+                  A subsidiary of a large automotive manufacturer specializing
+                  in commercial vehicles and diesel engines achieved
+                  Infrastructure optimization by implementation of advanced
+                  analytics enabled real-time monitoring and reduced operational
+                  overhead by 28%.
                 </p>
                 <p>
-                  The Manufacturer enabled early identification of potentially
-                  life-threatening issues, and providing personalized
-                  recommendations for tire replacements based on individual
-                  driving conditions.
+                  Proactive maintenance and quicker issue resolution minimized
+                  failures during and after manufacturing by 40%.
                 </p>
-                <Link href="/" className={`${styles.btnReadMore} btnBlack`}>
+                <Link
+                  href="#scheduling"
+                  className={`${styles.btnReadMore} btnBlack`}
+                >
                   <span>Read More</span>
                   <Image
                     src="/img/arrowRight.svg"
@@ -100,31 +104,36 @@ export default function Slider() {
               <div className={`${styles.indImage}`}>
                 <Image
                   src="/img/industries/slider-2-automotive-manufc_industries.jpg"
-                  alt="industries"
+                  alt="Automotive "
                   height={604}
                   width={666}
                 />
               </div>
               <div className={`${styles.indText}`}>
-                <h4>Manufacturing</h4>
+                <h4>Automotive </h4>
                 <div className={`${styles.line}`}></div>
-                <h2> A subsidiary of a large automotive manufacturer</h2>
+                <h2>
+                  Driving Safety Forward: AI-Powered Tire Management for
+                  Smarter, Safer Roads
+                </h2>
                 <p>
-                  specializing in commercial vehicles and diesel engines
-                  achieved Infrastructure optimization by implementation of
-                  advanced analytics enabled real-time monitoring and reduced
-                  operational overhead by 28%.
+                  A leading automotive manufacturer adopted AI-powered system
+                  that reduced the risk of tire-related accidents by 16% . By
+                  accurately predicting tire wear patterns, monitoring tread
+                  depth in real-time, and generating timely alerts the
+                  manufacturer achieved enhanced vehicle safety and optimised
+                  maintenance practices.
                 </p>
                 <p>
-                  Faster problem identification and resolution improved the
-                  quality and performance of manufactured trucks, reducing
-                  defects by 35%.
+                  The Manufacturer enabled early identification of potentially
+                  life-threatening issues, and providing personalized
+                  recommendations for tire replacements based on individual
+                  driving conditions.
                 </p>
-                <p>
-                  Proactive maintenance and quicker issue resolution minimized
-                  failures during and after manufacturing by 40%.
-                </p>
-                <Link href="/" className={`${styles.btnReadMore} btnBlack`}>
+                <Link
+                  href="#scheduling"
+                  className={`${styles.btnReadMore} btnBlack`}
+                >
                   <span>Read More</span>
                   <Image
                     src="/img/arrowRight.svg"
@@ -147,15 +156,15 @@ export default function Slider() {
                 />
               </div>
               <div className={`${styles.indText}`}>
-                <h4>Oil and Gas</h4>
+                <h4>Oil & Gas</h4>
                 <div className={`${styles.line}`}></div>
-                <h2>A prominent player in the Oil and Gas</h2>
+                <h2>Mitigating Risks, Maximizing Returns in Oil & Gas</h2>
                 <p>
-                  trading industry reduced the time spent on complex volumetric
-                  calculations by 50%, improved operational efficiency, enhanced
-                  decision-making, and provided deeper insights into exposures
-                  and risk management, leading to a 15% reduction in trading
-                  losses.
+                  A prominent player in the Oil and Gas trading industry reduced
+                  the time spent on complex volumetric calculations by 50%,
+                  improved operational efficiency, enhanced decision-making, and
+                  provided deeper insights into exposures and risk management,
+                  leading to a 15% reduction in trading losses.
                 </p>
                 <p>
                   The Client established reporting capabilities to perform
@@ -164,49 +173,10 @@ export default function Slider() {
                   visualising data from multiple sources, providing real-time
                   insights and interactive reporting.
                 </p>
-                <Link href="/" className={`${styles.btnReadMore} btnBlack`}>
-                  <span>Read More</span>
-                  <Image
-                    src="/img/arrowRight.svg"
-                    alt="arrow right"
-                    height={20}
-                    width={20}
-                  />
-                </Link>
-              </div>
-            </div>
-          </Carousel.Item>
-          <Carousel.Item interval={20500}>
-            <div className={`${styles.indContent}`}>
-              <div className={`${styles.indImage}`}>
-                <Image
-                  src="/img/industries/slider-4-automotive-manufc_industries.jpg"
-                  alt="industries"
-                  height={604}
-                  width={666}
-                />
-              </div>
-              <div className={`${styles.indText}`}>
-                <h4>Logistics</h4>
-                <div className={`${styles.line}`}></div>
-                <h2>A leading logistics player</h2>
-                <p>
-                  A leading logistics player, operating across multiple
-                  countries and managing vast volumes of tonnage, achieved
-                  real-time activity tracking, leading to a 15% increase in
-                  overall profitability.
-                </p>
-                <p>
-                  Enhanced operational visibility improved resource allocation,
-                  resulting in 25% increase in on-time deliveries and 20%
-                  reduction in fuel costs due to optimized routing.
-                </p>
-                <p>
-                  Proactively forecasting operational metrics with close to 98%
-                  accuracy allowed the company to mitigate delivery risks and
-                  minimize disruptions effectively.
-                </p>
-                <Link href="/" className={`${styles.btnReadMore} btnBlack`}>
+                <Link
+                  href="#scheduling"
+                  className={`${styles.btnReadMore} btnBlack`}
+                >
                   <span>Read More</span>
                   <Image
                     src="/img/arrowRight.svg"
@@ -229,24 +199,32 @@ export default function Slider() {
                 />
               </div>
               <div className={`${styles.indText}`}>
-                <h4>Automotive</h4>
+                <h4>Logistics</h4>
                 <div className={`${styles.line}`}></div>
-                <h2>How a leading automotive manufacturer adopted </h2>
+                <h2>
+                  Navigate the Future of Logistics with Precision and
+                  Profitability.
+                </h2>
                 <p>
-                  A leading automotive manufacturer adopted AI-powered system
-                  that reduced the risk of tire-related accidents by 16% . By
-                  accurately predicting tire wear patterns, monitoring tread
-                  depth in real-time, and generating timely alerts the
-                  manufacturer achieved enhanced vehicle safety and optimised
-                  maintenance practices
+                  A leading logistics player, operating across multiple
+                  countries and managing vast volumes of tonnage, achieved
+                  real-time activity tracking, leading to a 15% increase in
+                  overall profitability.
                 </p>
                 <p>
-                  The Manufacturer enabled early identification of potentially
-                  life-threatening issues, and providing personalized
-                  recommendations for tire replacements based on individual
-                  driving conditions.
+                  Enhanced operational visibility improved resource allocation,
+                  resulting in 25% increase in on-time deliveries and 20%
+                  reduction in fuel costs due to optimized routing.
                 </p>
-                <Link href="/" className={`${styles.btnReadMore} btnBlack`}>
+                <p>
+                  Proactively forecasting operational metrics with close to 98%
+                  accuracy allowed the company to mitigate delivery risks and
+                  minimize disruptions effectively.
+                </p>
+                <Link
+                  href="#scheduling"
+                  className={`${styles.btnReadMore} btnBlack`}
+                >
                   <span>Read More</span>
                   <Image
                     src="/img/arrowRight.svg"
@@ -258,6 +236,54 @@ export default function Slider() {
               </div>
             </div>
           </Carousel.Item>
+          {/* <Carousel.Item interval={20500}>
+            <div className={`${styles.indContent}`}>
+              <div className={`${styles.indImage}`}>
+                <Image
+                  src="/img/industries/slider-4-automotive-manufc_industries.jpg"
+                  alt="industries"
+                  height={604}
+                  width={666}
+                />
+              </div>
+              <div className={`${styles.indText}`}>
+                <h4>Logistics</h4>
+                <div className={`${styles.line}`}></div>
+                <h2>
+                  Navigate the Future of Logistics with Precision and
+                  Profitability.
+                </h2>
+                <p>
+                  A leading logistics player, operating across multiple
+                  countries and managing vast volumes of tonnage, achieved
+                  real-time activity tracking, leading to a 15% increase in
+                  overall profitability.
+                </p>
+                <p>
+                  Enhanced operational visibility improved resource allocation,
+                  resulting in 25% increase in on-time deliveries and 20%
+                  reduction in fuel costs due to optimized routing.
+                </p>
+                <p>
+                  Proactively forecasting operational metrics with close to 98%
+                  accuracy allowed the company to mitigate delivery risks and
+                  minimize disruptions effectively.
+                </p>
+                <Link
+                  href="#scheduling"
+                  className={`${styles.btnReadMore} btnBlack`}
+                >
+                  <span>Read More</span>
+                  <Image
+                    src="/img/arrowRight.svg"
+                    alt="arrow right"
+                    height={20}
+                    width={20}
+                  />
+                </Link>
+              </div>
+            </div>
+          </Carousel.Item> */}
         </Carousel>
       </div>
     </>

@@ -25,9 +25,7 @@ export default function Expertise() {
         <div className={`${styles.couonterRow}`}>
           <div className={`${styles.counterBox}`}>
             <h6>
-              Early detection and prediction <br />
-              mechanisms reducing operational <br />
-              failures by
+              Early detection and prediction mechanisms reducing operational failures by
             </h6>
             <div className={`${styles.count}`}>35%</div>
           </div>
