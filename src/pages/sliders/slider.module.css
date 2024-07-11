@@ -10,6 +10,7 @@
     justify-content: flex-start;
     align-items: flex-end;
 }
+
 .shodatX {
     background-color: #68326F;
     height: 540px;
@@ -17,62 +18,71 @@
     padding: 40px;
     position: relative;
 }
-.carouselCaption h2{
+
+.carouselCaption h2 {
     color: white;
     font-size: 33px;
     font-weight: 600;
     margin-bottom: 30px;
 }
+
 .carouselCaption p {
     color: white;
     font-size: 16px;
     font-weight: 300;
     line-height: 36px
-
 }
 
-.sliderIndustries{
+.sliderIndustries {
     height: 693px;
     position: relative;
 }
-.sliderIndustries .indContent{
+
+.sliderIndustries .indContent {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .sliderIndustries .indContent .indImage {
     height: 693px;
     width: 50%;
 }
+
 .sliderIndustries .indText {
     height: 693px;
     width: 50%;
     padding: 50px;
 }
+
 .sliderIndustries .indContent .indImage img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
+
 .sliderIndustries .indText h2 {
     color: black;
     font-size: 33px;
     font-weight: bold;
     margin-bottom: 30px;
 }
+
 .sliderIndustries .indText .line {
     height: 1px;
     width: 240px;
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(0, 0, 0, 1);
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 .sliderIndustries .indText h4 {
     color: #68326F;
     font-size: 33px;
     font-weight: bold;
 }
+
 .sliderIndustries .indText p {
     color: black;
     font-size: 16px;
@@ -83,4 +93,18 @@
 
 .btnReadMore {
     margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .shodatX {
+        background-color: #68326F;
+        height: auto;
+        width: 100%;
+        padding: 15px;
+        position: relative;
+        min-height: 850px;
+    }
+    .slider {
+        height: auto;
+    }
 }

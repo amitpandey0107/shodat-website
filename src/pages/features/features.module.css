@@ -178,3 +178,33 @@
     position: relative;
     top: -60px;
 }
+
+
+@media screen and (max-width: 768px)  {
+    .infoBox {
+        min-height: 390px;
+        height: auto;
+        font-weight: normal;
+    }
+    .featuresBox {
+        height: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .featuresInfo {
+        border-bottom: 1px solid #E0E0E0;
+        width: 100%;
+        padding: 30px 15px;
+        min-height: 295px;
+        border-right: none;
+    }
+    .featuresBox .featuresInfo:nth-child(3) {
+        border-bottom: 0;
+    }
+    .serviceTitle h2 > br {
+        display: none;
+    }
+    .sliderItem {
+        width: 100%;
+    }
+}

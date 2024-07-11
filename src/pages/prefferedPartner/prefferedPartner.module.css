@@ -1,6 +1,7 @@
 .prefferedPartner {
     position: relative;
 }
+
 .experienceFuture {
     height: 223px;
     background-image: url('/img/future-bg.jpg');
@@ -27,12 +28,14 @@
     position: relative;
     z-index: 1;
 }
+
 .experienceFuture .experienceContent h2 {
     color: white;
     font-size: 33px;
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 .experienceFuture .experienceContent p {
     color: white;
     font-size: 16px;
@@ -47,6 +50,7 @@
     background-color: #68326F;
     padding: 15px;
 }
+
 .prefferedPartner .titleSection h2 {
     color: white;
     font-size: 33px;
@@ -54,16 +58,19 @@
     margin-bottom: 10px;
     text-align: center;
 }
+
 .tabSection {
     background-color: black;
     height: 560px;
 }
+
 .tabSection .tabs {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin-top: -60px;
 }
+
 .btnTab {
     background-color: #DEC6E0;
     height: 60px;
@@ -78,15 +85,18 @@
     align-items: center;
     width: 20%;
 }
+
 .btnTab.active {
     background-color: #000000;
     color: #FFFFFF;
 }
+
 .tabsContent {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .tabsContent .contentLeft {
     width: 60%;
     min-height: 470px;
@@ -94,6 +104,7 @@
     padding: 60px 30px 40px 30px;
     background-position: top;
 }
+
 .tabsContent .contentLeft h3 {
     color: white;
     font-size: 23px;
@@ -101,9 +112,11 @@
     margin-bottom: 20px;
     line-height: 35px;
 }
+
 .tabsContent .contentLeft ul {
     padding-left: 26px;
 }
+
 .tabsContent .contentLeft ul li {
     color: white;
     font-size: 16px;
@@ -111,6 +124,7 @@
     list-style-type: disc;
     padding: 6px 0;
 }
+
 .tabsContent .contentLeft p {
     margin-bottom: 40px;
     color: white;
@@ -118,17 +132,20 @@
     font-weight: 400;
     line-height: 26px;
 }
+
 .tabsContent .contentRight {
     width: 40%;
     min-height: 470px;
     height: 558px;
     padding: 40px 50px;
 }
+
 .tabsContent .contentRight .couonterRow {
     justify-content: flex-start;
     align-items: center;
     display: flex;
 }
+
 .tabsContent .contentRight .counterBox {
     border: 1px solid #03656B;
     background-color: #03656B;
@@ -142,6 +159,7 @@
     flex-direction: column;
     margin: 20px;
 }
+
 .tabsContent .contentRight .counterBox h6 {
     color: white;
     font-size: 16px;
@@ -149,6 +167,7 @@
     text-align: left;
     margin-bottom: 10px;
 }
+
 .tabsContent .contentRight .counterBox .count {
     color: white;
     font-size: 33px;
@@ -158,10 +177,12 @@
 .expertise .contentLeft {
     width: 50%;
 }
+
 .expertise .contentRight {
     width: 50%;
     padding: 40px 0;
 }
+
 .expertise .contentRight .counterBox {
     width: 303px;
     height: 190px;
@@ -176,7 +197,7 @@
     width: 303px;
     height: 190px;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: column;
@@ -185,12 +206,15 @@
 .contentBlock {
     margin-bottom: 70px;
 }
+
 .customization .contentBlock {
     margin-bottom: 30px;
 }
+
 .mbzero {
     margin-bottom: 0;
 }
+
 .contentBlock h3 {
     color: white;
     font-size: 23px;
@@ -198,9 +222,11 @@
     margin-bottom: 20px;
     line-height: 35px;
 }
+
 .contentBlock ul {
     padding-left: 26px;
 }
+
 .contentBlock ul li {
     color: white;
     font-size: 16px;
@@ -208,6 +234,7 @@
     list-style-type: disc;
     padding: 6px 0;
 }
+
 .contentBlock p {
     margin-bottom: 40px;
     color: white;
@@ -219,6 +246,7 @@
 .contentFull {
     padding: 50px 30px 0px 30px;
 }
+
 .contentFull h3 {
     color: white;
     font-size: 23px;
@@ -249,27 +277,69 @@
     background-size: cover;
     background-position: top;
 }
+
 .responsibleAIBG {
     background-image: url('/img/responsibleBG.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
+
 .provenBG {
     background-image: url('/img/provenBG.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
+
 .expertiseBG {
     background-image: url('/img/expertiseBG.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
+
 .customizationBG {
     background-image: url('/img/customizationBG.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .tabsContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .tabSection {
+        height: auto;
+    }
+
+    .tabsContent .contentLeft {
+        width: 100%;
+        min-height: 470px;
+        height: auto;
+        padding: 15px;
+    }
+
+    .tabsContent .contentRight {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .tabsContent .contentRight .counterBox {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 10px;
+    }
 }
