@@ -47,7 +47,7 @@ export default function Footer() {
                 </div>
                 <ul className={`${styles.footerList}`}>
                   <li>
-                    <Link href="">
+                    <Link href="tel:+1(123)4567890">
                       <Image
                         src="/img/phone-call.svg"
                         alt="arrow right"
@@ -58,7 +58,7 @@ export default function Footer() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="">
+                    <Link href="mailto:contact@shodat.com">
                       <Image
                         src="/img/mail.svg"
                         alt="arrow right"

@@ -45,7 +45,7 @@ export default function FooterVersionSecond() {
                     width={239}
                   />
                 </div>
-                <Link href="" className={`${styles.footerMail}`}>
+                <Link href="mailto:contact@shodat.com" className={`${styles.footerMail}`}>
                   <Image
                     src="/img/mail.svg"
                     alt="arrow right"
