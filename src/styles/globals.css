@@ -1,26 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-*{padding: 0; margin: 0;}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .main {
     position: relative;
 }
-body {font-family: "Open Sans", sans-serif;}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
 
 .banner .carousel-indicators [data-bs-target] {
     background-color: #757575;
 }
+
 .banner .carousel-indicators [data-bs-target].active {
     background-color: #05A7B1;
 }
+
 .banner .carousel-indicators {
     bottom: 85px;
 }
+
 .banner .carousel-item img {
     height: 770px;
 }
 
-.iconmouse{
+.iconmouse {
     -webkit-animation: action 1s infinite alternate;
     animation: action 1s infinite alternate;
 }
@@ -39,10 +50,11 @@ body {font-family: "Open Sans", sans-serif;}
     display: flex;
     transition: background-color 0.5s ease-out;
 }
+
 #featuresSlider .carousel-control-prev:hover {
     background-color: rgba(104, 50, 111, 1);
-   
 }
+
 #featuresSlider .carousel-control-next {
     background-color: rgba(104, 50, 111, 1);
     opacity: 1;
@@ -57,11 +69,14 @@ body {font-family: "Open Sans", sans-serif;}
     display: flex;
     transition: background-color 0.5s ease-out;
 }
+
 #featuresSlider .carousel-control-next:hover {
     background-color: rgba(104, 50, 111, 1);
-   
+
 }
-#featuresSlider  .carousel-control-prev-icon, #featuresSlider .carousel-control-next-icon {
+
+#featuresSlider .carousel-control-prev-icon,
+#featuresSlider .carousel-control-next-icon {
     height: 1.2rem;
     width: 1.2rem;
 }
@@ -81,19 +96,22 @@ body {font-family: "Open Sans", sans-serif;}
     border-radius: 0;
     transition: all ease-in 0.25s;
 }
+
 .btnBlack:hover {
     background-color: #06bcc6;
     transition: all ease-out 0.25s;
 }
+
 .btnBlack img {
     margin-left: 5px;
 }
+
 #shodatX .carousel-control-prev-icon {
     background-image: url("/img/arrow-left.png") !important;
     height: 20px;
     width: 24px;
 }
-   
+
 #shodatX .carousel-control-next-icon {
     background-image: url("/img/arrow-right.png") !important;
     height: 20px;
@@ -108,6 +126,7 @@ body {font-family: "Open Sans", sans-serif;}
     opacity: 1;
     z-index: 9;
 }
+
 #shodatX .carousel-control-prev {
     position: absolute;
     top: auto;
@@ -116,6 +135,7 @@ body {font-family: "Open Sans", sans-serif;}
     opacity: 1;
     z-index: 9;
 }
+
 #shodatX .carousel-indicators {
     position: absolute;
     bottom: -106px;
@@ -130,11 +150,12 @@ body {font-family: "Open Sans", sans-serif;}
     right: 20%;
     opacity: 1;
     z-index: 99;
-    background: rgba(0,0,0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
     width: 150px;
     height: 150px;
     padding: 20px 20px;
 }
+
 #sliderIndustries .carousel-control-prev {
     position: absolute;
     top: auto;
@@ -142,24 +163,26 @@ body {font-family: "Open Sans", sans-serif;}
     left: 25%;
     opacity: 1;
     z-index: 99;
-    background: rgba(0,0,0, 0.6);
+    background: rgba(0, 0, 0, 0.6);
     /* height: 40px;
     width: 40px; */
     padding: 20px 20px;
     width: 150px;
     height: 150px;
 }
+
 #sliderIndustries .carousel-control-next-icon {
     background-image: url("/img/angle_left.svg") !important;
     height: 58px;
     width: 58px;
     transform: rotate(180deg);
 }
+
 #sliderIndustries .carousel-control-prev-icon {
     background-image: url("/img/angle_left.svg") !important;
     height: 58px;
     width: 58px;
-    
+
 }
 
 .container-fluid {
@@ -185,18 +208,33 @@ body {font-family: "Open Sans", sans-serif;}
 
 /* Animations */
 @-webkit-keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
 }
 
 @keyframes action {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-10px); }
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-10px);
+    }
 }
 
 @keyframes scaleEffect {
-    0% { transform: scale(0.8); }
-    100% { transform: scale(1.1); }
+    0% {
+        transform: scale(0.8);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
 }
 
 @keyframes heartbeat {
@@ -226,18 +264,25 @@ body {font-family: "Open Sans", sans-serif;}
 }
 
 @keyframes pulse {
-	0% {
-		transform: scale(0.90);
-		box-shadow: 0 0 0 0 rgba(212,166,40, 0.4);
-	}
-	
-	70% {
-		transform: scale(1);
-		box-shadow: 0 0 0 10px rgba(212,166,40, 0);
-	}
-	
-	100% {
-		transform: scale(0.90);
-		box-shadow: 0 0 0 0 rgba(212,166,40, 0);
-	}
+    0% {
+        transform: scale(0.90);
+        box-shadow: 0 0 0 0 rgba(212, 166, 40, 0.4);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(212, 166, 40, 0);
+    }
+
+    100% {
+        transform: scale(0.90);
+        box-shadow: 0 0 0 0 rgba(212, 166, 40, 0);
+    }
+}
+
+.text-color-red {
+    color: red;
+}
+.font-sm {
+    font-size: 14px;
 }

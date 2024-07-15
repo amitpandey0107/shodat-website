@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import emailjs from 'emailjs-com';
+// import emailjs from '@emailjs/browser';
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./scheduling.module.css";
@@ -6,6 +8,123 @@ import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
 
 export default function Scheduling() {
+  const [formData, setFormData] = useState({
+    yourname: "",
+    emailaddress: "",
+    phoneNumber: "",
+    companyName: "",
+    message: ""
+  } as any);
+  const [errors, setErrors] = useState({
+    yourname: "",
+    emailaddress: "",
+    phoneNumber: "",
+    companyName: "",
+    message: ""
+  });
+  const [formIsValid, setFormIsValid] = useState(true);
+  const [userData, setUserData] = useState([] as any);
+  const [hiddenField, setHiddenField] = useState({} as any);
+  const [success, setSuccess] = useState(false);
+  const handleInput = (evt: any) => {
+    evt.preventDefault()
+    let targetName = evt.target.name;
+    let targetValue = evt.target.value;
+    setFormData((state: any) => ({
+      ...state,
+      [targetName]: targetValue
+    }));
+    setErrors({
+      ...errors,
+      [targetName]: ""
+
+    })
+    setFormIsValid(false);
+
+    console.log("formData", formData)
+    setHiddenField(formData)
+  };
+
+  const form = useRef();
+
+  const handleValidation = () => {
+    const EMAIL_REGEX = new RegExp(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i);
+    const PHONE_REGEX = new RegExp(/^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/i);
+    const newErrorsState = { ...errors };
+    let formIsValid = true;
+    if (!formData.yourname) {
+      formIsValid = false;
+      newErrorsState.yourname = "Your name must not be empty!"
+    }
+
+    // Validate Email Address
+    if (!formData.emailaddress) {
+      formIsValid = false;
+      newErrorsState.emailaddress = "Email must not be empty!"
+    } else if (!EMAIL_REGEX.test(formData.emailaddress)) {
+      formIsValid = false;
+      newErrorsState.emailaddress = "Please enter valid email address!"
+    }
+
+
+    // Validate message
+    if (!formData.message) {
+      formIsValid = false;
+      newErrorsState.message = "Message must not be empty!"
+    }
+
+    // Validate company name
+    if (!formData.companyName) {
+      formIsValid = false;
+      newErrorsState.companyName = "Company Name must not be empty!"
+    }
+
+    // Validate phone number
+    if (!formData.phoneNumber) {
+      formIsValid = false;
+      newErrorsState.phoneNumber = "Phone number must not be empty!"
+    } else if (!PHONE_REGEX.test(formData.phoneNumber)) {
+      formIsValid = false;
+      newErrorsState.phoneNumber = "Please enter valid phone number!"
+    } else if (formData.phoneNumber.length != 10) {
+      formIsValid = false;
+      newErrorsState.phoneNumber = "Please enter valid  phone number!"
+    }
+
+    // if any field is invalid - then we need to update our state
+    if (!formIsValid) {
+      setFormIsValid(false);
+      setErrors(newErrorsState);
+    }
+
+    return formIsValid
+  }
+
+  const submitForm = (evt: any) => {
+    evt.preventDefault();
+    if (handleValidation()) {
+      emailjs.sendForm('service_9e2j0tf', 'template_0oc12we', evt.target, 'Cu6hkIskYYHv1iCa_')
+        .then((result) => {
+          // window.location.reload();
+          setSuccess(true)
+          setFormData({
+            yourname: "",
+            emailaddress: "",
+            phoneNumber: "",
+            companyName: "",
+            message: ""
+          })
+          setTimeout(()=>{
+            setSuccess(false)
+          }, 6000)
+        }, (error) => {
+          console.log(error.text);
+        });
+
+    } else {
+      console.log("SOMETHING WENT WRONG !")
+    }
+  }
   return (
     <div className={`${styles.scheduling}`} id="scheduling">
       <div className="container-fluid">
@@ -93,70 +212,107 @@ export default function Scheduling() {
                   <div className="col-sm-6 col-md-6 col-lg-6">
                     <div className={`${styles.schedulingForm}`}>
                       <h2>Scheduling a meeting</h2>
-                      <div className={`${styles.formWrap}`}>
-                        <div className={`${styles.formRow}`}>
-                          <div className={`${styles.formGroup}`}>
-                            <label htmlFor="yourname">Name</label>
-                            <input
-                              type="text"
-                              name="yourname"
-                              id="yourname"
-                              placeholder="Enter your name"
-                              className="form-control"
-                            />
-                          </div>
-                          <div className={`${styles.formGroup}`}>
-                            <label htmlFor="emailaddress">Email</label>
-                            <input
-                              type="text"
-                              name="emailaddress"
-                              id="emailaddress"
-                              placeholder="Enter email address"
-                              className="form-control"
-                            />
-                          </div>
-                        </div>
-                        <div className={`${styles.formRow}`}>
-                          <div className={`${styles.formGroup}`}>
-                            <label htmlFor="phoneNumber">Phone number</label>
-                            <input
-                              type="text"
-                              name="phoneNumber"
-                              id="phoneNumber"
-                              placeholder="Enter phone number"
-                              className="form-control"
-                            />
-                          </div>
-                          <div className={`${styles.formGroup}`}>
-                            <label htmlFor="companyName">Company name</label>
-                            <input
-                              type="text"
-                              name="companyName"
-                              id="companyName"
-                              placeholder="Enter company name"
-                              className="form-control"
-                            />
-                          </div>
-                        </div>
+                      {success &&
                         <div className={`${styles.formRow}`}>
                           <div className={`${styles.formGroupFull}`}>
-                            <label htmlFor="message">Message</label>
-                            <textarea
-                              name="message"
-                              id="message"
-                              className="form-control"
-                              placeholder="Enter your message"
-                            ></textarea>
+                            <div className="alert alert-success" role="alert">
+                              Message sent successfully! Someone from our team will reach out shortly.
+                            </div>
                           </div>
                         </div>
-                        <div className={`${styles.formRow}`}>
-                          <div className={`${styles.formGroupFull}`}>
-                            <button className={`${styles.btnSubmit}`}>
-                              Submit
-                            </button>
+                      }
+                      <form method='post' onSubmit={submitForm} id="myForm">
+                        <div className={`${styles.formWrap}`}>
+                          <div className={`${styles.formRow}`}>
+                            <div className={`${styles.formGroup}`}>
+                              <label htmlFor="yourname">Name</label>
+                              <input
+                                type="text"
+                                name="yourname"
+                                id="yourname"
+                                placeholder="Enter your name"
+                                className="form-control"
+                                value={formData.yourname}
+                                onChange={(e) => handleInput(e)}
+                              />
+                              <span className='text-color-red font-sm'>
+                                {errors.yourname}
+                              </span>
+                            </div>
+                            <div className={`${styles.formGroup}`}>
+                              <label htmlFor="emailaddress">Email</label>
+                              <input
+                                type="text"
+                                name="emailaddress"
+                                id="emailaddress"
+                                placeholder="Enter email address"
+                                className="form-control"
+                                value={formData.emailaddress}
+                                onChange={(e) => handleInput(e)}
+                              />
+                              <span className='text-color-red font-sm'>
+                                {errors.emailaddress}
+                              </span>
+                            </div>
                           </div>
+                          <div className={`${styles.formRow}`}>
+                            <div className={`${styles.formGroup}`}>
+                              <label htmlFor="phoneNumber">Phone number</label>
+                              <input
+                                type="text"
+                                name="phoneNumber"
+                                id="phoneNumber"
+                                placeholder="Enter phone number"
+                                className="form-control"
+                                value={formData.phoneNumber}
+                                onChange={(e) => handleInput(e)}
+                              />
+                              <span className='text-color-red font-sm'>
+                                {errors.phoneNumber}
+                              </span>
+                            </div>
+                            <div className={`${styles.formGroup}`}>
+                              <label htmlFor="companyName">Company name</label>
+                              <input
+                                type="text"
+                                name="companyName"
+                                id="companyName"
+                                placeholder="Enter company name"
+                                className="form-control"
+                                value={formData.companyName}
+                                onChange={(e) => handleInput(e)}
+                              />
+                              <span className='text-color-red font-sm'>
+                                {errors.companyName}
+                              </span>
+                            </div>
+                          </div>
+                          <div className={`${styles.formRow}`}>
+                            <div className={`${styles.formGroupFull}`}>
+                              <label htmlFor="message">Message</label>
+                              <textarea
+                                name="message"
+                                id="message"
+                                className="form-control"
+                                placeholder="Enter your message"
+                                value={formData.message}
+                                onChange={(e) => handleInput(e)}
+                              ></textarea>
+                              <span className='text-color-red font-sm'>
+                                {errors.message}
+                              </span>
+                            </div>
+                          </div>
+                          <div className={`${styles.formRow}`}>
+                            <div className={`${styles.formGroupFull}`}>
+                              <button className={`${styles.btnSubmit}`}>
+                                Submit
+                              </button>
+                            </div>
+                          </div>
+
                         </div>
-                      </div>
+                      </form>
                     </div>
                   </div>
                 </div>
