@@ -9,7 +9,7 @@
     height: 390px;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;    
+    align-items: flex-start;
 }
 
 .infoBox p {
@@ -72,10 +72,12 @@
     right: 0;
     transition: all ease-out 0.25s;
 }
+
 .btnLetsTalk:hover {
     background-color: #06bcc6;
     transition: all ease-out 0.25s;
 }
+
 .btnLetsTalk img {
     margin-left: 5px;
 }
@@ -181,17 +183,19 @@
 }
 
 
-@media screen and (max-width: 768px)  {
+@media screen and (max-width: 768px) {
     .infoBox {
         min-height: 390px;
         height: auto;
         font-weight: normal;
     }
+
     .featuresBox {
         height: auto;
         flex-direction: column;
         flex-wrap: wrap;
     }
+
     .featuresInfo {
         border-bottom: 1px solid #E0E0E0;
         width: 100%;
@@ -199,13 +203,28 @@
         min-height: 295px;
         border-right: none;
     }
+
     .featuresBox .featuresInfo:nth-child(3) {
         border-bottom: 0;
     }
-    .serviceTitle h2 > br {
+
+    .serviceTitle h2>br {
         display: none;
     }
+
     .sliderItem {
         width: 100%;
+        margin-bottom: 15px;
     }
+}
+
+@media only screen and (max-width: 600px) {
+    .slide {
+        min-width: 50% !important;
+    }
+}
+
+/* For all other screen sizes, display 3 items */
+.slide {
+    min-width: 50% !important;
 }

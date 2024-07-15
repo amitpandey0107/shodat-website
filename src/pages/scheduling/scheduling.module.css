@@ -3,6 +3,7 @@
     background-color: #F0F0F0;
     padding-bottom: 30px;
 }
+
 .growingTeam {
     position: relative;
     padding: 30px 20px 15px 20px;
@@ -12,27 +13,32 @@
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
+
 .whiteBox {
     background-color: white;
     min-height: 610px;
-    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
     margin-top: -60px;
 }
+
 .growingTeam .title {
     font-size: 33px;
     color: #68326F;
     font-weight: bold;
     width: 28%;
 }
+
 .growingTeam .line {
     height: 1px;
     width: 250px;
     background-color: rgba(0, 0, 0, 0.8);
     margin-top: 10px;
 }
+
 .growingTeam .clients {
     width: 72%;
 }
+
 .growingTeam .clients ul {
     display: flex;
     justify-content: space-between;
@@ -45,6 +51,7 @@
     background-color: #68326F;
     padding: 50px 70px;
 }
+
 .schedulingInfo h2 {
     font-size: 33px;
     color: white;
@@ -52,17 +59,20 @@
     margin-bottom: 20px;
     line-height: 46px;
 }
+
 .schedulingInfo p {
     color: white;
     font-weight: 400;
     margin-bottom: 35px;
     line-height: 33px;
 }
+
 .schedulingForm {
     height: 574px;
     background-color: #FFFFFF;
     padding: 50px 20px;
 }
+
 .schedulingForm h2 {
     font-size: 33px;
     color: #68326F;
@@ -73,29 +83,35 @@
 .formWrap {
     position: relative;
 }
-.formWrap .formRow{    
+
+.formWrap .formRow {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
 }
+
 .formWrap .formGroup {
     margin-bottom: 15px;
     width: 48%;
 }
-.formWrap  label{
+
+.formWrap label {
     margin-bottom: 5px;
 }
+
 .formWrap .formGroup input[type="text"] {
     border: 1px solid #CCCCCC;
     border-radius: 0;
 }
+
 .formWrap textarea {
     border: 1px solid #CCCCCC;
     border-radius: 0;
     min-height: 100px;
 }
+
 .formWrap .formGroupFull {
     margin-bottom: 15px;
     width: 100%;
@@ -123,15 +139,18 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
+
 .cta .ctaContent {
     margin-right: 40px;
 }
+
 .cta .ctaContent h3 {
     font-size: 33px;
     color: black;
     font-weight: bold;
     margin-bottom: 15px;
 }
+
 .cta .ctaContent p {
     font-weight: 400;
     line-height: 24px;
@@ -142,4 +161,38 @@
 .formWrap label em {
     font-size: 12px;
     color: rgba(255, 99, 71, 0.9);
+}
+
+@media screen and (max-width: 768px) {
+    .whiteBox {
+        margin-top: 60px;
+    }
+
+    .growingTeam {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .growingTeam .clients ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .schedulingInfo {
+        height: auto;
+        padding: 30px 20px;
+    }
+    .formWrap .formGroup {
+        width: 100%;
+    }
+    .schedulingForm {
+        height: auto;
+    }
+    .formWrap .formGroup input[type="text"] {
+        height: 45px;
+    }
 }

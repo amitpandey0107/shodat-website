@@ -107,4 +107,23 @@
     .slider {
         height: auto;
     }
+    .sliderIndustries .indContent {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .sliderIndustries .indContent .indImage {
+        height: auto;
+        width: 100%;
+    }
+    .sliderIndustries .indText {
+        height: auto;
+        width: 100%;
+        padding: 15px;
+    }
+    .sliderIndustries {
+        height: auto;
+    }
 }

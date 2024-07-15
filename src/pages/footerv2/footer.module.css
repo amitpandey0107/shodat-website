@@ -181,3 +181,23 @@
 .followUs {
     display: flex;
 }
+
+@media screen and (max-width: 768px) {
+    .newsletter {
+        margin-top: 50px;
+    }
+    .footer .footertitle  br{
+        display: inline;
+    }
+    .footerContainer .footerLeft{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .followUs {
+        margin-top: 25px;
+    }
+}

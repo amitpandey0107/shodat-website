@@ -293,3 +293,16 @@ body {
 .border-gray {
     border-color: #CCCCCC;
 }
+
+@media screen and (max-width: 768px) {
+    #shodatX .carousel-control-prev {
+        left: 15px;
+    }
+    #shodatX .carousel-control-next {
+        right: 15px;
+    }
+
+    .hstack {
+        display: block;
+    }
+}

@@ -335,12 +335,12 @@
     }
 
     .tabsContent .contentRight .counterBox {
-        width: 50%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: flex-start;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
         margin: 10px;
     }
 }
@@ -359,4 +359,64 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .experienceFuture {
+        height: auto;
+        padding: 35px 0;
+    }
+    .experienceFuture .experienceContent p{
+        padding: 0 15px;
+    }
+
+    .prefferedPartner .titleSection {
+        height: auto;
+    }
+    .tabSection .tabs {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 0px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .btnTab {
+        width: 50%;
+    }
+    .tabsContent .contentRight {
+        height: auto;
+    }
+    .tabsContent .contentRight .couonterRow {
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .tabsContent .contentLeft {
+        min-height: auto;
+    }
+    .tabsContent .contentRight {
+        min-height: auto;
+    }
+    .contentFull {
+        padding: 35px 15px;
+    }
+    .responsibleAI .contentRight {
+        width: 100%;
+    }
+    .responsibleAI .contentLeft {
+        width: 100%;
+    }
+    .contentBlock {
+        margin-bottom: 40px;
+    }
+    .responsibleAI .contentRight .counterBox{
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
 }
