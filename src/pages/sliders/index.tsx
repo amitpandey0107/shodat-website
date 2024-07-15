@@ -74,12 +74,12 @@ export default function Slider() {
                 How a leading machine parts manufacturer 
                 </h2>
                 <p>
-                improved inventory accuracy, enhanced sales forecasting, and increased operational efficiency, leading to a 21% reduction in operational costs , Solving operational challenges, including inefficient inventory management, difficulty identifying slow-moving stock, and inaccurate sales and demand forecasting, resulting in inflated costs.
+                A subsidiary of a large automotive manufacturer specializing in commercial vehicles and diesel engines achieved Infrastructure optimization by implementation of advanced analytics enabled real-time monitoring and reduced operational overhead by 28%.
                 </p>
-                {/* <p>
+                <p>
                   Proactive maintenance and quicker issue resolution minimized
                   failures during and after manufacturing by 40%.
-                </p> */}
+                </p>
                 <Link
                   href="#scheduling"
                   className={`${styles.btnReadMore} btnBlack`}

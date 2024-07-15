@@ -28,10 +28,10 @@ export default function Features() {
                 <div className={`${styles.logo}`}>
                   <Image
                     className={`${styles.logoImage}`}
-                    src="/img/market.PNG"
+                    src="/img/marketReady.svg"
                     alt="Image One"
-                    width={90}
-                    height={90}
+                    width={100}
+                    height={100}
                   />
                 </div>
                 <div className={`${styles.text}`}>
