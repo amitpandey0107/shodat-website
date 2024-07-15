@@ -16,14 +16,14 @@
     color: white;
     font-size: 16px;
     margin: 0;
-    font-weight: 300;
+    font-weight: normal;
     line-height: 28px;
 }
 
 .featuresBox {
     height: 390px;
     background-color: white;
-    padding: 50px 30px;
+    padding: 50px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -94,7 +94,7 @@
 
 .line {
     height: 1px;
-    width: 200px;
+    width: 250px;
     background-color: black;
     display: inline-block;
 }
@@ -177,6 +177,7 @@
 .featTobContainer {
     position: relative;
     top: -60px;
+    z-index: 99;
 }
 
 

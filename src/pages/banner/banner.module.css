@@ -64,6 +64,7 @@
     left: 48%;
     bottom: 58px;
     transform: translate(-50%, -50%);
+    z-index: 9;
 }
 .banner_title {
     font-size: 47px;

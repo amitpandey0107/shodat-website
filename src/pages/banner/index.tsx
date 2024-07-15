@@ -15,7 +15,7 @@ export default function Banner() {
             width={557}
             height={557}
           />
-      <Carousel controls={false}>
+      <Carousel controls={false} fade>
         <Carousel.Item interval={3000}>
           <Image
             className={`${styles.sliderImage}`}

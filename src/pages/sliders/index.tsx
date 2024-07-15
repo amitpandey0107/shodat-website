@@ -15,7 +15,7 @@ export default function Slider() {
                 <Carousel>
                   <Carousel.Item interval={20500}>
                     <div className={`${styles.carouselCaption}`}>
-                      <h2>Shodat X: Redefining Quality with Deeper Insights</h2>
+                      <h2>Shodat X: Redefining Quality <br/>with Deeper Insights</h2>
                       <p>
                         The Shodat X Series will represent a suite of innovative
                         AI-driven solutions and a collection of ML models
@@ -61,7 +61,7 @@ export default function Slider() {
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
-                  src="/img/industries/slider-1-machin-parts_industries.jpg"
+                  src="/img/industries/image2.jpg"
                   alt="industries"
                   height={604}
                   width={666}
@@ -71,19 +71,15 @@ export default function Slider() {
                 <h4>Manufacturing</h4>
                 <div className={`${styles.line}`}></div>
                 <h2>
-                  Drive Efficiency and Reliability with Advanced Analytics.
+                How a leading machine parts manufacturer 
                 </h2>
                 <p>
-                  A subsidiary of a large automotive manufacturer specializing
-                  in commercial vehicles and diesel engines achieved
-                  Infrastructure optimization by implementation of advanced
-                  analytics enabled real-time monitoring and reduced operational
-                  overhead by 28%.
+                improved inventory accuracy, enhanced sales forecasting, and increased operational efficiency, leading to a 21% reduction in operational costs , Solving operational challenges, including inefficient inventory management, difficulty identifying slow-moving stock, and inaccurate sales and demand forecasting, resulting in inflated costs.
                 </p>
-                <p>
+                {/* <p>
                   Proactive maintenance and quicker issue resolution minimized
                   failures during and after manufacturing by 40%.
-                </p>
+                </p> */}
                 <Link
                   href="#scheduling"
                   className={`${styles.btnReadMore} btnBlack`}
@@ -103,7 +99,7 @@ export default function Slider() {
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
-                  src="/img/industries/slider-2-automotive-manufc_industries.jpg"
+                  src="/img/industries/image3.png"
                   alt="Automotive "
                   height={604}
                   width={666}
@@ -149,7 +145,7 @@ export default function Slider() {
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
-                  src="/img/industries/slider-3-oil-gas_industries.jpg"
+                  src="/img/industries/image3.jpg"
                   alt="industries"
                   height={604}
                   width={666}
@@ -192,7 +188,7 @@ export default function Slider() {
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
-                  src="/img/industries/slider-5-logistics_industries.jpg"
+                  src="/img/industries/image4.jpg"
                   alt="industries"
                   height={604}
                   width={666}

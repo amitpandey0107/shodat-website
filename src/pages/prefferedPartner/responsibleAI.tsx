@@ -7,14 +7,17 @@ import Carousel from "react-bootstrap/Carousel";
 
 export default function ResponsibleAI() {
   return (
-    <div className={`${styles.tabsContent} ${styles.responsibleAI} ${styles.responsibleAIBG}`}>
+    <div
+      className={`${styles.tabsContent} ${styles.responsibleAI} ${styles.responsibleAIBG}`}
+    >
       <div className={`${styles.contentFull}`}>
-        <h3>
+        {/* <h3>
           AI should empower, not complicate. We prioritize user-friendly
           interfaces and seamless integration, ensuring that our solutions are
           not only powerful but also easy to adopt and use across your
           organization.
-        </h3>
+        </h3> */}
+        <h3>At Shodat Inc., we leverage advanced AI-driven security and compliance solutions to ensure the utmost protection of your data and adherence to regulatory standards. Our cutting-edge AI algorithm provide 99.9% threat detection accuracy, enabling real-time monitoring and response to potential threats.</h3>
       </div>
       <div className={`${styles.contentLeft}`}>
         <div className={`${styles.contentBlock}`}>
@@ -29,13 +32,20 @@ export default function ResponsibleAI() {
       </div>
       <div className={`${styles.contentRight}`}>
         <div className={`${styles.contentBlock}`}>
-          {/* <h3>Future-Proof Solutions</h3>
-          <p>
-            AI is an investment in the future. Our commitment to providing
-            future-proof solutions means that our AI software evolves with your
-            business, adapting to new challenges and opportunities in the
-            ever-changing technological landscape.
-          </p> */}
+          <div className={`${styles.couonterRow}`}>
+            <div className={`${styles.counterBox}`}>
+              <h6>
+                Data availability ensuring your critical data is always accessible
+              </h6>
+              <div className={`${styles.count}`}>98%</div>
+            </div>
+            <div className={`${styles.counterBox}`}>
+              <h6>
+                Automated compliance audits reducing manual efforts and ensuring continuous compliance.
+              </h6>
+              <div className={`${styles.count}`}>70%</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

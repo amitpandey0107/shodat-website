@@ -45,17 +45,17 @@ export default function FooterVersionSecond() {
                     width={239}
                   />
                 </div>
-                <Link href="mailto:contact@shodat.com" className={`${styles.footerMail}`}>
+                <Link href="mailto:contact-us@shodat.com" className={`${styles.footerMail}`}>
                   <Image
                     src="/img/mail.svg"
                     alt="arrow right"
                     height={24}
                     width={24}
                   />
-                  <span>contact@shodat.com</span>
+                  <span>contact-us@shodat.com</span>
                 </Link>
                 <div className={`${styles.followUs}`}>
-                  <h2 className={`${styles.blockTitle}`}>Follow Us:</h2>
+                  <h2 className={`${styles.blockTitle}`}>Follow Us On</h2>
                   <div className={`${styles.followIcons}`}>
                     <Link href="https://www.linkedin.com/company/shodat-inc">
                       <svg

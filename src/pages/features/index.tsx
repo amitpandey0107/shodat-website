@@ -13,10 +13,9 @@ export default function Features() {
           <div className="col-sm-4 col-md-4 col-lg-4">
             <div className={`${styles.infoBox}`}>
               <p>
-                Where cutting-edge technology meets unparalleled innovation. We
-                at Shodat Inc. specialize in delivering advanced AI-driven
+                We at Shodat Inc. specialize in delivering advanced AI-driven
                 solutions that transform industries and empower businesses to
-                thrive in the digital era. Our commitment to excellence and
+                thrive in the digital era. Our Commitment to excellence and
                 continuous innovation ensures that we stay ahead of the curve,
                 providing intelligent technologies that drive efficiency, foster
                 growth, and unlock new opportunities.
@@ -29,15 +28,15 @@ export default function Features() {
                 <div className={`${styles.logo}`}>
                   <Image
                     className={`${styles.logoImage}`}
-                    src="/img/ourMarket.svg"
+                    src="/img/market.PNG"
                     alt="Image One"
-                    width={80}
-                    height={80}
+                    width={90}
+                    height={90}
                   />
                 </div>
                 <div className={`${styles.text}`}>
                   <p>
-                    <strong>Our market</strong> ready solutions provide flexible
+                    Our<strong> market ready</strong> solutions provide flexible
                     and scalable capabilities that enterprises need to
                     successfully become AI-fueled organizations.
                   </p>
@@ -50,8 +49,8 @@ export default function Features() {
                     className={`${styles.logoImage}`}
                     src="/img/reEngineer.svg"
                     alt="Image One"
-                    width={80}
-                    height={80}
+                    width={100}
+                    height={100}
                   />
                 </div>
                 <div className={`${styles.text}`}>
@@ -69,13 +68,13 @@ export default function Features() {
                     className={`${styles.logoImage}`}
                     src="/img/exploreSolutions.svg"
                     alt="Image One"
-                    width={80}
-                    height={80}
+                    width={100}
+                    height={100}
                   />
                 </div>
                 <div className={`${styles.text}`}>
                   <p>
-                    <strong>Explore our solutions</strong> and discover the
+                    <strong>Explore </strong>our solutions and discover the
                     power of intelligent technology to shape the future of your
                     business.
                   </p>
@@ -165,7 +164,7 @@ export default function Features() {
                       />
                       <div className={`${styles.sliderContent}`}>
                         <h4>Advanced Analytics + BI</h4>
-                        <p>Empower Decisions with Advanced Analytics + BI</p>
+                        <p>Transform Data into Actionable Intelligence</p>
                       </div>
                     </Card>
                     <Card className={`${styles.sliderItem}`}>
