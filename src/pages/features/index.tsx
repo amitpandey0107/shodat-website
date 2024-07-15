@@ -47,7 +47,7 @@ export default function Features() {
                 <div className={`${styles.logo}`}>
                   <Image
                     className={`${styles.logoImage}`}
-                    src="/img/reEngineer.svg"
+                    src="/img/re-engineering.svg"
                     alt="Image One"
                     width={100}
                     height={100}
@@ -134,7 +134,7 @@ export default function Features() {
                       <div className={`${styles.sliderContent}`}>
                         <h4>Data Engineering</h4>
                         <p>
-                          Empowering insights through robust data engineering
+                        Empowering insights through robust data engineering
                         </p>
                       </div>
                     </Card>
@@ -149,8 +149,7 @@ export default function Features() {
                       <div className={`${styles.sliderContent}`}>
                         <h4>AI Innovation</h4>
                         <p>
-                          Pioneering AI innovations, transforming data into
-                          intelligent action.
+                        Pioneering AI innovations, transforming data into intelligent action.
                         </p>
                       </div>
                     </Card>
@@ -163,8 +162,8 @@ export default function Features() {
                         height={353}
                       />
                       <div className={`${styles.sliderContent}`}>
-                        <h4>Advanced Analytics + BI</h4>
-                        <p>Transform Data into Actionable Intelligence</p>
+                        <h4>Advanced Analytics & BI</h4>
+                        <p>Transform data into actionable intelligence</p>
                       </div>
                     </Card>
                     <Card className={`${styles.sliderItem}`}>
@@ -177,7 +176,7 @@ export default function Features() {
                       />
                       <div className={`${styles.sliderContent}`}>
                         <h4>Security & Compliance</h4>
-                        <p>Navigate compliance with Precision and Speed.</p>
+                        <p>Navigate compliance with precision and speed.</p>
                       </div>
                     </Card>
                   </Stack>

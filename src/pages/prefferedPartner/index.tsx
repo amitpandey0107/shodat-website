@@ -72,7 +72,7 @@ export default function PrefferedPartner() {
                     className={`${styles.btnTab} ${index === 5 && styles.active}`}
                     onClick={() => setIndex(5)}
                   >
-                    Responsible AI
+                    Security & Compliance
                   </button>
                 </div>
               </div>

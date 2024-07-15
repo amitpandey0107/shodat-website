@@ -99,7 +99,7 @@ export default function Slider() {
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
-                  src="/img/industries/image3.png"
+                  src="/img/industries/industries-img2.jpg"
                   alt="Automotive "
                   height={604}
                   width={666}
@@ -109,8 +109,8 @@ export default function Slider() {
                 <h4>Automotive </h4>
                 <div className={`${styles.line}`}></div>
                 <h2>
-                  Driving Safety Forward: AI-Powered Tire Management for
-                  Smarter, Safer Roads
+                  Driving safety forward: AI-powered tire management for
+                  smarter, safer roads
                 </h2>
                 <p>
                   A leading automotive manufacturer adopted AI-powered system
@@ -154,7 +154,7 @@ export default function Slider() {
               <div className={`${styles.indText}`}>
                 <h4>Oil & Gas</h4>
                 <div className={`${styles.line}`}></div>
-                <h2>Mitigating Risks, Maximizing Returns in Oil & Gas</h2>
+                <h2>Mitigating risks, maximizing returns in oil & gas</h2>
                 <p>
                   A prominent player in the Oil and Gas trading industry reduced
                   the time spent on complex volumetric calculations by 50%,
@@ -198,8 +198,8 @@ export default function Slider() {
                 <h4>Logistics</h4>
                 <div className={`${styles.line}`}></div>
                 <h2>
-                  Navigate the Future of Logistics with Precision and
-                  Profitability.
+                  Navigate the future of logistics with precision and
+                  profitability.
                 </h2>
                 <p>
                   A leading logistics player, operating across multiple

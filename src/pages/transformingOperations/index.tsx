@@ -16,7 +16,7 @@ export default function TransformingOperations() {
           <div className="col-sm-6 col-md-6 col-lg-6">
             <div className={`${styles.opsImage}`}>
               <Image
-                src="/img/ops.png"
+                src="/img/homepage-img1.png"
                 alt="operations"
                 width={546}
                 height={546}

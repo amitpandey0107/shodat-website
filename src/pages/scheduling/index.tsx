@@ -14,7 +14,7 @@ export default function Scheduling() {
             <div className={`${styles.whiteBox}`}>
               <div className={`${styles.growingTeam}`}>
                 <div className={`${styles.title}`}>
-                  <h3>Some of Our <br />Esteemed Clients</h3>
+                  <h3>Our Esteemed<br /> Clients</h3>
                   <div className={`${styles.line}`}></div>
                 </div>
                 <div className={`${styles.clients}`}>
