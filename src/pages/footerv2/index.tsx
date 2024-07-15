@@ -1,8 +1,87 @@
+import React, { useState, useEffect, useRef } from "react";
+import emailjs from 'emailjs-com';
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./footer.module.css";
 
 export default function FooterVersionSecond() {
+
+  const [formData, setFormData] = useState({
+    newsletterEMail: ""
+  } as any);
+  const [errors, setErrors] = useState({
+    newsletterEMail: "",
+  });
+  const [formIsValid, setFormIsValid] = useState(true);
+  const [hiddenField, setHiddenField] = useState({} as any);
+  const [success, setSuccess] = useState(false);
+  const handleInput = (evt: any) => {
+    evt.preventDefault()
+    let targetName = evt.target.name;
+    let targetValue = evt.target.value;
+    setFormData((state: any) => ({
+      ...state,
+      [targetName]: targetValue
+    }));
+    setErrors({
+      ...errors,
+      [targetName]: ""
+
+    })
+    setFormIsValid(false);
+
+    console.log("formData", formData)
+    setHiddenField(formData)
+  };
+
+  const form = useRef();
+
+  const handleValidation = () => {
+    const EMAIL_REGEX = new RegExp(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i);
+    const PHONE_REGEX = new RegExp(/^([+]?[\s0-9]+)?(\d{3}|[(]?[0-9]+[)])?([-]?[\s]?[0-9])+$/i);
+    const newErrorsState = { ...errors };
+    let formIsValid = true;
+
+    // Validate Email Address
+    if (!formData.newsletterEMail) {
+      formIsValid = false;
+      newErrorsState.newsletterEMail = "Email address must not be empty!"
+    } else if (!EMAIL_REGEX.test(formData.newsletterEMail)) {
+      formIsValid = false;
+      newErrorsState.newsletterEMail = "Please enter valid email address!"
+    }
+
+    // if any field is invalid - then we need to update our state
+    if (!formIsValid) {
+      setFormIsValid(false);
+      setErrors(newErrorsState);
+    }
+
+    return formIsValid
+  }
+
+  const submitForm = (evt: any) => {
+    evt.preventDefault();
+    if (handleValidation()) {
+      emailjs.sendForm('service_9e2j0tf', 'template_51qbzwc', evt.target, 'Cu6hkIskYYHv1iCa_')
+        .then((result) => {
+          // window.location.reload();
+          setSuccess(true)
+          setFormData({
+            newsletterEMail: ""
+          })
+          setTimeout(() => {
+            setSuccess(false)
+          }, 6000)
+        }, (error) => {
+          console.log(error.text);
+        });
+
+    } else {
+      console.log("SOMETHING WENT WRONG !")
+    }
+  }
+
   return (
     <header className={`${styles.footer} ${styles.footerv2}`}>
       <div className="container-fluid">
@@ -16,17 +95,39 @@ export default function FooterVersionSecond() {
           <div className="col-sm-4">
             <div className={`${styles.newsletter}`}>
               <h4>Our Newsletter</h4>
-              <div className={`${styles.newsletterInput}`}>
-                <input type="text" placeholder="Business email address" />
-                <button>
-                  <Image
-                    src="/img/newsletterBtn.svg"
-                    alt="arrow right"
-                    height={38}
-                    width={38}
+              {success &&
+                <div className={`${styles.formRow}`}>
+                  <div className={`${styles.formGroupFull}`}>
+                    <div className="alert alert-success" role="alert">
+                      Message sent successfully! Someone from our team will reach out shortly.
+                    </div>
+                  </div>
+                </div>
+              }
+              <form method='post' onSubmit={submitForm} id="myForm">
+                <div className={`${styles.newsletterInput}`}>
+                  <input
+                    type="text"
+                    name="newsletterEMail"
+                    className={`form-control1 ${errors.newsletterEMail ? 'border-red' : 'border-gray1'}`}
+                    placeholder="Business email address"
+                    id="newsletterEMail"
+                    value={formData.newsletterEMail}
+                    onChange={(e) => handleInput(e)}
                   />
-                </button>
-              </div>
+                  <button>
+                    <Image
+                      src="/img/newsletterBtn.svg"
+                      alt="arrow right"
+                      height={38}
+                      width={38}
+                    />
+                  </button>
+                </div>
+                <span className='text-color-red font-sm'>
+                  {errors.newsletterEMail}
+                </span>
+              </form>
             </div>
           </div>
         </div>
@@ -57,7 +158,7 @@ export default function FooterVersionSecond() {
                 <div className={`${styles.followUs}`}>
                   <h2 className={`${styles.blockTitle}`}>Follow Us On</h2>
                   <div className={`${styles.followIcons}`}>
-                    <Link href="https://www.linkedin.com/company/shodat-inc">
+                    <Link href="https://www.linkedin.com/company/shodat/">
                       <svg
                         width="25"
                         height="25"
@@ -93,7 +194,7 @@ export default function FooterVersionSecond() {
                 </div>
               </div>
               <div className={`${styles.footerRight}`}>
-                <ul className={`${styles.copyrightMenu}`}>
+                {/* <ul className={`${styles.copyrightMenu}`}>
                   <li>
                     <Link href="">Cookie Policy</Link>
                   </li>
@@ -103,7 +204,7 @@ export default function FooterVersionSecond() {
                   <li>
                     <Link href="">Privacy Policy</Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>

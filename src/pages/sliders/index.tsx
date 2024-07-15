@@ -15,7 +15,7 @@ export default function Slider() {
                 <Carousel>
                   <Carousel.Item interval={20500}>
                     <div className={`${styles.carouselCaption}`}>
-                      <h2>Shodat X: Redefining Quality <br/>with Deeper Insights</h2>
+                      <h2>Shodat X: Redefining Quality <br />with Deeper Insights</h2>
                       <p>
                         The Shodat X Series will represent a suite of innovative
                         AI-driven solutions and a collection of ML models
@@ -61,7 +61,7 @@ export default function Slider() {
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
-                  src="/img/industries/image2.jpg"
+                  src="/img/industries/industries-img1.jpg"
                   alt="industries"
                   height={604}
                   width={666}
@@ -71,15 +71,18 @@ export default function Slider() {
                 <h4>Manufacturing</h4>
                 <div className={`${styles.line}`}></div>
                 <h2>
-                How a leading machine parts manufacturer 
+                  Achieve Efficiency and Reliability with Advanced Analytics.
                 </h2>
                 <p>
-                A subsidiary of a large automotive manufacturer specializing in commercial vehicles and diesel engines achieved Infrastructure optimization by implementation of advanced analytics enabled real-time monitoring and reduced operational overhead by 28%.
+                  A leading truck manufacturer faced challenges in identifying and resolving production issues, leading to high defect rates and frequent equipment failures. Shodat Inc. implemented an advanced data engineering solution, including real-time monitoring, AI-driven analytics, predictive maintenance, and automated compliance management.
                 </p>
                 <p>
-                  Proactive maintenance and quicker issue resolution minimized
-                  failures during and after manufacturing by 40%.
+                Implementing advanced analytics enabled real-time monitoring and reduced operational overhead by 28%.
                 </p>
+                <p>Faster problem identification and resolution improved the quality and performance of manufactured trucks, reducing defects by 35%. </p>
+                <p>Proactive maintenance & Issue resolution and Faster RCA compliance minimised failures during and after manufacturing by 40%.
+                </p>
+                
                 <Link
                   href="#scheduling"
                   className={`${styles.btnReadMore} btnBlack`}

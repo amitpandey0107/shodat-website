@@ -29,7 +29,7 @@ export default function Banner() {
               <h2 className={`${styles.banner_title}`}>
                 Innovating Insights, <span>Accelerating Growth</span>
               </h2>
-              <p>Your Data, Our Expertise. </p>
+              <p>Your Data, Our Expertise</p>
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image
@@ -57,8 +57,7 @@ export default function Banner() {
                 Where AI Meets<span>Efficiency</span>
               </h1>
               <p>
-                Empower Your Enterprise With <br />
-                Shodat eOps&apos; AI-Driven Intelligence.
+              Shodat eOps™ Advanced Asset Tracking<br /> And Quality Management Platform 
               </p>
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
@@ -109,9 +108,9 @@ export default function Banner() {
           <div className={`${styles.carouselCaption}`}>
             <div className={`${styles.carouselContent}`}>
               <h1 className={`${styles.banner_title}`}>
-                Introducing Shodat YAI
+              Introducing Shodat YAI
               </h1>
-              <p>The Future Of Enterprise Decision-Making</p>
+              <p>Intelligent Insights for Smarter Enterprises</p>
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image

@@ -141,7 +141,7 @@ export default function Features() {
                     <Card className={`${styles.sliderItem}`}>
                       <Image
                         className={`${styles.sliderImage}`}
-                        src="/img/aiInnovation.png"
+                        src="/img/ai-innovation-img1.jpg"
                         alt="Image One"
                         width={324}
                         height={353}
@@ -149,7 +149,7 @@ export default function Features() {
                       <div className={`${styles.sliderContent}`}>
                         <h4>AI Innovation</h4>
                         <p>
-                        Pioneering AI innovations, transforming data into intelligent action.
+                        Driving innovation with intelligent AI solutions
                         </p>
                       </div>
                     </Card>
@@ -176,7 +176,7 @@ export default function Features() {
                       />
                       <div className={`${styles.sliderContent}`}>
                         <h4>Security & Compliance</h4>
-                        <p>Navigate compliance with precision and speed.</p>
+                        <p>Navigate compliance with precision and speed</p>
                       </div>
                     </Card>
                   </Stack>

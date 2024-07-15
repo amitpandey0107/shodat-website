@@ -61,7 +61,8 @@
 
 .tabSection {
     background-color: black;
-    height: 560px;
+    min-height: 560px;
+    padding-bottom: 40px;
 }
 
 .tabSection .tabs {
@@ -354,5 +355,8 @@
 }
 .responsibleAI .contentRight .counterBox {
     width: 48%;
-    min-height: 198px;
+    /* min-height: 180px; */
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }

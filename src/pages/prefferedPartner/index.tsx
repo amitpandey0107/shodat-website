@@ -13,7 +13,6 @@ import ResponsibleAI from "./responsibleAI";
 export default function PrefferedPartner() {
   const [index, setIndex] = useState(1);
   const [bgClass, setBgClass] = useState("bg1");
-  console.log("INDEX", index)
   
   return (
     <>
