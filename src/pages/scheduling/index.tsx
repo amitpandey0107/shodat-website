@@ -60,7 +60,7 @@ export default function Scheduling() {
     // Validate Email Address
     if (!formData.emailaddress) {
       formIsValid = false;
-      newErrorsState.emailaddress = "Email must not be empty!"
+      newErrorsState.emailaddress = "Email address must not be empty!"
     } else if (!EMAIL_REGEX.test(formData.emailaddress)) {
       formIsValid = false;
       newErrorsState.emailaddress = "Please enter valid email address!"
@@ -76,7 +76,7 @@ export default function Scheduling() {
     // Validate company name
     if (!formData.companyName) {
       formIsValid = false;
-      newErrorsState.companyName = "Company Name must not be empty!"
+      newErrorsState.companyName = "Company name must not be empty!"
     }
 
     // Validate phone number
@@ -225,13 +225,13 @@ export default function Scheduling() {
                         <div className={`${styles.formWrap}`}>
                           <div className={`${styles.formRow}`}>
                             <div className={`${styles.formGroup}`}>
-                              <label htmlFor="yourname">Name</label>
+                              <label htmlFor="yourname">Name <em>*</em></label>
                               <input
                                 type="text"
                                 name="yourname"
                                 id="yourname"
                                 placeholder="Enter your name"
-                                className="form-control"
+                                className={`form-control ${errors.yourname ? 'border-red' : 'border-gray'}`}
                                 value={formData.yourname}
                                 onChange={(e) => handleInput(e)}
                               />
@@ -240,13 +240,13 @@ export default function Scheduling() {
                               </span>
                             </div>
                             <div className={`${styles.formGroup}`}>
-                              <label htmlFor="emailaddress">Email</label>
+                              <label htmlFor="emailaddress">Email <em>*</em></label>
                               <input
                                 type="text"
                                 name="emailaddress"
                                 id="emailaddress"
                                 placeholder="Enter email address"
-                                className="form-control"
+                                className={`form-control ${errors.emailaddress ? 'border-red' : 'border-gray'}`}
                                 value={formData.emailaddress}
                                 onChange={(e) => handleInput(e)}
                               />
@@ -257,13 +257,13 @@ export default function Scheduling() {
                           </div>
                           <div className={`${styles.formRow}`}>
                             <div className={`${styles.formGroup}`}>
-                              <label htmlFor="phoneNumber">Phone number</label>
+                              <label htmlFor="phoneNumber">Phone number <em>*</em></label>
                               <input
                                 type="text"
                                 name="phoneNumber"
                                 id="phoneNumber"
                                 placeholder="Enter phone number"
-                                className="form-control"
+                                className={`form-control ${errors.phoneNumber ? 'border-red' : 'border-gray'}`}
                                 value={formData.phoneNumber}
                                 onChange={(e) => handleInput(e)}
                               />
@@ -272,13 +272,13 @@ export default function Scheduling() {
                               </span>
                             </div>
                             <div className={`${styles.formGroup}`}>
-                              <label htmlFor="companyName">Company name</label>
+                              <label htmlFor="companyName">Company name <em>*</em></label>
                               <input
                                 type="text"
                                 name="companyName"
                                 id="companyName"
                                 placeholder="Enter company name"
-                                className="form-control"
+                                className={`form-control ${errors.companyName ? 'border-red' : 'border-gray'}`}
                                 value={formData.companyName}
                                 onChange={(e) => handleInput(e)}
                               />
@@ -289,11 +289,11 @@ export default function Scheduling() {
                           </div>
                           <div className={`${styles.formRow}`}>
                             <div className={`${styles.formGroupFull}`}>
-                              <label htmlFor="message">Message</label>
+                              <label htmlFor="message">Message <em>*</em></label>
                               <textarea
                                 name="message"
                                 id="message"
-                                className="form-control"
+                                className={`form-control ${errors.message ? 'border-red' : 'border-gray'}`}
                                 placeholder="Enter your message"
                                 value={formData.message}
                                 onChange={(e) => handleInput(e)}

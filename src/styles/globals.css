@@ -286,3 +286,10 @@ body {
 .font-sm {
     font-size: 14px;
 }
+.border-red {
+    border-color: red !important;
+    background: rgba(255, 99, 71, 0.2) !important;
+}
+.border-gray {
+    border-color: #CCCCCC;
+}
