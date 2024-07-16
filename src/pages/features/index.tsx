@@ -8,23 +8,23 @@ import { Card, Stack, Button } from "react-bootstrap";
 export default function Features() {
   const responsive = {
     superLargeDesktop: {
-        // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
-        items: 5
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5
     },
     desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 6
+      breakpoint: { max: 3000, min: 1024 },
+      items: 6
     },
     tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 2
+      breakpoint: { max: 1024, min: 464 },
+      items: 2
     },
     mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1
+      breakpoint: { max: 464, min: 0 },
+      items: 1
     }
-};
+  };
 
 
   return (
@@ -155,7 +155,7 @@ export default function Features() {
                       <div className={`${styles.sliderContent}`}>
                         <h4>Data Engineering</h4>
                         <p>
-                        Empowering insights through robust data engineering
+                          Empowering insights through robust data engineering
                         </p>
                       </div>
                     </Card>
@@ -170,7 +170,7 @@ export default function Features() {
                       <div className={`${styles.sliderContent}`}>
                         <h4>AI Innovation</h4>
                         <p>
-                        Driving innovation with intelligent AI solutions
+                          AI solutions for a brighter, smarter future
                         </p>
                       </div>
                     </Card>

@@ -10,7 +10,7 @@ export default function Banner() {
     <div className={`banner ${styles.carouselContainer}`}>
       <Image
             className={`${styles.ellipseImage}`}
-            src="/img/banner/ellipse.png"
+            src="/img/banner/ellipse.png" 
             alt="ellipse"
             width={557}
             height={557}
@@ -82,8 +82,8 @@ export default function Banner() {
           />
           <div className={`${styles.carouselCaption}`}>
             <div className={`${styles.carouselContent}`}>
-              <h1 className={`${styles.banner_title}`}>Introducing Shodat X</h1>
-              <p>Unlocking AI-Powered Insights</p>
+              <h1 className={`${styles.banner_title}`}>Shodat X</h1>
+              <p>Empowering Quality with Defect Intelligence</p>
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image
@@ -108,9 +108,9 @@ export default function Banner() {
           <div className={`${styles.carouselCaption}`}>
             <div className={`${styles.carouselContent}`}>
               <h1 className={`${styles.banner_title}`}>
-              Introducing Shodat YAI
+              Shodat YAI
               </h1>
-              <p>Intelligent Insights for Smarter Enterprises</p>
+              <p>Unveiling the “Why” behind  real-world events with Gen and Causal AI</p>
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image

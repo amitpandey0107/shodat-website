@@ -13,7 +13,7 @@ export default function Slider() {
             <div className="col-sm-6 col-md-6 col-lg-6">
               <div className={`${styles.shodatX}`}>
                 <Carousel>
-                  <Carousel.Item interval={20500}>
+                  <Carousel.Item interval={6000}>
                     <div className={`${styles.carouselCaption}`}>
                       <h2>Shodat X: Redefining Quality <br />with Deeper Insights</h2>
                       <p>
@@ -30,7 +30,7 @@ export default function Slider() {
                       </p>
                     </div>
                   </Carousel.Item>
-                  <Carousel.Item interval={20500}>
+                  <Carousel.Item interval={6000}>
                     <div className={`${styles.carouselCaption}`}>
                       <h2>
                         Shodat YAI: The Intelligence Behind Real-World Events
@@ -54,6 +54,9 @@ export default function Slider() {
           </div>
         </div>
       </div>
+
+
+      
 
       <div className={`${styles.sliderIndustries}`} id="sliderIndustries">
         <Carousel indicators={false}>
@@ -144,7 +147,7 @@ export default function Slider() {
               </div>
             </div>
           </Carousel.Item>
-          <Carousel.Item interval={20500}>
+          <Carousel.Item interval={10000}>
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
@@ -155,9 +158,9 @@ export default function Slider() {
                 />
               </div>
               <div className={`${styles.indText}`}>
-                <h4>Oil & Gas</h4>
+                <h4>Energy</h4>
                 <div className={`${styles.line}`}></div>
-                <h2>Mitigating risks, maximizing returns in oil & gas</h2>
+                <h2>Mitigating risks, maximizing returns in Energy</h2>
                 <p>
                   A prominent player in the Oil and Gas trading industry reduced
                   the time spent on complex volumetric calculations by 50%,
@@ -187,7 +190,7 @@ export default function Slider() {
               </div>
             </div>
           </Carousel.Item>
-          <Carousel.Item interval={20500}>
+          <Carousel.Item interval={10000}>
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
