@@ -27,7 +27,7 @@
 .newsletter .newsletterInput input {
     width: 100%;
     height: 46px;
-    /* border-radius: 20px; */
+    border: 1px solid transparent;
     padding: 0 45px 0 10px;
 }
 .newsletter .newsletterInput button {

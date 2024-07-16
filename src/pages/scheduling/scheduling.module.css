@@ -104,6 +104,7 @@
 .formWrap .formGroup input[type="text"] {
     border: 1px solid #CCCCCC;
     border-radius: 0;
+    height: 45px;
 }
 
 .formWrap textarea {

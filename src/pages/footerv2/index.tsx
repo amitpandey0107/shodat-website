@@ -109,7 +109,7 @@ export default function FooterVersionSecond() {
                   <input
                     type="text"
                     name="newsletterEMail"
-                    className={`form-control1 ${errors.newsletterEMail ? 'border-red' : 'border-gray1'}`}
+                    className={`form-control1 ${errors.newsletterEMail ? 'border-red-v2' : 'border-gray1'}`}
                     placeholder="Business email address"
                     id="newsletterEMail"
                     value={formData.newsletterEMail}

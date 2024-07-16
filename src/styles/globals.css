@@ -290,6 +290,10 @@ body {
     border-color: red !important;
     background: rgba(255, 99, 71, 0.2) !important;
 }
+.border-red-v2 {
+    border-color: red !important;
+    background: rgba(255, 99, 71, 0.6) !important;
+}
 .border-gray {
     border-color: #CCCCCC;
 }

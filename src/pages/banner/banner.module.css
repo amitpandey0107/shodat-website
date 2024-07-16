@@ -62,7 +62,7 @@
 }
 .mouseIcon {
     position: absolute;
-    left: 48%;
+    left: 49%;
     bottom: 58px;
     transform: translate(-50%, -50%);
     z-index: 9;
