@@ -150,7 +150,7 @@ body {
     right: 20%;
     opacity: 1;
     z-index: 99;
-    background: rgba(104,50,111, 0.7);
+    background: rgba(104, 50, 111, 0.7);
     width: 80px;
     height: 80px;
     padding: 20px 20px;
@@ -163,7 +163,7 @@ body {
     left: 25%;
     opacity: 1;
     z-index: 99;
-    background: rgba(104,50,111, 0.7);
+    background: rgba(104, 50, 111, 0.7);
     /* height: 40px;
     width: 40px; */
     padding: 20px 20px;
@@ -283,17 +283,21 @@ body {
 .text-color-red {
     color: red;
 }
+
 .font-sm {
     font-size: 14px;
 }
+
 .border-red {
     border-color: red !important;
     background: rgba(255, 99, 71, 0.2) !important;
 }
+
 .border-red-v2 {
     border-color: red !important;
     background: rgba(255, 99, 71, 0.6) !important;
 }
+
 .border-gray {
     border-color: #CCCCCC;
 }
@@ -302,11 +306,53 @@ body {
     #shodatX .carousel-control-prev {
         left: 15px;
     }
+
     #shodatX .carousel-control-next {
         right: 15px;
     }
 
     .hstack {
         display: block;
+    }
+
+    #sliderIndustries .carousel-control-next {
+        position: absolute;
+        top: auto;
+        bottom: 20px;
+        right: 20px;
+        opacity: 1;
+        z-index: 99;
+        background: rgba(104, 50, 111, 0.7);
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+    }
+
+    #sliderIndustries .carousel-control-prev {
+        position: absolute;
+        top: auto;
+        bottom: 20px;
+        right: 75px;
+        left: auto;
+        opacity: 1;
+        z-index: 99;
+        background: rgba(104, 50, 111, 0.7);
+        padding: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    #sliderIndustries .carousel-control-next-icon {
+        background-image: url("/img/angle_left.svg") !important;
+        height: 30px;
+        width: 30px;
+        transform: rotate(180deg);
+    }
+
+    #sliderIndustries .carousel-control-prev-icon {
+        background-image: url("/img/angle_left.svg") !important;
+        height: 30px;
+        width: 30px;
+
     }
 }

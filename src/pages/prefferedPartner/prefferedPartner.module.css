@@ -403,7 +403,8 @@
         padding: 35px 15px;
     }
     .responsibleAI .contentRight {
-        width: 100%;
+        width: 96%;
+        padding: 15px;
     }
     .responsibleAI .contentLeft {
         width: 100%;

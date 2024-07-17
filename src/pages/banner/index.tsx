@@ -83,7 +83,7 @@ export default function Banner() {
           <div className={`${styles.carouselCaption}`}>
             <div className={`${styles.carouselContent}`}>
               <h1 className={`${styles.banner_title}`}>Shodat X</h1>
-              <p>Empowering Quality with Defect Intelligence</p>
+              <p>Enhancing Quality and Compliance with Defect Intelligence</p>
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image
@@ -110,7 +110,7 @@ export default function Banner() {
               <h1 className={`${styles.banner_title}`}>
               Shodat YAI
               </h1>
-              <p>Unveiling the “Why” behind  real-world events with Gen and Causal AI</p>
+              <p>Unveiling the “Why” behind real-world events with GenAI and Causal AI</p>
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image

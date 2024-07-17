@@ -151,7 +151,7 @@ export default function Slider() {
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
-                  src="/img/industries/image3.jpg"
+                  src="/img/industries/oil-gas-rig-industries.jpg"
                   alt="industries"
                   height={604}
                   width={666}
@@ -162,7 +162,7 @@ export default function Slider() {
                 <div className={`${styles.line}`}></div>
                 <h2>Mitigating risks, maximizing returns in Energy</h2>
                 <p>
-                  A prominent player in the Oil and Gas trading industry reduced
+                  A prominent player in the Energy industry reduced
                   the time spent on complex volumetric calculations by 50%,
                   improved operational efficiency, enhanced decision-making, and
                   provided deeper insights into exposures and risk management,
