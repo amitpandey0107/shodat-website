@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import styles from "./slider.module.css";
+import styles from "./industries.module.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
 
-export default function Slider() {
+export default function Industries() {
   return (
     <>
       <div className={`${styles.slider}`} id="shodatX">
@@ -160,7 +160,7 @@ export default function Slider() {
               <div className={`${styles.indText}`}>
                 <h4>Energy</h4>
                 <div className={`${styles.line}`}></div>
-                <h2>Mitigating risks, maximizing returns in Energy</h2>
+                <h2>Mitigating risks, maximizing returns in Energy Sector</h2>
                 <p>
                   A prominent player in the Energy industry reduced
                   the time spent on complex volumetric calculations by 50%,

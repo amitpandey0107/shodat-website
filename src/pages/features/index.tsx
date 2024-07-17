@@ -170,7 +170,7 @@ export default function Features() {
                       <div className={`${styles.sliderContent}`}>
                         <h4>AI Innovation</h4>
                         <p>
-                          AI solutions for a brighter, smarter future
+                        Pioneering AI innovations ,Transforming data into intelligent action
                         </p>
                       </div>
                     </Card>
@@ -183,8 +183,8 @@ export default function Features() {
                         height={353}
                       />
                       <div className={`${styles.sliderContent}`}>
-                        <h4>Advanced Analytics & BI</h4>
-                        <p>Transform data into actionable intelligence</p>
+                        <h4>Advanced Analytics +BI</h4>
+                        <p>Harness Data for Actionable Intelligence</p>
                       </div>
                     </Card>
                     <Card className={`${styles.sliderItem}`}>

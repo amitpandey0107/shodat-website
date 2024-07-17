@@ -4,7 +4,7 @@ import Header from "./header";
 import Banner from "./banner";
 import Features from "./features";
 import TransformingOperations from "./transformingOperations";
-import Slider from "./sliders";
+import Industries from "./industries";
 import PrefferedPartner from "./prefferedPartner";
 import Scheduling from "./scheduling";
 import Footer from "./footer";
@@ -28,7 +28,7 @@ export default function Home() {
       <TransformingOperations />
 
       {/* Shodat X */}
-      <Slider />
+      <Industries />
 
       {/* preffered Partner */}
       <PrefferedPartner />
