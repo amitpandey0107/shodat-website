@@ -184,7 +184,7 @@ export default function Scheduling() {
 
               <div className={`${styles.contactForm}`}>
                 <div className="row">
-                  <div className="col-sm-6 col-md-6 col-lg-6">
+                  <div className="col-sm-12 col-md-12 col-lg-6">
                     <div className={`${styles.schedulingInfo}`}>
                       <h2>
                         Unlock the untapped potential of your business with the
@@ -209,7 +209,7 @@ export default function Scheduling() {
                       </Link>
                     </div>
                   </div>
-                  <div className="col-sm-6 col-md-6 col-lg-6">
+                  <div className="col-sm-12 col-md-12 col-lg-6">
                     <div className={`${styles.schedulingForm}`}>
                       <h2>Scheduling a meeting</h2>
                       {success &&

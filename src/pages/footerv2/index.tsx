@@ -86,13 +86,13 @@ export default function FooterVersionSecond() {
     <header className={`${styles.footer} ${styles.footerv2}`}>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-8">
+          <div className="col-sm-12 col-md-12 col-lg-8">
             <h2 className={`${styles.footertitle}`}>
               How can Shodat AI help scale your business? <br />
               Let&apos;s talk and discover the answers together.
             </h2>
           </div>
-          <div className="col-sm-4">
+          <div className="col-sm-12 col-md-12 col-lg-4">
             <div className={`${styles.newsletter}`}>
               <h4>Our Newsletter</h4>
               {success &&

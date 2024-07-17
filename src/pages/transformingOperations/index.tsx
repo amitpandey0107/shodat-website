@@ -13,7 +13,7 @@ export default function TransformingOperations() {
     >
       <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-6 col-md-6 col-lg-6">
+          <div className="col-sm-12 col-md-12 col-lg-6">
             <div className={`${styles.opsImage}`}>
               <Image
                 src="/img/homepage-img1.png"
@@ -23,7 +23,7 @@ export default function TransformingOperations() {
               />
             </div>
           </div>
-          <div className="col-sm-6 col-md-6 col-lg-6">
+          <div className="col-sm-12 col-md-12 col-lg-6">
             <div className={`${styles.opsContent}`}>
               <h2>
               Transforming Operations <span>with Data-Driven Intelligence</span>

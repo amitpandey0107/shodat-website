@@ -289,13 +289,13 @@ body {
 }
 
 .border-red {
-    border-color: red !important;
-    background: rgba(255, 99, 71, 0.2) !important;
+    /* border-color: red !important; */
+    /* background: rgba(255, 99, 71, 0.2) !important; */
 }
 
 .border-red-v2 {
-    border-color: red !important;
-    background: rgba(255, 99, 71, 0.6) !important;
+    /* border-color: red !important; */
+    /* background: rgba(255, 99, 71, 0.6) !important; */
 }
 
 .border-gray {
@@ -355,4 +355,16 @@ body {
         width: 30px;
 
     }
+}
+
+@media screen and (max-width: 991px) {
+    .hstack {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* .container-fluid {
+        padding-left: initial;
+        padding-right: initial;
+    } */
 }

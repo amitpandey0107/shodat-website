@@ -164,6 +164,42 @@
     color: rgba(255, 99, 71, 0.9);
 }
 
+
+@media screen and (max-width: 991px) {
+    .whiteBox {
+        margin-top: 60px;
+    }
+
+    .growingTeam {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .growingTeam .clients ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .schedulingInfo {
+        height: auto;
+        padding: 30px 20px;
+    }
+    .formWrap .formGroup {
+        width: 100%;
+    }
+    .schedulingForm {
+        height: auto;
+    }
+    .formWrap .formGroup input[type="text"] {
+        height: 45px;
+    }
+}
+
+
 @media screen and (max-width: 768px) {
     .whiteBox {
         margin-top: 60px;

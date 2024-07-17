@@ -82,8 +82,23 @@
     transform: translate(-50%, -50%);
 }
 
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 991px) {
+    .banner_title span{
+        display: none;
+    }
+    .ellipseImage {
+        z-index: 0;
+    }
+    .carouselContainerg .carouselCaption {
+        right: auto;
+        top: 40%;
+        left: 53%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
     .banner_title span{
         display: none;
     }

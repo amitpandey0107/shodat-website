@@ -31,7 +31,7 @@ export default function Features() {
     <section className={`${styles.features}`} id="features">
       <div className={`container-fluid ${styles.featTobContainer}`}>
         <div className="row">
-          <div className="col-sm-4 col-md-4 col-lg-4">
+          <div className="col-sm-12 col-md-12 col-lg-4">
             <div className={`${styles.infoBox}`}>
               <p>
                 We at Shodat Inc. specialize in delivering advanced AI-driven
@@ -43,7 +43,7 @@ export default function Features() {
               </p>
             </div>
           </div>
-          <div className="col-sm-8 col-md-8 col-lg-8">
+          <div className="col-sm-12 col-md-12 col-lg-8">
             <div className={`${styles.featuresBox}`}>
               <div className={`${styles.featuresInfo}`}>
                 <div className={`${styles.logo}`}>

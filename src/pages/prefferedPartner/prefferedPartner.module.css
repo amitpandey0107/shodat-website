@@ -307,7 +307,116 @@
     background-position: top;
 }
 
+@media screen and (max-width: 1200px) {
+    .tabsContent .contentRight .couonterRow {
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 
+    .responsibleAI .contentRight .counterBox {
+        width: 100% !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .tabsContent {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .tabSection {
+        height: auto;
+    }
+
+    .tabsContent .contentLeft {
+        width: 100%;
+        min-height: 470px;
+        height: auto;
+        padding: 15px;
+    }
+
+    .tabsContent .contentRight {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .tabsContent .contentRight .counterBox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 10px;
+    }
+    .experienceFuture {
+        height: auto;
+        padding: 35px 0;
+    }
+    .experienceFuture .experienceContent p{
+        padding: 0 15px;
+    }
+
+    .prefferedPartner .titleSection {
+        height: auto;
+    }
+    .tabSection .tabs {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 0px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .btnTab {
+        width: 50%;
+    }
+    .tabsContent .contentRight {
+        height: auto;
+    }
+    .tabsContent .contentRight .couonterRow {
+        justify-content: flex-start;
+        align-items: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .tabsContent .contentLeft {
+        min-height: auto;
+    }
+    .tabsContent .contentRight {
+        min-height: auto;
+    }
+    .contentFull {
+        padding: 35px 15px;
+    }
+    .responsibleAI .contentRight {
+        width: 96%;
+        padding: 15px;
+    }
+    .responsibleAI .contentLeft {
+        width: 100%;
+    }
+    .contentBlock {
+        margin-bottom: 40px;
+    }
+    .responsibleAI .contentRight .counterBox{
+        width: 100%;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
 
 @media screen and (max-width: 768px) {
     .tabsContent {
@@ -330,7 +439,7 @@
     }
 
     .tabsContent .contentRight {
-        width: 100%;
+        width: 96%;
         padding: 0px;
     }
 
@@ -404,7 +513,7 @@
     }
     .responsibleAI .contentRight {
         width: 96%;
-        padding: 15px;
+        padding: 0px;
     }
     .responsibleAI .contentLeft {
         width: 100%;

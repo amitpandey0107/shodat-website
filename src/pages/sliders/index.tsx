@@ -10,7 +10,7 @@ export default function Slider() {
       <div className={`${styles.slider}`} id="shodatX">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-sm-6 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-12 col-lg-6">
               <div className={`${styles.shodatX}`}>
                 <Carousel>
                   <Carousel.Item interval={6000}>
