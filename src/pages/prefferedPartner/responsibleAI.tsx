@@ -10,22 +10,13 @@ export default function ResponsibleAI() {
     <div
       className={`${styles.tabsContent} ${styles.responsibleAI} ${styles.responsibleAIBG}`}
     >
-      <div className={`${styles.contentFull}`}>
-        {/* <h3>
-          AI should empower, not complicate. We prioritize user-friendly
-          interfaces and seamless integration, ensuring that our solutions are
-          not only powerful but also easy to adopt and use across your
-          organization.
-        </h3> */}
-        <h3>At Shodat Inc., we leverage advanced AI-driven security and compliance solutions to ensure the utmost protection of your data and adherence to regulatory standards. Our cutting-edge AI algorithm provide 99.9% threat detection accuracy, enabling real-time monitoring and response to potential threats.</h3>
-      </div>
       <div className={`${styles.contentLeft}`}>
-        {/* <div className={`${styles.contentBlock}`}>
-          <h3>Data Security and Privacy</h3>
+        <div className={`${styles.contentBlock}`}>
+          {/* <h3>Data Security and Privacy</h3> */}
           <p>
             At Shodat Inc., we leverage advanced AI-driven security and compliance solutions to ensure the utmost protection of your data and adherence to regulatory standards. Our cutting-edge AI algorithm provide 99.9% threat detection accuracy, enabling real-time monitoring and response to potential threats.
           </p>
-        </div> */}
+        </div>
       </div>
       <div className={`${styles.contentRight}`}>
         <div className={`${styles.contentBlock}`}>
@@ -42,29 +33,6 @@ export default function ResponsibleAI() {
               </h6>
               <div className={`${styles.count}`}>50%</div>
             </div>
-            {/* <div className={`${styles.counterBox}`}>
-              <h6>
-                Compliance with Industry Standards
-              </h6>
-              <div className={`${styles.count}`}>100%</div>
-            </div> */}
-          </div>
-
-
-          <div className={`${styles.couonterRow}`}>
-            {/* <div className={`${styles.counterBox}`}>
-              <h6>
-                Faster Incident Response
-
-              </h6>
-              <div className={`${styles.count}`}>75%</div>
-            </div> */}
-            {/* <div className={`${styles.counterBox}`}>
-              <h6>
-                Cost Savings in Compliance Management
-              </h6>
-              <div className={`${styles.count}`}>50%</div>
-            </div> */}
           </div>
 
         </div>

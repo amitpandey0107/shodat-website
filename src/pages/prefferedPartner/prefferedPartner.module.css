@@ -100,7 +100,7 @@
 
 .tabsContent .contentLeft {
     width: 60%;
-    min-height: 470px;
+    min-height: 300px;
     height: 558px;
     padding: 60px 30px 40px 30px;
     background-position: top;
@@ -136,7 +136,7 @@
 
 .tabsContent .contentRight {
     width: 40%;
-    min-height: 470px;
+    min-height: 300px;
     height: 558px;
     padding: 40px 50px;
 }

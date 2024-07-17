@@ -60,6 +60,7 @@ export default function Industries() {
 
       <div className={`${styles.sliderIndustries}`} id="sliderIndustries">
         <Carousel indicators={false}>
+
           <Carousel.Item interval={20500}>
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
@@ -74,7 +75,7 @@ export default function Industries() {
                 <h4>Manufacturing</h4>
                 <div className={`${styles.line}`}></div>
                 <h2>
-                  Achieve Efficiency and Reliability with Advanced Analytics.
+                  Achieve efficiency and reliability with advanced analytics.
                 </h2>
                 <p>
                   A leading truck manufacturer faced challenges in identifying and resolving production issues, leading to high defect rates and frequent equipment failures. Shodat Inc. implemented an advanced data engineering solution, including real-time monitoring, AI-driven analytics, predictive maintenance, and automated compliance management.
@@ -101,6 +102,7 @@ export default function Industries() {
               </div>
             </div>
           </Carousel.Item>
+
           <Carousel.Item interval={20500}>
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
@@ -147,6 +149,7 @@ export default function Industries() {
               </div>
             </div>
           </Carousel.Item>
+
           <Carousel.Item interval={10000}>
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
@@ -160,9 +163,9 @@ export default function Industries() {
               <div className={`${styles.indText}`}>
                 <h4>Energy</h4>
                 <div className={`${styles.line}`}></div>
-                <h2>Mitigating risks, maximizing returns in Energy Sector</h2>
+                <h2>Mitigating risks, maximizing returns in energy sector</h2>
                 <p>
-                  A prominent player in the Energy industry reduced
+                  A prominent player in the energy sector reduced
                   the time spent on complex volumetric calculations by 50%,
                   improved operational efficiency, enhanced decision-making, and
                   provided deeper insights into exposures and risk management,
@@ -190,6 +193,7 @@ export default function Industries() {
               </div>
             </div>
           </Carousel.Item>
+
           <Carousel.Item interval={10000}>
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
@@ -238,54 +242,7 @@ export default function Industries() {
               </div>
             </div>
           </Carousel.Item>
-          {/* <Carousel.Item interval={20500}>
-            <div className={`${styles.indContent}`}>
-              <div className={`${styles.indImage}`}>
-                <Image
-                  src="/img/industries/slider-4-automotive-manufc_industries.jpg"
-                  alt="industries"
-                  height={604}
-                  width={666}
-                />
-              </div>
-              <div className={`${styles.indText}`}>
-                <h4>Logistics</h4>
-                <div className={`${styles.line}`}></div>
-                <h2>
-                  Navigate the Future of Logistics with Precision and
-                  Profitability.
-                </h2>
-                <p>
-                  A leading logistics player, operating across multiple
-                  countries and managing vast volumes of tonnage, achieved
-                  real-time activity tracking, leading to a 15% increase in
-                  overall profitability.
-                </p>
-                <p>
-                  Enhanced operational visibility improved resource allocation,
-                  resulting in 25% increase in on-time deliveries and 20%
-                  reduction in fuel costs due to optimized routing.
-                </p>
-                <p>
-                  Proactively forecasting operational metrics with close to 98%
-                  accuracy allowed the company to mitigate delivery risks and
-                  minimize disruptions effectively.
-                </p>
-                <Link
-                  href="#scheduling"
-                  className={`${styles.btnReadMore} btnBlack`}
-                >
-                  <span>Read More</span>
-                  <Image
-                    src="/img/arrowRight.svg"
-                    alt="arrow right"
-                    height={20}
-                    width={20}
-                  />
-                </Link>
-              </div>
-            </div>
-          </Carousel.Item> */}
+          
         </Carousel>
       </div>
     </>
