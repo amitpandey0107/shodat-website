@@ -121,7 +121,7 @@ body {
 #shodatX .carousel-control-next {
     position: absolute;
     top: auto;
-    bottom: -105px;
+    bottom: -64px;
     right: 160px;
     opacity: 1;
     z-index: 9;
@@ -130,7 +130,7 @@ body {
 #shodatX .carousel-control-prev {
     position: absolute;
     top: auto;
-    bottom: -105px;
+    bottom: -64px;
     left: 160px;
     opacity: 1;
     z-index: 9;
@@ -138,7 +138,7 @@ body {
 
 #shodatX .carousel-indicators {
     position: absolute;
-    bottom: -106px;
+    bottom: -64px;
     top: auto;
     margin: 0;
 }
@@ -408,8 +408,8 @@ body {
 
 @media screen and (max-width: 769px) {
     .prefferedPartnerSection .container-fluid {
-        padding-left: initial;
-        padding-right: initial;
+        padding-left: 15px;
+        padding-right: 15px;
     }
     #scheduling .container-fluid {
         padding-left: 15px;
