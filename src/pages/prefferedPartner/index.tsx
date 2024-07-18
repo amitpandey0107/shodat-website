@@ -16,7 +16,7 @@ export default function PrefferedPartner() {
   
   return (
     <>
-      <div className={`${styles.experienceFuture}`}>
+      <div className={`${styles.experienceFuture} experienceFutureSection`}>
         <div className="container-fluid">
           <div className="row">
             <div className="col-sm-12 col-md-12 col-lg-12 text-center">
@@ -34,7 +34,7 @@ export default function PrefferedPartner() {
         </div>
       </div>
 
-      <div className={`${styles.prefferedPartner}`}>
+      <div className={`${styles.prefferedPartner} prefferedPartnerSection`}>
         <div className={`${styles.titleSection}`}>
           <h2>What makes Shodat, your preferred partner of choice</h2>
         </div>

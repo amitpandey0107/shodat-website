@@ -2,45 +2,72 @@
     background-color: white;
     padding: 50px 0;
     position: relative;
-} 
+}
+
 .opsImage {
     text-align: center;
 }
-.opsImage img{
+
+.opsImage img {
     display: inline-block;
 }
-.opsContent h2{
+
+.opsContent h2 {
     font-size: 33px;
     color: #68326F;
     font-weight: bold;
 }
+
 .opsContent h2 span {
     display: block;
 }
-.opsContent .line{
+
+.opsContent .line {
     height: 1px;
     width: 250px;
-    background-color: rgba(0,0,0,1);
+    background-color: rgba(0, 0, 0, 1);
     margin-top: 10px;
     margin-bottom: 20px;
-    
+
 }
-.opsContent p{
+
+.opsContent p {
     font-size: 16px;
     color: #606060;
     font-weight: 400;
     margin-bottom: 34px;
     line-height: 30px;
 }
+
 .btnGetStart {
     margin-top: 15px;
 }
 
 @media screen and (max-width: 991px) {
-    .opsContent h2 span {display: inline;}
+    .opsContent h2 span {
+        display: inline;
+    }
+
+    .opsContent p {
+        font-size: 18px;
+    }
+
+    .transformingOperations {
+        padding: 50px 0 0 0;
+    }
 }
 
 
 @media screen and (max-width: 768px) {
-    .opsContent h2 span {display: inline;}
+    .opsContent h2 span {
+        display: inline;
+    }
+
+    .opsContent p {
+        font-size: 18px;
+    }
+
+    .transformingOperations {
+        padding: 50px 0 0 0;
+    }
 }

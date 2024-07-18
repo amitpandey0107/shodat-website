@@ -102,7 +102,7 @@
         width: 100%;
         padding: 15px;
         position: relative;
-        min-height: 850px;
+        min-height: 550px;
     }
     .slider {
         height: auto;
@@ -126,6 +126,13 @@
     .sliderIndustries {
         height: auto;
     }
+
+    .carouselCaption p {
+        font-size: 18px;
+    }
+    .sliderIndustries .indText p {
+        padding-right: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -135,7 +142,7 @@
         width: 100%;
         padding: 15px;
         position: relative;
-        min-height: 850px;
+        min-height: 550px;
     }
     .slider {
         height: auto;

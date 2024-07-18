@@ -16,7 +16,7 @@ export default function Banner() {
             height={557}
           />
       <Carousel controls={false} fade>
-        <Carousel.Item interval={3000}>
+        <Carousel.Item interval={300000}>
           <Image
             className={`${styles.sliderImage}`}
             src="/img/banner/slider1.jpg"
@@ -43,7 +43,7 @@ export default function Banner() {
           </div>
         </Carousel.Item>
 
-        <Carousel.Item interval={3000}>
+        <Carousel.Item interval={300000}>
           <Image
             className={`${styles.sliderImage}`}
             src="/img/banner/slider2.jpg"
@@ -72,7 +72,7 @@ export default function Banner() {
           </div>
         </Carousel.Item>
 
-        <Carousel.Item interval={3000}>
+        <Carousel.Item interval={300000}>
           <Image
             className={`${styles.sliderImage}`}
             src="/img/banner/slider3.jpg"
@@ -97,7 +97,7 @@ export default function Banner() {
           </div>
         </Carousel.Item>
 
-        <Carousel.Item interval={3000}>
+        <Carousel.Item interval={300000}>
           <Image
             className={`${styles.sliderImage}`}
             src="/img/banner/slider4.jpg"

@@ -15,6 +15,14 @@ export default function FooterVersionSecond() {
   const [formIsValid, setFormIsValid] = useState(true);
   const [hiddenField, setHiddenField] = useState({} as any);
   const [success, setSuccess] = useState(false);
+  const [currentYear, setCurrentYear] = useState('' as any);
+  useEffect(()=>{
+    let newDate = new Date()
+    let date = newDate.getDate();
+    let month = newDate.getMonth() + 1;
+    let year = newDate.getFullYear();
+    setCurrentYear(year)
+  }, [])
   const handleInput = (evt: any) => {
     evt.preventDefault()
     let targetName = evt.target.name;
@@ -33,8 +41,6 @@ export default function FooterVersionSecond() {
     console.log("formData", formData)
     setHiddenField(formData)
   };
-
-  const form = useRef();
 
   const handleValidation = () => {
     const EMAIL_REGEX = new RegExp(/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i);
@@ -65,7 +71,6 @@ export default function FooterVersionSecond() {
     if (handleValidation()) {
       emailjs.sendForm('service_9e2j0tf', 'template_51qbzwc', evt.target, 'Cu6hkIskYYHv1iCa_')
         .then((result) => {
-          // window.location.reload();
           setSuccess(true)
           setFormData({
             newsletterEMail: ""
@@ -86,13 +91,13 @@ export default function FooterVersionSecond() {
     <header className={`${styles.footer} ${styles.footerv2}`}>
       <div className="container-fluid">
         <div className="row">
-          <div className="col-sm-12 col-md-12 col-lg-8">
+          <div className="col-sm-12 col-md-12 col-lg-12">
             <h2 className={`${styles.footertitle}`}>
-              How can Shodat AI help scale your business? <br />
+              How can Shodat AI help scale your business?
               Let&apos;s talk and discover the answers together.
             </h2>
           </div>
-          <div className="col-sm-12 col-md-12 col-lg-4">
+          <div className="col-sm-12 col-md-12 col-lg-12">
             <div className={`${styles.newsletter}`}>
               <h4>Our Newsletter</h4>
               {success &&
@@ -215,7 +220,7 @@ export default function FooterVersionSecond() {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 text-center">
-              <p>&copy; 2024 Shodat Inc. All rights reserved</p>
+              <p>&copy; {currentYear} Shodat Inc. All rights reserved</p>
             </div>
           </div>
         </div>

@@ -6,6 +6,7 @@ import Link from "next/link";
 import styles from "./scheduling.module.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Carousel from "react-bootstrap/Carousel";
+import { Card, Stack, Button } from "react-bootstrap";
 
 export default function Scheduling() {
   const [formData, setFormData] = useState({
@@ -114,7 +115,7 @@ export default function Scheduling() {
             companyName: "",
             message: ""
           })
-          setTimeout(()=>{
+          setTimeout(() => {
             setSuccess(false)
           }, 6000)
         }, (error) => {
@@ -136,7 +137,7 @@ export default function Scheduling() {
                   <h3>Our Clients</h3>
                   <div className={`${styles.line}`}></div>
                 </div>
-                <div className={`${styles.clients}`}>
+                <div className={`${styles.clients} ${styles.clientsDesktop}`}>
                   <ul>
                     <li>
                       <Image
@@ -180,6 +181,80 @@ export default function Scheduling() {
                     </li>
                   </ul>
                 </div>
+
+                <div className={`${styles.clients} ${styles.clientsMobile}`} id="clientsMobile">
+                  <Carousel controls={true} indicators={false}>
+                    <Carousel.Item interval={6000}>
+                      <Stack
+                        direction="horizontal"
+                        className="h-100 justify-content-center align-items-center"
+                        gap={3}
+                      >
+                        <Card className={`${styles.clientItem}`}>
+                          <Image
+                            src="/img/L&T.png"
+                            alt="clients"
+                            height={120}
+                            width={280}
+                          />
+                        </Card>
+                        <Card className={`${styles.clientItem}`}>
+                          <Image
+                            src="/img/infoChips.png"
+                            alt="infoChips"
+                            height={100}
+                            width={140}
+                          />
+                        </Card>
+                      </Stack>
+                    </Carousel.Item>
+
+                    <Carousel.Item interval={6000}>
+                      <Stack
+                        direction="horizontal"
+                        className="h-100 justify-content-center align-items-center"
+                        gap={3}
+                      >
+                        <Card className={`${styles.clientItem}`}>
+                          <Image
+                            src="/img/brillio.png"
+                            alt="brillio"
+                            height={100}
+                            width={100}
+                          />
+                        </Card>
+                        <Card className={`${styles.clientItem}`}>
+                          <Image
+                            src="/img/pwc.png"
+                            alt="pwc"
+                            height={100}
+                            width={100}
+                          />
+                        </Card>
+                      </Stack>
+                    </Carousel.Item>
+
+
+                    <Carousel.Item interval={6000}>
+                      <Stack
+                        direction="horizontal"
+                        className="h-100 justify-content-center align-items-center"
+                        gap={3}
+                      >
+                        <Card className={`${styles.clientItem}`}>
+                          <Image
+                            src="/img/sganalyst.png"
+                            alt="sganalyst"
+                            height={200}
+                            width={200}
+                          />
+                        </Card>
+
+                      </Stack>
+                    </Carousel.Item>
+                  </Carousel>
+                </div>
+
               </div>
 
               <div className={`${styles.contactForm}`}>

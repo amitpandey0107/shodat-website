@@ -8,7 +8,7 @@ import Carousel from "react-bootstrap/Carousel";
 export default function ResponsibleAI() {
   return (
     <div
-      className={`${styles.tabsContent} ${styles.responsibleAI} ${styles.responsibleAIBG}`}
+      className={`${styles.tabsContent} ${styles.responsibleAI} ${styles.responsibleAIBG} responsibleAISection`}
     >
       <div className={`${styles.contentLeft}`}>
         <div className={`${styles.contentBlock}`}>

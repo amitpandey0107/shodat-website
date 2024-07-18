@@ -164,8 +164,6 @@ body {
     opacity: 1;
     z-index: 99;
     background: rgba(104, 50, 111, 0.7);
-    /* height: 40px;
-    width: 40px; */
     padding: 20px 20px;
     width: 80px;
     height: 80px;
@@ -182,7 +180,6 @@ body {
     background-image: url("/img/angle_left.svg") !important;
     height: 58px;
     width: 58px;
-
 }
 
 .container-fluid {
@@ -194,7 +191,45 @@ body {
     display: none;
 }
 
+#clientsMobile .carousel-control-next {
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    right: -15px;
+    opacity: 1;
+    z-index: 99;
+    background: transparent;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
 
+#clientsMobile .carousel-control-prev {
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    left: -10px;
+    opacity: 1;
+    z-index: 99;
+    background: transparent;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+#clientsMobile .carousel-control-next-icon {
+    background-image: url("/img/angle_left_black.svg") !important;
+    height: 50px;
+    width: 50px;
+    transform: rotate(180deg);
+    opacity: 0.5;
+}
+
+#clientsMobile .carousel-control-prev-icon {
+    background-image: url("/img/angle_left_black.svg") !important;
+    height: 50px;
+    width: 50px;
+    opacity: 0.5;
+}
 
 
 
@@ -302,6 +337,7 @@ body {
     border-color: #CCCCCC;
 }
 
+
 @media screen and (max-width: 768px) {
     #shodatX .carousel-control-prev {
         left: 15px;
@@ -363,8 +399,20 @@ body {
         flex-wrap: wrap;
     }
 
-    /* .container-fluid {
+    .prefferedPartnerSection .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+}
+
+@media screen and (max-width: 769px) {
+    .prefferedPartnerSection .container-fluid {
         padding-left: initial;
         padding-right: initial;
-    } */
+    }
+    #scheduling .container-fluid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }

@@ -7,7 +7,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 export default function Customization() {
   return (
-    <div className={`${styles.tabsContent} ${styles.customization} ${styles.customizationBG}`}>
+    <div className={`${styles.tabsContent} ${styles.customization} ${styles.customizationBG} customizationSection`}>
       <div className={`${styles.contentLeft}`}>
         <div className={`${styles.contentBlock}`}>
           <h3>Customized AI Applications</h3>

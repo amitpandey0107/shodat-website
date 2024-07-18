@@ -47,7 +47,6 @@
 
 .schedulingInfo {
     height: 574px;
-    /* width: 574px; */
     background-color: #68326F;
     padding: 50px 70px;
 }
@@ -164,6 +163,33 @@
     color: rgba(255, 99, 71, 0.9);
 }
 
+.clientsDesktop {
+    display: block;
+}
+.clientsMobile {
+    display: none;
+    margin: 40px 0;
+    width: 100%;
+}
+.growingTeam .clients.clientsMobile {
+    width: 100%;
+}
+
+.clientsMobile .clientItem {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+.clientsMobile .clientItem img {
+    height: 100px;
+    width: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* RESPONSIVE */
 
 @media screen and (max-width: 991px) {
     .whiteBox {
@@ -197,10 +223,23 @@
     .formWrap .formGroup input[type="text"] {
         height: 45px;
     }
+    .growingTeam .title {
+        width: 100%;
+    }
+
+    .clientsDesktop {
+        display: none;
+    }
+    .clientsMobile {
+        display: block;
+    }
 }
 
 
 @media screen and (max-width: 768px) {
+    .growingTeam .title {
+        width: 100%;
+    }
     .whiteBox {
         margin-top: 60px;
     }
@@ -231,5 +270,11 @@
     }
     .formWrap .formGroup input[type="text"] {
         height: 45px;
+    }
+    .clientsDesktop {
+        display: none;
+    }
+    .clientsMobile {
+        display: block;
     }
 }

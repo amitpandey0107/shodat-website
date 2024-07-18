@@ -7,7 +7,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 export default function Proven() {
   return (
-    <div className={`${styles.tabsContent} ${styles.proven} ${styles.provenBG}`}>
+    <div className={`${styles.tabsContent} ${styles.proven} ${styles.provenBG} provenSection`}>
       <div className={`${styles.contentLeft}`}>
         <h3>
           Shodat&apos;s experience in developing Analytics & AI technologies

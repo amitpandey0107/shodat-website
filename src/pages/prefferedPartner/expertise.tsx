@@ -7,7 +7,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 export default function Expertise() {
   return (
-    <div className={`${styles.tabsContent} ${styles.expertise} ${styles.expertiseBG}`}>
+    <div className={`${styles.tabsContent} ${styles.expertise} ${styles.expertiseBG} expertiseSection`}>
       <div className={`${styles.contentLeft}`}>
         <h3>Benefit from our deep industry expertise</h3>
         <p>

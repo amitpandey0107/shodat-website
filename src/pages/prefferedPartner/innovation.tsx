@@ -7,7 +7,7 @@ import Carousel from "react-bootstrap/Carousel";
 
 export default function Innovation() {
   return (
-    <div className={`${styles.tabsContent} ${styles.innovation} ${styles.innovationBG}`}>
+    <div className={`${styles.tabsContent} ${styles.innovation} ${styles.innovationBG} innovationSection`}>
         <div className={`${styles.contentFull}`}>
       <h3>
         The AI landscape is dynamic, and so are we. Our commitment to continuous
