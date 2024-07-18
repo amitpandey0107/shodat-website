@@ -416,3 +416,10 @@ body {
         padding-right: 15px;
     }
 }
+
+
+@media screen and (max-width: 479px) {
+    .gap-3 {
+        gap: 0 !important; 
+    }
+}

@@ -597,3 +597,14 @@
         font-size: 18px;
     }
 }
+
+@media screen and (max-width: 479px) {
+    .tabsContent .contentRight .counterBox {
+        min-height: 260px;
+        height: auto;
+    }
+    .responsibleAI .contentRight .counterBox {
+        min-height: 220px;
+        height: auto;
+    }
+}
