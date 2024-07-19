@@ -61,7 +61,7 @@ export default function Industries() {
       <div className={`${styles.sliderIndustries}`} id="sliderIndustries">
         <Carousel indicators={false}>
 
-          <Carousel.Item interval={20500}>
+          <Carousel.Item interval={10000}>
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
@@ -103,11 +103,11 @@ export default function Industries() {
             </div>
           </Carousel.Item>
 
-          <Carousel.Item interval={20500}>
+          <Carousel.Item interval={10000}>
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
-                  src="/img/industries/industries-img2.jpg"
+                  src="/img/industries/industries-img-automotive-min.jpg"
                   alt="Automotive "
                   height={604}
                   width={666}
