@@ -168,7 +168,7 @@
 }
 .clientsMobile {
     display: none;
-    margin: 40px 0;
+    margin: 20px 0;
     width: 100%;
 }
 .growingTeam .clients.clientsMobile {
@@ -276,5 +276,13 @@
     }
     .clientsMobile {
         display: block;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    .scheduling_clientsMobile__qrh1q {
+        display: block;
+        padding: 0 30px;
     }
 }

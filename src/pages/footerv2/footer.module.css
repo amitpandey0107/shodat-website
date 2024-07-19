@@ -248,4 +248,17 @@
     .followUs {
         margin-top: 25px;
     }
+    .footerContainer .footerLeft {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .footer {
+        padding: 40px 0px 0px 0px;
+    }
+    .footerLogo{
+        margin-right: 0px;
+    }
 }

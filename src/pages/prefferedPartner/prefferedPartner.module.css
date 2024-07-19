@@ -392,7 +392,7 @@
         flex-wrap: wrap;
         flex-direction: column;
         margin: 0 0 15px 0;
-        min-height: 200px;
+        min-height: 164px;
         height: auto;
     }
 
@@ -600,11 +600,14 @@
 
 @media screen and (max-width: 479px) {
     .tabsContent .contentRight .counterBox {
-        min-height: 260px;
+        min-height: 135px;
         height: auto;
     }
     .responsibleAI .contentRight .counterBox {
-        min-height: 220px;
+        min-height: 190px;
         height: auto;
+    }
+    .tabsContent .contentRight .counterBox .count {
+        font-size: 24px;
     }
 }

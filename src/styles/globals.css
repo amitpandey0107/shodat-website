@@ -195,26 +195,26 @@ body {
     position: absolute;
     top: auto;
     bottom: 20px;
-    right: -15px;
+    right: -30px;
     opacity: 1;
     z-index: 99;
     background: transparent;
     padding: 0;
-    width: 50px;
-    height: 50px;
+    width: auto;
+    height: auto;
 }
 
 #clientsMobile .carousel-control-prev {
     position: absolute;
     top: auto;
     bottom: 20px;
-    left: -10px;
+    left: -30px;
     opacity: 1;
     z-index: 99;
     background: transparent;
     padding: 0;
-    width: 50px;
-    height: 50px;
+    width: auto;
+    height: auto;
 }
 #clientsMobile .carousel-control-next-icon {
     background-image: url("/img/angle_left_black.svg") !important;
