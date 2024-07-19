@@ -19,7 +19,7 @@ export default function Banner() {
         <Carousel.Item interval={7000}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/banner/slider1.jpg"
+            src="/img/banner/slider5.jpg"
             alt="Image One"
             width={1400}
             height={700}
