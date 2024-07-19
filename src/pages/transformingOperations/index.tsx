@@ -30,20 +30,20 @@ export default function TransformingOperations() {
               </h2>
               <div className={`${styles.line}`}></div>
               <p>
-              Redefining the infusion of machine learning in heavy industries with our professional services, we at Shodat Inc. are now poised for a paradigm shift with eOps™, an asset tracking and quality management platform. The platform will leverage a powerful combination of computer vision, predictive analytics, and generative AI to detect and predict operational defects, automate RCA reports and propose impactful enhancements that promise significant cost benefits.
+              By redefining the infusion of analytics and machine learning in heavy industries with our professional services, we at Shodat are now poised for a paradigm shift with eOps™, an advanced asset tracking and quality management platform. The platform will leverage a powerful combination of computer vision, predictive analytics, and generative AI to detect and predict operational defects, automate RCA reports and propose impactful enhancements that promise significant cost benefits.
               </p>
               <p className={`${styles.lastChildP}`}>
-              Shodat eOps will serve as the vehicle to deliver Shodat X and Shodat YAI capabilities, transforming how organizations operate. With Shodat eOps, businesses will be able to streamline their operations, enhance regulatory compliance, and drive continuous improvement. From automated defect detection to real-time insights and proactive issue tracking, Shodat eOps will empower organizations to unlock the full potential of Data-Driven Intelligence.
+              Shodat eOps will serve as the vehicle to deliver Shodat XAI and YAI capabilities, making ML adoption super simple and transforming how industries manage product and process quality. With Shodat eOps, businesses will be able to streamline their operations, enhance regulatory compliance, and drive continuous improvement. From automated defect detection to real-time insights and proactive issue tracking, Shodat eOps will empower organizations to unlock the full potential of Data-Driven Intelligence.
               </p>
-              {/* <Link href="/" className={`${styles.btnGetStart} btnBlack`}>
-                <span>Get Started</span>
+              <Link href="#scheduling" className={`${styles.btnGetStart} btnBlack`}>
+                <span>Get Early Access</span>
                 <Image
                   src="/img/arrowRight.svg"
                   alt="arrow right"
                   height={20}
                   width={20}
                 />
-              </Link> */}
+              </Link>
             </div>
           </div>
         </div>

@@ -34,10 +34,7 @@ export default function Features() {
           <div className="col-sm-12 col-md-12 col-lg-4">
             <div className={`${styles.infoBox}`}>
               <p>
-                We at Shodat Inc. specialize in delivering advanced AI-driven
-                solutions that transform industries and empower businesses to
-                thrive in the digital era. Our Commitment to excellence and
-                continuous innovation ensures that we stay ahead of the curve,
+                We at Shodat Inc. specialize in delivering advanced analytics and AI-driven solutions that transform industries and empower businesses to thrive in the digital era. Our Commitment to excellence and continuous innovation ensures that we stay ahead of the curve,
                 providing intelligent technologies that drive efficiency, foster
                 growth, and unlock new opportunities.
               </p>
@@ -57,9 +54,7 @@ export default function Features() {
                 </div>
                 <div className={`${styles.text}`}>
                   <p>
-                    Our<strong> market ready</strong> solutions provide flexible
-                    and scalable capabilities that enterprises need to
-                    successfully become AI-fueled organizations.
+                    <strong>Adopt </strong>our market ready solutions providing flexible and scalable capabilities that enterprises need to successfully become AI-fueled organisations.
                   </p>
                 </div>
               </div>
@@ -76,9 +71,7 @@ export default function Features() {
                 </div>
                 <div className={`${styles.text}`}>
                   <p>
-                    <strong>Re-engineer </strong> your operations, drive
-                    innovation, and unlock the full potential of AI with Shodat
-                    Inc.
+                    <strong>Re-engineer</strong> your operations, drive efficiency and unlock the full potential of your data with Shodat eOps platform.
                   </p>
                 </div>
               </div>
@@ -95,9 +88,7 @@ export default function Features() {
                 </div>
                 <div className={`${styles.text}`}>
                   <p>
-                    <strong>Explore </strong>our solutions and discover the
-                    power of intelligent technology to shape the future of your
-                    business.
+                    <strong>Explore </strong>our research and advanced solutions to discover how technology can further continue to shape the future of your business.
                   </p>
                 </div>
               </div>
@@ -155,7 +146,7 @@ export default function Features() {
                       <div className={`${styles.sliderContent}`}>
                         <h4>Data Engineering</h4>
                         <p>
-                          Empowering insights through robust data engineering
+                        Harness Data for Actionable Intelligence.
                         </p>
                       </div>
                     </Card>
@@ -170,7 +161,7 @@ export default function Features() {
                       <div className={`${styles.sliderContent}`}>
                         <h4>AI Innovation</h4>
                         <p>
-                        Pioneering AI innovations ,Transforming data into intelligent action
+                        Transforming Data into Empowering Insights.
                         </p>
                       </div>
                     </Card>
@@ -183,8 +174,8 @@ export default function Features() {
                         height={353}
                       />
                       <div className={`${styles.sliderContent}`}>
-                        <h4>Advanced Analytics +BI</h4>
-                        <p>Harness Data for Actionable Intelligence</p>
+                        <h4>Advanced Analytics & BI</h4>
+                        <p>Analyze data using robust visualisation and reporting.</p>
                       </div>
                     </Card>
                     <Card className={`${styles.sliderItem}`}>
@@ -197,7 +188,7 @@ export default function Features() {
                       />
                       <div className={`${styles.sliderContent}`}>
                         <h4>Security & Compliance</h4>
-                        <p>Navigate compliance with precision and speed</p>
+                        <p>Navigate compliance with precision and speed.</p>
                       </div>
                     </Card>
                   </Stack>

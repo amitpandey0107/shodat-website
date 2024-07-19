@@ -41,6 +41,7 @@
 
 .btnGetStart {
     margin-top: 15px;
+    width: 186px;
 }
 
 @media screen and (max-width: 991px) {

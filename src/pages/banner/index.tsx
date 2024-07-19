@@ -16,7 +16,7 @@ export default function Banner() {
             height={557}
           />
       <Carousel controls={false} fade>
-        <Carousel.Item interval={300000}>
+        <Carousel.Item interval={7000}>
           <Image
             className={`${styles.sliderImage}`}
             src="/img/banner/slider1.jpg"
@@ -27,7 +27,7 @@ export default function Banner() {
           <div className={`${styles.carouselCaption}`}>
             <div className={`${styles.carouselContent}`}>
               <h2 className={`${styles.banner_title}`}>
-                Innovating Insights, <span>Accelerating Growth</span>
+              Innovating Insights, <span>Accelerating Growth</span>
               </h2>
               <p>Your Data, Our Expertise</p>
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
@@ -43,10 +43,10 @@ export default function Banner() {
           </div>
         </Carousel.Item>
 
-        <Carousel.Item interval={300000}>
+        <Carousel.Item interval={7000}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/banner/slider2.jpg"
+            src="/img/banner/slider3.jpg"
             alt="Image One"
             width={1400}
             height={700}
@@ -54,10 +54,10 @@ export default function Banner() {
           <div className={`${styles.carouselCaption}`}>
             <div className={`${styles.carouselContent}`}>
               <h1 className={`${styles.banner_title}`}>
-                Where AI Meets<span>Efficiency</span>
+                Where AI Drives<span>Efficiency</span>
               </h1>
               <p>
-              Shodat eOps™ Advanced Asset Tracking<br /> And Quality Management Platform 
+              Shodat eOps™ - An Advanced Quality Management <br />And Asset Tracking Platform 
               </p>
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
@@ -72,18 +72,18 @@ export default function Banner() {
           </div>
         </Carousel.Item>
 
-        <Carousel.Item interval={300000}>
+        <Carousel.Item interval={7000}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/banner/slider3.jpg"
+            src="/img/banner/slider2.jpg"
             alt="Image One"
             width={1400}
             height={700}
           />
           <div className={`${styles.carouselCaption}`}>
             <div className={`${styles.carouselContent}`}>
-              <h1 className={`${styles.banner_title}`}>Shodat X</h1>
-              <p>Enhancing Quality and Compliance with Defect Intelligence</p>
+              <h1 className={`${styles.banner_title}`}>Shodat XAI</h1>
+              <p>Enhancing Operational Quality <br/>and Compliance with Defect Intelligence</p>
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image
@@ -97,10 +97,10 @@ export default function Banner() {
           </div>
         </Carousel.Item>
 
-        <Carousel.Item interval={300000}>
+        <Carousel.Item interval={7000}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/banner/slider4.jpg"
+            src="/img/banner/slider1.jpg"
             alt="Image One"
             width={1400}
             height={700}
@@ -110,7 +110,7 @@ export default function Banner() {
               <h1 className={`${styles.banner_title}`}>
               Shodat YAI
               </h1>
-              <p>Uncovering the &quot;Why&quot; of Decision Making with Advanced AI</p>
+              <p>Uncovering the &#39;Why&#39; of Decision Making with Advanced AI</p>
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image

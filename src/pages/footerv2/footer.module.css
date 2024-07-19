@@ -10,6 +10,7 @@
     padding-right: 15px;
     color: white;
     line-height: 35px;
+    text-align: center;
 }
 .newsletter {
     display: none;
@@ -56,7 +57,8 @@
     width: 20%;
 }
 .footerLogo {
-    margin-bottom: 40px;
+    margin-bottom: 0;
+    margin-right: 30px;
 }
 .footerMidMargin {
     margin-top: 30px;
@@ -122,19 +124,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 .footerContainer .footerLeft{
-    width: 50%;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
 }
 .footerContainer .footerRight{
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    height: 50px;
+    height: 10px;
 }
 
 .footerMail {
@@ -151,14 +155,14 @@
 }
 
 .footerContainer {
-    margin-top: 50px;
+    margin-top: 5px;
 }
 .footerContainer .footerLogo {
     margin-bottom: 0;
 }
 .footerContainer .footerLogo {
     position: relative;
-    top: -29px;
+    top: 0;
 }
 .footerContainer .blockTitle {
     margin-bottom: 0;
@@ -174,6 +178,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.followUs .followIcons a svg {
+    position: relative;
+    top: -2px;
 }
 .followUs .followIcons  a{
     margin-left: 15px;

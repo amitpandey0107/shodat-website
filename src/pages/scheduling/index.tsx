@@ -141,7 +141,7 @@ export default function Scheduling() {
                   <ul>
                     <li>
                       <Image
-                        src="/img/L&T.png"
+                        src="/img/clientLogo/L&T.jpeg"
                         alt="clients"
                         height={120}
                         width={280}
@@ -149,7 +149,7 @@ export default function Scheduling() {
                     </li>
                     <li>
                       <Image
-                        src="/img/infoChips.png"
+                        src="/img/clientLogo/infochips.png"
                         alt="infoChips"
                         height={100}
                         width={140}
@@ -157,7 +157,7 @@ export default function Scheduling() {
                     </li>
                     <li>
                       <Image
-                        src="/img/brillio.png"
+                        src="/img/clientLogo/brollio.png"
                         alt="brillio"
                         height={100}
                         width={100}
@@ -165,7 +165,7 @@ export default function Scheduling() {
                     </li>
                     <li>
                       <Image
-                        src="/img/pwc.png"
+                        src="/img/clientLogo/pwc.png"
                         alt="pwc"
                         height={100}
                         width={100}
@@ -173,7 +173,7 @@ export default function Scheduling() {
                     </li>
                     <li>
                       <Image
-                        src="/img/sganalyst.png"
+                        src="/img/clientLogo/sgAnalytics.png"
                         alt="sganalyst"
                         height={200}
                         width={200}
@@ -192,7 +192,7 @@ export default function Scheduling() {
                       >
                         <Card className={`${styles.clientItem}`}>
                           <Image
-                            src="/img/L&T.png"
+                            src="/img/clientLogo/L&T.jpeg"
                             alt="clients"
                             height={120}
                             width={280}
@@ -200,7 +200,7 @@ export default function Scheduling() {
                         </Card>
                         <Card className={`${styles.clientItem}`}>
                           <Image
-                            src="/img/infoChips.png"
+                            src="/img/clientLogo/infochips.png"
                             alt="infoChips"
                             height={100}
                             width={140}
@@ -217,7 +217,7 @@ export default function Scheduling() {
                       >
                         <Card className={`${styles.clientItem}`}>
                           <Image
-                            src="/img/brillio.png"
+                            src="/img/clientLogo/brollio.png"
                             alt="brillio"
                             height={100}
                             width={100}
@@ -225,7 +225,7 @@ export default function Scheduling() {
                         </Card>
                         <Card className={`${styles.clientItem}`}>
                           <Image
-                            src="/img/pwc.png"
+                            src="/img/clientLogo/pwc.png"
                             alt="pwc"
                             height={100}
                             width={100}
@@ -243,7 +243,7 @@ export default function Scheduling() {
                       >
                         <Card className={`${styles.clientItem}`}>
                           <Image
-                            src="/img/sganalyst.png"
+                            src="/img/clientLogo/sgAnalytics.png"
                             alt="sganalyst"
                             height={200}
                             width={200}
