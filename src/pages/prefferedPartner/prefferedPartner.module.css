@@ -61,7 +61,7 @@
 
 .tabSection {
     background-color: black;
-    min-height: 560px;
+    min-height: 360px;
     padding-bottom: 40px;
 }
 
@@ -101,7 +101,7 @@
 .tabsContent .contentLeft {
     width: 60%;
     min-height: 300px;
-    height: 558px;
+    height: auto;
     padding: 60px 30px 40px 30px;
     background-position: top;
 }
@@ -137,7 +137,7 @@
 .tabsContent .contentRight {
     width: 40%;
     min-height: 300px;
-    height: 558px;
+    height: auto;
     padding: 40px 50px;
 }
 
