@@ -1,7 +1,7 @@
 .slider {
     position: relative;
     background-image: url('/img/shodatX.png');
-    height: 760px;
+    height: 600px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: top;
@@ -34,7 +34,7 @@
 }
 
 .sliderIndustries {
-    height: 760px;
+    height: 650px;
     position: relative;
 }
 
@@ -45,14 +45,14 @@
 }
 
 .sliderIndustries .indContent .indImage {
-    height: 760px;
+    height: 650px;
     width: 50%;
 }
 
 .sliderIndustries .indText {
-    height: 760px;
+    height: 650px;
     width: 50%;
-    padding: 50px;
+    padding: 30px 40px;
 }
 
 .sliderIndustries .indContent .indImage img {
@@ -66,7 +66,7 @@
     color: black;
     font-size: 33px;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 .sliderIndustries .indText .line {
@@ -87,12 +87,12 @@
     color: black;
     font-size: 16px;
     line-height: 30px;
-    padding-right: 8%;
-    margin-bottom: 13px;
+    padding-right: 5%;
+    margin-bottom: 11px;
 }
 
 .btnReadMore {
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 @media screen and (max-width: 991px) {

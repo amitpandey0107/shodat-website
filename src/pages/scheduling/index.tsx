@@ -137,6 +137,8 @@ export default function Scheduling() {
                   <h3>Our Clients</h3>
                   <div className={`${styles.line}`}></div>
                 </div>
+
+                {/* Desktop */}
                 <div className={`${styles.clients} ${styles.clientsDesktop}`}>
                   <ul>
                     <li>
@@ -182,6 +184,7 @@ export default function Scheduling() {
                   </ul>
                 </div>
 
+                {/* Tablet */}
                 <div className={`${styles.clients} ${styles.clientsMobile}`} id="clientsMobile">
                   <Carousel controls={true} indicators={false}>
                     <Carousel.Item interval={6000}>
@@ -252,6 +255,99 @@ export default function Scheduling() {
 
                       </Stack>
                     </Carousel.Item>
+                  </Carousel>
+                </div>
+
+                {/* Mobile */}
+                <div className={`${styles.clients} ${styles.clientsMobilev2}`} id="clientsMobile">
+                  <Carousel controls={true} indicators={false}>
+                    <Carousel.Item interval={6000}>
+                      <Stack
+                        direction="horizontal"
+                        className="h-100 justify-content-center align-items-center"
+                        gap={3}
+                      >
+                        <Card className={`${styles.clientItem}`}>
+                          <Image
+                            src="/img/clientLogo/L&T.jpeg"
+                            alt="clients"
+                            height={120}
+                            width={280}
+                          />
+                        </Card>
+                      </Stack>
+                    </Carousel.Item>
+
+                    <Carousel.Item interval={6000}>
+                      <Stack
+                        direction="horizontal"
+                        className="h-100 justify-content-center align-items-center"
+                        gap={3}
+                      >
+                        <Card className={`${styles.clientItem}`}>
+                          <Image
+                            src="/img/clientLogo/infochips.png"
+                            alt="infoChips"
+                            height={100}
+                            width={140}
+                          />
+                        </Card>
+                      </Stack>
+                    </Carousel.Item>
+
+
+                    <Carousel.Item interval={6000}>
+                      <Stack
+                        direction="horizontal"
+                        className="h-100 justify-content-center align-items-center"
+                        gap={3}
+                      >
+                        <Card className={`${styles.clientItem}`}>
+                          <Image
+                            src="/img/clientLogo/brollio.png"
+                            alt="brillio"
+                            height={100}
+                            width={100}
+                          />
+                        </Card>
+                      </Stack>
+                    </Carousel.Item>
+
+                    <Carousel.Item interval={6000}>
+                      <Stack
+                        direction="horizontal"
+                        className="h-100 justify-content-center align-items-center"
+                        gap={3}
+                      >
+                        <Card className={`${styles.clientItem}`}>
+                          <Image
+                            src="/img/clientLogo/pwc.png"
+                            alt="pwc"
+                            height={100}
+                            width={100}
+                          />
+                        </Card>
+                      </Stack>
+                    </Carousel.Item>
+
+                    <Carousel.Item interval={6000}>
+                      <Stack
+                        direction="horizontal"
+                        className="h-100 justify-content-center align-items-center"
+                        gap={3}
+                      >
+                        <Card className={`${styles.clientItem}`}>
+                          <Image
+                            src="/img/clientLogo/sgAnalytics.png"
+                            alt="sganalyst"
+                            height={200}
+                            width={200}
+                          />
+                        </Card>
+
+                      </Stack>
+                    </Carousel.Item>
+
                   </Carousel>
                 </div>
 

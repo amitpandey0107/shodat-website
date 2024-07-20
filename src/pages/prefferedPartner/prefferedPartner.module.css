@@ -96,11 +96,12 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    min-height: 530px;
 }
 
 .tabsContent .contentLeft {
     width: 60%;
-    min-height: 300px;
+    min-height: 250px;
     height: auto;
     padding: 60px 30px 40px 30px;
     background-position: top;
@@ -136,7 +137,7 @@
 
 .tabsContent .contentRight {
     width: 40%;
-    min-height: 300px;
+    min-height: 250px;
     height: auto;
     padding: 40px 50px;
 }

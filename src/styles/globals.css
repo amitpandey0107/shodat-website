@@ -195,7 +195,7 @@ body {
     position: absolute;
     top: auto;
     bottom: 20px;
-    right: -30px;
+    right: -10px;
     opacity: 1;
     z-index: 99;
     background: transparent;
@@ -208,7 +208,7 @@ body {
     position: absolute;
     top: auto;
     bottom: 20px;
-    left: -30px;
+    left: -10px;
     opacity: 1;
     z-index: 99;
     background: transparent;
@@ -218,16 +218,16 @@ body {
 }
 #clientsMobile .carousel-control-next-icon {
     background-image: url("/img/angle_left_black.svg") !important;
-    height: 50px;
-    width: 50px;
+    height: 36px;
+    width: 36px;
     transform: rotate(180deg);
     opacity: 0.5;
 }
 
 #clientsMobile .carousel-control-prev-icon {
     background-image: url("/img/angle_left_black.svg") !important;
-    height: 50px;
-    width: 50px;
+    height: 36px;
+    width: 36px;
     opacity: 0.5;
 }
 
@@ -321,16 +321,6 @@ body {
 
 .font-sm {
     font-size: 14px;
-}
-
-.border-red {
-    /* border-color: red !important; */
-    /* background: rgba(255, 99, 71, 0.2) !important; */
-}
-
-.border-red-v2 {
-    /* border-color: red !important; */
-    /* background: rgba(255, 99, 71, 0.6) !important; */
 }
 
 .border-gray {
