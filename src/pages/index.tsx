@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Link from 'next/link';
-import Header from "./header";
-import Banner from "./banner";
-import Features from "./features";
-import TransformingOperations from "./transformingOperations";
-import Industries from "./industries";
-import PrefferedPartner from "./prefferedPartner";
-import Scheduling from "./scheduling";
-import Footer from "./footer";
-import FooterVersionSecond from "./footerv2";
+import Header from "./home/header";
+import Banner from "./home/banner";
+import Features from "./home/features";
+import TransformingOperations from "./home/transformingOperations";
+import Industries from "./home/industries";
+import PrefferedPartner from "./home/prefferedPartner";
+import Scheduling from "./home/scheduling";
+import Footer from "./home/footer";
+import FooterVersionSecond from "./home/footerv2";
 
 
 export default function Home() {
