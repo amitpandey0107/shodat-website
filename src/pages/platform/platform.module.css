@@ -1,0 +1,246 @@
+/* ========= Banner ============ */
+.platformBanner {
+    height:550px;
+    background-color: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+}
+.platformBanner .bannerContent {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.platformBanner .bannerContent .bannerContentLeft {
+    width: 45%;
+    height: 100%;
+    position: relative;
+}
+.bannerContentLeft .bannerTitle {
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    line-height: 60px;
+    color: black;
+}
+
+.bannerContentLeft h1 span {
+    display: block;
+}
+
+.bannerContentLeft p {
+    font-size: 23px;
+    color: black;
+    margin-bottom: 20px;
+}
+.bannerContentLeft .bannerInfo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+.btnGetStarted {
+    background-color: #68326F;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    min-width: 150px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.btnGetStarted img {
+    margin-left: 10px;
+}
+.platformBanner .bannerContent .bannerContentRight {
+    width: 55%;
+    height: 100%;
+    position: relative;
+}
+.bannerContentRight .bannerImage {
+    position: absolute;
+    bottom: -47px;
+    left: 0;
+}
+
+
+/* ========= QUESTIONS ============ */
+.questions {
+    position: relative;
+    min-height: 700px;
+    background-image: url(/img/platform/questionner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.questionsContent {
+    position: relative;
+    height: 700px;
+    width: 1200px;
+}
+.questionsContent .circle {
+    height: 208px;
+    width: 208px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px solid #77467D;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.questionsContent .circle p {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+.questionsContent .infoBox {
+    background-color: #77467D;
+    width: 333px;
+    min-height: 100px;
+    position: relative;
+    padding: 15px;
+}
+.questionsContent .infoBox p {
+    color: white;
+}
+.questionsContent .infoBox .queMark {
+    height: 49px;
+    width: 49px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: -25px;
+    bottom: -15px;
+    box-shadow: -3px -2px 4px -2px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.questionsContent .infoBox.box1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+}
+.questionsContent .infoBox.box1:after {
+    content: "";
+    background-color: #77467D;
+    height: 6px;
+    width: 150px;
+    position: absolute;
+    top: auto;
+    bottom: -51px;
+    right: -131px;
+    transform: rotate(45deg);
+}
+
+.questionsContent .infoBox.box2 {
+    position: absolute;
+    top: 20%;
+    right: -6%;
+    transform: translate(-50%, -50%);
+    height: 130px;
+}
+.questionsContent .infoBox.box2:after {
+    content: "";
+    background-color: #77467D;
+    height: 6px;
+    width: 150px;
+    position: absolute;
+    top: auto;
+    bottom: -25px;
+    left: -125px;
+    transform: rotate(-45deg);
+}
+
+.questionsContent .infoBox .queMark2 {
+    height: 49px;
+    width: 49px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: -30px;
+    bottom: -20px;
+    box-shadow: -3px -2px 4px -2px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.questionsContent .infoBox.box3 {
+    position: absolute;
+    top: 55%;
+    left:18%;
+    transform: translate(-50%, -50%);
+    height: 120px;
+    padding: 20px 15px;
+}
+.questionsContent .infoBox.box3:after {
+    content: "";
+    background-color: #77467D;
+    height: 6px;
+    width: 130px;
+    position: absolute;
+    top: 45px;
+    right: -120px;
+}
+
+.questionsContent .infoBox.box4 {
+    position: absolute;
+    top: 60%;
+    right: -6%;
+    transform: translate(-50%, -50%);
+    height: 110px;
+}
+.questionsContent .infoBox.box4:after {
+    content: "";
+    background-color: #77467D;
+    height: 6px;
+    width: 100px;
+    position: absolute;
+    top: auto;
+    bottom: 64px;
+    left: -83px;
+    transform: rotate(30deg);
+}
+
+.questionsContent .infoBox.box5 {
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 110px;
+    width: 350px;
+}
+.questionsContent .infoBox.box5:after {
+    content: "";
+    background-color: #77467D;
+    height: 70px;
+    width: 6px;
+    position: absolute;
+    top: -68px;
+    left: 50%;
+}
