@@ -216,6 +216,7 @@ body {
     width: auto;
     height: auto;
 }
+
 #clientsMobile .carousel-control-next-icon {
     background-image: url("/img/angle_left_black.svg") !important;
     height: 36px;
@@ -232,8 +233,96 @@ body {
 }
 
 
+#platformFeatSlider .carousel-control-prev {
+    position: absolute;
+    top: -65px;
+    bottom: auto;
+    left: auto;
+    opacity: 1;
+    z-index: 99;
+    background: rgba(104, 50, 111, 0.4);
+    width: 30px;
+    height: 30px;
+    right: 60px;
+}
 
+#platformFeatSlider .carousel-control-next {
+    position: absolute;
+    top: -65px;
+    bottom: auto;
+    right: 24px;
+    left: auto;
+    opacity: 1;
+    z-index: 99;
+    background: rgba(104, 50, 111, 1);
+    width: 30px;
+    height: 30px;
+}
 
+#platformFeatSlider .carousel-control-next-icon {
+    background-image: url("/img/angle_left.svg") !important;
+    height: 26px;
+    width: 26px;
+    transform: rotate(180deg);
+}
+
+#platformFeatSlider .carousel-control-prev-icon {
+    background-image: url("/img/angle_left.svg") !important;
+    height: 26px;
+    width: 26px;
+    transform: rotate(0deg);
+}
+
+#offerSlider .carousel-control-prev {
+    position: absolute;
+    height: auto;
+    width: 67px;
+    display: inline-block;
+    bottom: -52px;
+    top: auto;
+    left: -27px;
+}
+#offerSlider .carousel-control-next {
+    position: absolute;
+    height: auto;
+    width: 67px;
+    display: inline-block;
+    bottom: -52px;
+    top: auto;
+    left: 27px;
+}
+
+#caseStudySlider .carousel-control-prev {
+    position: absolute;
+    height: 64px;
+    width: 32px;
+    display: inline-block;
+    bottom: auto;
+    top: 44%;
+    left: -8%;
+}
+#caseStudySlider .carousel-control-next {
+    position: absolute;
+    height: 64px;
+    width: 32px;
+    display: inline-block;
+    bottom: auto;
+    top: 44%;
+    right: -8%;
+}
+#caseStudySlider .carousel-control-next-icon {
+    background-image: url("/img/platform/angleLeft.svg") !important;
+    height: 64px;
+    width: 32px;
+    transform: rotate(180deg);
+}
+
+#caseStudySlider .carousel-control-prev-icon {
+    background-image: url("/img/platform/angleLeft.svg") !important;
+    height: 64px;
+    width: 32px;
+    transform: rotate(0deg);
+}
 
 
 
@@ -393,7 +482,7 @@ body {
         padding-left: 15px;
         padding-right: 15px;
     }
-    
+
 }
 
 @media screen and (max-width: 769px) {
@@ -401,6 +490,7 @@ body {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     #scheduling .container-fluid {
         padding-left: 15px;
         padding-right: 15px;
@@ -410,6 +500,6 @@ body {
 
 @media screen and (max-width: 479px) {
     .gap-3 {
-        gap: 0 !important; 
+        gap: 0 !important;
     }
 }
