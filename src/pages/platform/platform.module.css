@@ -502,51 +502,62 @@
     height: 500px;
     padding: 50px 100px 50px 50px;
 }
+
 .offers .offerContent h2 {
     color: white;
-    font-size: 32px; 
+    font-size: 32px;
     margin-bottom: 15px;
     font-weight: bold;
 }
+
 .offers .offerContent p {
     color: white;
     font-weight: bold;
     font-size: 20px;
 }
+
 .offers .offerSliderWrap .offerSliderContent p span {
     color: white;
     font-weight: 300;
     font-size: 14px;
 }
+
 .offers .offerSliderWrap {
     margin-top: 20px;
 }
+
 .offers .offerSliderWrap .offerContentWrap {
     margin-top: 15px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
+
 .offers .offerSliderWrap .offerContentWrap .imageWrap {
     width: 45%;
 }
+
 .offers .offerSliderWrap .offerContentWrap .textWrap {
     width: 55%;
     padding-left: 45px;
 }
+
 .offers .offerSliderWrap .offerContentWrap .textWrap .textRow1 {
     margin-bottom: 20px;
 }
+
 .offers .offerSliderWrap .offerContentWrap .textWrap .textRow1:last-child {
     margin-bottom: 0;
 }
-.offers .offerSliderWrap .offerContentWrap .textWrap .textRow1 h6{
+
+.offers .offerSliderWrap .offerContentWrap .textWrap .textRow1 h6 {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 10px;
     color: white;
 }
-.offers .offerSliderWrap .offerContentWrap .textWrap .textRow1 p{
+
+.offers .offerSliderWrap .offerContentWrap .textWrap .textRow1 p {
     font-size: 15px;
     font-weight: normal;
     color: white;
@@ -559,69 +570,83 @@
     position: relative;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
 }
+
 .whyChoose .chooseList {
     width: 75%;
 }
-.whyChoose .chooseList img{
+
+.whyChoose .chooseList img {
     position: relative;
 }
-.whyChoose .chooseList li{
+
+.whyChoose .chooseList li {
     margin-bottom: 25px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
+
 .whyChoose .chooseList li:last-child {
     margin-bottom: 0;
 }
-.whyChoose .chooseList .text{
+
+.whyChoose .chooseList .text {
     margin-left: 15px;
 }
-.whyChoose .chooseList .text h6{
+
+.whyChoose .chooseList .text h6 {
     font-size: 16px;
     font-weight: bold;
     color: black;
     margin-bottom: 10px;
 }
-.whyChoose .chooseList .text p{
+
+.whyChoose .chooseList .text p {
     font-size: 16px;
     font-weight: normal;
     color: black;
 }
+
 .whyChoose .iconRow {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     margin-bottom: 60px;
 }
+
 .whyChoose .iconRow.mb0 {
     margin-bottom: 0;
 }
-.whyChoose .iconRow .infoWrap{
+
+.whyChoose .iconRow .infoWrap {
     width: 44%;
     padding-right: 10%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
+
 .whyChoose .iconRow .infoWrap .value {
     display: inline-flex;
     justify-content: center;
     align-items: center;
 }
+
 .whyChoose .iconRow .infoWrap .value img {
     height: 80px;
     width: 141px;
     object-fit: contain;
     object-position: center;
 }
+
 .whyChoose .iconRow .infoWrap .value span {
     color: #FFFFFF;
     font-weight: bold;
     font-size: 33px;
     position: absolute;
 }
-.whyChoose .iconRow .infoWrap p{
+
+.whyChoose .iconRow .infoWrap p {
     font-weight: 600;
     margin-left: 10px;
 }
@@ -634,34 +659,39 @@
     position: relative;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
 }
+
 .caseStudy .caseStudySlider {
     padding: 0 10%;
 }
-.caseStudy .csItem {}
-.caseStudy .csItem .topItem{
+
+.caseStudy .csItem .topItem {
     height: 280px;
     width: 392px;
     background-color: white;
     padding: 30px;
     overflow: hidden;
 }
-.caseStudy .csItem .topItem h4{
+
+.caseStudy .csItem .topItem h4 {
     font-size: 23px;
     font-weight: bold;
     color: black;
     margin-bottom: 10px;
 }
-.caseStudy .csItem .topItem p{
-    color: rgba(0,0,0,0.6);
+
+.caseStudy .csItem .topItem p {
+    color: rgba(0, 0, 0, 0.6);
     line-height: 28px;
 }
-.caseStudy .csItem .imageItem{
+
+.caseStudy .csItem .imageItem {
     height: 290px;
     width: 392px;
     position: relative;
     overflow: hidden;
 }
-.caseStudy .csItem .imageItem .purpleText{
+
+.caseStudy .csItem .imageItem .purpleText {
     background-color: #68326F;
     color: white;
     padding: 15px;
@@ -673,7 +703,8 @@
     font-weight: 300;
     line-height: 28px;
 }
-.caseStudy .csItem .imageItem img{
+
+.caseStudy .csItem .imageItem img {
     filter: grayscale(1) contrast(1.5) brightness(1);
     mix-blend-mode: multiply;
     transition: all ease-in-out 0.1s;
@@ -682,14 +713,99 @@
     object-fit: cover;
     object-position: center;
 }
-.caseStudy .csItem .imageItem:hover > img {
+
+.caseStudy .csItem .imageItem:hover>img {
     filter: none;
     mix-blend-mode: normal;
 }
+
 .caseStudy .caseStudySlider .sliderItem {
     border: 0;
     border-radius: 0;
 }
+
 .caseStudy .title:after {
     width: 185px;
+}
+
+
+
+
+
+
+
+
+
+/* ===================== RESPONSIVE ===================== */
+@media screen and (max-width: 769px) {
+
+    /* Banner */
+    .platformBanner .bannerContent {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .platformBanner .bannerContent .bannerContentLeft {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .platformBanner .bannerContent .bannerContentRight {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-top: 30px;
+    }
+    .bannerContentRight .bannerImage {
+        position: relative;
+        bottom: auto;
+        left: 0;
+    }
+
+    .bannerContentLeft .bannerInfo {
+        position: relative;
+        top: 0;
+        left: auto;
+        transform: none;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .bannerContentLeft p br {
+        display: none;
+    }
+
+    .platformBanner {
+        height: auto;
+        padding-bottom: 15px;
+    }
+
+    .platformBanner .bannerContent .bannerContentLeft .bannerTitle {
+        font-size: 36px;
+    }
+
+    .platformBanner .bannerContent .bannerContentLeft p {
+        font-size: 20px;
+    }
+
+
+    /* Features */
+    .subTitle {
+        position: relative;
+        font-size: 23px;
+        color: #000000;
+        font-weight: bold;
+        width: 80%;
+        line-height: 30px;
+    } 
+    .features .featSliderContainer {
+        margin-top: 25px;
+    }
+
+    .features .featSliderContainer .carousel-item.active, 
+    .features .featSliderContainer .carousel-item-next, 
+    .features .featSliderContainer .carousel-item-prev {
+        display: flex;
+    }
 }

@@ -33,10 +33,10 @@ export default function Platform() {
             <Features />
 
             {/* Offers */}
-            {/* <Offers /> */}
+            <Offers />
 
             {/* Shodat eOps™ Features */}
-            {/* <ShodatYAI /> */}
+            <ShodatYAI />
 
             {/* Shodat eOps™ Features */}
             {/* <WhyChoose /> */}
