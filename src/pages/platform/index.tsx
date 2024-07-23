@@ -39,10 +39,10 @@ export default function Platform() {
             <ShodatYAI />
 
             {/* Shodat eOps™ Features */}
-            {/* <WhyChoose /> */}
+            <WhyChoose />
 
             {/* Case Studies */}
-            {/* <CaseStudy /> */}
+            <CaseStudy />
 
             {/* Footer */}
             <FooterVersionSecond />
