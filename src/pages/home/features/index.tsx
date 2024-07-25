@@ -54,7 +54,7 @@ export default function Features() {
                 </div>
                 <div className={`${styles.text}`}>
                   <p>
-                    <strong>Adopt </strong>our market ready solutions providing flexible and scalable capabilities that enterprises need to successfully become AI-fueled organisations.
+                    <strong>Adopt </strong>our market ready solutions providing flexible and scalable capabilities that enterprises need to successfully become AI-fueled organisations
                   </p>
                 </div>
               </div>
@@ -146,7 +146,8 @@ export default function Features() {
                       <div className={`${styles.sliderContent}`}>
                         <h4>Data Engineering</h4>
                         <p>
-                        Harness Data for Actionable Intelligence.
+                        Harness Data for Actionable Intelligence. Building a robust data Infrastructure for seamless integration and analysis.
+
                         </p>
                       </div>
                     </Card>
@@ -161,7 +162,7 @@ export default function Features() {
                       <div className={`${styles.sliderContent}`}>
                         <h4>AI Innovation</h4>
                         <p>
-                        Transforming Data into Empowering Insights.
+                        Transforming data into valuable insights and actionable predictions.
                         </p>
                       </div>
                     </Card>
@@ -175,7 +176,7 @@ export default function Features() {
                       />
                       <div className={`${styles.sliderContent}`}>
                         <h4>Advanced Analytics & BI</h4>
-                        <p>Analyze data using robust visualisation and reporting.</p>
+                        <p>In depth analytics, visualisation and reporting frameworks to enable data-driven decision making.</p>
                       </div>
                     </Card>
                     <Card className={`${styles.sliderItem}`}>

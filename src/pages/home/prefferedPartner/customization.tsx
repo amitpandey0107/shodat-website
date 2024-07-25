@@ -41,10 +41,9 @@ export default function Customization() {
         <div className={`${styles.couonterRow}`}>
           <div className={`${styles.counterBox}`}>
             <h6>
-              Reduce cost to <br />
-              adopt PDM & AI strategies by
+              Custom integrations make it seamless and reduce time to adopt analytics & AI strategies on an average by
             </h6>
-            <div className={`${styles.count}`}>40%</div>
+            <div className={`${styles.count}`}>20%</div>
           </div>
         </div>
       </div>

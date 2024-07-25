@@ -11,30 +11,25 @@ export default function Expertise() {
       <div className={`${styles.contentLeft}`}>
         <h3>Benefit from our deep industry expertise</h3>
         <p>
-          Our team comprises seasoned professionals with a wealth of experience,
-          ensuring that our analytics solutions are tailored to meet the
-          specific needs and challenges of your industry.
+        Our team comprises seasoned technologists and domain experts with a wealth of experience to ensure that our analytics solutions are tailored to meet specific needs and challenges of your industry
         </p>
         <p>
-          We have the advantage of using proprietary network intelligence to
-          enhance precision and quality above and beyond our clients’ own
-          datasets.
+        We have the advantage of using our trusted network outreach to enhance precision and quality above and beyond our clients&pos; expectations consistently. 
         </p>
       </div>
       <div className={`${styles.contentRight}`}>
         <div className={`${styles.couonterRow}`}>
           <div className={`${styles.counterBox}`}>
             <h6>
-              Early detection and prediction mechanisms reducing operational failures by
+            Demonstrated proficiency in implementing solutions accurately and cost-effectively, resulting in savings of up to
             </h6>
-            <div className={`${styles.count}`}>35%</div>
+            <div className={`${styles.count}`}>25%</div>
           </div>
           <div className={`${styles.counterBox}`}>
             <h6>
-              Product and process improvements + avoiding regulatory penalties
-              bringing cost savings
+            Across industries, our early detection and prediction mechanisms reducing operational failures on an average by
             </h6>
-            <div className={`${styles.count}`}>20%</div>
+            <div className={`${styles.count}`}>35%</div>
           </div>
         </div>
       </div>

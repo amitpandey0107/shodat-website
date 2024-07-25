@@ -20,7 +20,7 @@ export default function Innovation() {
           <h3>Cutting-Edge AI Solutions</h3>
           <p>
             Explore the capabilities of the latest advancements in artificial
-            intelligence with Shdoat Inc. . We are committed to delivering
+            intelligence with Shodat Inc. We are committed to delivering
             cutting-edge AI solutions that keep your business at the forefront
             of innovation, unlocking endless opportunities for growth and value
             generation for the industry

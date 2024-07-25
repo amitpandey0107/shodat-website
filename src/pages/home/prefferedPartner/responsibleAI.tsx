@@ -14,8 +14,9 @@ export default function ResponsibleAI() {
         <div className={`${styles.contentBlock}`}>
           {/* <h3>Data Security and Privacy</h3> */}
           <p>
-            At Shodat Inc., we leverage advanced AI-driven security and compliance solutions to ensure the utmost protection of your data and adherence to regulatory standards. Our cutting-edge AI algorithm provide 99.9% threat detection accuracy, enabling real-time monitoring and response to potential threats.
+            At Shodat Inc., we leverage advanced AI-driven security and compliance solutions to ensure the utmost protection of your data and adherence to regulatory standards
           </p>
+          <p>We ensure top-tier data security with robust encryption, real-time threat monitoring, and compliance with global standards, safeguarding your sensitive information against all cyber threats.</p>
         </div>
       </div>
       <div className={`${styles.contentRight}`}>
@@ -23,15 +24,15 @@ export default function ResponsibleAI() {
           <div className={`${styles.couonterRow}`}>
             <div className={`${styles.counterBox}`}>
               <h6>
-                Reduction in manual efforts by  ensuring continuous compliance.
+                Reduction in manual efforts by deploying automated compliance processes
               </h6>
               <div className={`${styles.count}`}>70%</div>
             </div>
             <div className={`${styles.counterBox}`}>
               <h6>
-                Cost Savings in Compliance Management
+                Cost Savings in Compliance Management and avoiding potential penalties due enhanced accuracy
               </h6>
-              <div className={`${styles.count}`}>50%</div>
+              <div className={`${styles.count}`}>60%</div>
             </div>
           </div>
 

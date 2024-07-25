@@ -18,10 +18,10 @@ export default function Proven() {
             Turnkey enterprise platforms for all data integration & analytics
             needs
           </li>
-          <li>No implementation delays with critical customizations</li>
+          <li>No implementation delays with essential customizations</li>
           <li>Seamless deployments & built for global scale</li>
           <li>Low/No code data ingestion, harmonization & ML features</li>
-          <li>Industry-proven ML models</li>
+          <li>Industry-trained ML models</li>
         </ul>
       </div>
       <div className={`${styles.contentRight}`}>

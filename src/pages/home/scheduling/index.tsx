@@ -151,36 +151,37 @@ export default function Scheduling() {
                     </li>
                     <li>
                       <Image
-                        src="/img/clientLogo/infochips.png"
-                        alt="infoChips"
-                        height={100}
-                        width={140}
-                      />
-                    </li>
-                    <li>
-                      <Image
-                        src="/img/clientLogo/brollio.png"
-                        alt="brillio"
-                        height={100}
-                        width={100}
-                      />
-                    </li>
-                    <li>
-                      <Image
-                        src="/img/clientLogo/pwc.png"
-                        alt="pwc"
-                        height={100}
-                        width={100}
-                      />
-                    </li>
-                    <li>
-                      <Image
                         src="/img/clientLogo/sgAnalytics.png"
                         alt="sganalyst"
                         height={200}
                         width={200}
                       />
                     </li>
+                    <li>
+                      <Image
+                        src="/img/clientLogo/infochips.png"
+                        alt="infoChips"
+                        height={100}
+                        width={140}
+                      />
+                    </li>
+                    {/* <li>
+                      <Image
+                        src="/img/clientLogo/brollio.png"
+                        alt="brillio"
+                        height={100}
+                        width={100}
+                      />
+                    </li> */}
+                    {/* <li>
+                      <Image
+                        src="/img/clientLogo/pwc.png"
+                        alt="pwc"
+                        height={100}
+                        width={100}
+                      />
+                    </li> */}
+                    
                   </ul>
                 </div>
 
