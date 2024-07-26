@@ -324,7 +324,49 @@ body {
     transform: rotate(0deg);
 }
 
+#offerSlider .carousel-control-prev {
+    position: absolute;
+    top: auto;
+    bottom: -120px;
+    left: 0px;
+    opacity: 1;
+    z-index: 99;
+    background: rgba(104, 50, 111, 0.4);
+    width: 66px;
+    height: 66px;
+    right: auto;
+}
 
+#offerSlider .carousel-control-next {
+    position: absolute;
+    top: auto;
+    bottom: -120px;
+    left: 86px;
+    opacity: 1;
+    z-index: 99;
+    background: rgba(104, 50, 111, 0.4);
+    width: 66px;
+    height: 66px;
+    right: auto;
+}
+
+#offerSlider .carousel-control-next-icon {
+    background-image: url("/img/angle_left.svg") !important;
+    height: 45px;
+    width: 45px;
+    transform: rotate(180deg);
+    position: relative;
+    top: 10px;
+}
+
+#offerSlider .carousel-control-prev-icon {
+    background-image: url("/img/angle_left.svg") !important;
+    height: 45px;
+    width: 45px;
+    transform: rotate(0deg);
+    position: relative;
+    top: 10px;
+}
 
 
 

@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function ShodatYAI() {
 
     return (
-        <div className={`${styles.introduction}`}>
+        <div className={`${styles.introduction} ${styles.introduction2}`}>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-sm-6">

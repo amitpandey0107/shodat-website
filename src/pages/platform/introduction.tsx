@@ -16,12 +16,38 @@ export default function Introduction() {
                         {slide === 1 &&
                             <div className={`${styles.introductionPicture}`}>
                                 <div className={`${styles.imageWrap}`}>
-                                    <Image
-                                        src="/img/platform/banner.png"
-                                        alt="banner"
-                                        height={500}
-                                        width={500}
-                                    />
+                                    <div className={`${styles.image1}`}>
+                                        <Image
+                                            src="/img/platform/intro_1/img1.png"
+                                            alt="banner"
+                                            height={402}
+                                            width={620}
+                                        />
+                                    </div>
+                                    <div className={`${styles.image2}`}>
+                                        <Image
+                                            src="/img/platform/intro_1/img2.png"
+                                            alt="banner"
+                                            height={210}
+                                            width={426}
+                                        />
+                                    </div>
+                                    <div className={`${styles.image3}`}>
+                                        <Image
+                                            src="/img/platform/intro_1/img3.png"
+                                            alt="banner"
+                                            height={347}
+                                            width={250}
+                                        />
+                                    </div>
+                                    <div className={`${styles.image4}`}>
+                                        <Image
+                                            src="/img/platform/intro_1/img4.png"
+                                            alt="banner"
+                                            height={347}
+                                            width={250}
+                                        />
+                                    </div>
                                 </div>
                                 <div className={`${slide === 1 ? `${styles.bgPurple}` : ``} ${styles.textWrap}`}>
                                     <p>By harnessing the power of AI, Shodat eOps provides real-time analytics and alerts which help in predictive maintenance and comprehensive quality control mechanisms, significantly reducing the Cost of Poor Quality (COPQ) and enhancing overall productivity. </p>
@@ -48,12 +74,38 @@ export default function Introduction() {
                         {slide === 3 &&
                             <div className={`${styles.introductionPicture}`}>
                                 <div className={`${styles.imageWrap}`}>
-                                    <Image
-                                        src="/img/platform/banner.png"
-                                        alt="banner"
-                                        height={500}
-                                        width={500}
-                                    />
+                                    <div className={`${styles.image1}`}>
+                                        <Image
+                                            src="/img/platform/intro_1/img1.png"
+                                            alt="banner"
+                                            height={402}
+                                            width={620}
+                                        />
+                                    </div>
+                                    <div className={`${styles.image2}`}>
+                                        <Image
+                                            src="/img/platform/intro_1/img2.png"
+                                            alt="banner"
+                                            height={210}
+                                            width={426}
+                                        />
+                                    </div>
+                                    <div className={`${styles.image3}`}>
+                                        <Image
+                                            src="/img/platform/intro_1/img3.png"
+                                            alt="banner"
+                                            height={347}
+                                            width={250}
+                                        />
+                                    </div>
+                                    <div className={`${styles.image4}`}>
+                                        <Image
+                                            src="/img/platform/intro_1/img4.png"
+                                            alt="banner"
+                                            height={347}
+                                            width={250}
+                                        />
+                                    </div>
                                 </div>
                                 <div className={`${slide === 3 ? `${styles.bgBlack}` : ``} ${styles.textWrap}`}>
                                     <p>With Shodat eOps, organizations can achieve substantial reductions in defect rates, operational costs, and customer complaints, while simultaneously boosting employee engagement and market reputation.</p>

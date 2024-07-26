@@ -13,71 +13,102 @@ export default function Offers() {
             <div className={`${styles.offerLeft}`}>
                 <div className={`${styles.offerInfo}`}>
                     <h2>Shodat X Series</h2>
-                    <p>Shodat X engineered to deliver transparent, actionable insights across diverse industries. By integrating advanced AI algorithms with domain-specific knowledge, Shodat X provides a comprehensive suite of tools designed to optimize operations, enhance decision-making, and improve overall performance.</p>
+                    <h4>Unlocking AI-Powered Insights</h4>
+                    <p>Shodat X engineered to deliver transparent, actionable insights across diverse industries. </p>
+                    <p>By integrating advanced AI algorithms with domain-specific knowledge.</p>
+                    <p>Shodat X provides a comprehensive suite of tools designed to optimize operations, enhance decision-making, and improve overall performance.</p>
                 </div>
             </div>
             <div className={`${styles.offerRight}`}>
                 <div className={`${styles.offerContent}`}>
-                    <h2>Offers</h2>
+                    {/* <h2>Offers</h2> */}
 
                     <div className={`${styles.offerSliderWrap}`} id="offerSlider">
-                        <Carousel indicators={false}>
-                            <Carousel.Item interval={7000}>
+                        <Carousel indicators={true}>
+                            <Carousel.Item interval={700000}>
                                 <div className={`${styles.offerSliderContent}`}>
-                                    <p>Shodat XDI <span>(Explainable Defect Intelligence)</span></p>
-                                    <div className={`${styles.offerContentWrap}`}>
-                                        <div className={`${styles.imageWrap}`}>
-                                            <Image
-                                                src="/img/platform/offer_image.png"
-                                                height={292}
-                                                width={437}
-                                                alt="offer image"
-                                            />
-                                        </div>
-                                        <div className={`${styles.textWrap}`}>
-                                            <div className={`${styles.textRow1}`}>
+                                    <div className={`${styles.left}`}>
+                                        <h2>Shodat XDI </h2>
+                                        <h4>eXplainable Defect Intelligence</h4>
+                                        <div className={`${styles.info}`}>
+                                            <div className={`${styles.textRow}`}>
                                                 <h6>Defect Detection and Analysis</h6>
                                                 <p>Utilizes sophisticated AI models to identify and analyze defects with high accuracy.</p>
                                             </div>
-                                            <div className={`${styles.textRow1}`}>
+
+                                            <div className={`${styles.textRow}`}>
                                                 <h6>Explainable Intelligence</h6>
                                                 <p>Offers detailed explanations of defect causes, enabling targeted corrective actions.</p>
                                             </div>
-                                            <div className={`${styles.textRow1}`}>
+
+                                            <div className={`${styles.textRow}`}>
                                                 <h6>Predictive Maintenance</h6>
                                                 <p>Predicts potential defects before they occur, minimizing downtime and maintenance costs.</p>
                                             </div>
                                         </div>
                                     </div>
+                                    <div className={`${styles.right}`}>
+                                        <div className={`${styles.rightImg}`}>
+                                            <Image
+                                                src="/img/platform/shodat_XDI.png"
+                                                height={292}
+                                                width={437}
+                                                alt="offer image"
+                                                className={`${styles.img1}`}
+                                            />
+                                            {/* <Image
+                                                src="/img/platform/shodat_XDI_2.png"
+                                                height={292}
+                                                width={437}
+                                                alt="offer image"
+                                                className={`${styles.img2}`}
+                                            /> */}
+                                        </div>
+                                    </div>
+
                                 </div>
                             </Carousel.Item>
-                            <Carousel.Item interval={7000}>
+                            <Carousel.Item interval={700000}>
                                 <div className={`${styles.offerSliderContent}`}>
-                                    <p>Shodat XDI <span>(Explainable Defect Intelligence)</span></p>
-                                    <div className={`${styles.offerContentWrap}`}>
-                                        <div className={`${styles.imageWrap}`}>
-                                            <Image
-                                                src="/img/platform/offer_image.png"
-                                                height={292}
-                                                width={437}
-                                                alt="offer image"
-                                            />
-                                        </div>
-                                        <div className={`${styles.textWrap}`}>
-                                            <div className={`${styles.textRow1}`}>
+                                    <div className={`${styles.left}`}>
+                                        <h2>Shodat XYI </h2>
+                                        <h4>eXplainable Defect Intelligence</h4>
+                                        <div className={`${styles.info}`}>
+                                            <div className={`${styles.textRow}`}>
                                                 <h6>Defect Detection and Analysis</h6>
                                                 <p>Utilizes sophisticated AI models to identify and analyze defects with high accuracy.</p>
                                             </div>
-                                            <div className={`${styles.textRow1}`}>
+
+                                            <div className={`${styles.textRow}`}>
                                                 <h6>Explainable Intelligence</h6>
                                                 <p>Offers detailed explanations of defect causes, enabling targeted corrective actions.</p>
                                             </div>
-                                            <div className={`${styles.textRow1}`}>
+
+                                            <div className={`${styles.textRow}`}>
                                                 <h6>Predictive Maintenance</h6>
                                                 <p>Predicts potential defects before they occur, minimizing downtime and maintenance costs.</p>
                                             </div>
                                         </div>
                                     </div>
+                                    <div className={`${styles.right}`}>
+                                        <div className={`${styles.rightImg}`}>
+                                            <Image
+                                                src="/img/platform/shodat_XDI.png"
+                                                height={292}
+                                                width={437}
+                                                alt="offer image"
+                                                className={`${styles.img1}`}
+                                            />
+                                            {/* <Image
+                                                src="/img/platform/shodat_XDI_2.png"
+                                                height={292}
+                                                width={437}
+                                                alt="offer image"
+                                                className={`${styles.img2}`}
+                                            /> */}
+                                        </div>
+                                    </div>
+
                                 </div>
                             </Carousel.Item>
                         </Carousel>
