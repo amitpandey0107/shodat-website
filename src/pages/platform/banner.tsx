@@ -24,14 +24,14 @@ export default function Banner() {
                     </div>
                 </div>
                 <div className={`${styles.bannerContentRight}`}>
-                    <div className={`${styles.bannerImage}`}>
-                    <Image
-                                src="/img/platform/banner.png"
-                                alt="banner"
-                                height={362}
-                                width={683}
-                            />
-                    </div>
+                    {/* <div className={`${styles.bannerImage}`}>
+                        <Image
+                            src="/img/platform/banner.png"
+                            alt="banner"
+                            height={362}
+                            width={683}
+                        />
+                    </div> */}
                 </div>
             </div>
         </div>

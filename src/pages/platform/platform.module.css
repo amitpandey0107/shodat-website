@@ -4,6 +4,10 @@
     background-color: #f0f0f0;
     position: relative;
     overflow: hidden;
+    background-image: url('/img/platform/banner_platform.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 
 .platformBanner .bannerContent {
@@ -24,7 +28,7 @@
     font-weight: bold;
     margin-bottom: 10px;
     line-height: 60px;
-    color: black;
+    color: white;
 }
 
 .bannerContentLeft h1 span {
@@ -33,7 +37,7 @@
 
 .bannerContentLeft p {
     font-size: 23px;
-    color: black;
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -79,14 +83,23 @@
 
 
 /* ========= QUESTIONS ============ */
-.questions {
+.questionsWrap {
     position: relative;
+    min-height: 700px;
+    background-image: url(/img/platform/question_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 30px;
+}
+.questions {
+    /* position: relative;
     min-height: 700px;
     background-image: url(/img/platform/questionner.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-bottom: 30px;
+    padding-bottom: 30px; */
 
     display: flex;
     justify-content: center;
@@ -260,12 +273,40 @@
     top: -68px;
     left: 50%;
 }
+.phrase {
+    position: relative;
+}
+.phrase .phraseBox {
+    border: 2px solid #05A7B1;
+    height: 210px;
+    padding: 35px;
+}
+.phrase .phraseBox h4 {
+    font-weight: normal;
+    color: rgba(255,255,255,0.75);
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.phrase .phraseBox h4 span {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 2px;
+}
+.phrase .phraseBox p {
+    color: rgba(255,255,255,0.45);
+    font-size: 14px;
+    text-align: right;
+}
+
+
 
 
 /* POINTS */
 .points {
     position: relative;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+    display: none;
 }
 
 .points .pointsInfo {
@@ -293,13 +334,37 @@
 
 /* INTRODUCTION */
 .introduction {
-    padding: 60px 0 60px 0;
-    background-color: #F0F0F0;
+    padding: 60px 0 25px 0;
+    background-color: #FFFFFF;
     min-height: 500px;
 }
 
 .introduction .introductionPicture {
-    background-color: #F0F0F0;
+    background-color: transparent;
+    position: relative;
+}
+.introduction .introductionPicture .imageWrap {
+    height: 580px;
+    
+}
+.introduction .introductionPicture .imageWrap img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: top;
+}
+.introduction .introductionPicture .textWrap {
+    /* background-color: #000000; */
+    min-height: 250px;
+    width: 80%;
+    padding: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.introduction .introductionPicture .textWrap p{
+    color: white;
+    line-height: 30px;
 }
 
 .introduction .introductionContent {
@@ -313,6 +378,14 @@
     font-weight: bold;
     padding-bottom: 20px;
     margin-bottom: 20px;
+}
+.introduction .introductionContent h3 {
+    position: relative;
+    font-size: 28px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 40px;
+    width: 70%;
 }
 
 .introduction .introductionContent h1::after {
@@ -328,6 +401,10 @@
 .introduction .introductionContent p {
     color: black;
     margin-bottom: 30px;
+}
+
+.introduction .introductionContent ul {
+    display: none;
 }
 
 .introduction .introductionContent ul li {
@@ -349,6 +426,37 @@
 
 .introduction .introductionContent ul li span {
     margin-left: 25px;
+}
+.selectableBtn {
+    margin-top: 80px;
+}
+.selectableBtn .btnIntro {
+    /* border: 2px solid #000000; */
+    outline: none;
+    text-decoration: none;
+    height: 130px;
+    width: 145px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.selectableBtn .borderSeaGreen {
+    border: 2px solid #05A7B1;
+}
+.selectableBtn .borderPurple {
+    border: 2px solid #77467D;
+}
+.selectableBtn .borderBlack {
+    border: 2px solid #000000;
+}
+.bgSeaGreen {
+    background-color: #05A7B1;
+}
+.bgPurple {
+    background-color: #77467D;
+}
+.bgBlack {
+    background-color: #000000;
 }
 
 .title {
@@ -421,7 +529,7 @@
     border-right: 12px solid transparent;
     border-top: 19px solid #68326F;
     position: absolute;
-    bottom: -19px;
+    bottom: -17px;
 }
 
 .features .featSliderContainer .sliderItem .itemBox.activeBox h6 {
@@ -798,6 +906,7 @@
         font-weight: bold;
         width: 80%;
         line-height: 30px;
+        background-color: #F0F0F0;
     } 
     .features .featSliderContainer {
         margin-top: 25px;

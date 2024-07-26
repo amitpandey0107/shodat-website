@@ -7,72 +7,104 @@ export default function Questions() {
 
     return (
         <>
-            <div className={`${styles.questions}`}>
-                <div className={`${styles.questionsContent}`}>
+            <div className={`${styles.questionsWrap}`}>
+                <div className={`${styles.questions}`}>
+                    <div className={`${styles.questionsContent}`}>
 
-                    <div className={`${styles.infoBox} ${styles.box1}`}>
-                        <p>Are you facing challenges with maintaining product quality and struggling to minimize defect rates</p>
-                        <div className={`${styles.queMark}`}>
-                            <Image
-                                src="/img/platform/que_mark.svg"
-                                alt="que_mark"
-                                height={20}
-                                width={20}
-                            />
+                        <div className={`${styles.infoBox} ${styles.box1}`}>
+                            <p>Are you facing challenges with maintaining product quality and struggling to minimize defect rates</p>
+                            <div className={`${styles.queMark}`}>
+                                <Image
+                                    src="/img/platform/que_mark.svg"
+                                    alt="que_mark"
+                                    height={20}
+                                    width={20}
+                                />
+                            </div>
+                        </div>
+
+                        <div className={`${styles.infoBox} ${styles.box2}`}>
+                            <p>Is there a lack of visibility into your operations and processes due to data being dispersed across multiple systems or insufficient data inputs</p>
+                            <div className={`${styles.queMark2}`}>
+                                <Image
+                                    src="/img/platform/que_mark.svg"
+                                    alt="que_mark"
+                                    height={20}
+                                    width={20}
+                                />
+                            </div>
+                        </div>
+
+                        <div className={`${styles.infoBox} ${styles.box3}`}>
+                            <p>Does your root cause analysis (RCA) and reporting process take an excessive amount of time to complete</p>
+                            <div className={`${styles.queMark2}`}>
+                                <Image
+                                    src="/img/platform/que_mark.svg"
+                                    alt="que_mark"
+                                    height={20}
+                                    width={20}
+                                />
+                            </div>
+                        </div>
+
+                        <div className={`${styles.infoBox} ${styles.box4}`}>
+                            <p>Are you encountering difficulties with safety and compliance issues within your organization</p>
+                            <div className={`${styles.queMark2}`}>
+                                <Image
+                                    src="/img/platform/que_mark.svg"
+                                    alt="que_mark"
+                                    height={20}
+                                    width={20}
+                                />
+                            </div>
+                        </div>
+
+                        <div className={`${styles.infoBox} ${styles.box5}`}>
+                            <p>Are you lacking predictive capabilities or experiencing friction in implementing AI/ML strategies</p>
+                            <div className={`${styles.queMark2}`}>
+                                <Image
+                                    src="/img/platform/que_mark.svg"
+                                    alt="que_mark"
+                                    height={20}
+                                    width={20}
+                                />
+                            </div>
+                        </div>
+
+                        <div className={`${styles.circle}`}>
+                            <p>You&apos;re not alone in facing these complex operational challenges !</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={`${styles.phrase}`}>
+                    <div className="container-fluid">
+                        <div className="row">
+                            <div className="col-sm-3">
+                                <div className={`${styles.phraseBox}`}>
+                                    <h4>Average cost of poor qualiyt (COPQ) in Industry can range from <span>5%</span> to 30% of sales revenue.</h4>
+                                    <p>- ASQ and various Six Sigma studies</p>
+                                </div>
+                            </div>
+                            <div className="col-sm-3">
+                                <div className={`${styles.phraseBox}`}>
+                                    <h4><span>69%</span> of businesses lack critical visibility over supply chains.</h4>
+                                </div>
+                            </div>
+                            <div className="col-sm-3">
+                                <div className={`${styles.phraseBox}`}>
+                                    <h4>Only <span>6%</span> of companies report full visibilityon their supply chain, while 69% of companies don&apos;t have total visibility.</h4>
+                                    <p>- Forbs</p>
+                                </div>
+                            </div>
+                            <div className="col-sm-3">
+                                <div className={`${styles.phraseBox}`}>
+                                    <h4>The average estimate for regulatory compliance and economic effects of federal intervention is more the <span>$ 1.9 trillion</span> annually.</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div className={`${styles.infoBox} ${styles.box2}`}>
-                        <p>Is there a lack of visibility into your operations and processes due to data being dispersed across multiple systems or insufficient data inputs</p>
-                        <div className={`${styles.queMark2}`}>
-                            <Image
-                                src="/img/platform/que_mark.svg"
-                                alt="que_mark"
-                                height={20}
-                                width={20}
-                            />
-                        </div>
-                    </div>
-
-                    <div className={`${styles.infoBox} ${styles.box3}`}>
-                        <p>Does your root cause analysis (RCA) and reporting process take an excessive amount of time to complete</p>
-                        <div className={`${styles.queMark2}`}>
-                            <Image
-                                src="/img/platform/que_mark.svg"
-                                alt="que_mark"
-                                height={20}
-                                width={20}
-                            />
-                        </div>
-                    </div>
-
-                    <div className={`${styles.infoBox} ${styles.box4}`}>
-                        <p>Are you encountering difficulties with safety and compliance issues within your organization</p>
-                        <div className={`${styles.queMark2}`}>
-                            <Image
-                                src="/img/platform/que_mark.svg"
-                                alt="que_mark"
-                                height={20}
-                                width={20}
-                            />
-                        </div>
-                    </div>
-
-                    <div className={`${styles.infoBox} ${styles.box5}`}>
-                        <p>Are you lacking predictive capabilities or experiencing friction in implementing AI/ML strategies</p>
-                        <div className={`${styles.queMark2}`}>
-                            <Image
-                                src="/img/platform/que_mark.svg"
-                                alt="que_mark"
-                                height={20}
-                                width={20}
-                            />
-                        </div>
-                    </div>
-
-                    <div className={`${styles.circle}`}>
-                        <p>You&apos;re not alone in facing these complex operational challenges !</p>
-                    </div>
                 </div>
             </div>
 

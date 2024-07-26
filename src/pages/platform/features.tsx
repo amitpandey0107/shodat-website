@@ -30,7 +30,7 @@ export default function Features() {
 
                 <div className="row">
                     <div className="col-sm-5">
-                        <div className={`${styles.subTitle}`}>Achieve operational brilliance with precision-engineered quality management</div>
+                        <div className={`${styles.subTitle}`}>Enabling access to next-generation operational excellence</div>
                     </div>
                     <div className="col-sm-7">
                         <div className={`${styles.featSliderContainer}`} id="platformFeatSlider">
@@ -187,7 +187,7 @@ export default function Features() {
                                     <div className="col-sm-6">
                                         <div className={`${styles.picture}`}>
                                             <Image
-                                                src="/img/platform/feature_1.png"
+                                                src="/img/platform/feature_asset.png"
                                                 alt="feature_image.png"
                                                 height={371}
                                                 width={542}
@@ -197,12 +197,16 @@ export default function Features() {
                                     <div className="col-sm-6">
                                         <div className={`${styles.info}`}>
                                             <div className={`${styles.textRow}`}>
-                                                <h6>Real-Time Alerts</h6>
-                                                <p>Receive timely alerts to stay ahead of potential issues and ensure prompt responses to operational anomalies.</p>
+                                                <h6>Asset Onboarding and Management</h6>
+                                                <p>Seamlessly onboard and manage assets with real-time tracking capabilities.</p>
                                             </div>
                                             <div className={`${styles.textRow}`}>
-                                                <h6>Customizable Notifications</h6>
-                                                <p>Tailor alert settings to meet the specific needs of your organization, ensuring relevant and actionable information reaches the right personnel.</p>
+                                                <h6>Data Ingestion</h6>
+                                                <p>Efficiently ingest data from various sources including sensors, vision cameras, documents (OCR), and other systems.</p>
+                                            </div>
+                                            <div className={`${styles.textRow}`}>
+                                                <h6>Data Streams and Feeds</h6>
+                                                <p>Create continuous data streams and feeds to ensure comprehensive monitoring and data integration.</p>
                                             </div>
                                         </div>
                                     </div>
