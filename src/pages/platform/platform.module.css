@@ -92,6 +92,7 @@
     background-size: cover;
     padding-bottom: 30px;
 }
+
 .questions {
     /* position: relative;
     min-height: 700px;
@@ -273,28 +274,33 @@
     top: -68px;
     left: 50%;
 }
+
 .phrase {
     position: relative;
 }
+
 .phrase .phraseBox {
     border: 2px solid #05A7B1;
     height: 210px;
     padding: 35px;
 }
+
 .phrase .phraseBox h4 {
     font-weight: normal;
-    color: rgba(255,255,255,0.75);
+    color: rgba(255, 255, 255, 0.75);
     line-height: 28px;
     margin-bottom: 25px;
 }
+
 .phrase .phraseBox h4 span {
     color: white;
     font-size: 24px;
     font-weight: bold;
     padding: 0 2px;
 }
+
 .phrase .phraseBox p {
-    color: rgba(255,255,255,0.45);
+    color: rgba(255, 255, 255, 0.45);
     font-size: 14px;
     text-align: right;
 }
@@ -343,16 +349,19 @@
     background-color: transparent;
     position: relative;
 }
+
 .introduction .introductionPicture .imageWrap {
     height: 580px;
     width: 700px;
     position: relative;
-    
+
 }
+
 .introduction .introductionPicture .imageWrap .image1 {
     position: absolute;
     top: 6%;
 }
+
 .introduction .introductionPicture .imageWrap .image2 {
     height: 210px;
     width: 426px;
@@ -360,6 +369,7 @@
     top: 0;
     left: 16%;
 }
+
 .introduction .introductionPicture .imageWrap .image3 {
     height: 347px;
     width: 250px;
@@ -367,6 +377,7 @@
     bottom: 22%;
     right: 0%;
 }
+
 .introduction .introductionPicture .imageWrap .image4 {
     height: 100px;
     width: 90px;
@@ -374,12 +385,14 @@
     top: 40px;
     right: 13%;
 }
+
 .introduction .introductionPicture .imageWrap img {
     height: 100%;
     width: 100%;
     object-fit: contain;
     object-position: top;
 }
+
 .introduction .introductionPicture .textWrap {
     /* background-color: #000000; */
     min-height: 250px;
@@ -389,7 +402,8 @@
     bottom: 0;
     right: 0;
 }
-.introduction .introductionPicture .textWrap p{
+
+.introduction .introductionPicture .textWrap p {
     color: white;
     line-height: 30px;
 }
@@ -406,6 +420,7 @@
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
+
 .introduction .introductionContent h3 {
     position: relative;
     font-size: 24px;
@@ -454,9 +469,11 @@
 .introduction .introductionContent ul li span {
     margin-left: 25px;
 }
+
 .selectableBtn {
     margin-top: 80px;
 }
+
 .selectableBtn .btnIntro {
     /* border: 2px solid #000000; */
     outline: none;
@@ -467,21 +484,27 @@
     cursor: pointer;
     margin-right: 30px;
 }
+
 .selectableBtn .borderSeaGreen {
     border: 2px solid #05A7B1;
 }
+
 .selectableBtn .borderPurple {
     border: 2px solid #77467D;
 }
+
 .selectableBtn .borderBlack {
     border: 2px solid #000000;
 }
+
 .bgSeaGreen {
     background-color: #05A7B1;
 }
+
 .bgPurple {
     background-color: #77467D;
 }
+
 .bgBlack {
     background-color: #000000;
 }
@@ -512,10 +535,12 @@
     padding: 40px 0;
     min-height: 500px;
 }
+
 .shodatYAIContainer .shodatYAIContent {
-    width: 80%;   
+    width: 80%;
 }
-.shodatYAIContainer .shodatYAIContent h1{
+
+.shodatYAIContainer .shodatYAIContent h1 {
     position: relative;
     font-size: 33px;
     color: #77467D;
@@ -523,6 +548,7 @@
     padding-bottom: 20px;
     margin-bottom: 20px;
 }
+
 .shodatYAIContainer .shodatYAIContent h1::after {
     position: absolute;
     background-color: #000000;
@@ -532,39 +558,47 @@
     left: 0;
     bottom: 6px;
 }
-.shodatYAIContainer .shodatYAIContent h2{
+
+.shodatYAIContainer .shodatYAIContent h2 {
     margin-bottom: 25px;
     color: black;
     font-weight: bold;
     font-size: 24px;
 }
-.shodatYAIContainer .shodatYAIContent p{
+
+.shodatYAIContainer .shodatYAIContent p {
     margin-bottom: 20px;
 }
+
 .shodatYAIContainer .shodatYAIBox {
-    min-height: 451px;    
+    min-height: 451px;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
 }
-.shodatYAIContainer .imgContainer { 
+
+.shodatYAIContainer .imgContainer {
     height: 50%;
 }
+
 .shodatYAIContainer .imgContainer img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: top;
 }
-.shodatYAIContainer .textContainer { 
-    height: 50%; 
+
+.shodatYAIContainer .textContainer {
+    height: 50%;
     padding: 25px;
 }
-.shodatYAIContainer .textContainer h6{  
+
+.shodatYAIContainer .textContainer h6 {
     font-weight: bold;
     margin-bottom: 15px;
     font-size: 18px;
     color: black;
 }
-.shodatYAIContainer .textContainer p{  
+
+.shodatYAIContainer .textContainer p {
     color: rgba(0, 0, 0, 0.8);
 }
 
@@ -578,12 +612,14 @@
     min-height: 690px;
     background-color: #F0F0F0;
 }
+
 .features .title {
     margin-bottom: 0;
 }
+
 .subTitle {
     position: relative;
-    font-size:24px;
+    font-size: 24px;
     color: #000000;
     font-weight: bold;
     width: 80%;
@@ -688,6 +724,7 @@
     font-weight: bold;
     position: relative;
 }
+
 .offers .offerInfo h2::after {
     content: "";
     height: 1px;
@@ -745,14 +782,14 @@
     font-size: 14px;
 }
 
-.offers .offerSliderContent h2{
+.offers .offerSliderContent h2 {
     color: #000000;
     font-size: 32px;
     margin-bottom: 15px;
     font-weight: bold;
 }
 
-.offers .offerSliderContent h4{
+.offers .offerSliderContent h4 {
     color: #68326F;
     font-size: 24px;
     margin-bottom: 25px;
@@ -789,20 +826,24 @@
     justify-content: flex-start;
     align-items: center;
 }
-.offerSliderContent .left{
+
+.offerSliderContent .left {
     width: 50%;
 }
-.offerSliderContent .right{
+
+.offerSliderContent .right {
     width: 50%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
+
 .offerSliderContent .right .rightImg {
     height: 499px;
     width: auto;
     position: relative;
 }
+
 .offerSliderContent .right .rightImg img {
     height: 100%;
     width: 100%;
@@ -940,25 +981,31 @@
     font-weight: 600;
     margin-left: 10px;
 }
+
 .whyChoose .iconContent {
-    border-right: 1px solid rgba(104,50,111, 0.3);
+    border-right: 1px solid rgba(104, 50, 111, 0.3);
     padding-right: 25px;
 }
+
 .brzero {
     border-right: 0 !important;
 }
-.whyChoose .iconContent .iconCol{
-    margin-bottom: 30px;    
-}
-.whyChoose .iconContent .txt{
+
+.whyChoose .iconContent .iconCol {
     margin-bottom: 30px;
-    font-weight: 500;    
 }
-.whyChoose .iconContent .percentage{
+
+.whyChoose .iconContent .txt {
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.whyChoose .iconContent .percentage {
     font-size: 30px;
     color: #68326F;
     font-weight: bold;
 }
+
 .whyChoose .iconInfoWrap {
     position: relative;
     top: 69px;
@@ -1071,6 +1118,7 @@
         position: relative;
         margin-top: 30px;
     }
+
     .bannerContentRight .bannerImage {
         position: relative;
         bottom: auto;
@@ -1093,6 +1141,10 @@
     .platformBanner {
         height: auto;
         padding-bottom: 15px;
+        min-height: 350px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
 
     .platformBanner .bannerContent .bannerContentLeft .bannerTitle {
@@ -1104,6 +1156,7 @@
     }
 
 
+
     /* Features */
     .subTitle {
         position: relative;
@@ -1113,14 +1166,244 @@
         width: 80%;
         line-height: 30px;
         background-color: #F0F0F0;
-    } 
+    }
+
     .features .featSliderContainer {
         margin-top: 25px;
     }
 
-    .features .featSliderContainer .carousel-item.active, 
-    .features .featSliderContainer .carousel-item-next, 
+    .features .featSliderContainer .carousel-item.active,
+    .features .featSliderContainer .carousel-item-next,
     .features .featSliderContainer .carousel-item-prev {
         display: flex;
+    }
+
+    /* QUESTIONS */
+    .questionsContent {
+        width: 100%;
+        padding: 30px;
+        height: auto;
+        min-height: 700px;
+    }
+
+    .questionsContent .infoBox.box1 {
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        height: auto;
+        min-height: 100px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .questionsContent .infoBox.box1:after {
+        display: none;
+    }
+
+    .questionsContent .infoBox.box2 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        transform: none;
+        height: auto;
+        min-height: 100px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .questionsContent .infoBox.box2:after {
+        display: none;
+    }
+
+    .questionsContent .infoBox.box3 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        transform: none;
+        height: auto;
+        min-height: 100px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .questionsContent .infoBox.box3:after {
+        display: none;
+    }
+
+    .questionsContent .infoBox.box4 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        transform: none;
+        height: auto;
+        min-height: 100px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .questionsContent .infoBox.box4:after {
+        display: none;
+    }
+
+    .questionsContent .infoBox.box5 {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        bottom: auto;
+        transform: none;
+        height: auto;
+        min-height: 100px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .questionsContent .infoBox.box5:after {
+        display: none;
+    }
+
+    .questionsContent .circle {
+        height: 250px;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 6px solid #77467D;
+        border-radius: 50%;
+        position: relative;
+        top: auto;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        margin-bottom: 70px;
+    }
+
+    .phrase .phraseBox {
+        margin-bottom: 30px;
+        height: auto;
+        padding: 35px;
+        min-height: 300px;
+    }
+
+    .introduction .introductionPicture .imageWrap {
+        height: auto;
+        width: 100%;
+        position: relative;
+        min-height: 502px;
+    }
+
+    .introduction .introductionPicture .imageWrap .image1 {
+        position: relative;
+        top: auto;
+    }
+
+    .introduction .introductionPicture .textWrap {
+        min-height: 250px;
+        width: 100%;
+        padding: 40px;
+        position: relative;
+        bottom: 0;
+        right: 0;
+        margin-bottom: 30px;
+    }
+
+    .selectableBtn {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features .featSliderContainer .sliderItem {
+        border: 0;
+        border-radius: 0;
+        height: auto;
+        background-color: #F0F0F0;
+        width: 48%;
+        padding-bottom: 30px;
+    }
+
+    .features .featSliderContainer .sliderItem .itemBox {
+        height: auto;
+        width: auto;
+        background-color: #FFFFFF;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        text-align: center;
+        cursor: pointer;
+        box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+        min-height: 160px;
+    }
+
+    .features .contentFeature {
+        width: 100%;
+        margin: 0px auto 0 auto;
+        padding-bottom: 40px;
+    }
+
+    .contentFeature .picture {
+        margin-bottom: 30px;
+    }
+
+    .offers .offerLeft {
+        width: 100%;
+    }
+
+    .offers .offerRight {
+        width: 100%;
+    }
+
+    .offers {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .offers .offerInfo {
+        height: auto;
+    }
+    .selectableBtn .borderBlack {
+        margin-right: 0;
+    }
+    .selectableBtn .btnIntro {
+        height: 75px;
+        width: 75px;
+    }
+    .offerSliderWrap .info .textRow {
+        margin-bottom: 20px;
+    }
+    .shodatYAIContainer .shodatYAIContent {
+        width: 100%;
+    }
+    .shodatYAIContainer .textContainer {
+        padding: 15px;
+    }
+    .shodatYAIContainer .shodatYAIBox { 
+        min-height: 400px;
+    }
+    .whyChoose .iconContent {
+        border-right: 1px solid rgba(104, 50, 111, 0.3);
+        border: 1px solid rgba(104, 50, 111, 0.3);
+        padding-right: 25px;
+        /* min-height: 250px; */
+        height: 250px;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+    .whyChoose .iconContent.brzero {
+        border-right: 1px solid rgba(104, 50, 111, 0.3) !important;
+    }
+    .whyChoose .iconInfoWrap {
+        position: relative;
+        top: auto;
+        margin-top: 50px;
     }
 }

@@ -22,11 +22,11 @@ export default function Features() {
 
 
                 <div className="row">
-                    <div className="col-sm-5">
+                    <div className="col-sm-12 col-md-5">
                         <h1 className={`${styles.title}`}>Shodat eOps™ Features</h1>
                         <div className={`${styles.subTitle}`}>Enabling access to next-generation operational excellence</div>
                     </div>
-                    <div className="col-sm-7">
+                    <div className="col-sm-12 col-md-7">
                         <div className={`${styles.featSliderContainer}`} id="platformFeatSlider">
                             <Carousel controls={false} indicators={false} interval={null}>
                                 <Carousel.Item interval={10500}>
@@ -178,7 +178,7 @@ export default function Features() {
                         {items === 1 &&
                             <div className={`${styles.contentFeature}`}>
                                 <div className="row">
-                                    <div className="col-sm-6">
+                                <div className="col-sm-12 col-md-6">
                                         <div className={`${styles.picture}`}>
                                             <Image
                                                 src="/img/platform/platform-page-imgs/assets-creation-img1.png"
@@ -188,7 +188,7 @@ export default function Features() {
                                             />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6">
+                                    <div className="col-sm-12 col-md-6">
                                         <div className={`${styles.info}`}>
                                             <div className={`${styles.textRow}`}>
                                                 <h6>Asset Onboarding and Management</h6>
@@ -211,7 +211,7 @@ export default function Features() {
                         {items === 2 &&
                             <div className={`${styles.contentFeature}`}>
                                 <div className="row">
-                                    <div className="col-sm-6">
+                                    <div className="col-sm-12 col-md-6">
                                         <div className={`${styles.picture}`}>
                                             <Image
                                                 src="/img/platform/platform-page-imgs/features-img2.png"
@@ -221,7 +221,7 @@ export default function Features() {
                                             />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6">
+                                    <div className="col-sm-12 col-md-6">
                                         <div className={`${styles.info}`}>
                                             <div className={`${styles.textRow}`}>
                                                 <h6>Domain-Specific Models</h6>
@@ -241,7 +241,7 @@ export default function Features() {
                         {items === 3 &&
                             <div className={`${styles.contentFeature}`}>
                                 <div className="row">
-                                    <div className="col-sm-6">
+                                    <div className="col-sm-12 col-md-6">
                                         <div className={`${styles.picture}`}>
                                             <Image
                                                 src="/img/platform/platform-page-imgs/features-img3.png"
@@ -251,7 +251,7 @@ export default function Features() {
                                             />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6">
+                                    <div className="col-sm-12 col-md-6">
                                         <div className={`${styles.info}`}>
                                             <div className={`${styles.textRow}`}>
                                                 <h6>Real-Time Alerts</h6>
@@ -270,7 +270,7 @@ export default function Features() {
                         {items === 4 &&
                             <div className={`${styles.contentFeature}`}>
                                 <div className="row">
-                                    <div className="col-sm-6">
+                                    <div className="col-sm-12 col-md-6">
                                         <div className={`${styles.picture}`}>
                                             <Image
                                                 src="/img/platform/platform-page-imgs/features-img4.png"
@@ -280,7 +280,7 @@ export default function Features() {
                                             />
                                         </div>
                                     </div>
-                                    <div className="col-sm-6">
+                                    <div className="col-sm-12 col-md-6">
                                         <div className={`${styles.info}`}>
                                             <div className={`${styles.textRow}`}>
                                                 <h6>Quality Assurance Management</h6>

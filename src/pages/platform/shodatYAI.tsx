@@ -9,7 +9,7 @@ export default function ShodatYAI() {
         <div className={`${styles.shodatYAIContainer}`}>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-sm-5">
+                    <div className="col-sm-12 col-md-5">
                         <div className={`${styles.shodatYAIContent}`}>
                             <h1>Shodat YAI</h1>
                             <h2>Deeper understanding of real world incidents and the &apos;why&apos; behind them</h2>
@@ -17,7 +17,7 @@ export default function ShodatYAI() {
 
                         </div>
                     </div>
-                    <div className="col-sm-7">
+                    <div className="col-sm-12 col-sm-7">
                         <div className="row">
                             <div className="col-sm-6">
                                 <div className={`${styles.shodatYAIBox}`}>

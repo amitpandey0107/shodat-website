@@ -282,6 +282,7 @@ body {
     top: auto;
     left: -27px;
 }
+
 #offerSlider .carousel-control-next {
     position: absolute;
     height: auto;
@@ -301,6 +302,7 @@ body {
     top: 44%;
     left: -5%;
 }
+
 #caseStudySlider .carousel-control-next {
     position: absolute;
     height: 64px;
@@ -310,6 +312,7 @@ body {
     top: 44%;
     right: -5%;
 }
+
 #caseStudySlider .carousel-control-next-icon {
     background-image: url("/img/platform/angleLeft.svg") !important;
     height: 64px;
@@ -536,6 +539,20 @@ body {
     #scheduling .container-fluid {
         padding-left: 15px;
         padding-right: 15px;
+    }
+
+    .gap-4 {
+        gap: 10px !important;
+    }
+
+    #offerSlider .carousel-control-next {
+        bottom: -140px;
+        left: 52%;
+    }
+
+    #offerSlider .carousel-control-prev {
+        bottom: -140px;
+        left: 40%;
     }
 }
 

@@ -12,7 +12,7 @@ export default function Introduction() {
         <div className={`${styles.introduction}`}>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-sm-6">
+                    <div className="col-sm-12 col-md-6">
                         {slide === 1 &&
                             <div className={`${styles.introductionPicture}`}>
                                 <div className={`${styles.imageWrap}`}>
@@ -68,7 +68,7 @@ export default function Introduction() {
                         }
 
                     </div>
-                    <div className="col-sm-6">
+                    <div className="col-sm-12 col-md-6">
                         <div className={`${styles.introductionContent}`}>
                             <h1>Introducing Shodat eOps™</h1>
                             <h3>Achieve operational brilliance with precision-engineered quality management.</h3>
