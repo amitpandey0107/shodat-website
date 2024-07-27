@@ -98,8 +98,8 @@
     margin-top: 40px;
 }
 .copyright p{
-    color: white;
-    font-size: 12px;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 14px;
 }
 .copyrightMenu {
     display: flex;

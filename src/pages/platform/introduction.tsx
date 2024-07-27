@@ -18,34 +18,10 @@ export default function Introduction() {
                                 <div className={`${styles.imageWrap}`}>
                                     <div className={`${styles.image1}`}>
                                         <Image
-                                            src="/img/platform/intro_1/img1.png"
+                                            src="/img/platform/platform-page-imgs/introduction-img1.png"
                                             alt="banner"
                                             height={402}
                                             width={620}
-                                        />
-                                    </div>
-                                    <div className={`${styles.image2}`}>
-                                        <Image
-                                            src="/img/platform/intro_1/img2.png"
-                                            alt="banner"
-                                            height={210}
-                                            width={426}
-                                        />
-                                    </div>
-                                    <div className={`${styles.image3}`}>
-                                        <Image
-                                            src="/img/platform/intro_1/img3.png"
-                                            alt="banner"
-                                            height={347}
-                                            width={250}
-                                        />
-                                    </div>
-                                    <div className={`${styles.image4}`}>
-                                        <Image
-                                            src="/img/platform/intro_1/img4.png"
-                                            alt="banner"
-                                            height={347}
-                                            width={250}
                                         />
                                     </div>
                                 </div>
@@ -58,12 +34,14 @@ export default function Introduction() {
                         {slide === 2 &&
                             <div className={`${styles.introductionPicture}`}>
                                 <div className={`${styles.imageWrap}`}>
-                                    <Image
-                                        src="/img/platform/banner.png"
-                                        alt="banner"
-                                        height={500}
-                                        width={500}
-                                    />
+                                    <div className={`${styles.image1}`}>
+                                        <Image
+                                            src="/img/platform/platform-page-imgs/introduction-img1.png"
+                                            alt="banner"
+                                            height={402}
+                                            width={620}
+                                        />
+                                    </div>
                                 </div>
                                 <div className={`${slide === 2 ? `${styles.bgSeaGreen}` : ``} ${styles.textWrap}`}>
                                     <p>Leveraging industry standards such as safety regulations like OSHA, ANSI & CCOHS,ISO 9001, Shodat eOps facilitates a robust quality management framework to meet regulatory requirements. The platform&apos;s capabilities in predictive analytics and real-time monitoring ensure proactive issue resolution and continuous process optimization.</p>
@@ -76,34 +54,10 @@ export default function Introduction() {
                                 <div className={`${styles.imageWrap}`}>
                                     <div className={`${styles.image1}`}>
                                         <Image
-                                            src="/img/platform/intro_1/img1.png"
+                                            src="/img/platform/platform-page-imgs/introduction-img1.png"
                                             alt="banner"
                                             height={402}
                                             width={620}
-                                        />
-                                    </div>
-                                    <div className={`${styles.image2}`}>
-                                        <Image
-                                            src="/img/platform/intro_1/img2.png"
-                                            alt="banner"
-                                            height={210}
-                                            width={426}
-                                        />
-                                    </div>
-                                    <div className={`${styles.image3}`}>
-                                        <Image
-                                            src="/img/platform/intro_1/img3.png"
-                                            alt="banner"
-                                            height={347}
-                                            width={250}
-                                        />
-                                    </div>
-                                    <div className={`${styles.image4}`}>
-                                        <Image
-                                            src="/img/platform/intro_1/img4.png"
-                                            alt="banner"
-                                            height={347}
-                                            width={250}
                                         />
                                     </div>
                                 </div>

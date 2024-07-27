@@ -299,7 +299,7 @@ body {
     display: inline-block;
     bottom: auto;
     top: 44%;
-    left: -8%;
+    left: -5%;
 }
 #caseStudySlider .carousel-control-next {
     position: absolute;
@@ -308,7 +308,7 @@ body {
     display: inline-block;
     bottom: auto;
     top: 44%;
-    right: -8%;
+    right: -5%;
 }
 #caseStudySlider .carousel-control-next-icon {
     background-image: url("/img/platform/angleLeft.svg") !important;

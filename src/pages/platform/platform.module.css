@@ -408,7 +408,7 @@
 }
 .introduction .introductionContent h3 {
     position: relative;
-    font-size: 28px;
+    font-size: 24px;
     color: #000000;
     font-weight: bold;
     margin-bottom: 40px;
@@ -505,8 +505,67 @@
     bottom: 6px;
 }
 
-.introduction2 {
+
+/* SHODAT YAI */
+.shodatYAIContainer {
     background-color: #F0F0F0;
+    padding: 40px 0;
+    min-height: 500px;
+}
+.shodatYAIContainer .shodatYAIContent {
+    width: 80%;   
+}
+.shodatYAIContainer .shodatYAIContent h1{
+    position: relative;
+    font-size: 33px;
+    color: #77467D;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.shodatYAIContainer .shodatYAIContent h1::after {
+    position: absolute;
+    background-color: #000000;
+    height: 1px;
+    width: 250px;
+    content: '';
+    left: 0;
+    bottom: 6px;
+}
+.shodatYAIContainer .shodatYAIContent h2{
+    margin-bottom: 25px;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+.shodatYAIContainer .shodatYAIContent p{
+    margin-bottom: 20px;
+}
+.shodatYAIContainer .shodatYAIBox {
+    min-height: 451px;    
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+}
+.shodatYAIContainer .imgContainer { 
+    height: 50%;
+}
+.shodatYAIContainer .imgContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.shodatYAIContainer .textContainer { 
+    height: 50%; 
+    padding: 25px;
+}
+.shodatYAIContainer .textContainer h6{  
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: black;
+}
+.shodatYAIContainer .textContainer p{  
+    color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -516,8 +575,7 @@
 .features {
     position: relative;
     padding: 20px 0;
-    min-height: 500px;
-    /* box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2); */
+    min-height: 690px;
     background-color: #F0F0F0;
 }
 .features .title {
@@ -525,10 +583,10 @@
 }
 .subTitle {
     position: relative;
-    font-size:28px;
+    font-size:24px;
     color: #000000;
     font-weight: bold;
-    width: 100%;
+    width: 80%;
 }
 
 .features .featSliderContainer {
@@ -581,8 +639,8 @@
 }
 
 .features .contentFeature {
-    width: 80%;
-    margin: 50px auto 0 auto;
+    width: 95%;
+    margin: 28px auto 0 auto;
 }
 
 .features .contentFeature .info {
@@ -601,7 +659,7 @@
     color: #68326F;
     font-size: 16px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 
@@ -620,25 +678,31 @@
 .offers .offerInfo {
     background-color: #68326F;
     height: 750px;
-    padding: 50px 80px 50px 30px;
+    padding: 30px 40px 30px 30px;
 }
 
 .offers .offerInfo h2 {
     color: white;
-    font-size: 32px;
-    margin-bottom: 15px;
+    font-size: 33px;
+    margin-bottom: 25px;
     font-weight: bold;
     position: relative;
 }
 .offers .offerInfo h2::after {
     content: "";
+    height: 1px;
+    width: 244px;
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    bottom: -2px;
+    left: 0;
 }
 
 .offers .offerInfo h4 {
     color: white;
-    font-size: 18px;
+    font-size: 23px;
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .offers .offerInfo p {
@@ -659,7 +723,7 @@
 
 .offers .offerContent {
     height: 750px;
-    padding: 50px 100px 50px 50px;
+    padding: 30px;
 }
 
 .offers .offerContent h2 {
@@ -690,7 +754,7 @@
 
 .offers .offerSliderContent h4{
     color: #68326F;
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 25px;
     font-weight: bold;
 }
@@ -736,7 +800,7 @@
 }
 .offerSliderContent .right .rightImg {
     height: 499px;
-    width: 408px;
+    width: auto;
     position: relative;
 }
 .offerSliderContent .right .rightImg img {
@@ -746,14 +810,10 @@
     object-position: top;
 }
 
-.offerSliderContent .right .rightImg .img2 {
-
-}
-
-
 
 .offers .offerSliderWrap {
-    margin-top: 20px;
+    margin-top: 0px;
+    position: relative;
 }
 
 .offers .offerSliderWrap .offerContentWrap {
@@ -802,7 +862,7 @@
 }
 
 .whyChoose .chooseList {
-    width: 75%;
+    width: 95%;
 }
 
 .whyChoose .chooseList img {
@@ -880,6 +940,30 @@
     font-weight: 600;
     margin-left: 10px;
 }
+.whyChoose .iconContent {
+    border-right: 1px solid rgba(104,50,111, 0.3);
+    padding-right: 25px;
+}
+.brzero {
+    border-right: 0 !important;
+}
+.whyChoose .iconContent .iconCol{
+    margin-bottom: 30px;    
+}
+.whyChoose .iconContent .txt{
+    margin-bottom: 30px;
+    font-weight: 500;    
+}
+.whyChoose .iconContent .percentage{
+    font-size: 30px;
+    color: #68326F;
+    font-weight: bold;
+}
+.whyChoose .iconInfoWrap {
+    position: relative;
+    top: 69px;
+}
+
 
 
 /* CASE STUDIES */
@@ -891,7 +975,7 @@
 }
 
 .caseStudy .caseStudySlider {
-    padding: 0 10%;
+    padding: 0 6%;
 }
 
 .caseStudy .csItem .topItem {

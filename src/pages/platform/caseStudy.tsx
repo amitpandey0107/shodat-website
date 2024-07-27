@@ -27,7 +27,7 @@ export default function CaseStudy() {
                                     <Stack
                                         direction="horizontal"
                                         className="h-100 justify-content-center align-items-center"
-                                        gap={3}
+                                        gap={4}
                                     >
                                         <Card className={`${styles.sliderItem}`}>
                                             <div className={`${styles.csItem}`}>
@@ -87,7 +87,7 @@ export default function CaseStudy() {
                                     <Stack
                                         direction="horizontal"
                                         className="h-100 justify-content-center align-items-center"
-                                        gap={3}
+                                        gap={4}
                                     >
                                         <Card className={`${styles.sliderItem}`}>
                                             <div className={`${styles.csItem}`}>

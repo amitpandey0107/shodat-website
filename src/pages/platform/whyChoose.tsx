@@ -17,7 +17,7 @@ export default function WhyChoose() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-12 col-md-5">
+                    <div className="col-sm-12 col-md-4">
                         <ul className={`${styles.chooseList}`}>
                             <li>
                                 <Image
@@ -57,57 +57,86 @@ export default function WhyChoose() {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-sm-12 col-md-7">
-                        <div className={`${styles.iconRow}`}>
-                            <div className={`${styles.infoWrap}`}>
-                                <div className={`${styles.value}`}>
-                                    <Image
-                                        src="/img/platform/colorBGIcon.svg"
-                                        height={95}
-                                        width={106}
-                                        alt="colorBGIcon"
-                                    />
-                                    <span>40%</span>
+                    <div className="col-sm-12 col-md-8">
+                        <div className={`${styles.iconInfoWrap}`}>
+                            <div className="row">
+
+                                <div className="col-sm-3">
+                                    <div className={`${styles.iconContent}`}>
+                                        <div className={`${styles.iconCol}`}>
+                                            <Image
+                                                src="/img/platform/choose_icon_1.svg"
+                                                alt="choose_icon"
+                                                height={64}
+                                                width={64}
+                                            />
+                                        </div>
+                                        <div className={`${styles.txt}`}>
+                                            Reduce cost to adopt PDM & BI strategies by
+                                        </div>
+                                        <div className={`${styles.percentage}`}>
+                                            40%
+                                        </div>
+                                    </div>
                                 </div>
-                                <p>Reduce cost to adopt PDM & BI strategies </p>
-                            </div>
-                            <div className={`${styles.infoWrap}`}>
-                                <div className={`${styles.value}`}>
-                                    <Image
-                                        src="/img/platform/colorBGIcon.svg"
-                                        height={95}
-                                        width={106}
-                                        alt="colorBGIcon"
-                                    />
-                                    <span>35%</span>
+
+                                <div className="col-sm-3">
+                                    <div className={`${styles.iconContent}`}>
+                                        <div className={`${styles.iconCol}`}>
+                                            <Image
+                                                src="/img/platform/choose_icon_2.svg"
+                                                alt="choose_icon"
+                                                height={64}
+                                                width={64}
+                                            />
+                                        </div>
+                                        <div className={`${styles.txt}`}>
+                                            Predict & reduce operational failures by
+                                        </div>
+                                        <div className={`${styles.percentage}`}>
+                                            35%
+                                        </div>
+                                    </div>
                                 </div>
-                                <p>Predict & reduce operational failures </p>
-                            </div>
-                        </div>
-                        <div className={`${styles.iconRow} ${styles.mb0}`}>
-                            <div className={`${styles.infoWrap}`}>
-                                <div className={`${styles.value}`}>
-                                    <Image
-                                        src="/img/platform/colorBGIcon.svg"
-                                        height={95}
-                                        width={106}
-                                        alt="colorBGIcon"
-                                    />
-                                    <span>66%</span>
+
+                                <div className="col-sm-3">
+                                    <div className={`${styles.iconContent}`}>
+                                        <div className={`${styles.iconCol}`}>
+                                            <Image
+                                                src="/img/platform/choose_icon_3.svg"
+                                                alt="choose_icon"
+                                                height={64}
+                                                width={64}
+                                            />
+                                        </div>
+                                        <div className={`${styles.txt}`}>
+                                            Reduce time for auditing & compliance by
+                                        </div>
+                                        <div className={`${styles.percentage}`}>
+                                            65%
+                                        </div>
+                                    </div>
                                 </div>
-                                <p>Reduce time for auditing & compliance </p>
-                            </div>
-                            <div className={`${styles.infoWrap}`}>
-                                <div className={`${styles.value}`}>
-                                    <Image
-                                        src="/img/platform/colorBGIcon.svg"
-                                        height={95}
-                                        width={106}
-                                        alt="colorBGIcon"
-                                    />
-                                    <span>80%</span>
+
+                                <div className="col-sm-3">
+                                    <div className={`${styles.iconContent} ${styles.brzero}`}>
+                                        <div className={`${styles.iconCol}`}>
+                                            <Image
+                                                src="/img/platform/choose_icon_4.svg"
+                                                alt="choose_icon"
+                                                height={64}
+                                                width={64}
+                                            />
+                                        </div>
+                                        <div className={`${styles.txt}`}>
+                                            Predict time for complex RCA by
+                                        </div>
+                                        <div className={`${styles.percentage}`}>
+                                            80%
+                                        </div>
+                                    </div>
                                 </div>
-                                <p>Predict time for complex RCA</p>
+
                             </div>
                         </div>
                     </div>
