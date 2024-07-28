@@ -1418,6 +1418,26 @@
     .caseStudyModal .modalContent {
         flex-wrap: wrap;
     }
+    .caseStudy .caseStudySlider .sliderItem {
+        width: 30%;
+    }
+    .caseStudy .caseStudySlider {
+        padding: 0 2%;
+    }
+    .caseStudy .csItem .topItem {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .caseStudy .csItem .imageItem {
+        width: 100%;
+        height: auto;
+    }
+    .caseStudy .csItem .imageItem .purpleText {
+        height: auto;
+        position: relative;
+        margin-left: 0;
+    }
 }
 
 

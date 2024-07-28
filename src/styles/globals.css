@@ -492,6 +492,12 @@ body {
 }
 
 
+@media screen and (max-width: 991px) {
+    .gap-4 {
+        gap: 0;
+    }
+}
+
 @media screen and (max-width: 768px) {
     #shodatX .carousel-control-prev {
         left: 15px;
@@ -556,6 +562,12 @@ body {
     .prefferedPartnerSection .container-fluid {
         padding-left: 15px;
         padding-right: 15px;
+    }
+    #caseStudySlider .hstack {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+        align-items: flex-start !important;
     }
 
 }
