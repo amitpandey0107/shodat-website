@@ -1760,6 +1760,17 @@
         top: auto;
         margin-top: 50px;
     }
+    .caseStudyModal .modalContent .modalLeft {
+        display: none;
+    }
+
+    .caseStudyModal .modalContent .modalRight {
+        width: 100%;
+        padding: 20px;
+    }
+    .caseStudy .caseStudySlider .sliderItem {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 479px) {
