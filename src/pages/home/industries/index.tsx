@@ -158,7 +158,7 @@ export default function Industries() {
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
-                  src="/img/industries/image4.jpg"
+                  src="/img/industries/Logistics.jpg"
                   alt="industries"
                   height={604}
                   width={666}
