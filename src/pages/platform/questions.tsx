@@ -83,24 +83,24 @@ export default function Questions() {
                 <div className={`${styles.phrase}`}>
                     <div className="container-fluid">
                         <div className="row">
-                            <div className="col-sm-6 col-md-3">
+                            <div className="col-sm-6 col-md-6 col-lg-3">
                                 <div className={`${styles.phraseBox}`}>
                                     <h4>Average cost of poor qualiyt (COPQ) in Industry can range from <span>5%</span> to 30% of sales revenue.</h4>
                                     <p>- ASQ and various Six Sigma studies</p>
                                 </div>
                             </div>
-                            <div className="col-sm-6 col-md-3">
+                            <div className="col-sm-6 col-md-6 col-lg-3">
                                 <div className={`${styles.phraseBox}`}>
                                     <h4><span>69%</span> of businesses lack critical visibility over supply chains.</h4>
                                 </div>
                             </div>
-                            <div className="col-sm-6 col-md-3">
+                            <div className="col-sm-6 col-md-6 col-lg-3">
                                 <div className={`${styles.phraseBox}`}>
                                     <h4>Only <span>6%</span> of companies report full visibilityon their supply chain, while 69% of companies don&apos;t have total visibility.</h4>
                                     <p>- Forbs</p>
                                 </div>
                             </div>
-                            <div className="col-sm-6 col-md-3">
+                            <div className="col-sm-6 col-md-6 col-lg-3">
                                 <div className={`${styles.phraseBox}`}>
                                     <h4>The average estimate for regulatory compliance and economic effects of federal intervention is more the <span>$ 1.9 trillion</span> annually.</h4>
                                 </div>

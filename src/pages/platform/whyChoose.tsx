@@ -17,7 +17,7 @@ export default function WhyChoose() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-sm-12 col-md-4">
+                    <div className="col-sm-12 col-md-12 col-lg-4">
                         <ul className={`${styles.chooseList}`}>
                             <li>
                                 <Image
@@ -57,11 +57,11 @@ export default function WhyChoose() {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-sm-12 col-md-8">
+                    <div className="col-sm-12 col-md-12 col-lg-8">
                         <div className={`${styles.iconInfoWrap}`}>
                             <div className="row">
 
-                                <div className="col-12 col-sm-6 col-md-3 col-lg-3">
+                                <div className="col-12 col-sm-6 col-md-6 col-lg-3">
                                     <div className={`${styles.iconContent}`}>
                                         <div className={`${styles.iconCol}`}>
                                             <Image
@@ -80,7 +80,7 @@ export default function WhyChoose() {
                                     </div>
                                 </div>
 
-                                <div className="col-12 col-sm-6 col-md-3 col-lg-3">
+                                <div className="col-12 col-sm-6 col-md-6 col-lg-3">
                                     <div className={`${styles.iconContent}`}>
                                         <div className={`${styles.iconCol}`}>
                                             <Image
@@ -99,7 +99,7 @@ export default function WhyChoose() {
                                     </div>
                                 </div>
 
-                                <div className="col-12 col-sm-6 col-md-3 col-lg-3">
+                                <div className="col-12 col-sm-6 col-md-6 col-lg-3">
                                     <div className={`${styles.iconContent}`}>
                                         <div className={`${styles.iconCol}`}>
                                             <Image
@@ -118,7 +118,7 @@ export default function WhyChoose() {
                                     </div>
                                 </div>
 
-                                <div className="col-12 col-sm-6 col-md-3 col-lg-3">
+                                <div className="col-12 col-sm-6 col-md-6 col-lg-3">
                                     <div className={`${styles.iconContent} ${styles.brzero}`}>
                                         <div className={`${styles.iconCol}`}>
                                             <Image
