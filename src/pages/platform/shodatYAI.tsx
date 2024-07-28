@@ -17,7 +17,7 @@ export default function ShodatYAI() {
 
                         </div>
                     </div>
-                    <div className="col-sm-12 col-sm-7">
+                    <div className="col-sm-12 col-md-7">
                         <div className="row">
                             <div className="col-sm-6">
                                 <div className={`${styles.shodatYAIBox}`}>

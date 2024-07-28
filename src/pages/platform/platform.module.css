@@ -1062,7 +1062,7 @@
     top: 0;
     right: 0;
     font-weight: 300;
-    line-height: 28px;
+    height: 150px;
 }
 
 .caseStudy .csItem .imageItem img {
@@ -1405,5 +1405,49 @@
         position: relative;
         top: auto;
         margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .phrase .phraseBox {
+        min-height: auto;
+    }
+    .introduction .introductionPicture .imageWrap {
+        height: auto;
+        min-height: auto;
+    }
+    .introduction .introductionPicture .textWrap {
+        padding: 20px;
+    }
+    .introduction .introductionContent h3, 
+    .subTitle {
+        width: 100%;
+    }
+    .selectableBtn {
+        margin-top: 40px;
+    }
+    .offerSliderContent .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .offerSliderContent .right {
+        width: 100%;
+    }
+    .offerSliderContent {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .offers .offerContent {
+        height: auto;
+        padding-bottom: 80px;
+    }
+    .shodatYAIContainer .shodatYAIBox {
+        margin-bottom: 30px;
+    }
+    .shodatYAIContainer {
+        padding: 40px 0 10px 0;
+    }
+    .iconInfoWrap > .row > .col-12:last-child > .iconContent {
+        margin-bottom: 0;
     }
 }

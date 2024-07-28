@@ -561,4 +561,27 @@ body {
     .gap-3 {
         gap: 0 !important;
     }
+    #offerSlider .carousel-control-prev {
+        bottom: -66px;
+        left: 35%;
+        height: 40px;
+        width: 40px;
+    }
+    #offerSlider .carousel-control-next {
+        bottom: -66px;
+        right: 35%;
+        height: 40px;
+        width: 40px;
+        left: auto;
+    }
+    #offerSlider .carousel-control-prev-icon {      
+        height: 30px;
+        width: 30px;
+        top: 5px;
+    }
+    #offerSlider .carousel-control-next-icon {      
+        height: 30px;
+        width: 30px;
+        top: 5px;
+    }
 }
