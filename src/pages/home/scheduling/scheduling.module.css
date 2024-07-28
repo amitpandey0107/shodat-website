@@ -9,7 +9,7 @@
     padding: 30px 20px 15px 20px;
     min-height: 136px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -36,7 +36,7 @@
 }
 
 .growingTeam .clients {
-    width: 60%;
+    width: 50%;
 }
 
 .growingTeam .clients ul {

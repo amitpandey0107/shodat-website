@@ -103,7 +103,7 @@
     width: 60%;
     min-height: 250px;
     height: auto;
-    padding: 60px 30px 40px 30px;
+    padding: 40px 30px 40px 30px;
     background-position: top;
 }
 
@@ -111,8 +111,8 @@
     color: white;
     font-size: 23px;
     font-weight: bold;
-    margin-bottom: 20px;
-    line-height: 35px;
+    margin-bottom: 10px;
+    line-height: initial;
 }
 
 .tabsContent .contentLeft ul {
@@ -132,7 +132,7 @@
     color: white;
     font-size: 16px;
     font-weight: 400;
-    line-height: 34px;
+    line-height: 28px;
 }
 
 .tabsContent .contentRight {
@@ -225,8 +225,8 @@
     color: white;
     font-size: 23px;
     font-weight: bold;
-    margin-bottom: 20px;
-    line-height: 35px;
+    margin-bottom: 10px;
+    line-height: initial;
 }
 
 .contentBlock ul {
@@ -246,7 +246,7 @@
     color: white;
     font-size: 16px;
     font-weight: 400;
-    line-height: 26px;
+    line-height: 28px;
 }
 
 .contentFull {
@@ -477,10 +477,10 @@
     }
 
     .tabsContent .contentLeft p {
-        font-size: 18px;
+        font-size: 16px;
     }
     .btnTab {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -592,14 +592,16 @@
         width: 48.5%;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: flex-start;
-        min-height: 180px;
+        min-height: 210px;
         height: auto;
+        margin: 0;
+        padding: 10px;
     }
 
     .tabsContent .contentLeft p {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -609,10 +611,17 @@
         height: auto;
     }
     .responsibleAI .contentRight .counterBox {
-        min-height: 190px;
+        min-height: 230px;
         height: auto;
+        padding: 10px;
     }
     .tabsContent .contentRight .counterBox .count {
         font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 339px) {
+    .tabsContent .contentRight .counterBox {
+        width: 100%;
     }
 }
