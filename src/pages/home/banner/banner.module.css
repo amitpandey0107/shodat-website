@@ -84,6 +84,9 @@
     margin-bottom: 10px;
     line-height: 60px;
 }
+.banner_title span {
+    display: block;
+}
 
 .ellipseImage {
     position: absolute;
@@ -107,9 +110,7 @@
         font-size: 46px;
         line-height: 54px;
     }
-    .carouselContainer .carouselCaption .banner_title span{
-        display: inline;
-    }
+    
     .carouselContent p br {
         display: none;
     }
@@ -169,5 +170,11 @@
     }
     .header {
         padding: 0 15px;
+    }
+    .carouselContainer .carouselCaption .banner_title span{
+        display: inline;
+    }
+    .banner_title span {
+        display: inline;
     }
 }

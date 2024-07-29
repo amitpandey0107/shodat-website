@@ -62,6 +62,19 @@
 }
 
 
+@media screen and (max-width: 991px) {
+    
+}
+
 @media screen and (max-width: 768px) {
     
+}
+
+@media screen and (max-width: 479px) {
+    .header .logo img {
+        width: 135px;
+    }
+    .btnDemo {
+        min-width: 120px;
+    }
 }

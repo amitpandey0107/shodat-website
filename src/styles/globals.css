@@ -492,6 +492,21 @@ body {
 }
 
 
+@media screen and (max-width: 1199px) {
+    #shodatX .carousel  {
+        height: 100%;
+    }
+    #shodatX .carousel-control-prev {
+        bottom: -25px;
+    }
+    #shodatX .carousel-control-next {
+        bottom: -25px;
+    }
+    #shodatX .carousel-indicators {
+        bottom: -25px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .gap-4 {
         gap: 0;
@@ -549,7 +564,21 @@ body {
         background-image: url("/img/angle_left.svg") !important;
         height: 30px;
         width: 30px;
+    }
 
+    #shodatX .carousel {
+        height: 100%;
+        min-height: 350px;
+    }
+
+    #shodatX .carousel-control-prev {
+        bottom: -60px;
+    }
+    #shodatX .carousel-control-next {
+        bottom: -60px;
+    }
+    #shodatX .carousel-indicators {
+        bottom: -60px;
     }
 }
 
@@ -568,6 +597,21 @@ body {
         flex-wrap: wrap;
         justify-content: flex-start !important;
         align-items: flex-start !important;
+    }
+
+    #shodatX .carousel {
+        height: 100%;
+        min-height: 350px;
+    }
+
+    #shodatX .carousel-control-prev {
+        bottom: -60px;
+    }
+    #shodatX .carousel-control-next {
+        bottom: -60px;
+    }
+    #shodatX .carousel-indicators {
+        bottom: -60px;
     }
 
 }
