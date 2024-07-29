@@ -213,32 +213,7 @@ export default function Scheduling() {
                       </Stack>
                     </Carousel.Item>
 
-                    <Carousel.Item interval={6000}>
-                      <Stack
-                        direction="horizontal"
-                        className="h-100 justify-content-center align-items-center"
-                        gap={3}
-                      >
-                        {/* <Card className={`${styles.clientItem}`}>
-                          <Image
-                            src="/img/clientLogo/brollio.png"
-                            alt="brillio"
-                            height={100}
-                            width={100}
-                          />
-                        </Card>
-                        <Card className={`${styles.clientItem}`}>
-                          <Image
-                            src="/img/clientLogo/pwc.png"
-                            alt="pwc"
-                            height={100}
-                            width={100}
-                          />
-                        </Card> */}
-                      </Stack>
-                    </Carousel.Item>
-
-
+                
                     <Carousel.Item interval={6000}>
                       <Stack
                         direction="horizontal"
@@ -291,41 +266,6 @@ export default function Scheduling() {
                             alt="infoChips"
                             height={100}
                             width={140}
-                          />
-                        </Card>
-                      </Stack>
-                    </Carousel.Item>
-
-
-                    <Carousel.Item interval={6000}>
-                      <Stack
-                        direction="horizontal"
-                        className="h-100 justify-content-center align-items-center"
-                        gap={3}
-                      >
-                        <Card className={`${styles.clientItem}`}>
-                          <Image
-                            src="/img/clientLogo/brollio.png"
-                            alt="brillio"
-                            height={100}
-                            width={100}
-                          />
-                        </Card>
-                      </Stack>
-                    </Carousel.Item>
-
-                    <Carousel.Item interval={6000}>
-                      <Stack
-                        direction="horizontal"
-                        className="h-100 justify-content-center align-items-center"
-                        gap={3}
-                      >
-                        <Card className={`${styles.clientItem}`}>
-                          <Image
-                            src="/img/clientLogo/pwc.png"
-                            alt="pwc"
-                            height={100}
-                            width={100}
                           />
                         </Card>
                       </Stack>

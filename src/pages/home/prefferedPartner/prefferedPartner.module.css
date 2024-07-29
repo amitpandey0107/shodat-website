@@ -139,7 +139,7 @@
     width: 40%;
     min-height: 250px;
     height: auto;
-    padding: 40px 50px;
+    padding: 40px 30px 40px 30px;
 }
 
 .tabsContent .contentRight .couonterRow {
@@ -261,12 +261,13 @@
     line-height: 35px;
 }
 
+
 .innovation {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .responsibleAI {
@@ -275,6 +276,20 @@
     align-items: flex-start;
     flex-wrap: wrap;
     flex-direction: row;
+}
+
+.responsibleAI .couonterRow .counterBox {
+    margin-top: 0;
+}
+.proven .couonterRow .counterBox {
+    margin-top: 20px;
+}
+.proven .contentRight .couonterRow:last-child > .counterBox {
+    margin-top: 20px;
+}
+
+.prefferedPartner .couonterRow .counterBox {
+    margin-top: 0;
 }
 
 .innovationBG {
@@ -312,6 +327,17 @@
     background-position: top;
 }
 
+.contentInnovation {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contentInnovation .contentLeft {
+    width: 48%;
+}
+.contentInnovation .contentRight {
+    width: 48%;
+}
 
 .responsibleAI .contentRight,
 .responsibleAI .contentLeft {
@@ -328,7 +354,10 @@
     justify-content: center;
     align-items: flex-start
 }
-
+.customization .contentRight .couonterRow .counterBox{
+    margin-left: 0;
+    margin-top: 0;
+}
 
 /* RESPONSIVE */
 
@@ -349,12 +378,19 @@
     }
     .tabsContent .contentRight .counterBox {
         width: 48.5%;
-        min-height: 165px;
+        min-height: 185px;
         height: auto;
         margin: 0 0 15px 0;
     }
+    .expertise.tabsContent .contentRight .counterBox {
+        min-height: 220px;
+    }
+    .customization.tabsContent .contentRight .counterBox {
+        width: 100%;
+    }
     .tabsContent .contentRight {
-        padding: 60px 35px 35px 35px;
+        /* padding: 60px 35px 35px 35px; */
+        padding: 40px 30px 40px 30px;
         min-height: 560px;
         height: auto;
     }
