@@ -30,9 +30,9 @@ export default function ResponsibleAI() {
             </div>
             <div className={`${styles.counterBox}`}>
               <h6>
-                Cost Savings in Compliance Management and avoiding potential penalties due enhanced accuracy
+              Cost savings due to compliance management and avoiding potential penalties 
               </h6>
-              <div className={`${styles.count}`}>60%</div>
+              <div className={`${styles.count}`}>50%</div>
             </div>
           </div>
 

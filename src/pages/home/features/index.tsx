@@ -34,9 +34,7 @@ export default function Features() {
           <div className="col-sm-12 col-md-12 col-lg-4">
             <div className={`${styles.infoBox}`}>
               <p>
-                We at Shodat Inc. specialize in delivering advanced analytics and AI-driven solutions that transform industries and empower businesses to thrive in the digital era. Our Commitment to excellence and continuous innovation ensures that we stay ahead of the curve,
-                providing intelligent technologies that drive efficiency, foster
-                growth, and unlock new opportunities.
+              We at Shodat specialize in delivering advanced analytics and AI-driven solutions that transform industries and empower businesses to thrive in the digital era. Our Commitment to excellence and continuous innovation ensures that we stay ahead of the curve, providing intelligent technologies that drive efficiency, foster growth, and unlock new opportunities.
               </p>
             </div>
           </div>
@@ -146,23 +144,7 @@ export default function Features() {
                       <div className={`${styles.sliderContent}`}>
                         <h4>Data Engineering</h4>
                         <p>
-                        Harness Data for Actionable Intelligence. Building a robust data Infrastructure for seamless integration and analysis.
-
-                        </p>
-                      </div>
-                    </Card>
-                    <Card className={`${styles.sliderItem}`}>
-                      <Image
-                        className={`${styles.sliderImage}`}
-                        src="/img/ai-innovation-img1.jpg"
-                        alt="Image One"
-                        width={324}
-                        height={353}
-                      />
-                      <div className={`${styles.sliderContent}`}>
-                        <h4>AI Innovation</h4>
-                        <p>
-                        Transforming data into valuable insights and actionable predictions.
+                        Building a robust data Infrastructure for seamless integration and analysis.
                         </p>
                       </div>
                     </Card>
@@ -176,9 +158,25 @@ export default function Features() {
                       />
                       <div className={`${styles.sliderContent}`}>
                         <h4>Advanced Analytics & BI</h4>
-                        <p>In depth analytics, visualisation and reporting frameworks to enable data-driven decision making.</p>
+                        <p>In-depth custom analytics, dashboarding and reporting frameworks to enable data-driven decision making.</p>
                       </div>
                     </Card>
+                    <Card className={`${styles.sliderItem}`}>
+                      <Image
+                        className={`${styles.sliderImage}`}
+                        src="/img/ai-innovation-img1.jpg"
+                        alt="Image One"
+                        width={324}
+                        height={353}
+                      />
+                      <div className={`${styles.sliderContent}`}>
+                        <h4>AI Innovation</h4>
+                        <p>
+                        Transforming data further into actionable insights and predictive intelligence.
+                        </p>
+                      </div>
+                    </Card>
+                    
                     <Card className={`${styles.sliderItem}`}>
                       <Image
                         className={`${styles.sliderImage}`}

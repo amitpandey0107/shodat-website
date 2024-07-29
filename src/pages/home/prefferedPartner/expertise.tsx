@@ -21,13 +21,13 @@ export default function Expertise() {
         <div className={`${styles.couonterRow}`}>
           <div className={`${styles.counterBox}`}>
             <h6>
-            Demonstrated proficiency in implementing solutions accurately and cost-effectively, resulting in savings of up to
+            Demonstrated proficiency in implementing solutions accurately and cost-effectively result in savings of up to 
             </h6>
             <div className={`${styles.count}`}>25%</div>
           </div>
           <div className={`${styles.counterBox}`}>
             <h6>
-            Across industries, our early detection and prediction mechanisms reducing operational failures on an average by
+            Across industries, our early detection and prediction mechanisms reduce operational failures on an average by 
             </h6>
             <div className={`${styles.count}`}>35%</div>
           </div>

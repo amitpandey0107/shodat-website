@@ -219,7 +219,7 @@ export default function Scheduling() {
                         className="h-100 justify-content-center align-items-center"
                         gap={3}
                       >
-                        <Card className={`${styles.clientItem}`}>
+                        {/* <Card className={`${styles.clientItem}`}>
                           <Image
                             src="/img/clientLogo/brollio.png"
                             alt="brillio"
@@ -234,7 +234,7 @@ export default function Scheduling() {
                             height={100}
                             width={100}
                           />
-                        </Card>
+                        </Card> */}
                       </Stack>
                     </Carousel.Item>
 
