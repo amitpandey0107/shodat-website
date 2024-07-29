@@ -26,7 +26,7 @@
     padding: 50px 10px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     position: relative;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
 }
@@ -40,6 +40,7 @@
 
 .featuresBox .featuresInfo:nth-child(3) {
     border-right: 0;
+    padding-bottom: 80px;
 }
 
 .featuresBox .featuresInfo:last-child {
@@ -189,6 +190,13 @@
     .infoBox {
         height: 470px;
     }
+    .featuresInfo {
+        padding: 15px;
+        min-height: 350px;
+    }
+    .featuresInfo .logo {
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: 991px) {
@@ -214,9 +222,24 @@
         border-bottom: 1px solid #E0E0E0;
         width: 100%;
         padding: 30px;
-        min-height: 300px;
+        min-height: 150px;
         border-right: none;
         font-size: 18px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .featuresInfo .logo {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+
+    .featuresInfo .logo {
+        width: 20%;
+    }
+    .featuresInfo .text {
+        width: 80%;
     }
 
     .featuresBox .featuresInfo:nth-child(3) {
@@ -269,9 +292,16 @@
         border-bottom: 1px solid #E0E0E0;
         width: 100%;
         padding: 30px;
-        min-height: 300px;
+        min-height: 150px;
         border-right: none;
         font-size: 18px;
+    }
+
+    .featuresInfo .logo {
+        width: 25%;
+    }
+    .featuresInfo .text {
+        width: 80%;
     }
 
     .featuresBox .featuresInfo:nth-child(3) {

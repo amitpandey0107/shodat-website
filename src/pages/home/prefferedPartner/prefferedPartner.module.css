@@ -391,11 +391,11 @@
     .tabsContent .contentRight {
         /* padding: 60px 35px 35px 35px; */
         padding: 40px 30px 40px 30px;
-        min-height: 560px;
+        min-height: auto;
         height: auto;
     }
     .tabsContent .contentLeft{
-        min-height: 560px;
+        min-height: auto;
         height: auto;
     }
 }

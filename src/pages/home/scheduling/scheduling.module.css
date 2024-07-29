@@ -214,6 +214,15 @@
 }
 
 /* RESPONSIVE */
+@media screen and (max-width: 1199px) {
+    .schedulingInfo {
+        height: 620px;
+    }
+    .schedulingForm {
+        height: 620px;
+    }
+}
+
 
 @media screen and (max-width: 991px) {
     .whiteBox {
