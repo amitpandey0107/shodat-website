@@ -657,6 +657,9 @@
     .tabsContent .contentRight .counterBox .count {
         font-size: 24px;
     }
+    .expertise.tabsContent .contentRight .counterBox {
+        min-height: 260px;
+    }
 }
 
 @media screen and (max-width: 339px) {

@@ -492,6 +492,22 @@ body {
 }
 
 
+@media screen and (min-width:1200px) {
+    #shodatX .carousel {
+        height: 100%;
+    }
+
+    #shodatX .carousel-control-prev {
+        bottom: -15px;
+    }
+    #shodatX .carousel-control-next {
+        bottom: -15px;
+    }
+    #shodatX .carousel-indicators {
+        bottom: -15px;
+    }
+}
+
 @media screen and (max-width: 1199px) {
     #shodatX .carousel  {
         height: 100%;

@@ -1,5 +1,7 @@
 import React from "react";
 import styles from './platform.module.css';
+import type { Metadata } from 'next'
+import Head from "next/head";
 import Header from "../header";
 import FooterVersionSecond from "../footerv2";
 import Banner from "./banner";
@@ -11,41 +13,56 @@ import Offers from "./offers";
 import WhyChoose from "./whyChoose";
 import CaseStudy from "./caseStudy";
 
-
+export const metadata: Metadata = {
+    title: 'Shodat AI Platform | Advanced AI Solutions for Automotive, Manufacturing ,Oil & Gas and Logistics  Industry',
+    description: '...',
+}
 export default function Platform() {
 
     return (
-        <div className="platform">
+        <>
+            <Head>
+                <title>Shodat AI Platform | Advanced AI Solutions for Automotive, Manufacturing ,Oil & Gas and Logistics  Industry</title>
+                <meta name="title" content="Shodat AI Platform | Advanced AI Solutions for Automotive, Manufacturing ,Oil & Gas and Logistics  Industry" />
+                <meta name="description" content="Explore the powerful Shodat AI platform eOps, offering advanced AI solutions to meet the unique needs of your industry." />
+                <meta name="keywords" content="AI platform Shodat eOps Advanced analyticsData integrationScalable solutions" />
+                <meta name="robots" content="index, follow" />
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <meta name="language" content="English" />
+            </Head>
 
-            {/* -- Header -- */}
-            <Header />
+            <div className="platform">
 
-            {/* Banner */}
-            <Banner />
+                {/* -- Header -- */}
+                <Header />
 
-            {/* Questions */}
-            <Questions />
+                {/* Banner */}
+                <Banner />
 
-            {/* Introducing Shodat eOps™ */}
-            <Introduction />
+                {/* Questions */}
+                <Questions />
 
-            {/* Shodat eOps™ Features */}
-            <Features />
+                {/* Introducing Shodat eOps™ */}
+                <Introduction />
 
-            {/* Offers */}
-            <Offers />
+                {/* Shodat eOps™ Features */}
+                <Features />
 
-            {/* Shodat eOps™ Features */}
-            <ShodatYAI />
+                {/* Offers */}
+                <Offers />
 
-            {/* Shodat eOps™ Features */}
-            <WhyChoose />
+                {/* Shodat eOps™ Features */}
+                <ShodatYAI />
 
-            {/* Case Studies */}
-            <CaseStudy />
+                {/* Shodat eOps™ Features */}
+                <WhyChoose />
 
-            {/* Footer */}
-            <FooterVersionSecond />
-        </div>
+                {/* Case Studies */}
+                <CaseStudy />
+
+                {/* Footer */}
+                <FooterVersionSecond />
+            </div>
+        </>
     )
 }
