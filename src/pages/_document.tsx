@@ -8,12 +8,12 @@ export default function Document() {
   return (
     <Html lang="en">
       <title>Shodat AI</title>
-      <link rel="icon" href="/img/favicon/favicon.ico" sizes="48x48" />
-      <link rel="apple-touch-icon" href="/img/favicon/apple-touch-icon.png" />
-      <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/android-chrome-192x192.png" />
-      <link rel="icon" type="image/png" sizes="512x512" href="/img/favicon/android-chrome-512x512.png" />
-      <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png" />
-      <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png" />
+      <link rel="icon" href="/img/favicon/black/favicon.ico" sizes="48x48" />
+      <link rel="apple-touch-icon" href="/img/favicon/black/apple-touch-icon.png" />
+      <link rel="icon" type="image/png" sizes="192x192" href="/img/favicon/black/android-chrome-192x192.png" />
+      <link rel="icon" type="image/png" sizes="512x512" href="/img/favicon/black/android-chrome-512x512.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/black/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/black/favicon-16x16.png" />
 
       <link rel="manifest" href="img/favicon/site.webmanifest" />
       <Head>
