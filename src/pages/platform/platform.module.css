@@ -394,8 +394,7 @@
 }
 
 .introduction .introductionPicture .textWrap {
-    /* background-color: #000000; */
-    min-height: 250px;
+    height: 250px;
     width: 548px;
     padding: 40px;
     position: absolute;
@@ -410,6 +409,7 @@
 
 .introduction .introductionContent {
     position: relative;
+    height: 580px;
 }
 
 .introduction .introductionContent h1 {
@@ -471,11 +471,16 @@
 }
 
 .selectableBtn {
-    margin-top: 80px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .selectableBtn .btnIntro {
-    /* border: 2px solid #000000; */
+    border: 2px solid #ccc;
     outline: none;
     text-decoration: none;
     height: 130px;
@@ -483,30 +488,66 @@
     background-color: transparent;
     cursor: pointer;
     margin-right: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(1) contrast(1) brightness(1);
+    mix-blend-mode: multiply;
+    transition: all ease-in-out 0.1s;
+}
+.selectableBtn .btnIntro:hover {
+    filter: none;
+    mix-blend-mode: normal;
 }
 
 .selectableBtn .borderSeaGreen {
     border: 2px solid #05A7B1;
+    filter: none !important;
+    mix-blend-mode: normal !important;
 }
 
 .selectableBtn .borderPurple {
     border: 2px solid #77467D;
+    filter: none !important;
+    mix-blend-mode: normal !important;
 }
 
 .selectableBtn .borderBlack {
     border: 2px solid #000000;
+    filter: none !important;
+    mix-blend-mode: normal !important;
+}
+
+.selectableBtn .arrowLeft {
+    margin-right: 30px;
+}
+.selectableBtn .arrowRight {}
+
+.selectableBtn .arrowLeft img{
+    height: 40px;
+    width: auto;
+}
+.selectableBtn .arrowRight img{
+    height: 40px;
+    width: auto;
 }
 
 .bgSeaGreen {
-    background-color: #05A7B1;
+    background-color: #05A7B1 !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
 }
 
 .bgPurple {
-    background-color: #77467D;
+    background-color: #77467D !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
 }
 
 .bgBlack {
-    background-color: #000000;
+    background-color: #000000 !important;
+    filter: none !important;
+    mix-blend-mode: normal !important;
 }
 
 .title {
@@ -1651,17 +1692,19 @@
         min-height: 250px;
         width: 100%;
         padding: 40px;
-        position: relative;
+        position: absolute;
         bottom: 0;
         right: 0;
         margin-bottom: 30px;
     }
 
     .selectableBtn {
-        margin-top: 80px;
+        margin-top: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
+        position: relative;
+        bottom: 0;
     }
 
     .features .featSliderContainer .sliderItem {
@@ -1770,6 +1813,10 @@
     }
     .caseStudy .caseStudySlider .sliderItem {
         width: 100%;
+    }
+    .introduction .introductionContent {
+        height: auto;
+        min-height: 580px;
     }
 }
 

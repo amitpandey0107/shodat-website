@@ -491,6 +491,10 @@ body {
     border-radius: 0;
 }
 
+.platformIntroduction .mobileTabs {
+    display: none;
+}
+
 
 @media screen and (min-width:1200px) {
     #shodatX .carousel {
@@ -595,6 +599,13 @@ body {
     }
     #shodatX .carousel-indicators {
         bottom: -60px;
+    }
+
+    .platformIntroduction .mobileTabs {
+        display: block;
+    }
+    .platformIntroduction .desktopTabs {
+        display: none;
     }
 }
 

@@ -10,10 +10,7 @@ export default function Questions() {
             <div className={`${styles.questionsWrap}`}>
                 <div className={`${styles.questions}`}>
                     <div className={`${styles.questionsContent}`}>
-
-                        <div className={`${styles.circle}`}>
-                            <p>You&apos;re not alone in facing these complex operational challenges !</p>
-                        </div>
+                        
 
                         <div className={`${styles.infoBox} ${styles.box1}`}>
                             <p>Are you facing challenges with maintaining product quality and struggling to minimize defect rates</p>
@@ -74,6 +71,10 @@ export default function Questions() {
                                     width={20}
                                 />
                             </div>
+                        </div>
+
+                        <div className={`${styles.circle}`}>
+                            <p>You&apos;re not alone in facing these complex operational challenges !</p>
                         </div>
 
                         
