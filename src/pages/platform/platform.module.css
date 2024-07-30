@@ -1107,7 +1107,7 @@
 }
 
 .caseStudy .csItem .imageItem img {
-    filter: grayscale(1) contrast(1.5) brightness(1);
+    filter: grayscale(1) contrast(1) brightness(1);
     mix-blend-mode: multiply;
     transition: all ease-in-out 0.1s;
     height: 100%;
