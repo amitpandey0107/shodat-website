@@ -1130,7 +1130,9 @@
 .caseStudy .title:after {
     width: 185px;
 }
-
+.caseStudySlider .mobileCaseSlider {
+    display: none;
+}
 .caseStudyModal {}
 
 .caseStudyModal .modalContent {
@@ -1348,6 +1350,7 @@
     .introduction .introductionPicture .imageWrap .image1 {
         position: relative;
         top: auto;
+        min-height: 350px;
     }
 
     .introduction .introductionPicture .textWrap {
@@ -1467,17 +1470,26 @@
     }
     .caseStudy .csItem .topItem {
         width: 100%;
-        height: auto;
+        height: 380px;
         padding: 10px;
     }
     .caseStudy .csItem .imageItem {
         width: 100%;
-        height: auto;
+        height: 350px;
     }
     .caseStudy .csItem .imageItem .purpleText {
-        height: auto;
-        position: relative;
+        height: 220px;
+        position: absolute;
         margin-left: 0;
+    }
+
+    .introduction .introductionPicture .textWrap {
+        height: auto;
+        min-height: 350px;
+    }
+    .introduction .introductionContent {
+        height: auto;
+        min-height: 700px;
     }
 }
 
@@ -1686,16 +1698,18 @@
     .introduction .introductionPicture .imageWrap .image1 {
         position: relative;
         top: auto;
+        min-height: auto;
     }
 
     .introduction .introductionPicture .textWrap {
         min-height: 250px;
         width: 100%;
         padding: 40px;
-        position: absolute;
+        position: relative;
         bottom: 0;
         right: 0;
         margin-bottom: 30px;
+        margin-top: -80px;
     }
 
     .selectableBtn {
@@ -1760,7 +1774,7 @@
     }
 
     .selectableBtn .borderBlack {
-        margin-right: 0;
+        /* margin-right: 0; */
     }
 
     .selectableBtn .btnIntro {
@@ -1813,10 +1827,22 @@
     }
     .caseStudy .caseStudySlider .sliderItem {
         width: 100%;
+        min-height: 665px;
     }
     .introduction .introductionContent {
         height: auto;
         min-height: 580px;
+    }
+
+    .caseStudySlider .mobileCaseSlider {
+        display: block;
+    }
+
+    .caseStudySlider .desktopCaseSlider {
+        display: none;
+    }
+    .caseStudy .csItem .topItem {
+        background-color: transparent;
     }
 }
 
@@ -1872,5 +1898,8 @@
 
     .iconInfoWrap>.row>.col-12:last-child>.iconContent {
         margin-bottom: 0;
+    }
+    .introduction .introductionPicture .imageWrap .image1 {
+        min-height: auto;
     }
 }
