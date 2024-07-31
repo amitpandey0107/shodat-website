@@ -161,8 +161,8 @@ export default function Scheduling() {
                       <Image
                         src="/img/clientLogo/infochips.png"
                         alt="infoChips"
-                        height={160}
-                        width={200}
+                        height={155}
+                        width={190}
                       />
                     </li>
                     {/* <li>
