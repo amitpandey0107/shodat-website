@@ -13,7 +13,7 @@ export default function Industries() {
             <div className="col-sm-12 col-md-12 col-lg-6">
               <div className={`${styles.shodatX}`}>
                 <Carousel>
-                  <Carousel.Item interval={6000}>
+                  <Carousel.Item interval={15000}>
                     <div className={`${styles.carouselCaption}`}>
                       <h2>Shodat X: Redefining Quality <br />with Operational Insights</h2>
                       <p>
@@ -21,7 +21,7 @@ export default function Industries() {
                       </p>
                     </div>
                   </Carousel.Item>
-                  <Carousel.Item interval={6000}>
+                  <Carousel.Item interval={15000}>
                     <div className={`${styles.carouselCaption}`}>
                       <h2>
                         Shodat YAI: Uncovering the &apos;Why&apos; Behind Operational Events

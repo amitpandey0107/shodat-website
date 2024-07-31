@@ -144,7 +144,7 @@ export default function Features() {
                       <div className={`${styles.sliderContent}`}>
                         <h4>Data Engineering</h4>
                         <p>
-                        Building a robust data Infrastructure for seamless integration and analysis.
+                        Building a robust data infrastructure for seamless integration and analysis.
                         </p>
                       </div>
                     </Card>
@@ -172,7 +172,7 @@ export default function Features() {
                       <div className={`${styles.sliderContent}`}>
                         <h4>AI Innovation</h4>
                         <p>
-                        Transforming data further into actionable insights and predictive intelligence.
+                        Transforming data into actionable insights and predictive intelligence.
                         </p>
                       </div>
                     </Card>

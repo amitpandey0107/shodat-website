@@ -54,7 +54,7 @@ export default function Banner() {
           <div className={`${styles.carouselCaption}`}>
             <div className={`${styles.carouselContent}`}>
               <h1 className={`${styles.banner_title}`}>
-                Where AI Drives<span>Efficiency</span>
+                When AI Drives <span>Efficiency</span>
               </h1>
               <p>
               Shodat eOps™ - An Advanced Quality Management <br />And Asset Tracking Platform 
