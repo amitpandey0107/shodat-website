@@ -34,7 +34,7 @@ export default function Features() {
           <div className="col-sm-12 col-md-12 col-lg-4">
             <div className={`${styles.infoBox}`}>
               <p>
-              We at Shodat specialize in delivering advanced analytics and AI-driven solutions that transform industries and empower businesses to thrive in the digital era. Our Commitment to excellence and continuous innovation ensures that we stay ahead of the curve, providing intelligent technologies that drive efficiency, foster growth, and unlock new opportunities.
+              We at Shodat specialize in delivering advanced analytics and AI-driven solutions that transform industries and empower businesses to thrive in the digital era. Our commitment to excellence and continuous innovation ensures that we stay ahead of the curve, providing intelligent technologies that drive efficiency, foster growth, and unlock new opportunities.
               </p>
             </div>
           </div>

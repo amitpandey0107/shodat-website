@@ -110,7 +110,7 @@ export default function Banner() {
               <h1 className={`${styles.banner_title}`}>
               Shodat YAI
               </h1>
-              <p>Uncovering the &#39;Why&#39; of Decision Making with Advanced AI</p>
+              <p>Uncovering the &#39;Why&#39; behind Operational Trends</p>
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image

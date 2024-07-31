@@ -145,24 +145,24 @@ export default function Scheduling() {
                       <Image
                         src="/img/clientLogo/L&T.jpeg"
                         alt="clients"
-                        height={120}
-                        width={280}
+                        height={180}
+                        width={350}
                       />
                     </li>
                     <li>
                       <Image
                         src="/img/clientLogo/sgAnalytics.png"
                         alt="sganalyst"
-                        height={200}
-                        width={200}
+                        height={260}
+                        width={260}
                       />
                     </li>
                     <li>
                       <Image
                         src="/img/clientLogo/infochips.png"
                         alt="infoChips"
-                        height={100}
-                        width={140}
+                        height={160}
+                        width={200}
                       />
                     </li>
                     {/* <li>
