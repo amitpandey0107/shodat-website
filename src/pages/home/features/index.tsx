@@ -187,7 +187,7 @@ export default function Features() {
                       />
                       <div className={`${styles.sliderContent}`}>
                         <h4>Security & Compliance</h4>
-                        <p>Navigate compliance with precision and speed.</p>
+                        <p>Ensure data protection & navigate compliance with precision and speed.</p>
                       </div>
                     </Card>
                   </Stack>
