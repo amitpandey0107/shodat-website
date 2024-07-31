@@ -6,8 +6,8 @@
 
 .growingTeam {
     position: relative;
-    padding: 30px 20px 15px 20px;
-    min-height: 136px;
+    padding: 0px 20px 0px 20px;
+    height: 110px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
