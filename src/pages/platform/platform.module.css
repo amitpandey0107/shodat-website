@@ -1208,6 +1208,13 @@
 
 
 /* ===================== RESPONSIVE ===================== */
+@media screen and (max-width: 1199px) {
+    .phrase .phraseBox {
+        padding: 20px;
+        height: 280px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .platformBanner .bannerContent .bannerContentLeft {
         width: 100%;
@@ -1843,6 +1850,13 @@
     }
     .caseStudy .csItem .topItem {
         background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .phrase .phraseBox {
+        min-height: auto;
+        height: auto;
     }
 }
 

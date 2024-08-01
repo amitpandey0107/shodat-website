@@ -225,11 +225,11 @@ export default function Features() {
                                         <div className={`${styles.info}`}>
                                             <div className={`${styles.textRow}`}>
                                                 <h6>Domain-Specific Models</h6>
-                                                <p>Leverage machine learning models tested and refined across various industries by selecting them from library and attaching them to an asset data stream.</p>
+                                                <p>Leverage machine learning models tested and refined across various industries by selecting them from the library and attaching them to an asset data stream.</p>
                                             </div>
                                             <div className={`${styles.textRow}`}>
                                                 <h6>Advanced AI Integration</h6>
-                                                <p>Benefit from the domain knowledge encapsulated in Shodat X series and Shodat YAI models for enhance predictive analytics and decision-making.</p>
+                                                <p>Benefit from the domain knowledge encapsulated in Shodat X series and Shodat YAI models for enhanced predictive analytics and decision-making.</p>
                                             </div>
                                         </div>
                                     </div>

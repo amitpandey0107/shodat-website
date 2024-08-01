@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
 import emailjs from 'emailjs-com';
-// import emailjs from '@emailjs/browser';
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./scheduling.module.css";
@@ -164,24 +163,7 @@ export default function Scheduling() {
                         height={155}
                         width={190}
                       />
-                    </li>
-                    {/* <li>
-                      <Image
-                        src="/img/clientLogo/brollio.png"
-                        alt="brillio"
-                        height={100}
-                        width={100}
-                      />
-                    </li> */}
-                    {/* <li>
-                      <Image
-                        src="/img/clientLogo/pwc.png"
-                        alt="pwc"
-                        height={100}
-                        width={100}
-                      />
-                    </li> */}
-                    
+                    </li>                    
                   </ul>
                 </div>
 

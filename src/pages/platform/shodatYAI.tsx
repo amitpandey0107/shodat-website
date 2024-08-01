@@ -31,7 +31,7 @@ export default function ShodatYAI() {
                                     </div>
                                     <div className={`${styles.textContainer}`}>
                                         <h6>Shodat YAI helps you </h6>
-                                        <p>Identify and predict defects in your products and processes, performs automatic RCAs and generates risk reports and other custom reports using generative AI.</p>
+                                        <p>Identify and predict defects in your products and processes, perform automatic RCAs and generate risk reports and other custom reports using generative AI.</p>
                                     </div>
                                 </div>
                             </div>

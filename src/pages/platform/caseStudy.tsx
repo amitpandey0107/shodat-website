@@ -31,8 +31,8 @@ function MyVerticallyCenteredModal(props: any) {
                 </div>
                 <div className={`${styles.modalRight}`}>
                     <div className={`${styles.modalRightContent}`}>
-                        <h2>EV charging stations</h2>
-                        <p>A prominent manufacturer of EV charging stations faced significant challenges in predicting battery life accurately. Inconsistent performance data, variations in usage patterns, and environmental factors made it difficult to provide reliable predictions. To address these issues, the manufacturer implemented Shodat eOps™, an advanced asset tracking and quality management platform, to enhance their battery life prediction capabilities.</p>
+                        <h2>Energy</h2>
+                        <p>A prominent manufacturer of Energy faced significant challenges in predicting battery life accurately. Inconsistent performance data, variations in usage patterns, and environmental factors made it difficult to provide reliable predictions. To address these issues, the manufacturer implemented Shodat eOps™, an advanced asset tracking and quality management platform, to enhance their battery life prediction capabilities.</p>
                         <div className={`${styles.result} ${styles.desktop}`}>
                             <h4>Result</h4>
                             <div className={`${styles.resultBox}`}>
@@ -81,8 +81,8 @@ export default function CaseStudy() {
                                         <Card className={`${styles.sliderItem}`} onClick={() => setModalShow(true)}>
                                             <div className={`${styles.csItem}`}>
                                                 <div className={`${styles.topItem}`}>
-                                                    <h4>EV charging stations</h4>
-                                                    <p>A prominent manufacturer of EV charging stations faced significant challenges in predicting battery life accurately. Inconsistent performance data, variations in usage patterns, and environmental factors made it difficult to provide reliable predictions.</p>
+                                                    <h4>Energy</h4>
+                                                    <p>A prominent manufacturer of energy faced significant challenges in predicting battery life accurately. Inconsistent performance data, variations in usage patterns, and environmental factors made it difficult to provide reliable predictions.</p>
                                                 </div>
                                                 <div className={`${styles.imageItem}`}>
                                                     <Image
@@ -98,8 +98,8 @@ export default function CaseStudy() {
                                         <Card className={`${styles.sliderItem}`}>
                                             <div className={`${styles.csItem}`}>
                                                 <div className={`${styles.topItem}`}>
-                                                    <h4>Automotive manufacturer</h4>
-                                                    <p>A leading automotive manufacturer faced challenges in predicting tire wear accurately, which impacted vehicle safety, maintenance schedules, and overall operational efficiency. </p>
+                                                    <h4>Automotive</h4>
+                                                    <p>A leading automotive faced challenges in predicting tire wear accurately, which impacted vehicle safety, maintenance schedules, and overall operational efficiency. </p>
                                                 </div>
                                                 <div className={`${styles.imageItem}`}>
                                                     <Image
@@ -145,8 +145,8 @@ export default function CaseStudy() {
                                         <Card className={`${styles.sliderItem}`} onClick={() => setModalShow(true)}>
                                             <div className={`${styles.csItem}`}>
                                                 <div className={`${styles.topItem}`}>
-                                                    <h4>EV charging stations</h4>
-                                                    <p>A prominent manufacturer of EV charging stations faced significant challenges in predicting battery life accurately. Inconsistent performance data, variations in usage patterns, and environmental factors made it difficult to provide reliable predictions.</p>
+                                                    <h4>Energy</h4>
+                                                    <p>A prominent manufacturer of energy faced significant challenges in predicting battery life accurately. Inconsistent performance data, variations in usage patterns, and environmental factors made it difficult to provide reliable predictions.</p>
                                                 </div>
                                                 <div className={`${styles.imageItem}`}>
                                                     <Image
@@ -171,8 +171,8 @@ export default function CaseStudy() {
                                         <Card className={`${styles.sliderItem}`}>
                                             <div className={`${styles.csItem}`}>
                                                 <div className={`${styles.topItem}`}>
-                                                    <h4>Automotive manufacturer</h4>
-                                                    <p>A leading automotive manufacturer faced challenges in predicting tire wear accurately, which impacted vehicle safety, maintenance schedules, and overall operational efficiency. </p>
+                                                    <h4>Automotive</h4>
+                                                    <p>A leading automotive faced challenges in predicting tire wear accurately, which impacted vehicle safety, maintenance schedules, and overall operational efficiency. </p>
                                                 </div>
                                                 <div className={`${styles.imageItem}`}>
                                                     <Image

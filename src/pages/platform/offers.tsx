@@ -69,7 +69,7 @@ export default function Offers() {
                                         <div className={`${styles.info}`}>
                                             <div className={`${styles.textRow}`}>
                                                 <h6>Regulatory Compliance</h6>
-                                                <p>Utilizes advanced Generative AI algorithms to analyze complex regulatory frameworks wich automates compliance monitoring and reporting, ensuring adherence to regulatory standards.</p>
+                                                <p>Utilizes advanced Generative AI algorithms to analyze complex regulatory frameworks which automates compliance monitoring and reporting, ensuring adherence to regulatory standards.</p>
                                             </div>
 
                                             <div className={`${styles.textRow}`}>
