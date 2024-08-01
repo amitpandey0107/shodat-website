@@ -93,7 +93,7 @@ export default function FooterVersionSecond() {
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12">
             <h2 className={`${styles.footertitle}`}>
-              AMit How can Shodat help scale your business? Let&apos;s talk and discover the answers together.
+              How can Shodat help scale your business? Let&apos;s talk and discover the answers together.
             </h2>
           </div>
           <div className="col-sm-12 col-md-12 col-lg-12">
