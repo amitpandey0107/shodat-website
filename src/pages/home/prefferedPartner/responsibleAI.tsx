@@ -14,7 +14,7 @@ export default function ResponsibleAI() {
         <div className={`${styles.contentBlock}`}>
           {/* <h3>Data Security and Privacy</h3> */}
           <p>
-            At Shodat Inc., we leverage advanced AI-driven security and compliance solutions to ensure the utmost protection of your data and adherence to regulatory standards
+            At Shodat, we leverage advanced AI-driven security and compliance solutions to ensure the utmost protection of your data and adherence to regulatory standards
           </p>
           <p>We ensure top-tier data security with robust encryption, real-time threat monitoring, and compliance with global standards, safeguarding your sensitive information against all cyber threats.</p>
         </div>
