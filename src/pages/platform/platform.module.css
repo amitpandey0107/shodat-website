@@ -1566,7 +1566,7 @@
         font-size: 23px;
         color: #000000;
         font-weight: bold;
-        width: 80%;
+        width: 100%;
         line-height: 30px;
         background-color: #F0F0F0;
     }
@@ -1733,15 +1733,15 @@
         border-radius: 0;
         height: auto;
         background-color: #F0F0F0;
-        width: 48%;
+        width: auto;
         padding-bottom: 30px;
     }
 
     .features .featSliderContainer .sliderItem .itemBox {
-        height: auto;
-        width: auto;
+        height: 65px;
+        width: 60px;
         background-color: #FFFFFF;
-        padding: 15px;
+        padding: 5px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1750,7 +1750,15 @@
         text-align: center;
         cursor: pointer;
         box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
-        min-height: 160px;
+    }
+
+    .features .featSliderContainer .sliderItem .itemBox h6 {
+        display: none;
+    }
+
+    .features .featSliderContainer .sliderItem .itemBox img {
+        height: 50px;
+        width: 50px;
     }
 
     .features .contentFeature {
@@ -1915,5 +1923,9 @@
     }
     .introduction .introductionPicture .imageWrap .image1 {
         min-height: auto;
+    }
+    .selectableBtn .btnIntro {
+        height: 44px;
+        width: auto;
     }
 }

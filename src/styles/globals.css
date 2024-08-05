@@ -607,6 +607,13 @@ body {
     .platformIntroduction .desktopTabs {
         display: none;
     }
+    #platformFeatSlider  .hstack {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+    
 }
 
 @media screen and (max-width: 991px) {
@@ -696,5 +703,8 @@ body {
         height: 30px;
         width: 30px;
         top: 5px;
+    }
+    #platformFeatSlider .gap-4 {
+        gap: 5px !important;
     }
 }
