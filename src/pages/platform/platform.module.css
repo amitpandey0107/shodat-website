@@ -1133,9 +1133,16 @@
 .caseStudySlider .mobileCaseSlider {
     display: none;
 }
-.caseStudyModal {}
+
 
 .caseStudyModal .modalContent {
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.caseStudyModal .modalContentInner{
     height: auto;
     display: flex;
     justify-content: flex-start;
@@ -1442,7 +1449,8 @@
         margin-top: 50px;
     }
 
-    .caseStudyModal .modalContent {
+    .caseStudyModal .modalContent,
+    .caseStudyModal .modalContentInner {
         height: auto;
     }
 

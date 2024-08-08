@@ -11,7 +11,7 @@ export default function Banner() {
                 <div className={`${styles.bannerContentLeft}`}>
                     <div className={`${styles.bannerInfo}`}>
                         <h2 className={`${styles.bannerTitle}`}>Shodat eOps™</h2>
-                        <p>An advanced asset tracking <br /> and quality management platform</p>
+                        <p>An advanced quality management <br />and asset tracking platform</p>
                         <Link href="#" className={`${styles.btnGetStarted}`}>
                             <span>Get Started</span>
                             <Image

@@ -1,0 +1,53 @@
+[
+    {
+        "caseid":1,
+        "caseStudy":"Energy",
+        "text":"A prominent manufacturer of Energy faced significant challenges in predicting battery life accurately. Inconsistent performance data, variations in usage patterns, and environmental factors made it difficult to provide reliable predictions. To address these issues, the manufacturer implemented Shodat eOps™, an advanced asset tracking and quality management platform, to enhance their battery life prediction capabilities.",
+        "result": [
+           "The implementation of Shodat eOps™ led to a significant improvement in the accuracy of battery life predictions, with accuracy rates close to 93%.",
+           "Proactive alerting and predictive maintenance strategies resulted in a 25% reduction in maintenance costs by preventing unexpected battery failures."
+        ],
+        "image":"casestudies-ev-img1.jpg"
+    },
+    {
+        "caseid":2,
+        "caseStudy":"Automotive",
+        "text":"A leading automotive manufacturer faced challenges in predicting tire wear accurately, which impacted vehicle safety, maintenance schedules, and overall operational efficiency. By implementing Shodat eOps™, the manufacturer aimed to enhance their tire wear prediction capabilities.",
+        "result": [
+           "Achieved 88% accuracy in tire wear predictions, enhancing maintenance planning.",
+           "Proactive maintenance based on accurate predictions resulted in a 15% reduction in overall maintenance costs."
+        ],
+        "image":"casestudies-ev-img2.jpg"
+    },
+    {
+        "caseid":3,
+        "caseStudy":"Manufacturing",
+        "text":"A leader in the manufacturing industry needed an effective solution for detecting and addressing structural cracks in product components. Traditional inspection methods were labour-intensive, error-prone, and time-consuming. To enhance their crack detection capabilities, the company implemented the Shodat eOps™platform.",
+        "result": [
+           "Achieved a 30% improvement in  crack detection accuracy due to Precision Detection Beyond the Human Eye with  advanced machine learning models and real-time data integration which was earlier Time-consuming, inconsistent, and prone to human error.",
+           "By leveraging Shodat eOps, the client  was able to identify and address potential hazards before they escalated, resulting in a 32 % decrease in high severity incidents."
+        ],
+        "image":"casestudies-ev-img3.jpg"
+    },
+    {
+        "caseid":4,
+        "caseStudy":"Financial",
+        "text":"A leading financial services firm faced significant challenges in managing compliance due to the complexity and dynamic nature of regulatory requirements. Manual processes and disparate systems resulted in inefficiencies and increased the risk of non-compliance. To address these challenges, the firm implemented Shodat eOps™ integrated with Generative AI to enhance their compliance management capabilities.",
+        "result": [
+           "Streamlined compliance processes, reducing the time and effort required for compliance management by 40%.",
+           "Proactive alerting and monitoring allowed for better risk management, decreasing the risk of non-compliance incidents by 25%.",
+           "The enhanced efficiency and accuracy in compliance helped the firm protecting their reputation, avoid huge penalties and regulatory actions."
+        ],
+        "image":"casestudies-ev-img1.jpg"
+    },
+    {
+        "caseid":5,
+        "caseStudy":"Workplace Safety",
+        "text":"A large manufacturing company faced significant challenges in maintaining workplace safety due to the complex and hazardous nature of its operations. Traditional safety monitoring methods were insufficient to prevent incidents and ensure regulatory compliance. To address these issues, the company implemented Shodat eOps™, an advanced asset tracking and quality management platform.",
+        "result": [
+           "Improved incident response time by 30% through real-time alerts and actionable insights, like detection of high risk areas,environmental monitoring for Hazardous Conditions,workplace injury reports and real-time data from wearable devices.",
+           "Ensured continuous compliance with safety regulations like OSHA, ANSI & CCOHS, reducing the risk of regulatory penalties by 20%."
+        ],
+        "image":"casestudies-ev-img1.jpg"
+    }
+]
