@@ -1067,7 +1067,7 @@
 }
 
 .caseStudy .csItem .topItem {
-    height: 280px;
+    min-height: 280px;
     width: 392px;
     background-color: white;
     padding: 30px;
