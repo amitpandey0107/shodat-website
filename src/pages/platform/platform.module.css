@@ -1152,15 +1152,21 @@
 .caseStudyModal .modalContent .modalLeft {
     width: 41%;
     height: auto;
+    min-height: 550px;
 }
 
 .caseStudyModal .modalContent .modalLeft img {
     height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 550px;
 }
 
 .caseStudyModal .modalContent .modalRight {
     width: 54%;
     padding: 40px 40px;
+    min-height: 550px;
 }
 
 .caseStudyModal .modalContent .modalRightContent h2 {
@@ -1477,6 +1483,13 @@
     .caseStudyModal .modalContent {
         flex-wrap: wrap;
     }
+    .caseStudyModal .modalContentInner {
+        flex-wrap: wrap;
+    }
+    .caseStudyModal .modalContent .modalLeft,
+    .caseStudyModal .modalContent .modalRight {
+        min-height: auto;
+    }
     .caseStudy .caseStudySlider .sliderItem {
         width: 30%;
     }
@@ -1493,9 +1506,10 @@
         height: 350px;
     }
     .caseStudy .csItem .imageItem .purpleText {
-        height: 220px;
+        height: auto;
         position: absolute;
         margin-left: 0;
+        min-height: 45%;
     }
 
     .introduction .introductionPicture .textWrap {
@@ -1866,6 +1880,8 @@
     }
     .caseStudy .csItem .topItem {
         background-color: transparent;
+        height: auto;
+        min-height: 280px;
     }
 }
 

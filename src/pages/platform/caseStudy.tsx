@@ -105,12 +105,12 @@ export default function CaseStudy() {
                                                 </div>
                                                 <div className={`${styles.imageItem}`}>
                                                     <Image
-                                                        src="/img/platform/manufaturing.png"
-                                                        alt="manufaturing"
-                                                        height={290}
-                                                        width={392}
+                                                        src="/img/platform/platform-page-imgs/financial-services.jpg"
+                                                        alt="Financial Services"
+                                                        height={554}
+                                                        width={547}
                                                     />
-                                                    <div className={`${styles.purpleText}`}>To enhance their crack detection capabilities, the company implemented the Shodat eOps™platform.</div>
+                                                    <div className={`${styles.purpleText}`}>To address these challenges, the firm implemented Shodat eOps™ integrated with Generative AI to enhance their compliance management capabilities.</div>
                                                 </div>
                                             </div>
                                         </Card>
@@ -122,12 +122,12 @@ export default function CaseStudy() {
                                                 </div>
                                                 <div className={`${styles.imageItem}`}>
                                                     <Image
-                                                        src="/img/platform/manufaturing.png"
-                                                        alt="manufaturing"
-                                                        height={290}
-                                                        width={392}
+                                                        src="/img/platform/platform-page-imgs/workplace-safety.jpg"
+                                                        alt="Workplace Safety"
+                                                        height={554}
+                                                        width={547}
                                                     />
-                                                    <div className={`${styles.purpleText}`}>To enhance their crack detection capabilities, the company implemented the Shodat eOps™platform.</div>
+                                                    <div className={`${styles.purpleText}`}>To address these issues, the company implemented Shodat eOps™, an advanced asset tracking and quality management platform.</div>
                                                 </div>
                                             </div>
                                         </Card>
@@ -230,12 +230,12 @@ export default function CaseStudy() {
                                                 </div>
                                                 <div className={`${styles.imageItem}`}>
                                                     <Image
-                                                        src="/img/platform/manufaturing.png"
-                                                        alt="manufaturing"
-                                                        height={290}
-                                                        width={392}
+                                                        src="/img/platform/platform-page-imgs/financial-services.jpg"
+                                                        alt="Financial Services"
+                                                        height={554}
+                                                        width={547}
                                                     />
-                                                    <div className={`${styles.purpleText}`}>To enhance their crack detection capabilities, the company implemented the Shodat eOps™platform.</div>
+                                                    <div className={`${styles.purpleText}`}>To address these challenges, the firm implemented Shodat eOps™ integrated with Generative AI to enhance their compliance management capabilities.</div>
                                                 </div>
                                             </div>
                                         </Card>
@@ -256,12 +256,12 @@ export default function CaseStudy() {
                                                 </div>
                                                 <div className={`${styles.imageItem}`}>
                                                     <Image
-                                                        src="/img/platform/manufaturing.png"
-                                                        alt="manufaturing"
-                                                        height={290}
-                                                        width={392}
+                                                        src="/img/platform/platform-page-imgs/workplace-safety.jpg"
+                                                        alt="Workplace safety"
+                                                        height={554}
+                                                        width={547}
                                                     />
-                                                    <div className={`${styles.purpleText}`}>To enhance their crack detection capabilities, the company implemented the Shodat eOps™platform.</div>
+                                                    <div className={`${styles.purpleText}`}>To address these issues, the company implemented Shodat eOps™, an advanced asset tracking and quality management platform.</div>
                                                 </div>
                                             </div>
                                         </Card>
