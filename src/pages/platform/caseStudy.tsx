@@ -101,7 +101,7 @@ export default function CaseStudy() {
                                             <div className={`${styles.csItem}`}>
                                                 <div className={`${styles.topItem}`}>
                                                     <h4>Financial</h4>
-                                                    <p>A leading financial services firm faced significant challenges in managing compliance due to the complexity and dynamic nature of regulatory requirements. Manual processes and disparate systems resulted in inefficiencies and increased the risk of non-compliance. To address these challenges, the firm implemented Shodat eOps™ integrated with Generative AI to enhance their compliance management capabilities.</p>
+                                                    <p>A leading financial services firm faced significant challenges in managing compliance due to the complexity and dynamic nature of regulatory requirements. Manual processes and disparate systems resulted in inefficiencies and increased the risk of non-compliance.</p>
                                                 </div>
                                                 <div className={`${styles.imageItem}`}>
                                                     <Image
@@ -118,7 +118,7 @@ export default function CaseStudy() {
                                             <div className={`${styles.csItem}`}>
                                                 <div className={`${styles.topItem}`}>
                                                     <h4>Workplace Safety</h4>
-                                                    <p>A large manufacturing company faced significant challenges in maintaining workplace safety due to the complex and hazardous nature of its operations. Traditional safety monitoring methods were insufficient to prevent incidents and ensure regulatory compliance. To address these issues, the company implemented Shodat eOps™, an advanced asset tracking and quality management platform.</p>
+                                                    <p>A large manufacturing company faced significant challenges in maintaining workplace safety due to the complex and hazardous nature of its operations. Traditional safety monitoring methods were insufficient to prevent incidents and ensure regulatory compliance.</p>
                                                 </div>
                                                 <div className={`${styles.imageItem}`}>
                                                     <Image
@@ -226,7 +226,7 @@ export default function CaseStudy() {
                                             <div className={`${styles.csItem}`}>
                                                 <div className={`${styles.topItem}`}>
                                                     <h4>Financial</h4>
-                                                    <p>A leading financial services firm faced significant challenges in managing compliance due to the complexity and dynamic nature of regulatory requirements. Manual processes and disparate systems resulted in inefficiencies and increased the risk of non-compliance. To address these challenges, the firm implemented Shodat eOps™ integrated with Generative AI to enhance their compliance management capabilities.</p>
+                                                    <p>A leading financial services firm faced significant challenges in managing compliance due to the complexity and dynamic nature of regulatory requirements. Manual processes and disparate systems resulted in inefficiencies and increased the risk of non-compliance.</p>
                                                 </div>
                                                 <div className={`${styles.imageItem}`}>
                                                     <Image
@@ -252,7 +252,7 @@ export default function CaseStudy() {
                                             <div className={`${styles.csItem}`}>
                                                 <div className={`${styles.topItem}`}>
                                                     <h4>Workplace Safety</h4>
-                                                    <p>A large manufacturing company faced significant challenges in maintaining workplace safety due to the complex and hazardous nature of its operations. Traditional safety monitoring methods were insufficient to prevent incidents and ensure regulatory compliance. To address these issues, the company implemented Shodat eOps™, an advanced asset tracking and quality management platform.</p>
+                                                    <p>A large manufacturing company faced significant challenges in maintaining workplace safety due to the complex and hazardous nature of its operations. Traditional safety monitoring methods were insufficient to prevent incidents and ensure regulatory compliance.</p>
                                                 </div>
                                                 <div className={`${styles.imageItem}`}>
                                                     <Image
