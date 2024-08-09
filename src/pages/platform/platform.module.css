@@ -1152,7 +1152,7 @@
 .caseStudyModal .modalContent .modalLeft {
     width: 41%;
     height: auto;
-    min-height: 550px;
+    min-height: 580px;
 }
 
 .caseStudyModal .modalContent .modalLeft img {
@@ -1160,13 +1160,14 @@
     width: 100%;
     object-fit: cover;
     object-position: center;
-    height: 550px;
+    height: 580px;
 }
 
 .caseStudyModal .modalContent .modalRight {
     width: 54%;
     padding: 40px 40px;
-    min-height: 550px;
+    min-height: 580px;
+    max-height: 580px;
 }
 
 .caseStudyModal .modalContent .modalRightContent h2 {
