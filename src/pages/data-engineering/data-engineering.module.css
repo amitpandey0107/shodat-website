@@ -360,3 +360,297 @@
     font-size: 16px;
     text-align: center;
 }
+
+
+/* Key Features */
+.keyFeatures {
+    position: relative;
+    margin: 30px 0;
+}
+.keyFeatures .dataEtlBox {
+    height: 535px;
+    background-color: #000000;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.keyFeatures .dataEtlBox h2{
+    color: #FFFFFF;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.keyFeatures .dataEtlBox h2 span{
+    font-size: 23px;
+    font-weight: bold;
+}
+.keyFeatures .dataEtlBox p{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.keyFeatures .dataEtlBox .etlImage{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    text-align: center;
+}
+.keyFeatures .dataEtlBox .etlImage img{
+    width: 85%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+    display: inline-block;
+}
+.keyFeatures .featureBox {
+    background-color: #F4EDF5;
+    height: 535px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.keyFeatures .featureBox h2 {
+    color: #68326F;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.keyFeatures .featureBox .infoRow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 64px;
+}
+.keyFeatures .featureBox .infoRow .infoBox{
+    width: 50%;
+    padding: 0 25px;
+}
+.keyFeatures .featureBox .infoRow .infoBox h6 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+.keyFeatures .featureBox .infoRow .infoBox p {
+    font-size: 16px;
+    color: #000000;
+}
+.keyFeatures .paddLeft0 {
+    padding-left: 0;
+}
+.keyFeatures .paddRight0 {
+    padding-left: 0;
+}
+
+
+/* Application Integration */
+.applicationIntegration {
+    position: relative;
+    margin: 30px 0;
+}
+.applicationIntegration .appBox {
+    height: 535px;
+    background-color: #000000;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    background-image: url("/img/dataEngineering/application_integration_bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.applicationIntegration .appBox h2{
+    color: #FFFFFF;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.applicationIntegration .appBox h2 span{
+    font-size: 23px;
+    font-weight: bold;
+}
+.applicationIntegration .appBox p{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.applicationIntegration .appInfoblock {    
+    background-color: #FFFFFF;
+    height: 535px;
+    position: relative;
+    overflow: hidden;
+    padding-left: 15px;
+}
+.applicationIntegration .appInfoblock .appRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.applicationIntegration .appInfoblock .appRow .appColHalf {
+    width: 49%;
+    background-color: #F4EDF5;
+    height: 535px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.applicationIntegration .appInfoblock .appRow .appColHalf .appImg{
+    margin-bottom: 58px;
+    text-align: center;
+}
+.applicationIntegration .appInfoblock .appRow .appColHalf .appImg img{
+    display: inline-block;
+}
+.applicationIntegration .appInfoblock .appRow .appColHalf h6 {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #000000;
+}
+.applicationIntegration .appInfoblock .appRow .appColHalf p {
+    font-size: 16px;
+    color: #000000;
+}
+
+
+/* CTA */
+.cta {
+    position: relative;
+    height: 221px;
+    background-image: url("/img/dataEngineering/cta_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.cta .ctaText {
+    height: 221px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta .ctaText h2{
+    font-size: 33px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 70%;
+    text-align: center;
+}
+
+
+/* Data Accordian */
+.dataAccordian {
+    min-height: 650px;
+    padding: 31px 0;
+    background-color: #F0F0F0;
+    position: relative;
+}
+.dataAccordian .dataETL {
+    margin-bottom: 50px;
+}
+.dataAccordian .aside {
+    position: relative;
+    margin-top: 15px;
+}
+.dataAccordian .aside h5{
+    font-size: 23px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.dataAccordian .aside h6{
+    font-size: 23px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.dataAccordian .aside p{
+    font-size: 16px;
+    color: #000000;
+}
+.dataAccordian .section {
+    position: relative;
+}
+.dataAccordian .accordionHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dataAccordian .accordionHeader .headerLogo{
+    margin-right: 20px;
+}
+.dataAccordian .accordionHeader .headerText{
+    font-size: 23px;
+    font-weight: bold;
+    color: #000000;
+}
+.dataAccordian .accordionBody {
+    min-height: 220px;
+    padding-left: 94px;
+    padding-right: 10%;
+}
+.dataAccordian .accordionBody p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.dataAccordian .accordionBody p:last-child {
+    margin-bottom: 0;
+}
+.dataAccordian .powerBox {
+    height: 293px;
+    box-shadow: 0 5px 6px -1px rgba(0,0,0,0.3);
+    padding: 46px 34px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.dataAccordian .powerBox .logo {    
+    height: 70px;
+    width: 93px;
+}
+.dataAccordian .powerBox .logo img{
+    height: 70px;
+    width: 70px;
+}
+.dataAccordian .powerBox .text {
+    padding-left: 20px;
+}
+.dataAccordian .powerBox .text h6 {
+    font-size: 23px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.dataAccordian .powerBox .text p {
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 43px;
+}
+.btnBlack {
+    height: 46px;
+    min-width: 154px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border: 0;
+    background-color: black;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.btnBlack img {
+    margin-left: 10px;    
+}
+.btnBlack:hover {
+    background-color: #5BB9C3;
+}

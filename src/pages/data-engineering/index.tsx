@@ -8,6 +8,10 @@ import Banner from "./banner";
 import Innovation from "./innovation";
 import OurApproach from "./our-approach";
 import OurCapabilities from "./our-capabilities";
+import KeyFeatures from "./key-features";
+import ApplicationIntegration from "./application-integration";
+import Cta from "./cta";
+import DataAccordian from "./data-accordian";
 
 function DataEngineering() {
     return (
@@ -47,6 +51,18 @@ function DataEngineering() {
 
                 {/* Our Capabilities */}
                 <OurCapabilities />
+
+                {/* Key Features */}
+                <KeyFeatures />
+
+                {/* Application Integration */}
+                <ApplicationIntegration />
+
+                {/* CTA */}
+                {/* <Cta /> */}
+
+                {/* Data Accordian */}
+                {/* <DataAccordian /> */}
 
                 {/* Footer */}
                 <FooterVersionSecond />

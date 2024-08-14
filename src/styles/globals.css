@@ -708,3 +708,37 @@ body {
         gap: 5px !important;
     }
 }
+
+
+/* ACCORDION */
+.accordion {
+
+}
+.accordion-item {
+    border-radius: 0 !important;
+    margin-bottom: 24px;
+    box-shadow: 0 5px 6px -1px rgba(0,0,0,0.3);
+}
+.accordion-header .accordion-button{
+    height: 114px;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    background-color: #FFFFFF;
+}
+.accordion-button:focus {
+    outline: none;
+    border: 0;
+    box-shadow: none;
+}
+.accordion-button::after {
+    background-image: url("/img/dataEngineering/angle_down.png") !important;
+    background-size: 2rem;
+    height: 2rem;
+    width: 2rem;
+}
+.accordion-body {
+    padding-top: 0;
+    border:0;
+    border-color: transparent;
+}
