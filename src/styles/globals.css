@@ -707,6 +707,9 @@ body {
     #platformFeatSlider .gap-4 {
         gap: 5px !important;
     }
+    .appIntegration .px-0 {
+        padding: 0;
+    }
 }
 
 

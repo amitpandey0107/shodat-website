@@ -552,7 +552,7 @@
     position: relative;
 }
 .dataAccordian .dataETL {
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 .dataAccordian .aside {
     position: relative;
@@ -653,4 +653,229 @@
 }
 .btnBlack:hover {
     background-color: #5BB9C3;
+}
+
+
+
+/* ================= RESPONSIVE ================= */
+@media screen and (max-width: 1199px){}
+@media screen and (max-width: 991px) {
+    .bannerContentLeft .bannerInfo{
+        left: 0;
+        padding-left: 10%;
+        transform: translate(0%, -50%);
+        width: 100%;
+    }
+    .bannerContentLeft .bannerTitle br {
+        display: inline;
+    }
+    .platformBanner .bannerContent {
+        display: block;
+    }
+    .innovation .rowFlex {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .innovation .blackBox {
+        height: auto;
+        min-height: 325px;
+        padding: 35px;
+    }
+    .innovation .information {
+        min-height: 325px;
+    }
+    .innovation .blackBox h3 span {
+        display: inline;
+    }
+    .ourCapabilities {
+        height: auto;
+        min-height: 544px;
+    }
+    .ourCapabilities .capabilitiesBox {
+        width: 88%;
+        height: auto;
+        min-height: 320px;
+    }
+    .keyFeatures .featureBox {
+        padding: 15px;
+    }
+    .keyFeatures .featureBox h2 {
+        margin-bottom: 20px;
+    }
+    .keyFeatures .featureBox .infoRow {
+        margin-bottom: 30px;
+    }
+    .keyFeatures .featureBox .infoRow .infoBox {
+        padding: 0 10px;
+    }
+    .applicationIntegration .appInfoblock .appRow .appColHalf {
+        padding: 20px;
+    }
+    .cta .ctaText h2 {
+        width: 100%;
+    }
+    .dataAccordian .aside {
+        margin-top: 0;
+    }
+    .ourApproach .approachContent .columns {
+        padding: 0 5px;
+    }
+    .ourApproach .approachContent .dottedLine img {
+        width: 90%;
+        height: auto;
+        object-fit: contain;
+        object-position: center;
+        position: absolute;
+        left: 31px;
+        top: 102px;
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 769px) {
+    .innovation .blackBox {       
+        min-height: 225px;
+        padding: 35px;
+    }
+    .innovation .information {
+        min-height: 225px;
+        margin-top: 20px;
+    }
+    .keyFeatures .featureBox h2 {
+        margin-bottom: 40px;
+    }
+    .keyFeatures .featureBox .infoRow {
+        margin-bottom: 40px;
+    }
+    .dataAccordian .aside {
+        margin-bottom: 40px;
+    }
+    .cta {
+        height: auto;
+        min-height: 221px;
+        padding: 15px 0;
+    }
+    .cta .ctaText {
+        height: auto;
+        min-height: 221px;
+    }
+    .ourApproach {
+        overflow: hidden;
+    }
+    .ourApproach .approachContent {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .ourApproach .approachContent .columns {
+        width: 50%;
+        min-height: 280px;
+    }
+    .ourApproach .approachContent .columns.columns1 {
+        padding-top: 0px;
+    }    
+    .ourApproach .approachContent .columns.columns2 {
+        padding-top: 0px
+    }    
+    .ourApproach .approachContent .columns.columns3 {
+        padding-top: 0px;
+    }    
+    .ourApproach .approachContent .columns.columns4 {
+        padding-top: 0px
+    }
+    .ourApproach .approachContent .columns.columns5 {
+        padding-top: 0px;
+    }
+    .ourApproach .approachContent .dottedLine {
+        display: none;
+    }
+}
+@media screen and (max-width: 576px) {}
+
+@media screen and (max-width: 479px) {
+    .ourApproach .approachContent .columns {
+        width: 100%;
+        min-height: 240px;
+        margin-top: 20px;
+    }
+    .ourCapabilities {
+        height: auto;
+        min-height: auto;
+        padding: 40px 25px;
+    }
+    .ourCapabilities .capabilitiesBox{
+        width: 100%;
+        height: auto;
+        min-height: auto;
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        padding: 25px;
+    }
+    .keyFeatures .dataEtlBox {
+        height: auto;
+    }
+    .keyFeatures .dataEtlBox .etlImage {
+        margin-top: 50px;
+        position: relative;
+        bottom: 0;
+    }
+    .keyFeatures .dataEtlBox .etlImage img {
+        width: 100%;
+    }
+    .keyFeatures .featureBox {
+        height: auto;
+        padding: 15px;
+    }
+    .applicationIntegration .appBox {
+        height: auto;
+        min-height: 350px;
+    }
+    .applicationIntegration .px-0 {
+        padding: 0;
+    }
+    .applicationIntegration .appInfoblock {
+        height: auto;
+        padding-left: 0;
+    }
+    .applicationIntegration .appInfoblock .appRow {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .applicationIntegration .appInfoblock .appRow .appColHalf {
+        width: 100%;
+        margin-top: 30px;
+        height: auto;
+        min-height: 450px;
+    }
+    .cta .ctaText h2 {
+        font-size: 27px;
+    }
+    .dataAccordian .accordionBody {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .dataAccordian .powerBox {
+        height: auto;
+        min-height: 300px;
+        padding: 25px 15px;
+    }
+    .dataAccordian .powerBox .logo {
+        width: 25%;
+    }
+    .dataAccordian .powerBox .text {
+        width: 75%;
+    }
+    .dataAccordian .dataETL{
+        background-color: #F0F0F0;
+    }
+    .dataAccordian {
+        padding-bottom: 0;
+    }
+    .ourApproach .approachContent .columns {
+        display: block;
+    }
 }

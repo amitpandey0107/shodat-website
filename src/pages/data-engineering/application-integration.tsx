@@ -4,7 +4,7 @@ import Link from "next/link";
 import styles from "./data-engineering.module.css";
 export default function ApplicationIntegration() {
     return (
-        <div className={`${styles.applicationIntegration}`}>
+        <div className={`${styles.applicationIntegration} appIntegration`}>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-sm-12 col-md-5 col-lg-5 px-0">

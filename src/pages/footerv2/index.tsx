@@ -88,7 +88,7 @@ export default function FooterVersionSecond() {
   }
 
   return (
-    <header className={`${styles.footer} ${styles.footerv2}`}>
+    <footer className={`${styles.footer} ${styles.footerv2}`}>
       <div className="container-fluid">
         <div className="row">
           <div className="col-sm-12 col-md-12 col-lg-12">
@@ -224,6 +224,6 @@ export default function FooterVersionSecond() {
           </div>
         </div>
       </div>
-    </header>
+    </footer>
   );
 }

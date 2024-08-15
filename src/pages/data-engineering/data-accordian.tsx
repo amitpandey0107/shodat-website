@@ -12,7 +12,7 @@ export default function DataAccordian() {
             <div className={`${styles.dataETL}`}>
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-sm-6 col-md-4 col-lg-4">
+                        <div className="col-sm-12 col-md-4 col-lg-4">
                             <div className={`${styles.aside}`}>
                                 <div className={`${styles.titleUnderline}`}>
                                     <h2>Data ETL</h2>
@@ -22,7 +22,7 @@ export default function DataAccordian() {
                                 <p>Efficient data extraction, transformation, and loading (ETL) are the foundation of any robust data strategy. At Shodat Inc., We utilize Azure Data Factory and Databricks to ensure your data is seamlessly integrated, transformed, and ready for analysis.</p>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-8 col-lg-8">
+                        <div className="col-sm-12 col-md-8 col-lg-8">
                             <div className={`${styles.section}`}>
                                 <Accordion defaultActiveKey="0" className="accordionCustom">
                                 <Accordion.Item eventKey="0">
@@ -80,7 +80,7 @@ export default function DataAccordian() {
             <div className={`${styles.dataETL}`}>
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-sm-6 col-md-4 col-lg-4">
+                        <div className="col-sm-12 col-md-4 col-lg-4">
                             <div className={`${styles.aside}`}>
                                 <div className={`${styles.titleUnderline}`}>
                                     <h2>Data Warehousing</h2>
@@ -90,7 +90,7 @@ export default function DataAccordian() {
                                 <p>A robust data warehousing solution is essential for storing, managing, and retrieving vast amounts of data. At Shodat Inc., we offer state-of-the-art data warehousing solutions using Azure SQL, Synapse, Snowflake, and Azure Data Lake .</p>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-8 col-lg-8">
+                        <div className="col-sm-12 col-md-8 col-lg-8">
                             <div className={`${styles.section}`}>
                                 <Accordion defaultActiveKey="0" className="accordionCustom">
                                     <Accordion.Item eventKey="0">
@@ -194,7 +194,7 @@ export default function DataAccordian() {
             <div className={`${styles.dataETL}`}>
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-sm-6 col-md-4 col-lg-4">
+                        <div className="col-sm-12 col-md-4 col-lg-4">
                             <div className={`${styles.aside}`}>
                                 <div className={`${styles.titleUnderline}`}>
                                     <h2>Data Visualization</h2>
@@ -204,7 +204,7 @@ export default function DataAccordian() {
                                 <p>Visualizing data is key to making informed decisions. At Shodat Inc., we specialize in creating powerful data visualizations using Power BI, transforming complex data into clear and actionable insights.</p>
                             </div>
                         </div>
-                        <div className="col-sm-6 col-md-8 col-lg-8">
+                        <div className="col-sm-12 col-md-8 col-lg-8">
                             <div className={`${styles.section}`}>
                                 <div className={`${styles.powerBox}`}>
                                     <div className={`${styles.logo}`}>

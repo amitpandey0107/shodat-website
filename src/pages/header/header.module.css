@@ -89,7 +89,7 @@
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 99;
+    z-index: 999;
     padding-left: 15px;
 }
 
@@ -164,6 +164,9 @@
     }
     .header .menuList {
         margin-right: 0px;
+    }
+    .mobileMenu .btnDemo {
+        margin-left: 28px;
     }
     
 }
