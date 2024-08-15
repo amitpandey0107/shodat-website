@@ -60,13 +60,111 @@
     box-shadow: none;
     border-radius: 0;
 }
+.mobileMenu {
+    display: none;
+    position: relative;
+}
+.mobileMenu .openButton {
+    background-color: #68326F;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    min-width: 45px;
+    box-shadow: none;
+    border-radius: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.mobileMenu .menuWrap {
+    background: black;
+    width: 60%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    padding-left: 15px;
+}
+
+.mobileMenu .closeButton {
+    background-color: #68326F;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    min-width: 45px;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: hidden;
+    position: absolute;
+    overflow: hidden;
+    right: 30px;
+    top: 15px;
+}
+
+.mobileMenu .menuList {
+    display: block;
+    margin-right: 0;
+    margin-top: 60px;
+}
+.mobileMenu .menuList li {
+    padding-left: 0;
+}
+.mobileMenu .menuList li a {
+    height: auto;
+    padding: 15px;
+    display: block;
+    font-size: 16px;
+}
+.mobileMenu .menuList li a.active {
+    border-bottom: 0;
+}
+.mobileMenu .btnDemo {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.mobileMenu .menuList li a:hover {
+    border-color: transparent;
+}
 
 
 @media screen and (max-width: 991px) {
-    
+    .header .menuList {
+        margin-right: 30px;
+    }
+    .header .menuList li {
+        padding-left: 15px;
+    }
+    .header .menuList li a {
+        font-size: 14px;
+    }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
+    .header .menu {
+        display: none;
+    }
+    .header .mobileMenu {
+        display: block;
+    }
+    .header .menuList li a {
+        font-size: 16px;
+    }
+    .header .menuList {
+        margin-right: 0px;
+    }
     
 }
 

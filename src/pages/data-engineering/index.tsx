@@ -59,10 +59,10 @@ function DataEngineering() {
                 <ApplicationIntegration />
 
                 {/* CTA */}
-                {/* <Cta /> */}
+                <Cta />
 
                 {/* Data Accordian */}
-                {/* <DataAccordian /> */}
+                <DataAccordian />
 
                 {/* Footer */}
                 <FooterVersionSecond />
