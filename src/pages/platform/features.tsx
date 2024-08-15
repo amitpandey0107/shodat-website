@@ -12,9 +12,6 @@ export default function Features() {
     const sliderItem = (i: any) => {
         setItems(i)
     }
-    console.log({
-        items: items
-    })
 
     return (
         <div className={`${styles.features}`}>
