@@ -10,7 +10,7 @@ export default function ApplicationIntegration() {
                     <div className="col-sm-12 col-md-5 col-lg-5 px-0">
                         <div className={`${styles.appBox}`}>
                             <h2>Application Integration</h2>
-                            <p>Our data integration services ensure seamless communication and data flow across your systems for event based or real time data streaming use cases</p>
+                            <p>Our data integration services ensure seamless communication and data flow across your systems for event based or real time data streaming use cases.:</p>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-7 col-lg-7 px-0">

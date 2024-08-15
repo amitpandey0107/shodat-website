@@ -667,7 +667,7 @@
         width: 100%;
     }
     .bannerContentLeft .bannerTitle br {
-        display: inline;
+        display: none;
     }
     .platformBanner .bannerContent {
         display: block;
@@ -877,5 +877,17 @@
     }
     .ourApproach .approachContent .columns {
         display: block;
+    }
+    .keyFeatures .featureBox .infoRow .infoBox {
+        padding: 0 0px;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .keyFeatures .featureBox .infoRow .infoBox h6 br {
+        display: none;
+    }
+    .keyFeatures .featureBox .infoRow {
+        display: block;
+        margin-bottom: 0px;
     }
 }

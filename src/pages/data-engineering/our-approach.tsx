@@ -33,8 +33,7 @@ export default function OurApproach() {
                   </div>
                   <h4>Data Integration and <br/>Management</h4>
                   <p>
-                    Efficient data integration and management are crucial for
-                    deriving meaningful insights.
+                  Efficient data integration and management are crucial for deriving meaningful insights.
                   </p>
                 </div>
               </div>
@@ -52,7 +51,7 @@ export default function OurApproach() {
                   </div>
                   <h4>Scalable Data <br/>Architecture</h4>
                   <p>
-                    Our team designs and implements scalable data architectures.
+                  Our team designs and implements scalable data architectures.
                   </p>
                 </div>
               </div>
@@ -102,7 +101,7 @@ export default function OurApproach() {
                   </div>
                   <h4>Real-Time Data <br/>Processing</h4>
                   <p>
-                    In today’s fast-paced world, real-time data processing is
+                    In today&apos;s fast-paced world, real-time data processing is
                     essential.
                   </p>
                 </div>
