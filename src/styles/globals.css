@@ -714,9 +714,6 @@ body {
 
 
 /* ACCORDION */
-.accordion {
-
-}
 .accordion-item {
     border-radius: 0 !important;
     margin-bottom: 24px;
@@ -767,4 +764,17 @@ body {
 }
 .btn-black img {
     margin-left: 5px;
+}
+.plr-10px {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+@media screen and (max-width:991px) {
+    .plr-10px {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .whyChooseV2 .pr-0 {
+        padding-right: 15px;
+    }
 }

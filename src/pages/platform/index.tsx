@@ -52,13 +52,13 @@ export default function Platform() {
                 <Offers />
 
                 {/* Shodat eOps™ Features */}
-                <ShodatYAI />
-
-                {/* Shodat eOps™ Features */}
-                <WhyChoose />
+                <ShodatYAI />                
 
                 {/* Case Studies */}
                 <CaseStudy />
+
+                {/* Shodat eOps™ Features */}
+                <WhyChoose />
 
                 {/* Footer */}
                 <FooterVersionSecond />
