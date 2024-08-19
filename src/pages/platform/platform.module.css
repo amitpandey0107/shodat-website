@@ -281,7 +281,7 @@
 
 .phrase .phraseBox {
     border: 2px solid #05A7B1;
-    height: 210px;
+    height: 225px;
     padding: 35px;
 }
 
@@ -521,7 +521,6 @@
 .selectableBtn .arrowLeft {
     margin-right: 30px;
 }
-.selectableBtn .arrowRight {}
 
 .selectableBtn .arrowLeft img{
     height: 40px;
@@ -568,6 +567,105 @@
     left: 0;
     bottom: 6px;
 }
+
+/* INTRODUCTION VERSION 2 */
+.introductionV2 {
+    background-color: #FFFFFF;
+    min-height: 500px;
+    padding: 31px 0 0 0;
+    position: relative;
+}
+.introductionV2 .sectionContent {
+    position: relative;
+}
+.introductionV2 .sectionContent h1{
+    position: relative;
+    font-size: 33px;
+    color: #77467D;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.introductionV2 .sectionContent h1:after {
+    position: absolute;
+    background-color: #000000;
+    height: 1px;
+    width: 250px;
+    content: '';
+    left: 0;
+    bottom: 6px;
+}
+.introductionV2 .sectionContent h3{
+    position: relative;
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.introductionV2 .sectionContent p{
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 24px;
+}
+.introductionV2 .sectionContent .btnWrap {
+    margin-top: 63px;
+}
+.introductionV2 .thumbnails {
+    margin-top: 59px;
+}
+.introductionV2 .thumbnails .sectionImageBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 33.33%;
+}
+.introductionV2 .thumbnails .sectionImageBox .imgThumbnail{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+}
+.introductionV2 .thumbnails .sectionImageBox .imgThumbnail img{
+    display: inline-block;
+}
+.introductionV2 .thumbnails .sectionTextBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introductionV2 .thumbnails .sectionTextBox .textBox{
+    padding: 20px;
+    height: 208px;
+}
+.introductionV2 .thumbnails .sectionTextBox .textBox p{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.introductionV2 .thumbnails .sectionTextBox .textBox.purpleBox{
+    background-color: #68326F;
+}
+.introductionV2 .thumbnails .sectionTextBox .textBox.skyBlueBox{
+    background-color: #04838A;
+}
+.introductionV2 .thumbnails .sectionTextBox .textBox.blackBox{
+    background-color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* SHODAT YAI */
@@ -649,7 +747,7 @@
 /* FEATURES */
 .features {
     position: relative;
-    padding: 20px 0;
+    padding: 60px 0 20px 0;
     min-height: 690px;
     background-color: #F0F0F0;
 }
@@ -1227,6 +1325,14 @@
         padding: 20px;
         height: 280px;
     }
+    .introductionV2 .thumbnails .sectionTextBox .textBox {
+        height: 300px;
+    }
+    .features .featSliderContainer .sliderItem .itemBox {
+        width: 100%;
+        padding: 15px;
+    }
+    
 }
 
 @media screen and (max-width: 991px) {
@@ -1521,6 +1627,9 @@
         height: auto;
         min-height: 700px;
     }
+    .introductionV2 .thumbnails .sectionTextBox .textBox {
+        height: 400px;
+    }
 }
 
 
@@ -1811,10 +1920,6 @@
         height: auto;
     }
 
-    .selectableBtn .borderBlack {
-        /* margin-right: 0; */
-    }
-
     .selectableBtn .btnIntro {
         height: 75px;
         width: 75px;
@@ -1840,7 +1945,6 @@
         border-right: 1px solid rgba(104, 50, 111, 0.3);
         border: 1px solid rgba(104, 50, 111, 0.3);
         padding-right: 25px;
-        /* min-height: 250px; */
         height: 250px;
         margin-bottom: 30px;
         padding: 20px;
@@ -1884,7 +1988,29 @@
         height: auto;
         min-height: 280px;
     }
+    .introductionV2 .thumbnails .sectionTextBox {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .introductionV2 .thumbnails .sectionImageBox {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+    .introductionV2 .thumbnails .sectionTextBox .textBox {
+        height: auto;
+        min-height: 180px;
+    }   
+    .introductionV2 .thumbnails .sectionImageBox .imgThumbnail img {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+        object-position: center;
+    }
+    
 }
+
+
 
 @media screen and (max-width: 576px) {
     .phrase .phraseBox {
