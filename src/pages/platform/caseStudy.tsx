@@ -1,433 +1,160 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import styles from "./platform.module.css";
-import Image from "next/image";
 import "bootstrap/dist/css/bootstrap.css";
-import Carousel from "react-bootstrap/Carousel";
-import { Card, Stack } from "react-bootstrap";
-import MyVerticallyCenteredModal from "./caseStudyModal";
-import Energy from "./modal/energy";
-import Automotive from "./modal/automotive";
-import Manufacturing from "./modal/manufacturing";
-import Financial from "./modal/financial";
-import WorkplaceSafety from "./modal/workplaceSafety";
+import Image from "next/image";
+import Energy from "./casestudytabs/energy";
+import Automotive from "./casestudytabs/automotive";
+import Financial from "./casestudytabs/financial";
+import Manufacturing from "./casestudytabs/manufacturing";
+import WorkplaceSafety from "./casestudytabs/workplaceSafety";
 
 export default function CaseStudy() {
-  const [modalShow, setModalShow] = useState(false);
-  const [modelID, setModalID] = useState(1);
-  const openModalFuncttion = (modalId: any) => {
-    setModalID(modalId);
-    setModalShow(true);
-  };
-  return (
-    <div className={`${styles.caseStudy}`}>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-sm-12">
-            <h2 className={`${styles.title}`}>Case Studies</h2>
-          </div>
-        </div>
-      </div>
-
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-sm-12">
-            <div className={`${styles.caseStudySlider}`} id="caseStudySlider">
-              <Carousel
-                indicators={false}
-                className={`${styles.desktopCaseSlider}`}
-              >
-                <Carousel.Item interval={700000}>
-                  <Stack
-                    direction="horizontal"
-                    className="h-100 justify-content-center align-items-center"
-                    gap={4}
-                  >
-                    <Card
-                      className={`${styles.sliderItem}`}
-                      onClick={() => openModalFuncttion(1)}
-                    >
-                      <div className={`${styles.csItem}`}>
-                        <div className={`${styles.topItem}`}>
-                          <h4>Energy</h4>
-                          <p>
-                            A prominent manufacturer of energy faced significant
-                            challenges in predicting battery life accurately.
-                            Inconsistent performance data, variations in usage
-                            patterns, and environmental factors made it
-                            difficult to provide reliable predictions.
-                          </p>
-                        </div>
-                        <div className={`${styles.imageItem}`}>
-                          <Image
-                            src="/img/platform/evCharging.png"
-                            alt="evCharging"
-                            height={290}
-                            width={392}
-                          />
-                          <div className={`${styles.purpleText}`}>
-                            To address these issues, the manufacturer
-                            implemented Shodat eOps™, an advanced asset tracking
-                            and quality management platform, to enhance their
-                            battery life prediction capabilities.
-                          </div>
-                        </div>
-                      </div>
-                    </Card>
-                    <Card
-                      className={`${styles.sliderItem}`}
-                      onClick={() => openModalFuncttion(2)}
-                    >
-                      <div className={`${styles.csItem}`}>
-                        <div className={`${styles.topItem}`}>
-                          <h4>Automotive</h4>
-                          <p>
-                            A leading automotive faced challenges in predicting
-                            tire wear accurately, which impacted vehicle safety,
-                            maintenance schedules, and overall operational
-                            efficiency.{" "}
-                          </p>
-                        </div>
-                        <div className={`${styles.imageItem}`}>
-                          <Image
-                            src="/img/platform/automotive.png"
-                            alt="automotive"
-                            height={290}
-                            width={392}
-                          />
-                          <div className={`${styles.purpleText}`}>
-                            By implementing Shodat eOps™, the manufacturer aimed
-                            to enhance their tire wear prediction capabilities. 
-                          </div>
-                        </div>
-                      </div>
-                    </Card>
-                    <Card
-                      className={`${styles.sliderItem}`}
-                      onClick={() => openModalFuncttion(3)}
-                    >
-                      <div className={`${styles.csItem}`}>
-                        <div className={`${styles.topItem}`}>
-                          <h4>Manufacturing</h4>
-                          <p>
-                            A leader in the manufacturing industry needed an
-                            effective solution for detecting and addressing
-                            structural cracks in product components. Traditional
-                            inspection methods were labour-intensive,
-                            error-prone, and time-consuming.
-                          </p>
-                        </div>
-                        <div className={`${styles.imageItem}`}>
-                          <Image
-                            src="/img/platform/manufaturing.png"
-                            alt="manufaturing"
-                            height={290}
-                            width={392}
-                          />
-                          <div className={`${styles.purpleText}`}>
-                            To enhance their crack detection capabilities, the
-                            company implemented the Shodat eOps™platform.
-                          </div>
-                        </div>
-                      </div>
-                    </Card>
-                  </Stack>
-                </Carousel.Item>
-
-                <Carousel.Item interval={700000}>
-                  <Stack
-                    direction="horizontal"
-                    className="h-100 justify-content-center align-items-center"
-                    gap={4}
-                  >
-                    <Card
-                      className={`${styles.sliderItem}`}
-                      onClick={() => openModalFuncttion(4)}
-                    >
-                      <div className={`${styles.csItem}`}>
-                        <div className={`${styles.topItem}`}>
-                          <h4>Financial</h4>
-                          <p>
-                            A leading financial services firm faced significant
-                            challenges in managing compliance due to the
-                            complexity and dynamic nature of regulatory
-                            requirements. Manual processes and disparate systems
-                            resulted in inefficiencies and increased the risk of
-                            non-compliance.
-                          </p>
-                        </div>
-                        <div className={`${styles.imageItem}`}>
-                          <Image
-                            src="/img/platform/platform-page-imgs/financial-services.jpg"
-                            alt="Financial Services"
-                            height={554}
-                            width={547}
-                          />
-                          <div className={`${styles.purpleText}`}>
-                            To address these challenges, the firm implemented
-                            Shodat eOps™ integrated with Generative AI to
-                            enhance their compliance management capabilities.
-                          </div>
-                        </div>
-                      </div>
-                    </Card>
-                    <Card
-                      className={`${styles.sliderItem}`}
-                      onClick={() => openModalFuncttion(5)}
-                    >
-                      <div className={`${styles.csItem}`}>
-                        <div className={`${styles.topItem}`}>
-                          <h4>Workplace Safety</h4>
-                          <p>
-                            A large manufacturing company faced significant
-                            challenges in maintaining workplace safety due to
-                            the complex and hazardous nature of its operations.
-                            Traditional safety monitoring methods were
-                            insufficient to prevent incidents and ensure
-                            regulatory compliance.
-                          </p>
-                        </div>
-                        <div className={`${styles.imageItem}`}>
-                          <Image
-                            src="/img/platform/platform-page-imgs/workplace-safety.jpg"
-                            alt="Workplace Safety"
-                            height={554}
-                            width={547}
-                          />
-                          <div className={`${styles.purpleText}`}>
-                            To address these issues, the company implemented
-                            Shodat eOps™, an advanced asset tracking and quality
-                            management platform.
-                          </div>
-                        </div>
-                      </div>
-                    </Card>
-                  </Stack>
-                </Carousel.Item>
-              </Carousel>
-
-              <Carousel
-                indicators={false}
-                className={`${styles.mobileCaseSlider}`}
-              >
-                <Carousel.Item interval={150000}>
-                  <Stack
-                    direction="horizontal"
-                    className="h-100 justify-content-center align-items-center"
-                    gap={4}
-                  >
-                    <Card
-                      className={`${styles.sliderItem}`}
-                      onClick={() => openModalFuncttion(1)}
-                    >
-                      <div className={`${styles.csItem}`}>
-                        <div className={`${styles.topItem}`}>
-                          <h4>Energy</h4>
-                          <p>
-                            A prominent manufacturer of energy faced significant
-                            challenges in predicting battery life accurately.
-                            Inconsistent performance data, variations in usage
-                            patterns, and environmental factors made it
-                            difficult to provide reliable predictions.
-                          </p>
-                        </div>
-                        <div className={`${styles.imageItem}`}>
-                          <Image
-                            src="/img/platform/evCharging.png"
-                            alt="evCharging"
-                            height={290}
-                            width={392}
-                          />
-                          <div className={`${styles.purpleText}`}>
-                            To address these issues, the manufacturer
-                            implemented Shodat eOps™, an advanced asset tracking
-                            and quality management platform, to enhance their
-                            battery life prediction capabilities.
-                          </div>
-                        </div>
-                      </div>
-                    </Card>
-                  </Stack>
-                </Carousel.Item>
-
-                <Carousel.Item interval={150000}>
-                  <Stack
-                    direction="horizontal"
-                    className="h-100 justify-content-center align-items-center"
-                    gap={4}
-                  >
-                    <Card
-                      className={`${styles.sliderItem}`}
-                      onClick={() => openModalFuncttion(2)}
-                    >
-                      <div className={`${styles.csItem}`}>
-                        <div className={`${styles.topItem}`}>
-                          <h4>Automotive</h4>
-                          <p>
-                            A leading automotive faced challenges in predicting
-                            tire wear accurately, which impacted vehicle safety,
-                            maintenance schedules, and overall operational
-                            efficiency.{" "}
-                          </p>
-                        </div>
-                        <div className={`${styles.imageItem}`}>
-                          <Image
-                            src="/img/platform/automotive.png"
-                            alt="automotive"
-                            height={290}
-                            width={392}
-                          />
-                          <div className={`${styles.purpleText}`}>
-                            By implementing Shodat eOps™, the manufacturer aimed
-                            to enhance their tire wear prediction capabilities. 
-                          </div>
-                        </div>
-                      </div>
-                    </Card>
-                  </Stack>
-                </Carousel.Item>
-
-                <Carousel.Item interval={150000}>
-                  <Stack
-                    direction="horizontal"
-                    className="h-100 justify-content-center align-items-center"
-                    gap={4}
-                  >
-                    <Card
-                      className={`${styles.sliderItem}`}
-                      onClick={() => openModalFuncttion(3)}
-                    >
-                      <div className={`${styles.csItem}`}>
-                        <div className={`${styles.topItem}`}>
-                          <h4>Manufacturing</h4>
-                          <p>
-                            A leader in the manufacturing industry needed an
-                            effective solution for detecting and addressing
-                            structural cracks in product components. Traditional
-                            inspection methods were labour-intensive,
-                            error-prone, and time-consuming.
-                          </p>
-                        </div>
-                        <div className={`${styles.imageItem}`}>
-                          <Image
-                            src="/img/platform/manufaturing.png"
-                            alt="manufaturing"
-                            height={290}
-                            width={392}
-                          />
-                          <div className={`${styles.purpleText}`}>
-                            To enhance their crack detection capabilities, the
-                            company implemented the Shodat eOps™platform.
-                          </div>
-                        </div>
-                      </div>
-                    </Card>
-                  </Stack>
-                </Carousel.Item>
-
-                <Carousel.Item interval={150000}>
-                  <Stack
-                    direction="horizontal"
-                    className="h-100 justify-content-center align-items-center"
-                    gap={4}
-                  >
-                    <Card
-                      className={`${styles.sliderItem}`}
-                      onClick={() => openModalFuncttion(4)}
-                    >
-                      <div className={`${styles.csItem}`}>
-                        <div className={`${styles.topItem}`}>
-                          <h4>Financial</h4>
-                          <p>
-                            A leading financial services firm faced significant
-                            challenges in managing compliance due to the
-                            complexity and dynamic nature of regulatory
-                            requirements. Manual processes and disparate systems
-                            resulted in inefficiencies and increased the risk of
-                            non-compliance.
-                          </p>
-                        </div>
-                        <div className={`${styles.imageItem}`}>
-                          <Image
-                            src="/img/platform/platform-page-imgs/financial-services.jpg"
-                            alt="Financial Services"
-                            height={554}
-                            width={547}
-                          />
-                          <div className={`${styles.purpleText}`}>
-                            To address these challenges, the firm implemented
-                            Shodat eOps™ integrated with Generative AI to
-                            enhance their compliance management capabilities.
-                          </div>
-                        </div>
-                      </div>
-                    </Card>
-                  </Stack>
-                </Carousel.Item>
-
-                <Carousel.Item interval={150000}>
-                  <Stack
-                    direction="horizontal"
-                    className="h-100 justify-content-center align-items-center"
-                    gap={4}
-                  >
-                    <Card
-                      className={`${styles.sliderItem}`}
-                      onClick={() => openModalFuncttion(5)}
-                    >
-                      <div className={`${styles.csItem}`}>
-                        <div className={`${styles.topItem}`}>
-                          <h4>Workplace Safety</h4>
-                          <p>
-                            A large manufacturing company faced significant
-                            challenges in maintaining workplace safety due to
-                            the complex and hazardous nature of its operations.
-                            Traditional safety monitoring methods were
-                            insufficient to prevent incidents and ensure
-                            regulatory compliance.
-                          </p>
-                        </div>
-                        <div className={`${styles.imageItem}`}>
-                          <Image
-                            src="/img/platform/platform-page-imgs/workplace-safety.jpg"
-                            alt="Workplace safety"
-                            height={554}
-                            width={547}
-                          />
-                          <div className={`${styles.purpleText}`}>
-                            To address these issues, the company implemented
-                            Shodat eOps™, an advanced asset tracking and quality
-                            management platform.
-                          </div>
-                        </div>
-                      </div>
-                    </Card>
-                  </Stack>
-                </Carousel.Item>
-              </Carousel>
+    const [tab, setTab] = useState(1);
+    const ElementRef:any = useRef(null);
+    const [customClass, setCustomClass] = useState("")
+    useEffect(() => {
+        
+    })
+    
+    const handleTabChange = (tabId: any) => {
+        let current_tab = tab;
+        setTab(tabId);
+        if(current_tab===tab) {
+            setCustomClass('addSliderClass');
+        } else {
+            setCustomClass("")
+        }
+    }
+    const handleLeftArrow = () => {
+        let current_tab = tab;
+        const Elementcount = ElementRef.current.childNodes.length;
+        console.log({
+            Elementcount:Elementcount,
+            current_tab:current_tab
+        })
+        if (current_tab != 1) {
+            setTab(current_tab-1)
+            setCustomClass('leftArrowClass');
+        } else {
+            setTab(5)
+        }   
+    }
+    const handleRightArrow = () => {
+        let current_tab = tab;
+        const Elementcount = ElementRef.current.childNodes.length;
+        console.log({
+            Elementcount:Elementcount,
+            current_tab:current_tab
+        })
+        if (current_tab <= (Elementcount-3)) {
+            setTab(current_tab+1)
+            setCustomClass('addSliderClass');
+        } else {
+            setTab(1)
+        }        
+    }
+    
+    return (
+        <div className={`${styles.caseStudyV2} caseStudyV2`}>
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-sm-12 col-md-12 col-lg-12">
+                        <h2 className={`${styles.title}`}>Case Studies</h2>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <div className="container-fluid">
+                <div className="row">
+                    <div className="col-sm-12 col-md-12 col-lg-12">
+                        <div className={`${styles.transitionWrap}`}>
+                            {tab === 1 && <Energy customClassName={customClass} />}
+                            {tab === 2 && <Automotive customClassName={customClass} />}
+                            {tab === 3 && <Manufacturing customClassName={customClass} />}
+                            {tab === 4 && <Financial customClassName={customClass} />}
+                            {tab === 5 && <WorkplaceSafety customClassName={customClass} />}
+                        </div>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col-sm-12 col-md-12 col-lg-12">
+                        <div className={`${styles.tabContent}`} ref={ElementRef}>
+                            <div className={`${styles.arrowLeft}`}>
+                                <button onClick={handleLeftArrow}>
+                                    <Image
+                                        src="/img/casestudy/angle_left_purple.png"
+                                        alt="arrow left"
+                                        height={32}
+                                        width={16}
+                                    />
+                                </button>
+                            </div>
+                            <div className={`${styles.tab}`}>
+                                <button onClick={() => handleTabChange(1)}>
+                                    <Image
+                                        src="/img/casestudy/case_study_2.jpg"
+                                        alt="Energy"
+                                        height={170}
+                                        width={156}
+                                    />
+                                </button>
+                            </div>
+                            <div className={`${styles.tab}`}>
+                                <button onClick={() => handleTabChange(2)}>
+                                    <Image
+                                        src="/img/casestudy/case_study_3.png"
+                                        alt="Automotive"
+                                        height={170}
+                                        width={156}
+                                    />
+                                </button>
+                            </div>
+                            <div className={`${styles.tab}`}>
+                                <button onClick={() => handleTabChange(3)}>
+                                    <Image
+                                        src="/img/casestudy/case_study_4.png"
+                                        alt="Manfacturing"
+                                        height={170}
+                                        width={156}
+                                    />
+                                </button>
+                            </div>
+                            <div className={`${styles.tab}`}>
+                                <button onClick={() => handleTabChange(4)}>
+                                    <Image
+                                        src="/img/casestudy/case_study_5.png"
+                                        alt="financial"
+                                        height={170}
+                                        width={156}
+                                    />
+                                </button>
+                            </div>
+                            <div className={`${styles.tab}`}>
+                                <button onClick={() => handleTabChange(5)}>
+                                    <Image
+                                        src="/img/casestudy/case_study_6.png"
+                                        alt="workplace safety"
+                                        height={170}
+                                        width={156}
+                                    />
+                                </button>
+                            </div>
+
+                            <div className={`${styles.arrowRight}`}>
+                                <button onClick={handleRightArrow}>
+                                    <Image
+                                        src="/img/casestudy/angle_right_purple.png"
+                                        alt="arrow right"
+                                        height={32}
+                                        width={16}
+                                    />
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-      </div>
-
-      {modelID === 1 && (
-        <Energy show={modalShow} onHide={() => setModalShow(false)} />
-      )}
-
-      {modelID === 2 && (
-        <Automotive show={modalShow} onHide={() => setModalShow(false)} />
-      )}
-
-      {modelID === 3 && (
-        <Manufacturing show={modalShow} onHide={() => setModalShow(false)} />
-      )}
-
-      {modelID === 4 && (
-        <Financial show={modalShow} onHide={() => setModalShow(false)} />
-      )}
-
-      {modelID === 5 && (
-        <WorkplaceSafety show={modalShow} onHide={() => setModalShow(false)} />
-      )}
-    </div>
-  );
+    );
 }

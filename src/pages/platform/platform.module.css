@@ -1415,6 +1415,106 @@
 }
 
 
+/* CASE STUDY V2 */
+.caseStudyV2 {
+    padding: 30px 0;
+    border-bottom: 1px solid #A6A6A6;
+    position: relative;
+}
+.caseStudyV2 .mainContent {
+     display: flex;
+     justify-content: flex-start;
+     align-items: flex-start;
+}
+
+.caseStudyV2 .mainContent .imageContent {
+    background-color: #F0F0F0;
+    padding: 20px;
+    width: 42%;
+}
+.caseStudyV2 .mainContent .imageContent .imageInner {
+    overflow: hidden;
+    height: 433px;
+    width: 100%;
+}
+.caseStudyV2 .mainContent .imageContent img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.caseStudyV2 .mainContent .infoContent {
+    margin-left: 36px;
+    width: 58%;
+}
+.caseStudyV2 .mainContent .contentBox h3 {
+    font-size: 23px;
+    color: #68326F;
+    font-weight: bold;
+    margin-bottom: 12px;
+} 
+.caseStudyV2 .mainContent .contentBox p {
+    margin-bottom: 24px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.caseStudyV2 .mainContent .contentBox p:last-child {
+    margin-bottom: 0;
+}
+.caseStudyV2 .mainContent .resultBox {
+    margin-top: 55px;
+} 
+.caseStudyV2 .mainContent .resultBox h3 {
+    font-size: 23px;
+    color: #68326F;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.caseStudyV2 .mainContent .resultBox .resultText {
+    font-size: 16px;
+    color: #68326F;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.caseStudyV2 .mainContent .resultBox .resultText:last-child {
+    margin-bottom: 0;
+}
+.caseStudyV2 .tabContent {
+    margin-top: 21px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.caseStudyV2 .tabContent button {
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+}
+.caseStudyV2 .tabContent .arrowLeft {
+    margin-right: 21px;
+}
+.caseStudyV2 .tabContent .arrowRight {
+    margin-left: 21px;
+}
+.caseStudyV2 .tabContent .tab {
+    height: 170px;
+    width: 156px;
+    overflow: hidden;
+    margin-right: 12px;
+}
+.caseStudyV2 .tabContent .tab:last-child {
+    margin-right: 0;
+}
+.caseStudyV2 .tabContent .tab button{
+    height: 170px;
+    width: 156px;
+}
+.caseStudyV2 .transitionWrap {
+    overflow: hidden;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
 
 
 
@@ -1742,8 +1842,44 @@
     .whyChooseV2 .rightContent .colorBox {
         height: 230px;
     }
-    .whyChooseV2 .rightContent {
-        
+    .features .featSliderContainer .sliderItem {
+        width: 20%;
+    }
+
+    .caseStudyV2 .tabContent  {
+        margin-top: 60px;
+    }
+
+    .caseStudyV2 .tabContent .tab {
+        height: 84px;
+        width: 94px;
+        overflow: hidden;
+        margin-right: 12px;
+    }
+    .caseStudyV2 .tabContent .tab button{
+        height: 170px;
+        width: 94px;
+    }
+    .caseStudyV2 .tabContent .tab img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .caseStudyV2 .mainContent {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .caseStudyV2 .mainContent .imageContent {
+        width: 100%;
+    }
+    .caseStudyV2 .mainContent .imageContent .imageInner {
+        height: 100%;
+        width: 100%;
+    }
+    .caseStudyV2 .mainContent .infoContent {
+        width: 100%;
+        margin-top: 30px;
     }
 }
 

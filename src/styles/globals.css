@@ -383,6 +383,7 @@ body {
     width: 36px;
     border-radius: 0;
 }
+
 .closeButton.modal-header .btn-close {
     background-image: url(/img/platform/x-square.svg) !important;
     height: 32px;
@@ -487,6 +488,7 @@ body {
     --bs-modal-width: 1332px;
     border-radius: 0;
 }
+
 .caseStudyModal .modal-content {
     border-radius: 0;
 }
@@ -504,24 +506,29 @@ body {
     #shodatX .carousel-control-prev {
         bottom: -15px;
     }
+
     #shodatX .carousel-control-next {
         bottom: -15px;
     }
+
     #shodatX .carousel-indicators {
         bottom: -15px;
     }
 }
 
 @media screen and (max-width: 1199px) {
-    #shodatX .carousel  {
+    #shodatX .carousel {
         height: 100%;
     }
+
     #shodatX .carousel-control-prev {
         bottom: -25px;
     }
+
     #shodatX .carousel-control-next {
         bottom: -25px;
     }
+
     #shodatX .carousel-indicators {
         bottom: -25px;
     }
@@ -594,9 +601,11 @@ body {
     #shodatX .carousel-control-prev {
         bottom: -60px;
     }
+
     #shodatX .carousel-control-next {
         bottom: -60px;
     }
+
     #shodatX .carousel-indicators {
         bottom: -60px;
     }
@@ -604,28 +613,31 @@ body {
     .platformIntroduction .mobileTabs {
         display: block;
     }
+
     .platformIntroduction .desktopTabs {
         display: none;
     }
-    #platformFeatSlider  .hstack {
+
+    #platformFeatSlider .hstack {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between !important;
+        justify-content: center !important;
         align-items: center !important;
     }
-    
+
 }
 
 @media screen and (max-width: 991px) {
     .hstack {
         display: flex;
         flex-wrap: wrap;
-    }
+    }    
 
     .prefferedPartnerSection .container-fluid {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     #caseStudySlider .hstack {
         display: flex;
         flex-wrap: wrap;
@@ -641,9 +653,11 @@ body {
     #shodatX .carousel-control-prev {
         bottom: -60px;
     }
+
     #shodatX .carousel-control-next {
         bottom: -60px;
     }
+
     #shodatX .carousel-indicators {
         bottom: -60px;
     }
@@ -681,12 +695,21 @@ body {
     .gap-3 {
         gap: 0 !important;
     }
+
+    #platformFeatSlider .hstack {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between !important;
+        align-items: center !important;
+    }
+
     #offerSlider .carousel-control-prev {
         bottom: -66px;
         left: 35%;
         height: 40px;
         width: 40px;
     }
+
     #offerSlider .carousel-control-next {
         bottom: -66px;
         right: 35%;
@@ -694,19 +717,23 @@ body {
         width: 40px;
         left: auto;
     }
-    #offerSlider .carousel-control-prev-icon {      
+
+    #offerSlider .carousel-control-prev-icon {
         height: 30px;
         width: 30px;
         top: 5px;
     }
-    #offerSlider .carousel-control-next-icon {      
+
+    #offerSlider .carousel-control-next-icon {
         height: 30px;
         width: 30px;
         top: 5px;
     }
+
     #platformFeatSlider .gap-4 {
         gap: 5px !important;
     }
+
     .appIntegration .px-0 {
         padding: 0;
     }
@@ -717,31 +744,37 @@ body {
 .accordion-item {
     border-radius: 0 !important;
     margin-bottom: 24px;
-    box-shadow: 0 5px 6px -1px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 6px -1px rgba(0, 0, 0, 0.3);
 }
-.accordion-header .accordion-button{
+
+.accordion-header .accordion-button {
     height: 114px;
     box-shadow: none;
 }
+
 .accordion-button:not(.collapsed) {
     background-color: #FFFFFF;
 }
+
 .accordion-button:focus {
     outline: none;
     border: 0;
     box-shadow: none;
 }
+
 .accordion-button::after {
     background-image: url("/img/dataEngineering/angle_down.png") !important;
     background-size: 2rem;
     height: 2rem;
     width: 2rem;
 }
+
 .accordion-body {
     padding-top: 0;
-    border:0;
+    border: 0;
     border-color: transparent;
 }
+
 .btn-black {
     background-color: black;
     color: white;
@@ -758,23 +791,86 @@ body {
     border-radius: 0;
     transition: all ease-out 0.25s;
 }
+
 .btn-black:hover {
     background-color: #06bcc6;
     transition: all ease-out 0.25s;
 }
+
 .btn-black img {
     margin-left: 5px;
 }
+
 .plr-10px {
     padding-left: 10px;
     padding-right: 10px;
 }
+
 @media screen and (max-width:991px) {
     .plr-10px {
         padding-left: 15px;
         padding-right: 15px;
     }
+
     .whyChooseV2 .pr-0 {
         padding-right: 15px;
+    }
+}
+
+.addSliderClass {
+    clip: rect(0, 100vw, auto, 100vw);
+    animation: slide 1.5s linear 1s forwards;
+    transition: all ease-in-out 0.5s;
+    animation: .5s slide-right;
+    position: relative;
+}
+.rightArrowClass {
+    clip: rect(0, 100vw, auto, 100vw);
+    animation: slide 1.5s linear 1s forwards;
+    transition: all ease-in-out 0.5s;
+    animation: .5s slide-right;
+    position: relative;
+    animation: .5s slide-right;
+}
+.leftArrowClass {
+    clip: rect(0, 100vw, auto, 100vw);
+    animation: slide 1.5s linear 1s forwards;
+    transition: all ease-in-out 0.5s;
+    animation: .5s slide-left;
+    position: relative;
+}
+
+@keyframes slide {
+    100% {
+        clip: rect(0, 100vw, auto, 0);
+    }
+}
+
+@keyframes slide-right {
+    from {
+        left: -100%;
+    }
+
+    to {
+        left: 0%;
+    }
+}
+@keyframes slide-left {
+    from {
+        right: -100%;
+    }
+
+    to {
+        right: -00%;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
