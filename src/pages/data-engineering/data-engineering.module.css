@@ -890,4 +890,7 @@
         display: block;
         margin-bottom: 0px;
     }
+    .bannerContentLeft .bannerInfo {
+        padding-left: 5%;
+    }
 }

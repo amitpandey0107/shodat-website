@@ -282,7 +282,7 @@
 .phrase .phraseBox {
     border: 2px solid #05A7B1;
     height: 225px;
-    padding: 35px;
+    padding: 24px;
 }
 
 .phrase .phraseBox h4 {
@@ -671,7 +671,7 @@
 /* SHODAT YAI */
 .shodatYAIContainer {
     background-color: #F0F0F0;
-    padding: 40px 0;
+    padding: 60px 0 40px 0;
     min-height: 500px;
 }
 
@@ -759,7 +759,7 @@
 .subTitle {
     position: relative;
     font-size: 24px;
-    color: #000000;
+    color: rgba(0, 0, 0, 0.8);
     font-weight: bold;
     width: 80%;
 }
@@ -837,12 +837,17 @@
     margin-bottom: 5px;
 }
 
+.features .contentFeature .info .textRow p{
+    color: rgba(0, 0, 0, 0.8);
+}
+
 
 /* OFFERS */
 .offers {
     min-height: 500px;
     position: relative;
     display: flex;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
 }
 
 .offers .offerLeft {
@@ -890,11 +895,6 @@
 .offers .offerRight {
     width: 70%;
     position: relative;
-    /* background-color: #000000;
-    background-image: url(/img/platform/offerBG.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
 }
 
 .offers .offerContent {
@@ -2262,12 +2262,12 @@
         object-position: center;
     }
     .caseStudyV2 .tabContent .tab button{
-        height: 50px;
-        width: 60px;
+        height: 65px;
+        width: 75px;
     }
     .caseStudyV2 .tabContent .tab {
-        height: 50px;
-        width: 60px;
+        height: 65px;
+        width: 75px;
     }
     .caseStudyV2 .tabContent .arrowLeft {
         margin-right: 5px;
@@ -2302,6 +2302,14 @@
     .whyChooseV2 .rightContent .bottomSection {
         flex-wrap: wrap;
         flex-direction: column;
+    }
+    .caseStudyV2 .tabContent .tab button{
+        height: 50px;
+        width: 60px;
+    }
+    .caseStudyV2 .tabContent .tab {
+        height: 50px;
+        width: 60px;
     }
 }
 
@@ -2372,15 +2380,15 @@
         margin-bottom: 10px;
     }
     .caseStudyV2 .tabContent .tab button {
-        height: 30px;
-        width: 40px;
+        height: 50px;
+        width: 50px;
     }
     .caseStudyV2 .tabContent {
         justify-content: center;
     }
     .caseStudyV2 .tabContent .tab {
-        height: 30px;
-        width: 40px;
+        height: 50px;
+        width: 50px;
         margin-right: 7px;
     }
     .caseStudyV2 .tabContent .arrowRight {
@@ -2401,5 +2409,10 @@
         position: relative;
         top: 4px;
     }
-    
+    .caseStudyV2 .mainContent .resultBox {
+        margin-top: 20px;
+    }
+    /* .caseStudyV2 .mainContent .infoContent {
+        min-height: 600px;
+    } */
 }

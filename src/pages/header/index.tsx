@@ -62,7 +62,7 @@ export default function Header() {
                 <ul className={`${styles.menuList}`}>
                     <li><Link href="/">Home</Link></li>
                     <li><Link href="/platform">Platform</Link></li>
-                    <li><Link href="/solutions" className={`${styles.active}`}>Solutions</Link></li>
+                    <li><Link href="/data-engineering" className={`${styles.active}`}>Solutions</Link></li>
                     <li><Link href="/industries">Industries</Link></li>
                     <li><Link href="/about">About</Link></li>
                 </ul>
