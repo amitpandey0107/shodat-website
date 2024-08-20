@@ -8,7 +8,7 @@ export default function Energy(props:any) {
             <div className={`${styles.imageContent}`}>
                 <div className={`${styles.imageInner}`}>
                     <Image
-                        src="/img/casestudy/case_study_1.jpg"
+                        src="/img/casestudy/case_1.png"
                         alt="Energy"
                         height={433}
                         width={499}

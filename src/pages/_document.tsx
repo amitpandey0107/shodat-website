@@ -32,7 +32,7 @@ export default function Document() {
         <meta name="description" content="Discover cutting-edge AI solutions to drive innovation and growth in your business with Shodat AI" />
         <meta name="keywords" content="AI solutionsData AnalyticsData-driven insightsBusiness transformation" />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
 
       </Head>

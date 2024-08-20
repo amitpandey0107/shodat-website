@@ -8,7 +8,7 @@ export default function Financial(props:any) {
             <div className={`${styles.imageContent}`}>
                 <div className={`${styles.imageInner}`}>
                     <Image
-                        src="/img/casestudy/case_study_5.png"
+                        src="/img/casestudy/case_4.png"
                         alt="Financial"
                         height={433}
                         width={499}
@@ -22,7 +22,8 @@ export default function Financial(props:any) {
                         in managing compliance due to the complexity and dynamic nature
                         of regulatory requirements. Manual processes and disparate
                         systems resulted in inefficiencies and increased the risk of
-                        non-compliance. To address these challenges, the firm
+                        non-compliance. </p>
+                        <p>To address these challenges, the firm
                         implemented Shodat eOps™ integrated with Generative AI to
                         enhance their compliance management capabilities.</p>
                 </div>

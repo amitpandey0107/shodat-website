@@ -8,7 +8,7 @@ export default function WorkplaceSafety(props:any) {
             <div className={`${styles.imageContent}`}>
                 <div className={`${styles.imageInner}`}>
                     <Image
-                        src="/img/casestudy/case_study_6.png"
+                        src="/img/casestudy/case_5.png"
                         alt="Energy"
                         height={433}
                         width={499}
@@ -22,7 +22,8 @@ export default function WorkplaceSafety(props:any) {
                         maintaining workplace safety due to the complex and hazardous
                         nature of its operations. Traditional safety monitoring methods
                         were insufficient to prevent incidents and ensure regulatory
-                        compliance. To address these issues, the company implemented
+                        compliance. </p>
+                        <p>To address these issues, the company implemented
                         Shodat eOps™, an advanced asset tracking and quality management
                         platform.</p>
                 </div>

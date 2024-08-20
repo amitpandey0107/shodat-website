@@ -8,7 +8,7 @@ export default function Manufacturing(props:any) {
             <div className={`${styles.imageContent}`}>
                 <div className={`${styles.imageInner}`}>
                     <Image
-                        src="/img/casestudy/case_study_4.png"
+                        src="/img/casestudy/case_3.png"
                         alt="Manufacturing"
                         height={433}
                         width={499}
@@ -20,7 +20,8 @@ export default function Manufacturing(props:any) {
                     <h3>Manufacturing</h3>
                     <p>A leader in the manufacturing industry needed an effective
                         solution for detecting and addressing structural cracks in
-                        product components. Traditional inspection methods were
+                        product components. </p>
+                        <p>Traditional inspection methods were
                         labour-intensive, error-prone, and time-consuming. To enhance
                         their crack detection capabilities, the company implemented the
                         Shodat eOps™platform.</p>

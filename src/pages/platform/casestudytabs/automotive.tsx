@@ -2,13 +2,13 @@ import React from "react";
 import styles from "../platform.module.css";
 import "bootstrap/dist/css/bootstrap.css";
 import Image from "next/image";
-export default function Automotive(props:any) {
+export default function Automotive(props: any) {
     return (
         <div className={`${styles.mainContent} ${props.customClassName}`}>
             <div className={`${styles.imageContent}`}>
                 <div className={`${styles.imageInner}`}>
                     <Image
-                        src="/img/casestudy/case_study_3.png"
+                        src="/img/casestudy/case_2.png"
                         alt="Automotive"
                         height={433}
                         width={499}
@@ -20,8 +20,8 @@ export default function Automotive(props:any) {
                     <h3>Automotive</h3>
                     <p>A leading automotive manufacturer faced challenges in predicting
                         tire wear accurately, which impacted vehicle safety, maintenance
-                        schedules, and overall operational efficiency. By implementing
-                        Shodat eOps™, the manufacturer aimed to enhance their tire wear
+                        schedules, and overall operational efficiency. </p>
+                    <p>By implementing Shodat eOps™, the manufacturer aimed to enhance their tire wear
                         prediction capabilities.</p>
                 </div>
                 <div className={`${styles.resultBox}`}>

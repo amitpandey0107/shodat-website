@@ -1161,6 +1161,7 @@
     height: 492px;
     background-color: #000000;
     padding: 30px 22px;
+    border-left: 4px solid #04838A;
 }
 .whyChooseV2 .leftContent .title {
     color: #FFFFFF;
@@ -1459,6 +1460,7 @@
 }
 .caseStudyV2 .mainContent .contentBox p:last-child {
     margin-bottom: 0;
+    color: #000000;
 }
 .caseStudyV2 .mainContent .resultBox {
     margin-top: 55px;
@@ -1857,7 +1859,7 @@
         margin-right: 12px;
     }
     .caseStudyV2 .tabContent .tab button{
-        height: 170px;
+        height: 84px;
         width: 94px;
     }
     .caseStudyV2 .tabContent .tab img {
@@ -1880,6 +1882,7 @@
     .caseStudyV2 .mainContent .infoContent {
         width: 100%;
         margin-top: 30px;
+        margin-left: 0;
     }
 }
 
@@ -2258,7 +2261,23 @@
         object-fit: contain;
         object-position: center;
     }
-    
+    .caseStudyV2 .tabContent .tab button{
+        height: 50px;
+        width: 60px;
+    }
+    .caseStudyV2 .tabContent .tab {
+        height: 50px;
+        width: 60px;
+    }
+    .caseStudyV2 .tabContent .arrowLeft {
+        margin-right: 5px;
+    }
+    .caseStudyV2 .tabContent .arrowRight {
+        margin-left: 5px;
+    }
+    .caseStudyV2 .tabContent > .tab:nth-child(6) {
+        margin-right: 0;
+    }
 }
 
 
@@ -2352,4 +2371,35 @@
     .whyChooseV2 .rightContent .colorBox .textWrap p {
         margin-bottom: 10px;
     }
+    .caseStudyV2 .tabContent .tab button {
+        height: 30px;
+        width: 40px;
+    }
+    .caseStudyV2 .tabContent {
+        justify-content: center;
+    }
+    .caseStudyV2 .tabContent .tab {
+        height: 30px;
+        width: 40px;
+        margin-right: 7px;
+    }
+    .caseStudyV2 .tabContent .arrowRight {
+        margin-left: 10px;
+    }
+    .caseStudyV2 .tabContent .arrowLeft {
+        margin-right: 10px;
+    }
+    .caseStudyV2 .tabContent .arrowRight button img {
+        height: 22px;
+        width: 12px;
+        position: relative;
+        top: 4px;
+    }
+    .caseStudyV2 .tabContent .arrowLeft button img {
+        height: 22px;
+        width: 12px;
+        position: relative;
+        top: 4px;
+    }
+    
 }
