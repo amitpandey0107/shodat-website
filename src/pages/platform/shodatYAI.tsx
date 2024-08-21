@@ -13,7 +13,7 @@ export default function ShodatYAI() {
                         <div className={`${styles.shodatYAIContent}`}>
                             <h1>Shodat YAI</h1>
                             <h2>Deeper understanding of real world incidents and the &apos;why&apos; behind them</h2>
-                            <p>Shodat YAI combines the cutting-edge technologies of Generative AI, Causal AI, and Inference Analytics to deliver unparalleled insights and predictive intelligence. Our platform enables organizations to comprehend complex cause-and-effect relationships. Offering a deeper understanding of real-world incidents and the &apos;why&apos; behind them. This profound knowledge drives growth, innovation, and excellence in operations.</p>
+                            <p>Shodat YAI will combine the cutting-edge technologies of Generative AI, Causal AI, and Inference Analytics to deliver unparalleled insights and predictive intelligence. Our platform will enable organizations to comprehend complex cause-and-effect relationships. Offering a deeper understanding of real-world incidents and the &apos;why&apos; behind them. This profound knowledge will drive  growth, innovation, and excellence in operations.</p>
 
                         </div>
                     </div>

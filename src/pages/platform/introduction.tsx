@@ -17,7 +17,7 @@ export default function Introduction() {
                             <h1>Introducing Shodat eOps™</h1>
                             <h3>Achieve operational brilliance with precision-engineered quality management.</h3>
                             <p>Shodat eOps is an advanced enterprise platform meticulously designed to enhance operational efficiency and product quality through cutting-edge AI and machine learning technologies.</p>
-                            <p>Designed to address the complex challenges of continuous quality management Shodat eOps seamlessly integrates data-driven insights and automation to optimize processes, mitigate risks, and ensure regulatory compliance.</p>
+                            <p>Shodat eOps seamlessly integrates data-driven insights and automation to optimize processes, mitigate risks, and ensure regulatory compliance.</p>
                             <div className={`${styles.btnWrap}`}>
                                 <button className="btn-black">
                                     <span>Get Early Access</span>

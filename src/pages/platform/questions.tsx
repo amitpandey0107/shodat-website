@@ -86,7 +86,7 @@ export default function Questions() {
                         <div className="row">
                             <div className="col-sm-6 col-md-6 col-lg-3">
                                 <div className={`${styles.phraseBox}`}>
-                                    <h4>Average cost of poor quality (COPQ) in Industry can range from <span>5%</span> to <span>30%</span> of sales revenue.</h4>
+                                    <h4>Average cost of poor quality (COPQ) in Industry can range from <span>5% to 30%</span> of sales revenue.</h4>
                                     <p>- ASQ and various Six Sigma studies</p>
                                 </div>
                             </div>
