@@ -1884,6 +1884,11 @@
         margin-top: 30px;
         margin-left: 0;
     }
+    .questionsContent .infoBox .queMark, 
+    .questionsContent .infoBox .queMark2 {
+        right: 0px;
+        bottom: -24px;
+    }
 }
 
 

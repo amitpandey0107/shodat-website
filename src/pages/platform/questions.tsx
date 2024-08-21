@@ -86,19 +86,18 @@ export default function Questions() {
                         <div className="row">
                             <div className="col-sm-6 col-md-6 col-lg-3">
                                 <div className={`${styles.phraseBox}`}>
-                                    <h4>Average cost of poor quality (COPQ) in Industry can range from <span>5%</span> to 30% of sales revenue.</h4>
+                                    <h4>Average cost of poor quality (COPQ) in Industry can range from <span>5%</span> to <span>30%</span> of sales revenue.</h4>
                                     <p>- ASQ and various Six Sigma studies</p>
                                 </div>
                             </div>
                             <div className="col-sm-6 col-md-6 col-lg-3">
                                 <div className={`${styles.phraseBox}`}>
-                                    {/* <h4><span>69%</span> of businesses lack critical visibility over supply chains.</h4> */}
-                                    <h4>Only <span>6%</span> of companies report full visibilityon their supply chain, while 69% of companies don&apos;t have total visibility.</h4>
+                                    <h4>Only <span>6%</span> of companies report full visibility on their supply chain, while <span>69%</span> of companies don&apos;t have total visibility.</h4>
                                 </div>
                             </div>
                             <div className="col-sm-6 col-md-6 col-lg-3">
                                 <div className={`${styles.phraseBox}`}>
-                                    <h4>Unplanned downtime in manufacturing costs industrial manufacturers an estimated <span>$50</span> billion each year</h4>
+                                    <h4>Unplanned downtime in manufacturing costs industrial manufacturers an estimated <span>$50 billion</span> each year</h4>
                                     <p>- Forbes</p>
                                 </div>
                             </div>
