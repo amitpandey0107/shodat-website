@@ -739,6 +739,15 @@ body {
     }
 }
 
+@media screen and (max-width: 576px) {
+    #offerSlider .carousel-control-next {
+        left: 57%;
+    }
+    #offerSlider .carousel-control-prev {
+        left: 36%;
+    }
+}
+
 
 /* ACCORDION */
 .accordion-item {
@@ -915,6 +924,41 @@ body {
     display: flex;
     justify-content: center;
 }
+.react-multiple-carousel__arrow {
+    background-color: rgba(104, 50, 111, 0.5) !important;
+}
+.react-multiple-carousel__arrow--right::before {
+    background-image: url(/img/platform/platform-page-imgs/right_white.svg) !important;
+    content: "" !important;
+    height: 30px;
+    width: 16px;
+    left: 15px;
+    top: 8px;
+    position: absolute !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* .react-multiple-carousel__arrow--right {
+    right: calc(0% - 17px) !important;
+} */
+.react-multiple-carousel__arrow--left::before {
+    background-image: url(/img/platform/platform-page-imgs/left_white.svg) !important;
+    content: "" !important;
+    height: 30px;
+    width: 16px;
+    left: 15px;
+    top: 8px;
+    position: absolute !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* .react-multiple-carousel__arrow--left {
+    left: calc(0% - 9px) !important;
+} */
+
+/* .containerCarousel li {
+    width: 188px;
+} */
 @media only screen and (max-width:1199px) {
     .caseSliderWrap .carousel-control-prev {
         left: -60px;

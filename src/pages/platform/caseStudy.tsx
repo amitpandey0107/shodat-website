@@ -7,8 +7,23 @@ import Automotive from "./casestudytabs/automotive";
 import Financial from "./casestudytabs/financial";
 import Manufacturing from "./casestudytabs/manufacturing";
 import WorkplaceSafety from "./casestudytabs/workplaceSafety";
-import Carousel from "react-bootstrap/Carousel";
-import { Card, Stack, Button } from "react-bootstrap";
+// import Carousel from "react-bootstrap/Carousel";
+// import { Card, Stack, Button } from "react-bootstrap";
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
+export function CustomLeftArrow() {
+    return (
+        <button className={`${styles.btnPrevArrow}`}>
+            <Image
+                src="/img/casestudy/angle_left_purple.png"
+                alt="arrow left"
+                height={32}
+                width={16}
+            />
+        </button>
+    )
+}
 
 export default function CaseStudy() {
     const [tab, setTab] = useState(1);
@@ -80,8 +95,120 @@ export default function CaseStudy() {
                 </div>
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
-                    <div className={`${styles.caseSliderContainer}`}>
-                        <div className={`${styles.caseSliderWrap} caseSliderWrap`}>
+                        <div className={`${styles.caseSliderContainer}`}>
+                            <div className={`${styles.caseSliderInner}`}>
+                                <Carousel
+                                    additionalTransfrom={0}
+                                    arrows
+                                    // customLeftArrow={<CustomLeftArrow />}
+                                    // customRightArrow={<CustomRightArrow />}
+                                    autoPlaySpeed={3000}
+                                    
+                                    centerMode={false}
+                                    className=""
+                                    containerClass="containerCarousel"
+                                    dotListClass=""
+                                    draggable
+                                    focusOnSelect={false}
+                                    infinite={true}
+                                    itemClass=""
+                                    keyBoardControl
+                                    minimumTouchDrag={80}
+                                    pauseOnHover
+                                    renderArrowsWhenDisabled={false}
+                                    renderButtonGroupOutside={false}
+                                    renderDotsOutside={false}
+                                    responsive={{
+                                        desktop: {
+                                            breakpoint: {
+                                                max: 3000,
+                                                min: 1024
+                                            },
+                                            items: 3,
+                                            partialVisibilityGutter: 40
+                                        },
+                                        mobile: {
+                                            breakpoint: {
+                                                max: 464,
+                                                min: 0
+                                            },
+                                            items: 3,
+                                            partialVisibilityGutter: 30
+                                        },
+                                        tablet: {
+                                            breakpoint: {
+                                                max: 1024,
+                                                min: 464
+                                            },
+                                            items: 2,
+                                            partialVisibilityGutter: 30
+                                        }
+                                    }}
+                                    rewind={false}
+                                    rewindWithAnimation={false}
+                                    rtl={false}
+                                    shouldResetAutoplay
+                                    showDots={false}
+                                    sliderClass=""
+                                    slidesToSlide={1}
+                                    swipeable
+                                >
+                                    <div className={`${styles.clientItem}`}>
+                                        <button onClick={() => handleTabChange(1)}>
+                                            <Image
+                                                src="/img/casestudy/case_study_2.jpg"
+                                                alt="Energy"
+                                                height={170}
+                                                width={156}
+                                            />
+                                        </button>
+                                    </div>
+                                    <div className={`${styles.clientItem}`}>
+                                        <button onClick={() => handleTabChange(2)}>
+                                            <Image
+                                                src="/img/casestudy/case_study_3.png"
+                                                alt="Automotive"
+                                                height={170}
+                                                width={156}
+                                            />
+                                        </button>
+                                    </div>
+                                    <div className={`${styles.clientItem}`}>
+                                        <button onClick={() => handleTabChange(3)}>
+                                            <Image
+                                                src="/img/casestudy/case_study_4.png"
+                                                alt="Manfacturing"
+                                                height={170}
+                                                width={156}
+                                            />
+                                        </button>
+                                    </div>
+                                    <div className={`${styles.clientItem}`}>
+                                        <button onClick={() => handleTabChange(4)}>
+                                            <Image
+                                                src="/img/casestudy/case_study_5.png"
+                                                alt="financial"
+                                                height={170}
+                                                width={156}
+                                            />
+                                        </button>
+                                    </div>
+                                    <div className={`${styles.clientItem}`}>
+                                        <button onClick={() => handleTabChange(5)}>
+                                            <Image
+                                                src="/img/casestudy/case_study_6.png"
+                                                alt="workplace safety"
+                                                height={170}
+                                                width={156}
+                                            />
+                                        </button>
+                                    </div>
+
+                                </Carousel>
+                            </div>
+
+
+                            {/* <div className={`${styles.caseSliderWrap} caseSliderWrap`}>
                             <Carousel controls={true} indicators={true}>
                                 <Carousel.Item>
                                     <Stack
@@ -148,8 +275,8 @@ export default function CaseStudy() {
                                     </Stack>
                                 </Carousel.Item>
                             </Carousel>
+                        </div> */}
                         </div>
-                    </div>
 
                         <div className={`${styles.tabContent}`} ref={ElementRef}>
                             <div className={`${styles.arrowLeft}`}>

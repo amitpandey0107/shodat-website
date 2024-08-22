@@ -36,8 +36,12 @@ export default function Introduction() {
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className={`${styles.sectionImage}`}>
                             <div className={`p_into_carousel ${styles.p_into_carousel}`}>
-                                <Carousel indicators={false} controls={false} pause={'hover'}>
-                                    <Carousel.Item interval={4000}>
+                                <Carousel 
+                                indicators={false} 
+                                controls={false}
+                                 pause={'hover'}
+                                 >
+                                    <Carousel.Item interval={2000}>
                                         <div className={`${styles.imageWrapper}`}>
                                             <Image
                                                 src="/img/platform/intro_1/intro_1.png"
@@ -47,7 +51,7 @@ export default function Introduction() {
                                             />
                                         </div>
                                     </Carousel.Item>
-                                    <Carousel.Item interval={4000}>
+                                    <Carousel.Item interval={2000}>
                                         <div className={`${styles.imageWrapper}`}>
                                             <Image
                                                 src="/img/platform/intro_1/intro_2.png"
@@ -57,7 +61,7 @@ export default function Introduction() {
                                             />
                                         </div>
                                     </Carousel.Item>
-                                    <Carousel.Item interval={4000}>
+                                    <Carousel.Item interval={2000}>
                                         <div className={`${styles.imageWrapper}`}>
                                             <Image
                                                 src="/img/platform/intro_1/intro_3.png"
