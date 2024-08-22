@@ -7,21 +7,19 @@ import Automotive from "./casestudytabs/automotive";
 import Financial from "./casestudytabs/financial";
 import Manufacturing from "./casestudytabs/manufacturing";
 import WorkplaceSafety from "./casestudytabs/workplaceSafety";
-import Carousel from "react-bootstrap/Carousel";
-import { Card, Stack, Button } from "react-bootstrap";
 
 export default function CaseStudy() {
     const [tab, setTab] = useState(1);
-    const ElementRef: any = useRef(null);
+    const ElementRef:any = useRef(null);
     const [customClass, setCustomClass] = useState("")
     useEffect(() => {
-
+        
     })
-
+    
     const handleTabChange = (tabId: any) => {
         let current_tab = tab;
         setTab(tabId);
-        if (current_tab === tab) {
+        if(current_tab===tab) {
             setCustomClass('addSliderClass');
         } else {
             setCustomClass("")
@@ -31,31 +29,31 @@ export default function CaseStudy() {
         let current_tab = tab;
         const Elementcount = ElementRef.current.childNodes.length;
         console.log({
-            Elementcount: Elementcount,
-            current_tab: current_tab
+            Elementcount:Elementcount,
+            current_tab:current_tab
         })
         if (current_tab != 1) {
-            setTab(current_tab - 1)
+            setTab(current_tab-1)
             setCustomClass('leftArrowClass');
         } else {
             setTab(5)
-        }
+        }   
     }
     const handleRightArrow = () => {
         let current_tab = tab;
         const Elementcount = ElementRef.current.childNodes.length;
         console.log({
-            Elementcount: Elementcount,
-            current_tab: current_tab
+            Elementcount:Elementcount,
+            current_tab:current_tab
         })
-        if (current_tab <= (Elementcount - 3)) {
-            setTab(current_tab + 1)
+        if (current_tab <= (Elementcount-3)) {
+            setTab(current_tab+1)
             setCustomClass('addSliderClass');
         } else {
             setTab(1)
-        }
+        }        
     }
-
+    
     return (
         <div className={`${styles.caseStudyV2} caseStudyV2`}>
             <div className="container-fluid">
@@ -80,77 +78,6 @@ export default function CaseStudy() {
                 </div>
                 <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12">
-                    <div className={`${styles.caseSliderContainer}`}>
-                        <div className={`${styles.caseSliderWrap} caseSliderWrap`}>
-                            <Carousel controls={true} indicators={true}>
-                                <Carousel.Item>
-                                    <Stack
-                                        direction="horizontal"
-                                        gap={3}
-                                    >
-                                        <Card className={`${styles.clientItem}`}>
-                                            <button onClick={() => handleTabChange(1)}>
-                                                <Image
-                                                    src="/img/casestudy/case_study_2.jpg"
-                                                    alt="Energy"
-                                                    height={170}
-                                                    width={156}
-                                                />
-                                            </button>
-                                        </Card>
-                                        <Card className={`${styles.clientItem}`}>
-                                            <button onClick={() => handleTabChange(2)}>
-                                                <Image
-                                                    src="/img/casestudy/case_study_3.png"
-                                                    alt="Automotive"
-                                                    height={170}
-                                                    width={156}
-                                                />
-                                            </button>
-                                        </Card>
-                                        <Card className={`${styles.clientItem}`}>
-                                            <button onClick={() => handleTabChange(3)}>
-                                                <Image
-                                                    src="/img/casestudy/case_study_4.png"
-                                                    alt="Manfacturing"
-                                                    height={170}
-                                                    width={156}
-                                                />
-                                            </button>
-                                        </Card>
-                                    </Stack>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <Stack
-                                        direction="horizontal"
-                                        gap={3}
-                                    >
-                                        <Card className={`${styles.clientItem}`}>
-                                            <button onClick={() => handleTabChange(4)}>
-                                                <Image
-                                                    src="/img/casestudy/case_study_5.png"
-                                                    alt="financial"
-                                                    height={170}
-                                                    width={156}
-                                                />
-                                            </button>
-                                        </Card>
-                                        <Card className={`${styles.clientItem}`}>
-                                            <button onClick={() => handleTabChange(5)}>
-                                                <Image
-                                                    src="/img/casestudy/case_study_6.png"
-                                                    alt="workplace safety"
-                                                    height={170}
-                                                    width={156}
-                                                />
-                                            </button>
-                                        </Card>
-                                    </Stack>
-                                </Carousel.Item>
-                            </Carousel>
-                        </div>
-                    </div>
-
                         <div className={`${styles.tabContent}`} ref={ElementRef}>
                             <div className={`${styles.arrowLeft}`}>
                                 <button onClick={handleLeftArrow}>

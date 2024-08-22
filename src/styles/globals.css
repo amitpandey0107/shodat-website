@@ -874,3 +874,67 @@ body {
         opacity: 1;
     }
 }
+
+.p_into_carousel .carousel-inner {
+    padding: 15px;
+}
+
+.caseSliderWrap {
+    position: relative;
+}
+.caseSliderWrap .carousel-item {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.caseSliderWrap .carousel-control-prev-icon {
+    background-image: url("/img/casestudy/angle_left_purple.png") !important;
+    height: 32px;
+    width: 16px;
+}
+
+.caseSliderWrap .carousel-control-next-icon {
+    background-image: url("/img/casestudy/angle_right_purple.png") !important;
+    height: 32px;
+    width: 16px;
+}
+
+.caseSliderWrap .carousel-control-prev {
+    left: -20px;
+}
+.caseSliderWrap .carousel-control-next {
+    right: -20px;
+}
+
+.caseSliderWrap .carousel-indicators {
+    position: absolute;
+    bottom: -64px;
+    top: auto;
+    margin: 0;
+}
+.caseSliderWrap .hstack  {
+    display: flex;
+    justify-content: center;
+}
+@media only screen and (max-width:1199px) {
+    .caseSliderWrap .carousel-control-prev {
+        left: -60px;
+    }
+    .caseSliderWrap .carousel-control-next {
+        right: -60px;
+    }
+}
+@media only screen and (max-width:991px) {
+    .caseSliderWrap .carousel-control-prev {
+        left: -20px;
+    }
+    .caseSliderWrap .carousel-control-next {
+        right: -20px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .caseSliderWrap .carousel-item {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+}

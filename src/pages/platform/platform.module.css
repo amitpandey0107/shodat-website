@@ -577,6 +577,11 @@
 }
 .introductionV2 .sectionContent {
     position: relative;
+    height: 450px;
+}
+.introductionV2 .sectionImage {
+    position: relative;
+    height: 450px;
 }
 .introductionV2 .sectionContent h1{
     position: relative;
@@ -611,7 +616,7 @@
     margin-top: 63px;
 }
 .introductionV2 .thumbnails {
-    margin-top: 59px;
+    margin-top: 24px;
 }
 .introductionV2 .thumbnails .sectionImageBox{
     display: flex;
@@ -654,7 +659,12 @@
 .introductionV2 .thumbnails .sectionTextBox .textBox.blackBox{
     background-color: #000000;
 }
-
+.introductionV2 .p_into_carousel {
+    position: relative;
+}
+.introductionV2 .p_into_carousel .imageWrapper{
+    padding: 15px;
+}
 
 
 
@@ -857,7 +867,7 @@
 
 .offers .offerInfo {
     background-color: #68326F;
-    height: 750px;
+    height: 700px;
     padding: 30px 40px 30px 30px;
 }
 
@@ -898,7 +908,7 @@
 }
 
 .offers .offerContent {
-    height: 750px;
+    height: 700px;
     padding: 30px;
 }
 
@@ -1486,6 +1496,7 @@
     justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
+    display: none;
 
 }
 .caseStudyV2 .tabContent button {
@@ -1517,6 +1528,17 @@
     overflow: hidden;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+.caseStudyV2 .caseSliderContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caseStudyV2 .caseSliderWrap {
+    width: 48%;
+    display: inline-block;
+    margin-top: 24px;
+}
 
 
 
@@ -1538,6 +1560,12 @@
     }
     .whyChooseV2 .rightContent .colorBox {
         height: 255px;
+    }
+    .offers .offerInfo {
+        width: 750px;
+    }
+    .offers .offerContent {
+        width: 750px;
     }
     
 }
@@ -1888,6 +1916,9 @@
     .questionsContent .infoBox .queMark2 {
         right: 0px;
         bottom: -24px;
+    }
+    .caseStudyV2 .caseSliderWrap {
+        width: 85%;
     }
 }
 
@@ -2283,6 +2314,20 @@
     .caseStudyV2 .tabContent > .tab:nth-child(6) {
         margin-right: 0;
     }
+
+    .caseStudyV2 .caseSliderWrap {
+        width:100%;
+    }
+    .caseStudyV2 .caseSliderWrap .clientItem {
+        height: 130px;
+        width: 130px;
+    }
+    .introductionV2 .sectionContent {
+       height: auto;
+    }
+    .introductionV2 .sectionImage {
+       height: auto;
+    }
 }
 
 
@@ -2315,6 +2360,11 @@
     .caseStudyV2 .tabContent .tab {
         height: 50px;
         width: 60px;
+    }
+
+    .caseStudyV2 .caseSliderWrap .clientItem {
+        height: 100px;
+        width: 100px;
     }
 }
 
@@ -2417,7 +2467,8 @@
     .caseStudyV2 .mainContent .resultBox {
         margin-top: 20px;
     }
-    /* .caseStudyV2 .mainContent .infoContent {
-        min-height: 600px;
-    } */
+    .caseStudyV2 .caseSliderWrap .clientItem {
+        height: 95px;
+        width: 95px;
+    }
 }

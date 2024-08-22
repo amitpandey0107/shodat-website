@@ -16,7 +16,6 @@ export default function Offers() {
                     <h4>Unlocking AI-Powered Insights</h4>
                     <p>Shodat X is being engineered to deliver transparent, actionable insights across diverse industries.</p>
                     <p>By integrating advanced AI algorithms with domain-specific knowledge, Shodat X will offer a comprehensive suite of tools designed to optimize operations, enhance decision-making and improve overall performance.</p>
-                    <p>Shodat X provides a comprehensive suite of tools designed to optimize operations, enhance decision-making, and improve overall performance.</p>
                 </div>
             </div>
             <div className={`${styles.offerRight}`}>
