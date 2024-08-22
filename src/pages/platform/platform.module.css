@@ -1562,10 +1562,10 @@
         height: 255px;
     }
     .offers .offerInfo {
-        width: 750px;
+        height: 750px;
     }
     .offers .offerContent {
-        width: 750px;
+        height: 750px;
     }
     
 }
