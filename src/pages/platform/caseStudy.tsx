@@ -7,8 +7,6 @@ import Automotive from "./casestudytabs/automotive";
 import Financial from "./casestudytabs/financial";
 import Manufacturing from "./casestudytabs/manufacturing";
 import WorkplaceSafety from "./casestudytabs/workplaceSafety";
-// import Carousel from "react-bootstrap/Carousel";
-// import { Card, Stack, Button } from "react-bootstrap";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -100,10 +98,7 @@ export default function CaseStudy() {
                                 <Carousel
                                     additionalTransfrom={0}
                                     arrows
-                                    // customLeftArrow={<CustomLeftArrow />}
-                                    // customRightArrow={<CustomRightArrow />}
-                                    autoPlaySpeed={3000}
-                                    
+                                    autoPlaySpeed={3000}                                    
                                     centerMode={false}
                                     className=""
                                     containerClass="containerCarousel"
@@ -129,18 +124,18 @@ export default function CaseStudy() {
                                         },
                                         mobile: {
                                             breakpoint: {
-                                                max: 464,
+                                                max: 579,
                                                 min: 0
                                             },
-                                            items: 3,
+                                            items: 2,
                                             partialVisibilityGutter: 30
                                         },
                                         tablet: {
                                             breakpoint: {
                                                 max: 1024,
-                                                min: 464
+                                                min: 580
                                             },
-                                            items: 2,
+                                            items: 3,
                                             partialVisibilityGutter: 30
                                         }
                                     }}
@@ -156,51 +151,56 @@ export default function CaseStudy() {
                                     <div className={`${styles.clientItem}`}>
                                         <button onClick={() => handleTabChange(1)}>
                                             <Image
-                                                src="/img/casestudy/case_study_2.jpg"
+                                                src="/img/casestudy/case_1.png"
                                                 alt="Energy"
                                                 height={170}
                                                 width={156}
                                             />
+                                            <span>Energy</span>
                                         </button>
                                     </div>
                                     <div className={`${styles.clientItem}`}>
                                         <button onClick={() => handleTabChange(2)}>
                                             <Image
-                                                src="/img/casestudy/case_study_3.png"
+                                                src="/img/casestudy/case_2.png"
                                                 alt="Automotive"
                                                 height={170}
                                                 width={156}
                                             />
+                                            <span>Automotive</span>
                                         </button>
                                     </div>
                                     <div className={`${styles.clientItem}`}>
                                         <button onClick={() => handleTabChange(3)}>
                                             <Image
-                                                src="/img/casestudy/case_study_4.png"
+                                                src="/img/casestudy/case_3.png"
                                                 alt="Manfacturing"
                                                 height={170}
                                                 width={156}
                                             />
+                                            <span>Manufacturing</span>
                                         </button>
                                     </div>
                                     <div className={`${styles.clientItem}`}>
                                         <button onClick={() => handleTabChange(4)}>
                                             <Image
-                                                src="/img/casestudy/case_study_5.png"
+                                                src="/img/casestudy/case_4.png"
                                                 alt="financial"
                                                 height={170}
                                                 width={156}
                                             />
+                                            <span>Finance</span>
                                         </button>
                                     </div>
                                     <div className={`${styles.clientItem}`}>
                                         <button onClick={() => handleTabChange(5)}>
                                             <Image
-                                                src="/img/casestudy/case_study_6.png"
+                                                src="/img/casestudy/case_5.png"
                                                 alt="workplace safety"
                                                 height={170}
                                                 width={156}
                                             />
+                                            <span>Workplace Safety</span>
                                         </button>
                                     </div>
 

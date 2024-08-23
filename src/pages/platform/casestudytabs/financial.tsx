@@ -19,7 +19,7 @@ export default function Financial(props: any) {
                 <div className={`${styles.contentBox}`}>
                     <h3>Finance</h3>
                     <p>A leading financial services firm faced significant challenges in managing compliance due to the complexity and dynamic nature of regulatory requirements. Manual processes and disparate systems resulted in inefficiencies and increased the risk of non-compliance.</p>
-                    <p>To address these challenges, the firm is implementing implemented Shodat eOps™ integrated with Generative AI to enhance their compliance management capabilities.</p>
+                    <p>To address these challenges, the firm is implementing Shodat eOps™ integrated with Generative AI to enhance their compliance management capabilities.</p>
                 </div>
                 <div className={`${styles.resultBox}`}>
                     <h3>Results</h3>

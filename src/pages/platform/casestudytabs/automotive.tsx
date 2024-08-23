@@ -19,7 +19,7 @@ export default function Automotive(props: any) {
                 <div className={`${styles.contentBox}`}>
                     <h3>Automotive</h3>
                     <p>A leading automotive manufacturer faced challenges in predicting tire wear accurately, which impacted vehicle safety, maintenance schedules, and overall operational efficiency.</p>
-                    <p>By implementing Shodat eOps™, the manufacturer is aiming aimed to enhance their tire wear prediction capabilities. </p>
+                    <p>By implementing Shodat eOps™, the manufacturer is aiming to enhance their tire wear prediction capabilities. </p>
                 </div>
                 <div className={`${styles.resultBox}`}>
                     <h3>Results</h3>
