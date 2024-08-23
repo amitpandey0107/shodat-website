@@ -982,3 +982,102 @@ body {
     }
     
 }
+
+.slick-slide + div {
+    padding: 0 7px;
+}
+
+button.slick-arrow.slick-prev {
+    background-color: #F8F9F9;
+    /* background-color: red; */
+    height: 66px;
+    width: 66px;
+    left: 0px;
+    top: calc(100% + 57px);
+    position: absolute;
+    z-index: 9;
+}
+button.slick-arrow.slick-next {
+    background-color: #F8F9F9;
+    /* background-color: red; */
+    height: 66px;
+    width: 66px;
+    left: 90px;
+    top: calc(100% + 57px);
+    position: absolute;
+    z-index: 9;
+}
+.slick-next:before {    
+    background-image: url("/img/dataEngineering/angle_right_black.svg") !important;
+    content: "" !important;
+    height: 30px;
+    width: 16px;
+    left: 25px;
+    top: 19px;
+    position: absolute !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.slick-prev:before {
+    background-image: url("/img/dataEngineering/angle_left_off_black.svg") !important;
+    content: "" !important;
+    height: 30px;
+    width: 16px;
+    left: 25px;
+    top: 19px;
+    position: absolute !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.activatekro  .slick-prev:before {
+    background-image: url("/img/dataEngineering/angle_left_black.svg") !important;
+}
+
+
+/* Data Storage Slider */
+
+.dataStorageSlickSlider button.slick-arrow.slick-prev {
+    background-color: #E6F8F9;
+    /* background-color: red; */
+    height: 66px;
+    width: 66px;
+    left: 0px;
+    top: calc(100% + 57px);
+    position: absolute;
+    z-index: 9;
+}
+.dataStorageSlickSlider button.slick-arrow.slick-next {
+    background-color: #E6F8F9;
+    /* background-color: red; */
+    height: 66px;
+    width: 66px;
+    left: 90px;
+    top: calc(100% + 57px);
+    position: absolute;
+    z-index: 9;
+}
+.dataStorageSlickSlider .slick-next:before {    
+    background-image: url("/img/dataEngineering/angle_right_green.svg") !important;
+    content: "" !important;
+    height: 30px;
+    width: 16px;
+    left: 25px;
+    top: 19px;
+    position: absolute !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dataStorageSlickSlider .slick-prev:before {
+    background-image: url("/img/dataEngineering/angle_left_off_green.svg") !important;
+    content: "" !important;
+    height: 30px;
+    width: 16px;
+    left: 25px;
+    top: 19px;
+    position: absolute !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dataStorageSlickSlider.activatekro  .slick-prev:before {
+    background-image: url("/img/dataEngineering/angle_left_green.svg") !important;
+}

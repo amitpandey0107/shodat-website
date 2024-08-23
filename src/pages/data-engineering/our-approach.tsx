@@ -4,120 +4,131 @@ import Link from "next/link";
 import styles from "./data-engineering.module.css";
 
 export default function OurApproach() {
-  return (
-    <div className={`${styles.ourApproach}`}>
-      <div className={`container-fluid ${styles.zIndex99}`}>
-        
-        <div className="row">
-            <div className="col-sm-12">
-                <div className={`${styles.titleUnderline}`}>
-                    <h2>Our Approach</h2>
-                </div>
-            </div>
-        </div>
+    return (
+        <div className={`${styles.ourApproach}`}>
+            <div className={`container-fluid ${styles.zIndex99}`}>
 
-        <div className={`row`}>
-          <div className="col-sm-12">
-            <div className={`${styles.approachContent}`}>
-              <div className={`${styles.columns} ${styles.columns1}`}>
-                <div className={`${styles.block}`}>
-                  <div className={`${styles.logo}`}>
-                    <span>
-                      <Image
-                        height={64}
-                        width={64}
-                        alt="Data Integration and Management"
-                        src={"/img/dataEngineering/appraoch_1.png"}
-                      />
-                    </span>
-                  </div>
-                  <h4>Data Integration and <br/>Management</h4>
-                  <p>
-                  Efficient data integration and management are crucial for deriving meaningful insights.
-                  </p>
+                <div className="row">
+                    <div className="col-sm-12">
+                        <div className={`${styles.titleUnderline}`}>
+                            <h2>Our Approach</h2>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div className={`${styles.columns} ${styles.columns2}`}>
-                <div className={`${styles.block}`}>
-                  <div className={`${styles.logo}`}>
-                    <span>
-                      <Image
-                        height={64}
-                        width={64}
-                        alt="Data Integration and Management"
-                        src={"/img/dataEngineering/appraoch_2.png"}
-                      />
-                    </span>
-                  </div>
-                  <h4>Scalable Data <br/>Architecture</h4>
-                  <p>
-                  Our team designs and implements scalable data architectures.
-                  </p>
+
+                <div className={`row`}>
+                    <div className="col-sm-12">
+                        <div className={`${styles.approachContent}`}>
+
+                            <div className={`${styles.columns} ${styles.columns1}`}>
+                                <div className={`${styles.block}`}>
+                                    <div className={`${styles.logo}`}>
+                                        <span>
+                                            <Image
+                                                height={64}
+                                                width={64}
+                                                alt="Data ETL (Extract, Transform, Load)"
+                                                src={"/img/dataEngineering/appraoch_1.svg"}
+                                            />
+                                        </span>
+                                    </div>
+                                    <h4>Data ETL (Extract, <br />Transform, Load)</h4>
+                                </div>
+                            </div>
+
+                            <div className={`${styles.columns} ${styles.columns2}`}>
+                                <div className={`${styles.block}`}>
+                                    <div className={`${styles.logo}`}>
+                                        <span>
+                                            <Image
+                                                height={64}
+                                                width={64}
+                                                alt="Application Integration"
+                                                src={"/img/dataEngineering/appraoch_2.svg"}
+                                            />
+                                        </span>
+                                    </div>
+                                    <h4>Application <br />Integration</h4>
+                                </div>
+                            </div>
+
+                            <div className={`${styles.columns} ${styles.columns3}`}>
+                                <div className={`${styles.block}`}>
+                                    <div className={`${styles.logo}`}>
+                                        <span>
+                                            <Image
+                                                height={64}
+                                                width={64}
+                                                alt="Data Storage, Warehousing, and Data Marts"
+                                                src={"/img/dataEngineering/appraoch_3.svg"}
+                                            />
+                                        </span>
+                                    </div>
+                                    <h4>Data Storage, <br />Warehousing, and <br />Data Marts</h4>
+                                </div>
+                            </div>
+
+                            <div className={`${styles.columns} ${styles.columns4}`}>
+                                <div className={`${styles.block}`}>
+                                    <div className={`${styles.logo}`}>
+                                        <span>
+                                            <Image
+                                                height={64}
+                                                width={64}
+                                                alt="Visualisation Layers and dashboarding capabilities"
+                                                src={"/img/dataEngineering/appraoch_4.svg"}
+                                            />
+                                        </span>
+                                    </div>
+                                    <h4>Visualisation Layers <br />and dashboarding <br />capabilities</h4>
+                                </div>
+                            </div>
+
+                            <div className={`${styles.columns} ${styles.columns5}`}>
+                                <div className={`${styles.block}`}>
+                                    <div className={`${styles.logo}`}>
+                                        <span>
+                                            <Image
+                                                height={64}
+                                                width={64}
+                                                alt="ML Engines Models and consulting"
+                                                src="/img/dataEngineering/appraoch_5.svg"
+                                            />
+                                        </span>
+                                    </div>
+                                    <h4>ML Engines Models <br />and consulting</h4>
+                                </div>
+                            </div>
+
+                            <div className={`${styles.columns} ${styles.columns6}`}>
+                                <div className={`${styles.block}`}>
+                                    <div className={`${styles.logo}`}>
+                                        <span>
+                                            <Image
+                                                height={64}
+                                                width={64}
+                                                alt="API and SDK toolkits"
+                                                src="/img/dataEngineering/appraoch_6.svg"
+                                            />
+                                        </span>
+                                    </div>
+                                    <h4>API and SDK toolkits</h4>
+                                </div>
+                            </div>
+
+                            <div className={`${styles.dottedLine}`}>
+                                <Image
+                                    height={200}
+                                    width={1000}
+                                    alt="Data Integration and Management"
+                                    src={"/img/dataEngineering/line.svg"}
+                                />
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div className={`${styles.columns} ${styles.columns3}`}>
-                <div className={`${styles.block}`}>
-                  <div className={`${styles.logo}`}>
-                    <span>
-                      <Image
-                        height={64}
-                        width={64}
-                        alt="Data Integration and Management"
-                        src={"/img/dataEngineering/appraoch_3.png"}
-                      />
-                    </span>
-                  </div>
-                  <h4>Advanced Analytics <br/>and Machine Learning</h4>
-                  <p>Unlock the full potential of your data.</p>
-                </div>
-              </div>
-              <div className={`${styles.columns} ${styles.columns4}`}>
-                <div className={`${styles.block}`}>
-                  <div className={`${styles.logo}`}>
-                    <span>
-                      <Image
-                        height={64}
-                        width={64}
-                        alt="Data Integration and Management"
-                        src={"/img/dataEngineering/appraoch_4.png"}
-                      />
-                    </span>
-                  </div>
-                  <h4>Data Security <br/>and Compliance</h4>
-                  <p>We prioritize data security and compliance.</p>
-                </div>
-              </div>
-              <div className={`${styles.columns} ${styles.columns5}`}>
-                <div className={`${styles.block}`}>
-                  <div className={`${styles.logo}`}>
-                    <span>
-                      <Image
-                        height={64}
-                        width={64}
-                        alt="Real-Time Data Processing"
-                        src="/img/dataEngineering/real_time_approach.png"
-                      />
-                    </span>
-                  </div>
-                  <h4>Real-Time Data <br/>Processing</h4>
-                  <p>
-                    In today&apos;s fast-paced world, real-time data processing is
-                    essential.
-                  </p>
-                </div>
-              </div>
-              <div className={`${styles.dottedLine}`}>
-                <Image
-                  height={200}
-                  width={1000}
-                  alt="Data Integration and Management"
-                  src={"/img/dataEngineering/dotted_curved_line.png"}
-                />
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  );
+    );
 }

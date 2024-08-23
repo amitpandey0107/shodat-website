@@ -12,6 +12,8 @@ import KeyFeatures from "./key-features";
 import ApplicationIntegration from "./application-integration";
 import Cta from "./cta";
 import DataAccordian from "./data-accordian";
+import DataStorage from "./data-storage";
+import InformationWithImage from "./informationWithImage";
 
 function DataEngineering() {
     return (
@@ -37,8 +39,8 @@ function DataEngineering() {
                 <meta name="language" content="English" />
             </Head>
             <div className="dataEngineering">
-                 {/* -- Header -- */}
-                 <Header />
+                {/* -- Header -- */}
+                <Header />
 
                 {/* Banner */}
                 <Banner />
@@ -57,6 +59,12 @@ function DataEngineering() {
 
                 {/* Application Integration */}
                 <ApplicationIntegration />
+
+                {/* Data Storage, Warehousing, and Data Marts */}
+                <DataStorage />
+
+                {/* Text & Image Inforamtion Section */}
+                <InformationWithImage />
 
                 {/* CTA */}
                 <Cta />

@@ -22,3 +22,18 @@
     height: 300px;
     overflow: hidden;
 }
+
+.slickWrap .item {
+    background-color: #0088cc;
+    height: 300px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    /* margin: 10px; */
+}
+.slickWrap .item h3 {
+    display: inline;
+}

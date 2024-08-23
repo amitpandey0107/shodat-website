@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import styles from "./data-engineering.module.css";
+import "bootstrap/dist/css/bootstrap.css";
+import FeatureSlider from "./featureSlider";
+
 export default function KeyFeatures() {
     return (
         <div className={`${styles.keyFeatures}`}>
@@ -22,30 +24,31 @@ export default function KeyFeatures() {
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-7 col-lg-7 px-0">
-                            <div className={`${styles.featureBox}`}>
-                                <h2>Key features include:</h2>
-                                <div className={`${styles.infoRow}`}>
-                                    <div className={`${styles.infoBox}`}>
-                                        <h6>Ingesting Data into the Cloud</h6>
-                                        <p>We facilitate smooth and secure data migration to cloud platforms, leveraging the scalability and flexibility of cloud infrastructure.</p>
-                                    </div>
-                                    <div className={`${styles.infoBox}`}>
-                                        <h6>Ingesting Data from Various Sources</h6>
-                                        <p>Our solutions can handle data from diverse sources such as databases, APIs, IoT devices, FTP servers and more.</p>
-                                    </div>
-                                </div>
-                                <div className={`${styles.infoRow}`}>
-                                    <div className={`${styles.infoBox}`}>
-                                        <h6>Near Real-Time Uploads <br />
-                                        and Bulk Uploads</h6>
-                                        <p>We support both near real-time data ingestion and bulk uploads, ensuring timely data availability.</p>
-                                    </div>
-                                    <div className={`${styles.infoBox}`}>
-                                        <h6>Scheduled Uploads</h6>
-                                        <p>Automate your data ingestion processes with our scheduled upload capabilities, reducing manual intervention and ensuring consistency.</p>
-                                    </div>
-                                </div>
-                            </div>  
+                        <div className={`${styles.featureBox}`}>
+                            <h2 className={`${styles.keyFeatTitle}`}>Key features include:</h2>
+
+                            <FeatureSlider />                           
+
+                            {/* <div className={`${styles.featSliderButton}`}>
+                                <button className={`${styles.sliderBtnLeft}`}>
+                                    <Image
+                                        src="/img/dataEngineering/angle_left_off_black.svg"
+                                        alt="arrow-left"
+                                        height={36}
+                                        width={18}
+                                    />
+                                </button>
+                                <button className={`${styles.sliderBtnRight}`}>
+                                    <Image
+                                        src="/img/dataEngineering/angle_right_black.svg"
+                                        alt="arrow-left"
+                                        height={36}
+                                        width={18}
+                                    />
+                                </button>
+                            </div> */}
+
+                        </div>
                     </div>
                 </div>
             </div>

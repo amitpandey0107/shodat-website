@@ -181,7 +181,7 @@
 }
 
 .ourApproach .approachContent .columns {
-    width: 20%;
+    width: 16.66%;
     min-height: 450px;
     background: transparent;
     display: flex;
@@ -252,19 +252,23 @@
     padding-top: 0;
 }
 
+.ourApproach .approachContent .columns.columns6 {
+    padding-top: 180px
+}
+
 .ourApproach .approachContent .dottedLine {
     position: absolute;
     width: 100%;
 }
 
 .ourApproach .approachContent .dottedLine img {
-    width: 75%;
+    width: 88%;
     height: auto;
     object-fit: contain;
     object-position: center;
     position: absolute;
-    left: 12%;
-    margin-top: 72px;
+    left: 5%;
+    margin-top: 78px;
 }
 
 .titleUnderline {
@@ -337,6 +341,7 @@
     position: relative;
     text-align: center;
 }
+
 .ourCapabilities .capabilitiesBox h2:after {
     content: "";
     height: 1px;
@@ -347,14 +352,16 @@
     left: 50%;
     transform: translateX(-50%);
 }
+
 .ourCapabilities .capabilitiesBox h4 {
     color: #FFFFFF;
     font-size: 23px;
     font-weight: bold;
     margin-bottom: 25px;
     position: relative;
-    text-align: center;    
+    text-align: center;
 }
+
 .ourCapabilities .capabilitiesBox p {
     color: #FFFFFF;
     font-size: 16px;
@@ -367,80 +374,179 @@
     position: relative;
     margin: 30px 0;
 }
+
 .keyFeatures .dataEtlBox {
-    height: 535px;
+    height: 523px;
     background-color: #000000;
     padding: 30px;
     position: relative;
     overflow: hidden;
 }
-.keyFeatures .dataEtlBox h2{
+
+.keyFeatures .dataEtlBox h2 {
     color: #FFFFFF;
     font-size: 33px;
     font-weight: bold;
     margin-bottom: 15px;
 }
-.keyFeatures .dataEtlBox h2 span{
+
+.keyFeatures .dataEtlBox h2 span {
     font-size: 23px;
     font-weight: bold;
 }
-.keyFeatures .dataEtlBox p{
+
+.keyFeatures .dataEtlBox p {
     color: #FFFFFF;
     font-size: 16px;
     margin-bottom: 15px;
 }
-.keyFeatures .dataEtlBox .etlImage{
+
+.keyFeatures .dataEtlBox .etlImage {
     position: absolute;
     bottom: 30px;
     left: 0;
     text-align: center;
 }
-.keyFeatures .dataEtlBox .etlImage img{
+
+.keyFeatures .dataEtlBox .etlImage img {
     width: 85%;
     height: auto;
     object-fit: contain;
     object-position: center;
     display: inline-block;
 }
+
 .keyFeatures .featureBox {
-    background-color: #F4EDF5;
+    /* background-color: #F4EDF5; */
     height: 535px;
     padding: 30px;
     position: relative;
     overflow: hidden;
+    padding: 0 0 0 15px;
 }
+
 .keyFeatures .featureBox h2 {
-    color: #68326F;
+    color: #000000;
     font-size: 23px;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
+
 .keyFeatures .featureBox .infoRow {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     margin-bottom: 64px;
 }
-.keyFeatures .featureBox .infoRow .infoBox{
+
+.keyFeatures .featureBox .infoRow .infoBox {
     width: 50%;
     padding: 0 25px;
 }
+
 .keyFeatures .featureBox .infoRow .infoBox h6 {
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 15px;
     color: #000000;
 }
+
 .keyFeatures .featureBox .infoRow .infoBox p {
     font-size: 16px;
     color: #000000;
 }
+
 .keyFeatures .paddLeft0 {
     padding-left: 0;
 }
+
 .keyFeatures .paddRight0 {
     padding-left: 0;
 }
+
+.keyFeatures .keyFeatTitle {
+    color: #000000;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.featSliderBlock .featSlideItemBox {
+    background-color: #F8F9F9;
+    height: 386px;
+    width: 49%;
+    padding: 30px;
+}
+
+.featSliderBlock .featSlideItemBox .itemTop {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featSliderBlock .featSlideItemBox .itemBottom {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.featSliderBlock .featSlideItemBox .itemBottom h6 {
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.featSliderBlock .featSlideItemBox .itemBottom p {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.keyFeatures .featSliderButton {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 24px;
+}
+
+.keyFeatures .featSliderButton button {
+    background-color: #F8F9F9;
+    background-color: bisque;
+    height: 66px;
+    width: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px;
+}
+
+/* Data Storage */
+.dataStorage .dataEtlBox {
+    background-color: #03656B;
+}
+.dataStorage .featSlideItemBox {
+    height: 433px;
+    background-color: #E6F8F9;
+}
+.dataStorage .featSlideItemBox .itemTop {
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataStorage .featSlideItemBox .itemBottom {
+    height: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+
 
 
 /* Application Integration */
@@ -448,44 +554,55 @@
     position: relative;
     margin: 30px 0;
 }
+
 .applicationIntegration .appBox {
     height: 535px;
-    background-color: #000000;
+    background-color: #68326F;
     padding: 30px;
     position: relative;
     overflow: hidden;
-    background-image: url("/img/dataEngineering/application_integration_bg.png");
+    /* background-image: url("/img/dataEngineering/application_integration_bg.png"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.applicationIntegration .appBox h2{
+
+.applicationIntegration .appBox h2 {
     color: #FFFFFF;
     font-size: 33px;
     font-weight: bold;
     margin-bottom: 15px;
 }
-.applicationIntegration .appBox h2 span{
+
+.applicationIntegration .appBox h2 span {
     font-size: 23px;
     font-weight: bold;
 }
-.applicationIntegration .appBox p{
+
+.applicationIntegration .appBox p {
     color: #FFFFFF;
     font-size: 16px;
     margin-bottom: 15px;
 }
-.applicationIntegration .appInfoblock {    
+
+.applicationIntegration .appBox .appBoxImage {
+    margin-top: 50px;
+}
+
+.applicationIntegration .appInfoblock {
     background-color: #FFFFFF;
     height: 535px;
     position: relative;
     overflow: hidden;
     padding-left: 15px;
 }
+
 .applicationIntegration .appInfoblock .appRow {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .applicationIntegration .appInfoblock .appRow .appColHalf {
     width: 49%;
     background-color: #F4EDF5;
@@ -496,19 +613,22 @@
     align-items: center;
 }
 
-.applicationIntegration .appInfoblock .appRow .appColHalf .appImg{
+.applicationIntegration .appInfoblock .appRow .appColHalf .appImg {
     margin-bottom: 58px;
     text-align: center;
 }
-.applicationIntegration .appInfoblock .appRow .appColHalf .appImg img{
+
+.applicationIntegration .appInfoblock .appRow .appColHalf .appImg img {
     display: inline-block;
 }
+
 .applicationIntegration .appInfoblock .appRow .appColHalf h6 {
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 15px;
     color: #000000;
 }
+
 .applicationIntegration .appInfoblock .appRow .appColHalf p {
     font-size: 16px;
     color: #000000;
@@ -529,13 +649,15 @@
     overflow: hidden;
     position: relative;
 }
+
 .cta .ctaText {
     height: 221px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.cta .ctaText h2{
+
+.cta .ctaText h2 {
     font-size: 33px;
     font-weight: bold;
     color: #FFFFFF;
@@ -551,89 +673,108 @@
     background-color: #F0F0F0;
     position: relative;
 }
+
 .dataAccordian .dataETL {
     padding-bottom: 50px;
 }
+
 .dataAccordian .aside {
     position: relative;
     margin-top: 15px;
 }
-.dataAccordian .aside h5{
+
+.dataAccordian .aside h5 {
     font-size: 23px;
     font-weight: bold;
     color: #000000;
     margin-bottom: 32px;
 }
-.dataAccordian .aside h6{
+
+.dataAccordian .aside h6 {
     font-size: 23px;
     font-weight: bold;
     color: #000000;
     margin-bottom: 15px;
 }
-.dataAccordian .aside p{
+
+.dataAccordian .aside p {
     font-size: 16px;
     color: #000000;
 }
+
 .dataAccordian .section {
     position: relative;
 }
+
 .dataAccordian .accordionHeader {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.dataAccordian .accordionHeader .headerLogo{
+
+.dataAccordian .accordionHeader .headerLogo {
     margin-right: 20px;
 }
-.dataAccordian .accordionHeader .headerText{
+
+.dataAccordian .accordionHeader .headerText {
     font-size: 23px;
     font-weight: bold;
     color: #000000;
 }
+
 .dataAccordian .accordionBody {
     min-height: 220px;
     padding-left: 94px;
     padding-right: 10%;
 }
+
 .dataAccordian .accordionBody p {
     font-size: 16px;
     color: #000000;
     margin-bottom: 15px;
 }
+
 .dataAccordian .accordionBody p:last-child {
     margin-bottom: 0;
 }
+
 .dataAccordian .powerBox {
     height: 293px;
-    box-shadow: 0 5px 6px -1px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 6px -1px rgba(0, 0, 0, 0.3);
     padding: 46px 34px;
     background-color: #FFFFFF;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
 }
-.dataAccordian .powerBox .logo {    
+
+.dataAccordian .powerBox .logo {
     height: 70px;
     width: 93px;
 }
-.dataAccordian .powerBox .logo img{
+
+.dataAccordian .powerBox .logo img {
     height: 70px;
     width: 70px;
 }
+
 .dataAccordian .powerBox .text {
     padding-left: 20px;
 }
+
 .dataAccordian .powerBox .text h6 {
     font-size: 23px;
     font-weight: bold;
     color: #000000;
     margin-bottom: 15px;
 }
+
 .dataAccordian .powerBox .text p {
     font-size: 16px;
     color: #000000;
     margin-bottom: 43px;
 }
+
 .btnBlack {
     height: 46px;
     min-width: 154px;
@@ -648,79 +789,125 @@
     font-weight: 500;
     transition: all 0.3s ease;
 }
+
 .btnBlack img {
-    margin-left: 10px;    
+    margin-left: 10px;
 }
+
 .btnBlack:hover {
     background-color: #5BB9C3;
 }
 
 
+/* INFORMATION WITH IMAGE AND TEXT */
+.informationWithImage {
+    position: relative;
+    margin: 70px 0 60px 0;
+}
+.informationWithImage .infoBlock h2{
+    font-size: 33px;
+    font-weight: bold;
+    color: #68326F;
+    margin-bottom: 24px;
+}
+.informationWithImage .infoBlock p{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.informationWithImage .infoBlock p:last-child{
+    margin-bottom: 0;
+}
+.informationWithImage .leftTextRightImage {
+    margin-bottom: 60px;
+}
+.informationWithImage .imageBlock img{
+    width: 100%;
+    object-fit: cover;
+}
+
 
 /* ================= RESPONSIVE ================= */
-@media screen and (max-width: 1199px){}
+@media screen and (max-width: 1199px) {}
+
 @media screen and (max-width: 991px) {
-    .bannerContentLeft .bannerInfo{
+    .bannerContentLeft .bannerInfo {
         left: 0;
         padding-left: 10%;
         transform: translate(0%, -50%);
         width: 100%;
     }
+
     .bannerContentLeft .bannerTitle br {
         display: none;
     }
+
     .platformBanner .bannerContent {
         display: block;
     }
+
     .innovation .rowFlex {
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
     }
+
     .innovation .blackBox {
         height: auto;
         min-height: 325px;
         padding: 35px;
     }
+
     .innovation .information {
         min-height: 325px;
     }
+
     .innovation .blackBox h3 span {
         display: inline;
     }
+
     .ourCapabilities {
         height: auto;
         min-height: 544px;
     }
+
     .ourCapabilities .capabilitiesBox {
         width: 88%;
         height: auto;
         min-height: 320px;
     }
+
     .keyFeatures .featureBox {
         padding: 15px;
     }
+
     .keyFeatures .featureBox h2 {
         margin-bottom: 20px;
     }
+
     .keyFeatures .featureBox .infoRow {
         margin-bottom: 30px;
     }
+
     .keyFeatures .featureBox .infoRow .infoBox {
         padding: 0 10px;
     }
+
     .applicationIntegration .appInfoblock .appRow .appColHalf {
         padding: 20px;
     }
+
     .cta .ctaText h2 {
         width: 100%;
     }
+
     .dataAccordian .aside {
         margin-top: 0;
     }
+
     .ourApproach .approachContent .columns {
         padding: 0 5px;
     }
+
     .ourApproach .approachContent .dottedLine img {
         width: 90%;
         height: auto;
@@ -732,63 +919,80 @@
         margin-top: 0;
     }
 }
+
 @media screen and (max-width: 769px) {
-    .innovation .blackBox {       
+    .innovation .blackBox {
         min-height: 225px;
         padding: 35px;
     }
+
     .innovation .information {
         min-height: 225px;
         margin-top: 20px;
     }
+
     .keyFeatures .featureBox h2 {
         margin-bottom: 40px;
     }
+
     .keyFeatures .featureBox .infoRow {
         margin-bottom: 40px;
     }
+
     .dataAccordian .aside {
         margin-bottom: 40px;
     }
+
     .cta {
         height: auto;
         min-height: 221px;
         padding: 15px 0;
     }
+
     .cta .ctaText {
         height: auto;
         min-height: 221px;
     }
+
     .ourApproach {
         overflow: hidden;
     }
+
     .ourApproach .approachContent {
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .ourApproach .approachContent .columns {
         width: 50%;
         min-height: 280px;
     }
+
     .ourApproach .approachContent .columns.columns1 {
         padding-top: 0px;
-    }    
+    }
+
     .ourApproach .approachContent .columns.columns2 {
         padding-top: 0px
-    }    
+    }
+
     .ourApproach .approachContent .columns.columns3 {
         padding-top: 0px;
-    }    
+    }
+
     .ourApproach .approachContent .columns.columns4 {
         padding-top: 0px
     }
+
     .ourApproach .approachContent .columns.columns5 {
         padding-top: 0px;
     }
+
     .ourApproach .approachContent .dottedLine {
         display: none;
     }
 }
+
 @media screen and (max-width: 576px) {}
 
 @media screen and (max-width: 479px) {
@@ -797,12 +1001,14 @@
         min-height: 240px;
         margin-top: 20px;
     }
+
     .ourCapabilities {
         height: auto;
         min-height: auto;
         padding: 40px 25px;
     }
-    .ourCapabilities .capabilitiesBox{
+
+    .ourCapabilities .capabilitiesBox {
         width: 100%;
         height: auto;
         min-height: auto;
@@ -812,32 +1018,40 @@
         transform: none;
         padding: 25px;
     }
+
     .keyFeatures .dataEtlBox {
         height: auto;
     }
+
     .keyFeatures .dataEtlBox .etlImage {
         margin-top: 50px;
         position: relative;
         bottom: 0;
     }
+
     .keyFeatures .dataEtlBox .etlImage img {
         width: 100%;
     }
+
     .keyFeatures .featureBox {
         height: auto;
         padding: 15px;
     }
+
     .applicationIntegration .appBox {
         height: auto;
         min-height: 350px;
     }
+
     .applicationIntegration .px-0 {
         padding: 0;
     }
+
     .applicationIntegration .appInfoblock {
         height: auto;
         padding-left: 0;
     }
+
     .applicationIntegration .appInfoblock .appRow {
         display: flex;
         justify-content: flex-start;
@@ -845,51 +1059,64 @@
         flex-wrap: wrap;
         flex-direction: column;
     }
+
     .applicationIntegration .appInfoblock .appRow .appColHalf {
         width: 100%;
         margin-top: 30px;
         height: auto;
         min-height: 450px;
     }
+
     .cta .ctaText h2 {
         font-size: 27px;
     }
+
     .dataAccordian .accordionBody {
         padding-left: 0;
         padding-right: 0;
     }
+
     .dataAccordian .powerBox {
         height: auto;
         min-height: 300px;
         padding: 25px 15px;
     }
+
     .dataAccordian .powerBox .logo {
         width: 25%;
     }
+
     .dataAccordian .powerBox .text {
         width: 75%;
     }
-    .dataAccordian .dataETL{
+
+    .dataAccordian .dataETL {
         background-color: #F0F0F0;
     }
+
     .dataAccordian {
         padding-bottom: 0;
     }
+
     .ourApproach .approachContent .columns {
         display: block;
     }
+
     .keyFeatures .featureBox .infoRow .infoBox {
         padding: 0 0px;
         width: 100%;
         margin-bottom: 35px;
     }
+
     .keyFeatures .featureBox .infoRow .infoBox h6 br {
         display: none;
     }
+
     .keyFeatures .featureBox .infoRow {
         display: block;
         margin-bottom: 0px;
     }
+
     .bannerContentLeft .bannerInfo {
         padding-left: 5%;
     }

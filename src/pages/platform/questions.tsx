@@ -92,7 +92,7 @@ export default function Questions() {
                             </div>
                             <div className="col-sm-6 col-md-6 col-lg-3">
                                 <div className={`${styles.phraseBox}`}>
-                                    <h4>Only <span>6%</span> of companies report full visibility on their supply chain, while <span>69%</span> of companies don&apos;t have total visibility.</h4>
+                                    <h4>Only <span>6%</span> of companies report full visibility on their supply chain while <span>69%</span> of businesses still have poor visibility across their supply chains.</h4>
                                 </div>
                             </div>
                             <div className="col-sm-6 col-md-6 col-lg-3">

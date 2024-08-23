@@ -11,6 +11,14 @@ export default function ApplicationIntegration() {
                         <div className={`${styles.appBox}`}>
                             <h2>Application Integration</h2>
                             <p>Our data integration services ensure seamless communication and data flow across your systems for event based or real time data streaming use cases.:</p>
+                            <div className={`${styles.appBoxImage}`}>
+                                <Image
+                                    src="/img/dataEngineering/application_int.png"
+                                    alt="Application Integration"
+                                    height={261}
+                                    width={545}
+                                />
+                            </div>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-7 col-lg-7 px-0">
@@ -20,7 +28,7 @@ export default function ApplicationIntegration() {
                                     <div className={`${styles.content}`}>
                                         <div className={`${styles.appImg}`}>
                                             <Image
-                                                src="/img/dataEngineering/publish_subscribe.png"
+                                                src="/img/dataEngineering/publish_subscribe.svg"
                                                 alt="Building Publish-Subscribe Systems"
                                                 height={159}
                                                 width={125}
@@ -34,7 +42,7 @@ export default function ApplicationIntegration() {
                                     <div className={`${styles.content}`}>
                                         <div className={`${styles.appImg}`}>
                                             <Image
-                                                src="/img/dataEngineering/azure_service_bus.png"
+                                                src="/img/dataEngineering/azure_service_bus.svg"
                                                 alt="Azure Service Bus Integration"
                                                 height={95}
                                                 width={260}
@@ -45,7 +53,7 @@ export default function ApplicationIntegration() {
                                     </div>
                                 </div>
                             </div>
-                        </div>  
+                        </div>
                     </div>
                 </div>
             </div>
