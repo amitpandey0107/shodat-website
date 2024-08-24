@@ -15,6 +15,45 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* .relative {
+    animation-duration: 0.2s;
+    animation-name: fadeInUp;
+    animation-timing-function: ease-out;
+} */
+
+.fixed {
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    animation-duration: 0.2s;
+    animation-name: fadeInDown;
+    animation-timing-function: ease-out;
+}
+
 .banner .carousel-indicators [data-bs-target] {
     background-color: #757575;
 }
@@ -631,7 +670,7 @@ body {
     .hstack {
         display: flex;
         flex-wrap: wrap;
-    }    
+    }
 
     .prefferedPartnerSection .container-fluid {
         padding-left: 15px;
@@ -743,6 +782,7 @@ body {
     #offerSlider .carousel-control-next {
         left: 57%;
     }
+
     #offerSlider .carousel-control-prev {
         left: 36%;
     }
@@ -833,6 +873,7 @@ body {
     animation: .5s slide-right;
     position: relative;
 }
+
 .rightArrowClass {
     clip: rect(0, 100vw, auto, 100vw);
     animation: slide 1.5s linear 1s forwards;
@@ -841,6 +882,7 @@ body {
     position: relative;
     animation: .5s slide-right;
 }
+
 .leftArrowClass {
     clip: rect(0, 100vw, auto, 100vw);
     animation: slide 1.5s linear 1s forwards;
@@ -864,6 +906,7 @@ body {
         left: 0%;
     }
 }
+
 @keyframes slide-left {
     from {
         right: -100%;
@@ -891,10 +934,12 @@ body {
 .caseSliderWrap {
     position: relative;
 }
+
 .caseSliderWrap .carousel-item {
     padding-bottom: 0;
     padding-top: 0;
 }
+
 .caseSliderWrap .carousel-control-prev-icon {
     background-image: url("/img/casestudy/angle_left_purple.png") !important;
     height: 32px;
@@ -910,6 +955,7 @@ body {
 .caseSliderWrap .carousel-control-prev {
     left: -20px;
 }
+
 .caseSliderWrap .carousel-control-next {
     right: -20px;
 }
@@ -920,13 +966,16 @@ body {
     top: auto;
     margin: 0;
 }
-.caseSliderWrap .hstack  {
+
+.caseSliderWrap .hstack {
     display: flex;
     justify-content: center;
 }
+
 .react-multiple-carousel__arrow {
     background-color: rgba(104, 50, 111, 0.5) !important;
 }
+
 .react-multiple-carousel__arrow--right::before {
     background-image: url(/img/platform/platform-page-imgs/right_white.svg) !important;
     content: "" !important;
@@ -938,6 +987,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 /* .react-multiple-carousel__arrow--right {
     right: calc(0% - 17px) !important;
 } */
@@ -952,6 +1002,7 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 /* .react-multiple-carousel__arrow--left {
     left: calc(0% - 9px) !important;
 } */
@@ -963,27 +1014,31 @@ body {
     .caseSliderWrap .carousel-control-prev {
         left: -60px;
     }
+
     .caseSliderWrap .carousel-control-next {
         right: -60px;
     }
 }
+
 @media only screen and (max-width:991px) {
     .caseSliderWrap .carousel-control-prev {
         left: -20px;
     }
+
     .caseSliderWrap .carousel-control-next {
         right: -20px;
     }
 }
+
 @media only screen and (max-width:767px) {
     .caseSliderWrap .carousel-item {
         padding-left: 15px;
         padding-right: 15px;
     }
-    
+
 }
 
-.slick-slide + div {
+.slick-slide+div {
     padding: 0 7px;
 }
 
@@ -997,6 +1052,7 @@ button.slick-arrow.slick-prev {
     position: absolute;
     z-index: 9;
 }
+
 button.slick-arrow.slick-next {
     background-color: #F8F9F9;
     /* background-color: red; */
@@ -1007,7 +1063,8 @@ button.slick-arrow.slick-next {
     position: absolute;
     z-index: 9;
 }
-.slick-next:before {    
+
+.slick-next:before {
     background-image: url("/img/dataEngineering/angle_right_black.svg") !important;
     content: "" !important;
     height: 30px;
@@ -1018,6 +1075,7 @@ button.slick-arrow.slick-next {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .slick-prev:before {
     background-image: url("/img/dataEngineering/angle_left_black.svg") !important;
     content: "" !important;
@@ -1029,7 +1087,8 @@ button.slick-arrow.slick-next {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.activatekro  .slick-prev:before {
+
+.activatekro .slick-prev:before {
     background-image: url("/img/dataEngineering/angle_left_black.svg") !important;
 }
 
@@ -1046,6 +1105,7 @@ button.slick-arrow.slick-next {
     position: absolute;
     z-index: 9;
 }
+
 .dataStorageSlickSlider button.slick-arrow.slick-next {
     background-color: #E6F8F9;
     /* background-color: red; */
@@ -1056,7 +1116,8 @@ button.slick-arrow.slick-next {
     position: absolute;
     z-index: 9;
 }
-.dataStorageSlickSlider .slick-next:before {    
+
+.dataStorageSlickSlider .slick-next:before {
     background-image: url("/img/dataEngineering/angle_right_green.svg") !important;
     content: "" !important;
     height: 30px;
@@ -1067,6 +1128,7 @@ button.slick-arrow.slick-next {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .dataStorageSlickSlider .slick-prev:before {
     background-image: url("/img/dataEngineering/angle_left_green.svg") !important;
     content: "" !important;
@@ -1078,12 +1140,22 @@ button.slick-arrow.slick-next {
     background-repeat: no-repeat;
     background-size: contain;
 }
-.dataStorageSlickSlider.activatekro  .slick-prev:before {
+
+.dataStorageSlickSlider.activatekro .slick-prev:before {
     background-image: url("/img/dataEngineering/angle_left_green.svg") !important;
 }
 
 @media screen and (max-width:479px) {
-    .slick-slide + div {
+    .slick-slide+div {
         padding: 0;
     }
+}
+
+.headerModal .modal-dialog {
+    --bs-modal-width: 1100px;
+    border-radius: 0;
+}
+
+.headerModal .modal-content {
+    border-radius: 0;
 }

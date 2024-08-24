@@ -7,6 +7,7 @@
     align-items: center;
     box-sizing: border-box;
     padding: 0 30px;
+    z-index: 999;
 }
 .header .logo {
     color: white;
@@ -178,4 +179,105 @@
     .btnDemo {
         min-width: 120px;
     }
+}
+
+
+
+
+.headerModal .modalContent,
+.headerModal .modalContentInner {
+    height: auto;
+}
+
+.headerModal .modalContent .modalLeft {
+    height: auto;
+    width: 36%;
+}
+
+.headerModal .modalContent .modalRight {
+    width: 63%;
+    padding: 20px;
+}
+
+.headerModal .result.desktop {
+    display: none;
+}
+
+.headerModal .result.mobile {
+    display: block;
+    padding: 15px;
+    margin-top: 0;
+}
+
+.headerModal .modalContent {
+    flex-wrap: wrap;
+}
+
+.headerModal .modalContent .modalLeft,
+.headerModal .modalContent .modalRight {
+    min-height: auto;
+}
+
+.headerModal .modalContentInner {
+    min-height: 450px;
+    padding: 35px 40px;
+    flex-wrap: wrap;
+}
+
+.headerModal .modalContentInner h3 {
+    font-size: 33px;
+    color: #68326F;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.headerModal .modalContentInner .formGroup {
+    margin-bottom: 24px;
+}
+.headerModal .modalContentInner .formGroup label {
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.headerModal .modalContentInner .formGroup label span {
+    color: red;
+    font-size: 14px;
+}
+.headerModal .modalContentInner .formGroup input{
+    height: 45px;
+    border-radius: 0;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    padding: 7px 15px;
+}
+
+.headerModal .modalContentInner .formGroup textarea{
+    min-height: 120px;
+    border-radius: 0;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    padding: 7px 15px;
+}
+.headerModal .modalContentInner .formGroup.formGroupLastNode {
+    margin-bottom: 0;
+}
+
+.btnSubmit {
+    background-color: #68326F;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    min-width: 200px;
+    box-shadow: none;
+    border-radius: 0;
+    transition: all ease-in-out 0.3s;
+}
+
+.btnSubmit:hover {
+    background-color: rgba(104,50,111, 0.7);
+    transition: all ease-in-out 0.3s;
 }
