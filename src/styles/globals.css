@@ -1081,3 +1081,9 @@ button.slick-arrow.slick-next {
 .dataStorageSlickSlider.activatekro  .slick-prev:before {
     background-image: url("/img/dataEngineering/angle_left_green.svg") !important;
 }
+
+@media screen and (max-width:479px) {
+    .slick-slide + div {
+        padding: 0;
+    }
+}

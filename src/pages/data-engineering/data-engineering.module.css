@@ -526,10 +526,12 @@
 .dataStorage .dataEtlBox {
     background-color: #03656B;
 }
+
 .dataStorage .featSlideItemBox {
     height: 433px;
     background-color: #E6F8F9;
 }
+
 .dataStorage .featSlideItemBox .itemTop {
     height: 30%;
     display: flex;
@@ -804,30 +806,51 @@
     position: relative;
     margin: 70px 0 60px 0;
 }
-.informationWithImage .infoBlock h2{
+
+.informationWithImage .infoBlock h2 {
     font-size: 33px;
     font-weight: bold;
     color: #68326F;
     margin-bottom: 24px;
 }
-.informationWithImage .infoBlock p{
+
+.informationWithImage .infoBlock p {
     margin-bottom: 20px;
     color: rgba(0, 0, 0, 0.8);
 }
-.informationWithImage .infoBlock p:last-child{
+
+.informationWithImage .infoBlock p:last-child {
     margin-bottom: 0;
 }
+
 .informationWithImage .leftTextRightImage {
     margin-bottom: 60px;
 }
-.informationWithImage .imageBlock img{
+
+.informationWithImage .imageBlock img {
     width: 100%;
     object-fit: cover;
 }
 
 
 /* ================= RESPONSIVE ================= */
-@media screen and (max-width: 1199px) {}
+@media screen and (max-width: 1199px) {
+    .featSliderBlock .featSlideItemBox .itemBottom {
+        flex-direction: column;
+    }
+
+    .keyFeatures .featureBox {
+        padding-top: 0;
+    }
+
+    .dataStorage .featSlideItemBox .itemBottom {
+        justify-content: flex-start;
+    }
+
+    .featSliderBlock .featSlideItemBox .itemBottom {
+        justify-content: flex-start;
+    }
+}
 
 @media screen and (max-width: 991px) {
     .bannerContentLeft .bannerInfo {
@@ -878,6 +901,11 @@
 
     .keyFeatures .featureBox {
         padding: 15px;
+        padding-top: 0;
+    }
+
+    .dataStorage .featureBox {
+        padding-top: 0;
     }
 
     .keyFeatures .featureBox h2 {
@@ -932,7 +960,7 @@
     }
 
     .keyFeatures .featureBox h2 {
-        margin-bottom: 40px;
+        margin-bottom: 20px;
     }
 
     .keyFeatures .featureBox .infoRow {
@@ -988,8 +1016,62 @@
         padding-top: 0px;
     }
 
+    .ourApproach .approachContent .columns.columns6 {
+        padding-top: 0px;
+    }
+
     .ourApproach .approachContent .dottedLine {
         display: none;
+    }
+
+    .keyFeatures .featureBox {
+        height: auto;
+        min-height: 575px;
+        overflow: initial;
+    }
+
+    .dataStorage .featureBox {
+        height: 600px;
+        overflow: initial;
+    }
+
+    .featSliderBlock .featSlideItemBox {
+        height: 400px;
+        padding: 15px;
+    }
+
+    .dataStorage .featSliderBlock .featSlideItemBox {
+        height: 500px;
+        padding: 15px;
+    }
+
+    .featSliderBlock .featSlideItemBox .itemTop {
+        margin-bottom: 20px;
+        height: 30%;
+    }
+
+    .featSliderBlock .featSlideItemBox .itemBottom {
+        height: 60%;
+    }
+
+    .featSliderBlock .featSlideItemBox img {
+        height: 75px;
+        width: auto;
+    }
+
+    .featSliderBlock .featSlideItemBox .itemBottom {
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 70%;
+    }
+
+    .applicationIntegration .appInfoblock {
+        padding-left: 0;
+        margin-top: 24px;
+    }
+
+    .keyFeatures .featureBox {
+        padding: 15px 0px;
     }
 }
 
@@ -1035,8 +1117,14 @@
 
     .keyFeatures .featureBox {
         height: auto;
-        padding: 15px;
+        padding: 15px 0;
     }
+
+    .dataStorage .featureBox {
+        height: auto;
+        padding: 15px 0;
+    }
+
 
     .applicationIntegration .appBox {
         height: auto;

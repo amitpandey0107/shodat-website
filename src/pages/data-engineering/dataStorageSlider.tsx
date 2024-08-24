@@ -13,19 +13,52 @@ export default function DataStorageSlider(props: any) {
 
     const settings = {
         dots: false,
-        infinite: true,
+        infinite: false,
         speed: 500,
         slidesToShow: 2,
         slidesToScroll: 1,
-        beforeChange: (current:any, next:any) => {
+        beforeChange: (current: any, next: any) => {
             setOldSlide(current);
             setActiveSlide(next);
         },
-        afterChange: (current:any) => setActiveSlide2(current)
+        afterChange: (current: any) => setActiveSlide2(current),
+        responsive: [
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     };
 
-    useEffect(()=> {
-        activeSlide > 0 ? setToggleButton(true) : setToggleButton(false);        
+    useEffect(() => {
+        activeSlide > 0 ? setToggleButton(true) : setToggleButton(false);
     }, [activeSlide])
     return (
         <div className={`slider-container dataStorageSlickSlider ${toggleButton && 'activatekro'}`}>
