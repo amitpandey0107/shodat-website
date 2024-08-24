@@ -1019,7 +1019,7 @@ button.slick-arrow.slick-next {
     background-size: contain;
 }
 .slick-prev:before {
-    background-image: url("/img/dataEngineering/angle_left_off_black.svg") !important;
+    background-image: url("/img/dataEngineering/angle_left_black.svg") !important;
     content: "" !important;
     height: 30px;
     width: 16px;
@@ -1068,7 +1068,7 @@ button.slick-arrow.slick-next {
     background-size: contain;
 }
 .dataStorageSlickSlider .slick-prev:before {
-    background-image: url("/img/dataEngineering/angle_left_off_green.svg") !important;
+    background-image: url("/img/dataEngineering/angle_left_green.svg") !important;
     content: "" !important;
     height: 30px;
     width: 16px;
