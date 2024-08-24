@@ -537,6 +537,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 24px;
 }
 
 .dataStorage .featSlideItemBox .itemBottom {
@@ -544,7 +545,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
@@ -1035,6 +1036,10 @@
         overflow: initial;
     }
 
+    .dataStorage .dataEtlBox {
+        height: 600px;
+    }
+
     .featSliderBlock .featSlideItemBox {
         height: 400px;
         padding: 15px;
@@ -1067,11 +1072,11 @@
 
     .applicationIntegration .appInfoblock {
         padding-left: 0;
-        margin-top: 24px;
+        /* margin-top: 24px; */
     }
 
     .keyFeatures .featureBox {
-        padding: 15px 0px;
+        padding: 0 0 0px 15px;
     }
 }
 
