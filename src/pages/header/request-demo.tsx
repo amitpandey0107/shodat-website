@@ -138,7 +138,7 @@ export default function RequestDemoModal(props: any) {
             <div className={`${styles.modalContent}`}>
                 <Modal.Header closeButton className="closeButton"></Modal.Header>
                 <div className={`${styles.modalContentInner}`}>
-                    <h3>Scheduling a meeting</h3>
+                    <h3>Request Demo</h3>
                     <form method='post' onSubmit={submitForm} id="myForm">
                         <div className={`${styles.formWrapper}`}>
                             <div className={`${styles.formGroup}`}>
