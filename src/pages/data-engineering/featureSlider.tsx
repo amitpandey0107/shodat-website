@@ -65,10 +65,10 @@ export default function FeatureSlider(props: any) {
                     <div className={`${styles.featSlideItemBox}`}>
                         <div className={`${styles.itemTop}`}>
                             <Image
-                                height={125}
-                                width={160}
+                                height={163}
+                                width={202}
                                 alt="Ingesting Data into the Cloud"
-                                src="/img/dataEngineering/publish_subscribe.svg"
+                                src="/img/dataEngineering/IngestingDataintotheCloud.svg"
                             />
                         </div>
                         <div className={`${styles.itemBottom}`}>
@@ -80,10 +80,10 @@ export default function FeatureSlider(props: any) {
                     <div className={`${styles.featSlideItemBox}`}>
                         <div className={`${styles.itemTop}`}>
                             <Image
-                                height={125}
-                                width={160}
+                                height={135}
+                                width={165}
                                 alt="Ingesting Data from Various Sources"
-                                src="/img/dataEngineering/publish_subscribe.svg"
+                                src="/img/dataEngineering/IngestingDatafromVariousSources.svg"
                             />
                         </div>
                         <div className={`${styles.itemBottom}`}>
@@ -95,10 +95,10 @@ export default function FeatureSlider(props: any) {
                     <div className={`${styles.featSlideItemBox}`}>
                         <div className={`${styles.itemTop}`}>
                             <Image
-                                height={125}
+                                height={157}
                                 width={160}
                                 alt="Ingesting Data from Various Sources"
-                                src="/img/dataEngineering/publish_subscribe.svg"
+                                src="/img/dataEngineering/Near_Real_Time_Uploads_and_Bulk_Uploads.svg"
                             />
                         </div>
                         <div className={`${styles.itemBottom}`}>
@@ -110,14 +110,14 @@ export default function FeatureSlider(props: any) {
                     <div className={`${styles.featSlideItemBox}`}>
                         <div className={`${styles.itemTop}`}>
                             <Image
-                                height={125}
+                                height={214}
                                 width={160}
                                 alt="Ingesting Data from Various Sources"
-                                src="/img/dataEngineering/publish_subscribe.svg"
+                                src="/img/dataEngineering/Scheduled_Uploads.svg"
                             />
                         </div>
                         <div className={`${styles.itemBottom}`}>
-                            <h6>Icheduled Uploads</h6>
+                            <h6>Scheduled Uploads</h6>
                             <p>Automate your data ingestion processes with our scheduled upload capabilities, reducing manual intervention and ensuring consistency.</p>
                         </div>
                     </div>

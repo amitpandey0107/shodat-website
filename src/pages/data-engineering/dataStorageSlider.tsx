@@ -67,10 +67,10 @@ export default function DataStorageSlider(props: any) {
                     <div className={`${styles.featSlideItemBox}`}>
                         <div className={`${styles.itemTop}`}>
                             <Image
-                                height={75}
-                                width={110}
+                                height={168}
+                                width={160}
                                 alt="Ingesting Data into the Cloud"
-                                src="/img/dataEngineering/publish_subscribe.svg"
+                                src="/img/dataEngineering/Data_Warehousing.svg"
                             />
                         </div>
                         <div className={`${styles.itemBottom}`}>
@@ -82,10 +82,10 @@ export default function DataStorageSlider(props: any) {
                     <div className={`${styles.featSlideItemBox}`}>
                         <div className={`${styles.itemTop}`}>
                             <Image
-                                height={75}
-                                width={110}
+                                height={168}
+                                width={160}
                                 alt="Ingesting Data from Various Sources"
-                                src="/img/dataEngineering/publish_subscribe.svg"
+                                src="/img/dataEngineering/Data_Warehousing.svg"
                             />
                         </div>
                         <div className={`${styles.itemBottom}`}>

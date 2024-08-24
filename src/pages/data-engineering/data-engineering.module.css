@@ -474,7 +474,7 @@
     background-color: #F8F9F9;
     height: 386px;
     width: 49%;
-    padding: 30px;
+    padding: 20px 30px;
 }
 
 .featSliderBlock .featSlideItemBox .itemTop {
@@ -482,6 +482,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 26px;
 }
 
 .featSliderBlock .featSlideItemBox .itemBottom {
@@ -489,7 +490,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: flex-start;
 }
 
@@ -533,15 +534,15 @@
 }
 
 .dataStorage .featSlideItemBox .itemTop {
-    height: 30%;
+    height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 24px;
 }
 
 .dataStorage .featSlideItemBox .itemBottom {
-    height: 70%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -610,14 +611,19 @@
     width: 49%;
     background-color: #F4EDF5;
     height: 535px;
-    padding: 40px;
+    padding: 20px 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.applicationIntegration .appInfoblock .appRow .appColHalf .content {
+    position: relative;
+    width: 100%;
 }
 
 .applicationIntegration .appInfoblock .appRow .appColHalf .appImg {
-    margin-bottom: 58px;
+    margin-bottom: 26px;
     text-align: center;
 }
 

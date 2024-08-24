@@ -13,19 +13,18 @@ export default function DataStorage() {
                         <div className={`${styles.dataEtlBox}`}>
                             <h2>Data Storage, Warehousing, and <br/>Data Marts</h2>
                             <p>We provide comprehensive solutions for data storage and management</p>
-                            {/* <div className={`${styles.etlImage}`}>
+                            <div className={`${styles.etlImage}`}>
                                 <Image
-                                    src="/img/dataEngineering/data_etl.png"
+                                    src="/img/dataEngineering/DataStorage.png"
                                     alt="Data ETL"
-                                    height={292}
-                                    width={531}
+                                    height={286}
+                                    width={481}
                                 />
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-7 col-lg-7 px-0">
                         <div className={`${styles.featureBox}`}>
-                            {/* <h2 className={`${styles.keyFeatTitle}`}>Key features include:</h2> */}
 
                             <DataStorageSlider />   
 
