@@ -1058,7 +1058,7 @@
 
     .featSliderBlock .featSlideItemBox .itemTop {
         margin-bottom: 20px;
-        height: 30%;
+        height: auto;
     }
 
     .featSliderBlock .featSlideItemBox .itemBottom {
@@ -1066,14 +1066,14 @@
     }
 
     .featSliderBlock .featSlideItemBox img {
-        height: 75px;
+        height: auto;
         width: auto;
     }
 
     .featSliderBlock .featSlideItemBox .itemBottom {
         flex-direction: column;
         justify-content: flex-start;
-        height: 70%;
+        height: auto
     }
 
     .applicationIntegration .appInfoblock {
@@ -1083,6 +1083,7 @@
 
     .keyFeatures .featureBox {
         padding: 0 0 0px 15px;
+        margin-top: 24px;
     }
 }
 

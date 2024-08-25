@@ -40,7 +40,7 @@ export default function FeatureSlider(props: any) {
             {
                 breakpoint: 769,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     initialSlide: 1
                 }
