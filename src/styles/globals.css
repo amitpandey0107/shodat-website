@@ -224,6 +224,7 @@ body {
 .container-fluid {
     padding-left: 30px;
     padding-right: 30px;
+    width: 1440px;
 }
 
 .displayNone {
@@ -1158,4 +1159,10 @@ button.slick-arrow.slick-next {
 
 .headerModal .modal-content {
     border-radius: 0;
+}
+
+@media screen and (max-width:1400px) {
+    .container-fluid {
+        width: 100%;
+    }
 }
