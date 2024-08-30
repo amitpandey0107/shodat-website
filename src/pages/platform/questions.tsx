@@ -92,8 +92,8 @@ export default function Questions() {
                             </div>
                             <div className="col-sm-6 col-md-6 col-lg-3">
                                 <div className={`${styles.phraseBox}`}>
-                                    {/* <h4>Only <span>6%</span> of companies report full visibility on their supply chain while <span>69%</span> of businesses still have poor visibility across their supply chains.</h4> */}
-                                    <h4>Only <span>6%</span> of companies report full visibility on their supply chain while <span>69%</span> of businesses still struggling with poor visibility across their supply chains.</h4>
+                                    <h4>Product recalls in the U.S. have surged by nearly <span>30%</span> over the last decade, largely due to manufacturing defects and poor quality control.</h4>
+                                    <p>- Consumer Product Safety Commission (CPSC)</p>
                                 </div>
                             </div>
                             <div className="col-sm-6 col-md-6 col-lg-3">
@@ -135,7 +135,7 @@ export default function Questions() {
                                     width={18}
                                     className={`${styles.logoImage}`}
                                 />
-                                <p>Only 6% of companies report full visibility on their supply chain, while 69% of companies don&apos;t have total visibility. - <span>( Forbs )</span></p>
+                                <p>The U.S. Consumer Product Safety Commission (CPSC) reports that product recalls have increased by nearly 30% over the past decade, primarily due to manufacturing defects and inadequate quality control measures</p>
                             </div>
                         </div>
                         <div className="col-sm-6">

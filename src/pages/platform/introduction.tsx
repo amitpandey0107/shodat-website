@@ -18,8 +18,7 @@ export default function Introduction() {
                         <div className={`${styles.sectionContent}`}>
                             <h1>Introducing Shodat eOps™</h1>
                             <h3>Achieve operational brilliance with precision-engineered quality management.</h3>
-                            <p>Shodat eOps is an advanced enterprise platform meticulously designed to enhance operational efficiency and product quality through cutting-edge AI and machine learning technologies.</p>
-                            <p>Shodat eOps seamlessly integrates data-driven insights and automation to optimize processes, mitigate risks, and ensure regulatory compliance.</p>
+                            <p>eOps™ Advanced Quality Management And Asset Tracking Platform ,ensures that every asset, from raw materials to finished products, is meticulously monitored, minimizing errors and enhancing overall quality control. By leveraging AI-driven insights and automated tracking, businesses can proactively address potential issues, reduce waste, and ensure compliance with industry standards.  The result is a streamlined process that not only boosts efficiency but also significantly reduces operational costs, ensuring a higher standard of quality and reliability in every product delivered.</p>
                             <div className={`${styles.btnWrap}`}>
                                 <button className="btn-black">
                                     <span>Get Early Access</span>
