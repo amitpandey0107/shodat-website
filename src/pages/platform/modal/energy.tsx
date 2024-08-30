@@ -47,9 +47,7 @@ export default function Energy(props:any) {
                     with accuracy rates close to 93%.
                   </p>
                   <p>
-                    Proactive alerting and predictive maintenance strategies
-                    resulted in a 25% reduction in maintenance costs by
-                    preventing unexpected battery failures.
+                  Proactive alerting and predictive maintenance strategies resulting in a 25% reduction in maintenance costs by preventing unexpected battery failures.
                   </p>
                 </div>
               </div>
@@ -64,9 +62,7 @@ export default function Energy(props:any) {
                 accuracy rates close to 93%.
               </p>
               <p>
-                Proactive alerting and predictive maintenance strategies
-                resulted in a 25% reduction in maintenance costs by preventing
-                unexpected battery failures.
+              Proactive alerting and predictive maintenance strategies resulting in a 25% reduction in maintenance costs by preventing unexpected battery failures.
               </p>
             </div>
           </div>

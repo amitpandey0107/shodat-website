@@ -44,8 +44,7 @@ export default function Automotive(props: any) {
                     maintenance planning.
                   </p>
                   <p>
-                    Proactive maintenance based on accurate predictions resulted
-                    in a 15% reduction in overall maintenance costs.
+                    PProactive maintenance based on accurate predictions is resulting in a 15% reduction in overall maintenance costs.
                   </p>
                 </div>
               </div>
@@ -59,8 +58,7 @@ export default function Automotive(props: any) {
                 maintenance planning.
               </p>
               <p>
-                Proactive maintenance based on accurate predictions resulted in
-                a 15% reduction in overall maintenance costs.
+              Proactive maintenance based on accurate predictions is resulting in a 15% reduction in overall maintenance costs.
               </p>
             </div>
           </div>
