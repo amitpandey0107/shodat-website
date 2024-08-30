@@ -14,6 +14,8 @@ import Cta from "./cta";
 import DataAccordian from "./data-accordian";
 import DataStorage from "./data-storage";
 import InformationWithImage from "./informationWithImage";
+import Data from "./data";
+import UseCase from "./use-case";
 
 function DataEngineering() {
     return (
@@ -51,20 +53,26 @@ function DataEngineering() {
                 {/* Our Approach */}
                 <OurApproach />
 
+                {/* Data */}
+                <Data />
+
+                {/* Use Case */}
+                <UseCase />
+
                 {/* Our Capabilities */}
-                <OurCapabilities />
+                {/* <OurCapabilities /> */}
 
                 {/* Key Features */}
-                <KeyFeatures />
+                {/* <KeyFeatures /> */}
 
                 {/* Application Integration */}
-                <ApplicationIntegration />
+                {/* <ApplicationIntegration /> */}
 
                 {/* Data Storage, Warehousing, and Data Marts */}
-                <DataStorage />
+                {/* <DataStorage /> */}
 
                 {/* Text & Image Inforamtion Section */}
-                <InformationWithImage />
+                {/* <InformationWithImage /> */}
 
                 {/* CTA */}
                 <Cta />

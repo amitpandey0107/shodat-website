@@ -25,51 +25,51 @@ export default function DataAccordian() {
                         <div className="col-sm-12 col-md-8 col-lg-8">
                             <div className={`${styles.section}`}>
                                 <Accordion defaultActiveKey="0" className="accordionCustom">
-                                <Accordion.Item eventKey="0">
-                                    <Accordion.Header>
-                                        <div className={`${styles.accordionHeader}`}>
-                                            <div className={`${styles.headerLogo}`}>
-                                                <Image
-                                                    src="/img/dataEngineering/azure_data_factory.png"
-                                                    alt="Azure Data Factory"
-                                                    height={70}
-                                                    width={70}
-                                                />
+                                    <Accordion.Item eventKey="0">
+                                        <Accordion.Header>
+                                            <div className={`${styles.accordionHeader}`}>
+                                                <div className={`${styles.headerLogo}`}>
+                                                    <Image
+                                                        src="/img/dataEngineering/azure_data_factory.png"
+                                                        alt="Azure Data Factory"
+                                                        height={70}
+                                                        width={70}
+                                                    />
+                                                </div>
+                                                <div className={`${styles.headerText}`}>Azure Data Factory</div>
                                             </div>
-                                            <div className={`${styles.headerText}`}>Azure Data Factory</div>
-                                        </div>
-                                    </Accordion.Header>
-                                    <Accordion.Body>
-                                        <div className={`${styles.accordionBody}`}>
-                                            <p><strong>Seamless Data Integration:</strong> Connect data from various sources, whether on-premises or in the cloud, to create a unified data pipeline.</p>
-                                            <p><strong>Scalable ETL Workflows:</strong> Design, automate, and orchestrate ETL workflows that scale with your business needs.</p>
-                                            <p><strong>Cost-Effective:</strong> Optimize costs with Azure&apos;s pay-as-you-go model, ensuring you only pay for what you use.</p>
-                                        </div>
-                                    </Accordion.Body>
-                                </Accordion.Item>
-                                <Accordion.Item eventKey="1">
-                                <Accordion.Header>
-                                        <div className={`${styles.accordionHeader}`}>
-                                            <div className={`${styles.headerLogo}`}>
-                                                <Image
-                                                    src="/img/dataEngineering/databricks.png"
-                                                    alt="Databricks"
-                                                    height={70}
-                                                    width={70}
-                                                />
+                                        </Accordion.Header>
+                                        <Accordion.Body>
+                                            <div className={`${styles.accordionBody}`}>
+                                                <p><strong>Seamless Data Integration:</strong> Connect data from various sources, whether on-premises or in the cloud, to create a unified data pipeline.</p>
+                                                <p><strong>Scalable ETL Workflows:</strong> Design, automate, and orchestrate ETL workflows that scale with your business needs.</p>
+                                                <p><strong>Cost-Effective:</strong> Optimize costs with Azure&apos;s pay-as-you-go model, ensuring you only pay for what you use.</p>
                                             </div>
-                                            <div className={`${styles.headerText}`}>Databricks</div>
-                                        </div>
-                                    </Accordion.Header>
-                                    <Accordion.Body>
-                                        <div className={`${styles.accordionBody}`}>
-                                            <p><strong>Advanced Data Processing:</strong> Leverage Apache Spark&apos;s distributed computing power for large-scale data processing.</p>
-                                            <p><strong>Collaborative Workspace:</strong> Facilitate collaboration between data engineers, data scientists, and business analysts with a unified workspace.</p>
-                                            <p><strong>Machine Learning Integration:</strong> Integrate machine learning models seamlessly to enhance data processing and analysis</p>
-                                            <p>With Shodat Inc.&apos;s expertise, your ETL processes will be more efficient, reliable, and scalable, ensuring your data is always ready for actionable insights.</p>
-                                        </div>
-                                    </Accordion.Body>
-                                </Accordion.Item>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
+                                    <Accordion.Item eventKey="1">
+                                        <Accordion.Header>
+                                            <div className={`${styles.accordionHeader}`}>
+                                                <div className={`${styles.headerLogo}`}>
+                                                    <Image
+                                                        src="/img/dataEngineering/databricks.png"
+                                                        alt="Databricks"
+                                                        height={70}
+                                                        width={70}
+                                                    />
+                                                </div>
+                                                <div className={`${styles.headerText}`}>Databricks</div>
+                                            </div>
+                                        </Accordion.Header>
+                                        <Accordion.Body>
+                                            <div className={`${styles.accordionBody}`}>
+                                                <p><strong>Advanced Data Processing:</strong> Leverage Apache Spark&apos;s distributed computing power for large-scale data processing.</p>
+                                                <p><strong>Collaborative Workspace:</strong> Facilitate collaboration between data engineers, data scientists, and business analysts with a unified workspace.</p>
+                                                <p><strong>Machine Learning Integration:</strong> Integrate machine learning models seamlessly to enhance data processing and analysis</p>
+                                                <p>With Shodat Inc.&apos;s expertise, your ETL processes will be more efficient, reliable, and scalable, ensuring your data is always ready for actionable insights.</p>
+                                            </div>
+                                        </Accordion.Body>
+                                    </Accordion.Item>
                                 </Accordion>
                             </div>
                         </div>
@@ -117,7 +117,7 @@ export default function DataAccordian() {
                                         </Accordion.Body>
                                     </Accordion.Item>
                                     <Accordion.Item eventKey="1">
-                                    <Accordion.Header>
+                                        <Accordion.Header>
                                             <div className={`${styles.accordionHeader}`}>
                                                 <div className={`${styles.headerLogo}`}>
                                                     <Image
@@ -227,7 +227,7 @@ export default function DataAccordian() {
                                                 alt="Teradata"
                                                 height={24}
                                                 width={24}
-                                            />                        
+                                            />
                                         </button>
                                     </div>
                                 </div>

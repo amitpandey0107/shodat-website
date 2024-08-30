@@ -91,12 +91,12 @@
 }
 
 .innovation .blackBox {
-    height: 225px;
+    height: 157px;
     background-color: #000000;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 65px 55px 73px 55px;
+    padding: 33px 40px 34px 40px;
 }
 
 .innovation .blackBox h3 {
@@ -140,6 +140,7 @@
     position: relative;
     padding: 55px 0;
     min-height: 550px;
+    overflow: hidden;
 }
 
 .ourApproach:before {
@@ -164,8 +165,8 @@
     height: 485px;
     width: 535px;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: -116px;
+    right: -44px;
 }
 
 .ourApproach .approachContent {
@@ -289,6 +290,203 @@
     left: 0;
     bottom: -0px;
 }
+
+.approachContentV2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.approachContentV2 .outerBox {
+    padding-bottom: 15px;
+}
+
+.approachContentV2 .tabBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+    position: relative;
+}
+
+.approachContentV2 .tabBox.activeBox {
+    background-color: #68326F;
+    position: relative;
+}
+
+.approachContentV2 .tabBox.activeBox::after {
+    content: "";
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 19px solid #68326F;
+    position: absolute;
+    bottom: -17px;
+}
+
+.approachContentV2 .tabBox .icons {
+    margin-bottom: 24px;
+}
+
+.approachContentV2 .tabBox h6 {
+    color: #68326F;
+    font-weight: 600;
+    font-size: 16px;
+}
+.approachContentV2 .tabBox.activeBox h6 {
+    color: white;
+}
+
+.appraochRow {
+    margin-top: 48px;
+    min-height: 425px;
+}
+.approachLeftContent {
+    position: relative;
+}
+.approachLeftContent .imageBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.approachLeftContent h3 {
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 40px;
+
+}
+.approachRightContent .dataRow {
+    margin-bottom: 28px;
+}
+.approachRightContent .dataRow h6{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
+}
+.approachRightContent .dataRow p{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.approachRightContent .dataRow:last-child {
+    margin-bottom: 0;
+}
+.approachRightContent .btnWrap {
+    margin-top: 40px;
+}
+.approachRightContent .dataAccordianAppraoch .accordionHeader h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+
+/* DATA */
+.dataContainer {
+    padding: 0px 0 60px 0;
+    position: relative;
+}
+.dataContainer .dataHeader {    
+    padding: 24px 0;
+    margin-bottom: 30px;
+}
+.dataContainer .dataHeader.headerGreen {
+    background-color: #03656B;
+}
+.dataContainer .dataHeader.headerPurple {
+    background-color: #68326F;
+}
+.dataContainer .dataHeader h2 {
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 12px;
+}
+.dataContainer .dataHeader p {
+    font-size: 16px;
+    color: rgba(255,255,255,0.8);
+}
+.dataContainer .dataBox {
+    display: flex;
+}
+.dataContainer  .dataBox .dataLeft {
+    width: 17%;
+}
+.dataContainer .dataBox .dataLeft .imageWrap{
+    margin-right: 20px;
+}
+.dataContainer .dataBox .dataRight {
+    width: 83%;
+    padding-right: 18%;
+}
+.dataContainer .dataBox .dataRight h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 12px;
+}
+.dataContainer .dataBox .dataRight p {
+    color: rgba(0, 0, 0, 0.8);
+}
+.dataContainer .dataBoxMargin {
+    margin-bottom: 58px;
+}
+
+
+/* USE CASE */
+.useCase {
+    background-color: #F0F0F0;
+    padding: 60px 0 30px;
+}
+.useCase .useCaseSliderWrap {
+    padding-bottom: 90px;
+}
+.useCase .useCaseSliderWrap .sliderItems{
+    background-color: #FFFFFF;
+    height: 500px;
+}
+.useCase .useCaseSliderWrap .sliderItems .imageContainer {
+    height: 147px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 13px;
+}
+.useCase .useCaseSliderWrap .sliderItems .imageContainer img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.useCase .useCaseSliderWrap .sliderItems .textContainer{
+    padding: 16px;
+}
+.useCase .useCaseSliderWrap .sliderItems .textContainer h6{
+    height: 93px;
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 32px;
+}
+.useCase .useCaseSliderWrap .sliderItems .textContainer p{
+    color: rgba(0, 0, 0, 0.8);
+}
+
+
+
+
 
 
 /* Our Capabilities */
@@ -813,9 +1011,11 @@
     position: relative;
     margin: 60px 0 30px 0;
 }
+
 .informationWithImage .infoBlock {
     padding: 20px 80px 20px 30px;
 }
+
 .informationWithImage .infoBlock h2 {
     font-size: 33px;
     font-weight: bold;
@@ -827,6 +1027,7 @@
     margin-bottom: 24px;
     color: rgba(0, 0, 0, 0.8);
 }
+
 .informationWithImage .infoBlock .btnWrapper {
     margin-top: 30px;
 }
@@ -844,6 +1045,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .informationWithImage .bgPink {
     background-color: #F4EDF5;
 }

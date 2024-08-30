@@ -224,7 +224,7 @@ body {
 .container-fluid {
     padding-left: 30px;
     padding-right: 30px;
-    width: 1440px;
+    width: 1470px;
 }
 
 .displayNone {
@@ -1160,6 +1160,58 @@ button.slick-arrow.slick-next {
 .headerModal .modal-content {
     border-radius: 0;
 }
+
+/* Appraoch Accordian */
+.appraochAccordion .accordion-item {
+    border-radius: 0 !important;
+    margin-bottom: 16px;
+    box-shadow: none;
+    border: 1px solid #DEC6E0;
+    background-color: transparent;
+}
+.appraochAccordion .accordion-header .accordion-button {
+    height: 46px;
+    box-shadow: none;
+    background-color: transparent;
+}
+.appraochAccordion .accordion-button::after {
+    background-image: url(/img/dataEngineering/svg/chevron-down.svg) !important;
+    background-size: 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+
+.useCaseSlickSlider button.slick-arrow.slick-prev {
+    background-color: #F8F9F9;
+    height: 66px;
+    width: 66px;
+    left: 46.5%;
+    bottom: -60px;
+    position: absolute;
+    z-index: 9;
+    transform: translate(-50%, -50%);
+}
+
+
+.useCaseSlickSlider button.slick-arrow.slick-next {
+    background-color: #F8F9F9;
+    height: 66px;
+    width: 66px;
+    left: 53.5%;
+    bottom: -60px;
+    position: absolute;
+    z-index: 9;
+    transform: translate(-50%, -50%);
+}
+.useCaseSlickSlider .slick-slide+div {
+    padding: 0 13px;
+}
+.useCaseSlickSlider .slick-track .slick-slide[data-index='0'] {
+    padding-right: 13px;
+}
+
 
 @media screen and (max-width:1400px) {
     .container-fluid {

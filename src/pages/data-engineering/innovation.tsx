@@ -15,8 +15,8 @@ export default function Innovation() {
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className={`${styles.information}`}>
-                            <h2>We Craft Intelligent Data Solutions for Peak Performance.</h2>
-                            <p>At Shodat Inc., we understand that data is the backbone of modern businesses. Our data engineering services are designed to help organizations harness the power of their data to drive smarter decisions, optimize operations, and unlock new opportunities.</p>
+                            <h2>Our Capabilities and Expertise</h2>
+                            <p>Our team excels in constructing robust data pipelines that manage data workflows and processing efficiently. These pipelines are essential for ensuring that data is moved seamlessly and transformed correctly as it flows from source to destination, enabling continuous and reliable data operations.</p>
                         </div>
                     </div>
                 </div>
