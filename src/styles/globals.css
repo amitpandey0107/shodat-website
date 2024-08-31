@@ -1169,11 +1169,13 @@ button.slick-arrow.slick-next {
     border: 1px solid #DEC6E0;
     background-color: transparent;
 }
+
 .appraochAccordion .accordion-header .accordion-button {
     height: 46px;
     box-shadow: none;
     background-color: transparent;
 }
+
 .appraochAccordion .accordion-button::after {
     background-image: url(/img/dataEngineering/svg/chevron-down.svg) !important;
     background-size: 1.5rem;
@@ -1187,7 +1189,9 @@ button.slick-arrow.slick-next {
     background-color: #F8F9F9;
     height: 66px;
     width: 66px;
-    left: 46.5%;
+    /* left: 46%; */
+    left: calc(50% - 44px);
+    right: auto;
     bottom: -60px;
     position: absolute;
     z-index: 9;
@@ -1199,15 +1203,19 @@ button.slick-arrow.slick-next {
     background-color: #F8F9F9;
     height: 66px;
     width: 66px;
-    left: 53.5%;
+    /* right: 40.5%; */
+    right: calc(50% - 113px);
+    left: auto;
     bottom: -60px;
     position: absolute;
     z-index: 9;
     transform: translate(-50%, -50%);
 }
+
 .useCaseSlickSlider .slick-slide+div {
     padding: 0 13px;
 }
+
 .useCaseSlickSlider .slick-track .slick-slide[data-index='0'] {
     padding-right: 13px;
 }
@@ -1216,5 +1224,49 @@ button.slick-arrow.slick-next {
 @media screen and (max-width:1400px) {
     .container-fluid {
         width: 100%;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .useCaseSlickSlider button.slick-arrow.slick-prev {
+        left: calc(50% - 44px);
+    }
+
+    .useCaseSlickSlider button.slick-arrow.slick-next {
+        right: calc(50% - 113px);
+    }
+}
+
+@media screen and (max-width:991px) {
+    .useCaseSlickSlider button.slick-arrow.slick-prev {
+        left: calc(50% - 44px);
+    }
+
+    .useCaseSlickSlider button.slick-arrow.slick-next {
+        right: calc(50% - 113px);
+    }
+}
+
+@media screen and (max-width:769px) {
+    .useCaseSlickSlider button.slick-arrow.slick-prev {
+        left: calc(50% - 44px);
+    }
+
+    .useCaseSlickSlider button.slick-arrow.slick-next {
+        right: calc(50% - 113px);
+    }
+}
+
+@media screen and (max-width:489px) {
+    .useCaseSlickSlider button.slick-arrow.slick-prev {
+        left: calc(50% - 50px);
+    }
+
+    .useCaseSlickSlider button.slick-arrow.slick-next {
+        right: calc(50% - 100px);
+    }
+
+    .useCaseSlickSlider .slick-track .slick-slide[data-index='0'] {
+        padding-right: 0;
     }
 }

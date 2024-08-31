@@ -292,9 +292,9 @@
 }
 
 .approachContentV2 {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
     position: relative;
 }
 
@@ -343,6 +343,7 @@
     font-weight: 600;
     font-size: 16px;
 }
+
 .approachContentV2 .tabBox.activeBox h6 {
     color: white;
 }
@@ -351,14 +352,17 @@
     margin-top: 48px;
     min-height: 425px;
 }
+
 .approachLeftContent {
     position: relative;
 }
-.approachLeftContent .imageBox{
+
+.approachLeftContent .imageBox {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .approachLeftContent h3 {
     font-size: 23px;
     font-weight: bold;
@@ -366,16 +370,19 @@
     margin-bottom: 40px;
 
 }
+
 .approachRightContent .dataRow {
     margin-bottom: 28px;
 }
-.approachRightContent .dataRow h6{
+
+.approachRightContent .dataRow h6 {
     font-size: 16px;
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
     margin-bottom: 10px;
 }
-.approachRightContent .dataRow p{
+
+.approachRightContent .dataRow p {
     color: rgba(0, 0, 0, 0.8);
     font-size: 16px;
     line-height: 28px;
@@ -384,9 +391,11 @@
 .approachRightContent .dataRow:last-child {
     margin-bottom: 0;
 }
+
 .approachRightContent .btnWrap {
     margin-top: 40px;
 }
+
 .approachRightContent .dataAccordianAppraoch .accordionHeader h6 {
     font-size: 16px;
     font-weight: bold;
@@ -399,48 +408,60 @@
     padding: 0px 0 60px 0;
     position: relative;
 }
-.dataContainer .dataHeader {    
+
+.dataContainer .dataHeader {
     padding: 24px 0;
     margin-bottom: 30px;
 }
+
 .dataContainer .dataHeader.headerGreen {
     background-color: #03656B;
 }
+
 .dataContainer .dataHeader.headerPurple {
     background-color: #68326F;
 }
+
 .dataContainer .dataHeader h2 {
     font-size: 23px;
     font-weight: bold;
     color: white;
     margin-bottom: 12px;
 }
+
 .dataContainer .dataHeader p {
     font-size: 16px;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
+
 .dataContainer .dataBox {
     display: flex;
 }
-.dataContainer  .dataBox .dataLeft {
+
+.dataContainer .dataBox .dataLeft {
     width: 17%;
 }
-.dataContainer .dataBox .dataLeft .imageWrap{
+
+.dataContainer .dataBox .dataLeft .imageWrap {
     margin-right: 20px;
 }
+
 .dataContainer .dataBox .dataRight {
     width: 83%;
     padding-right: 18%;
 }
+
 .dataContainer .dataBox .dataRight h6 {
     font-size: 16px;
     font-weight: bold;
     color: #000000;
     margin-bottom: 12px;
 }
+
 .dataContainer .dataBox .dataRight p {
     color: rgba(0, 0, 0, 0.8);
 }
+
 .dataContainer .dataBoxMargin {
     margin-bottom: 58px;
 }
@@ -451,36 +472,43 @@
     background-color: #F0F0F0;
     padding: 60px 0 30px;
 }
+
 .useCase .useCaseSliderWrap {
     padding-bottom: 90px;
 }
-.useCase .useCaseSliderWrap .sliderItems{
+
+.useCase .useCaseSliderWrap .sliderItems {
     background-color: #FFFFFF;
     height: 500px;
 }
+
 .useCase .useCaseSliderWrap .sliderItems .imageContainer {
     height: 147px;
     width: 100%;
     overflow: hidden;
     margin-bottom: 13px;
 }
+
 .useCase .useCaseSliderWrap .sliderItems .imageContainer img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
-.useCase .useCaseSliderWrap .sliderItems .textContainer{
+
+.useCase .useCaseSliderWrap .sliderItems .textContainer {
     padding: 16px;
 }
-.useCase .useCaseSliderWrap .sliderItems .textContainer h6{
+
+.useCase .useCaseSliderWrap .sliderItems .textContainer h6 {
     height: 93px;
     color: black;
     font-weight: bold;
     font-size: 23px;
     margin-bottom: 32px;
 }
-.useCase .useCaseSliderWrap .sliderItems .textContainer p{
+
+.useCase .useCaseSliderWrap .sliderItems .textContainer p {
     color: rgba(0, 0, 0, 0.8);
 }
 
@@ -1068,6 +1096,23 @@
     .featSliderBlock .featSlideItemBox .itemBottom {
         justify-content: flex-start;
     }
+
+    .approachContentV2 .tabBox {
+        /* flex-direction: column;
+        height: 188px;
+        width: 136px;
+        padding: 9px;
+        justify-content: flex-start;
+        align-items: center; */
+    }
+
+    .approachContentV2 .tabBox .icons {
+        margin-bottom: 14px;
+    }
+
+    .approachContentV2 .tabBox .icons img {
+        height: 48px;
+    }
 }
 
 @media screen and (max-width: 991px) {
@@ -1163,6 +1208,10 @@
         left: 31px;
         top: 102px;
         margin-top: 0;
+    }
+    .approachContentV2 .tabBox {
+        height: 175px;
+        width: 175px;
     }
 }
 
@@ -1299,6 +1348,18 @@
 
     .informationWithImage .infoBlock {
         padding: 30px;
+    }
+
+    .dataContainer .dataBox {
+        margin-bottom: 30px;
+    }
+
+    .dataContainer .dataBoxMargin {
+        margin-bottom: 0px;
+    }
+    .approachContentV2 .tabBox {
+        height: 175px;
+        width: 96%;
     }
 }
 

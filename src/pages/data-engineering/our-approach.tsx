@@ -4,11 +4,80 @@ import Link from "next/link";
 import styles from "./data-engineering.module.css";
 import Accordion from 'react-bootstrap/Accordion';
 
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 export default function OurApproach() {
     const [items, setItems] = useState(1);
+    const [oldSlide, setOldSlide] = useState(0);
+    const [activeSlide, setActiveSlide] = useState(0);
+    const [activeSlide2, setActiveSlide2] = useState(0);
+    const [toggleButton, setToggleButton] = useState(false);
+
     const sliderItem = (i: number) => {
         setItems(i)
     }
+
+    const settings = {
+        dots: false,
+        infinite: false,
+        arrows:false,
+        speed: 500,
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        beforeChange: (current: any, next: any) => {
+            setOldSlide(current);
+            setActiveSlide(next);
+        },
+        afterChange: (current: any) => setActiveSlide2(current),
+        responsive: [
+            {
+                breakpoint: 1199,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    initialSlide: 1
+                }
+            },
+            {
+                breakpoint: 630,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 430,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
+
     return (
         <div className={`${styles.ourApproach}`}>
             <div className={`container-fluid ${styles.zIndex99}`}>
@@ -23,7 +92,117 @@ export default function OurApproach() {
 
                 <div className={`row`}>
                     <div className="col-sm-12">
+
                         <div className={`${styles.approachContentV2}`}>
+                            <div className={`slider-container appraochTabSlider ${toggleButton && 'activatekro'}`}>
+                                <Slider {...settings}>
+                                    <div className={`${styles.outerBox}`}>
+                                        <div
+                                            onClick={() => sliderItem(1)}
+                                            className={`${items === 1 ? `${styles.activeBox}` : ``} ${styles.tabBox}`}
+                                        >
+                                            <div className={`${styles.icons}`}>
+                                                <Image
+                                                    height={64}
+                                                    width={64}
+                                                    alt="Data ETL (Extract, Transform, Load)"
+                                                    src={`${items === 1 ? '/img/dataEngineering/svg/data-etl-active.svg' : '/img/dataEngineering/svg/data-etl.svg'}`}
+                                                />
+                                            </div>
+                                            <h6>Data ETL (Extract, Transform, Load)</h6>
+                                        </div>
+                                    </div>
+
+                                    <div className={`${styles.outerBox}`}>
+                                        <div
+                                            onClick={() => sliderItem(2)}
+                                            className={`${items === 2 ? `${styles.activeBox}` : ``} ${styles.tabBox}`}
+                                        >
+                                            <div className={`${styles.icons}`}>
+                                                <Image
+                                                    height={64}
+                                                    width={64}
+                                                    alt="Application Integration"
+                                                    src={`${items === 2 ? '/img/dataEngineering/svg/application-integration-active.svg' : '/img/dataEngineering/svg/application-integration.svg'}`}
+                                                />
+                                            </div>
+                                            <h6>Application Integration</h6>
+                                        </div>
+                                    </div>
+
+                                    <div className={`${styles.outerBox}`}>
+                                        <div
+                                            onClick={() => sliderItem(3)}
+                                            className={`${items === 3 ? `${styles.activeBox}` : ``} ${styles.tabBox}`}
+                                        >
+                                            <div className={`${styles.icons}`}>
+                                                <Image
+                                                    height={64}
+                                                    width={64}
+                                                    alt="Data Storage, Warehousing, and Data Marts"
+                                                    src={`${items === 3 ? '/img/dataEngineering/svg/data-storage-active.svg' : '/img/dataEngineering/svg/data-storage.svg'}`}
+                                                />
+                                            </div>
+                                            <h6>Data Storage, Warehousing, and Data Marts</h6>
+                                        </div>
+                                    </div>
+
+                                    <div className={`${styles.outerBox}`}>
+                                        <div
+                                            onClick={() => sliderItem(4)}
+                                            className={`${items === 4 ? `${styles.activeBox}` : ``} ${styles.tabBox}`}
+                                        >
+                                            <div className={`${styles.icons}`}>
+                                                <Image
+                                                    height={64}
+                                                    width={64}
+                                                    alt="Visualisation Layers and dashboarding capabilities"
+                                                    src={`${items === 4 ? '/img/dataEngineering/svg/visualisation-active.svg' : '/img/dataEngineering/svg/visualisation.svg'}`}
+                                                />
+                                            </div>
+                                            <h6>Visualisation Layers and dashboarding capabilities</h6>
+                                        </div>
+                                    </div>
+
+                                    <div className={`${styles.outerBox}`}>
+                                        <div
+                                            onClick={() => sliderItem(5)}
+                                            className={`${items === 5 ? `${styles.activeBox}` : ``} ${styles.tabBox}`}
+                                        >
+                                            <div className={`${styles.icons}`}>
+                                                <Image
+                                                    height={64}
+                                                    width={64}
+                                                    alt="ML Engines Models and consulting"
+                                                    src={`${items === 5 ? '/img/dataEngineering/svg/ml-engine-active.svg' : '/img/dataEngineering/svg/ml-engine.svg'}`}
+                                                />
+                                            </div>
+                                            <h6>ML Engines Models and consulting</h6>
+                                        </div>
+                                    </div>
+
+                                    <div className={`${styles.outerBox}`}>
+                                        <div
+                                            onClick={() => sliderItem(6)}
+                                            className={`${items === 6 ? `${styles.activeBox}` : ``} ${styles.tabBox}`}
+                                        >
+                                            <div className={`${styles.icons}`}>
+                                                <Image
+                                                    height={64}
+                                                    width={64}
+                                                    alt="API and SDK toolkits"
+                                                    src={`${items === 6 ? '/img/dataEngineering/svg/api-sdk-toolkit-active-1.svg' : '/img/dataEngineering/svg/api-sdk-toolkit.svg'}`}
+                                                />
+                                            </div>
+                                            <h6>API and SDK toolkits</h6>
+                                        </div>
+                                    </div>
+                                </Slider>
+                            </div>
+                        </div>
+
+
+                        {/* <div className={`${styles.approachContentV2}`}>
 
                             <div className={`${styles.outerBox}`}>
                                 <div
@@ -127,7 +306,8 @@ export default function OurApproach() {
                                 </div>
                             </div>
 
-                        </div>
+                        </div> */}
+
                     </div>
                 </div>
 
@@ -307,7 +487,7 @@ export default function OurApproach() {
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>}
 
 
