@@ -1220,6 +1220,52 @@ button.slick-arrow.slick-next {
     padding-right: 13px;
 }
 
+/* OUR APPROACH ACCORDIAN FOR MOBILE */
+.ourApproachMobile  {
+    z-index: 1;
+    position: relative;
+}
+.ourApproachMobile .accordion-header .accordion-button {
+    height: 88px;
+    box-shadow: none;
+}
+
+.ourApproachMobile .accordion-button::after {
+    background-image: url(/img/dataEngineering/svg/chevron-down.svg) !important;
+    background-size: 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.ourApproachMobile .accordion-header button[aria-expanded="true"]::after {
+    background-image: url(/img/dataEngineering/svg/chevron-down-white.svg) !important;
+    background-size: 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.ourApproachMobile .accordion-body {
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.ourApproachMobile .accordion-body h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 40px;
+}
+.ourApproachMobile .accordion-header button[aria-expanded="true"] {
+    background-color: #68326F;
+    color:white
+}
+.ourApproachMobile .accordion-header button[aria-expanded="true"] h6 {
+    color:white
+}
+.accordion-item:first-of-type > .accordion-header .accordion-button {
+    border-radius: 0;
+}
+.ourApproachMobile .accordion-header button[aria-expanded="true"] svg path {
+    fill: white;
+}
 
 @media screen and (max-width:1400px) {
     .container-fluid {

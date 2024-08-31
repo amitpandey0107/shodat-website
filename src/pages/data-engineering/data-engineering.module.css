@@ -292,9 +292,9 @@
 }
 
 .approachContentV2 {
-    /* display: flex;
+    display: flex;
     justify-content: space-between;
-    align-items: center; */
+    align-items: center;
     position: relative;
 }
 
@@ -400,6 +400,58 @@
     font-size: 16px;
     font-weight: bold;
     color: rgba(0, 0, 0, 1);
+}
+
+.ourApproachMobile .accordionHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ourApproachMobile .accordionHeader .icons {
+    margin-right: 15px;
+}
+.ourApproachMobile .accordionHeader h6 {
+    color: #68326F;
+    font-size: 16px;
+    font-weight: bold;
+}
+.ourApproachMobile .accordionHeader h3 {
+    color: #68326F;
+    font-size: 18px;
+    font-weight: bold;
+}
+.ourApproachMobile .approachAccBody .imageBox {
+    margin-bottom: 24px;
+}
+.ourApproachMobile .approachAccBody {
+    background-color: white;
+}
+.ourApproachMobile .approachAccBody  .dataRow {
+    margin-bottom: 28px;
+}
+
+.ourApproachMobile .approachAccBody  .dataRow h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 10px;
+}
+
+.ourApproachMobile .approachAccBody  .dataRow p {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.ourApproachMobile .approachAccBody  .dataRow:last-child {
+    margin-bottom: 0;
+}
+
+.ourApproach .mobileV {
+    display: none;
+}
+.ourApproach .desktopV {
+    display: block;
 }
 
 
@@ -1098,12 +1150,12 @@
     }
 
     .approachContentV2 .tabBox {
-        /* flex-direction: column;
+        flex-direction: column;
         height: 188px;
         width: 136px;
         padding: 9px;
         justify-content: flex-start;
-        align-items: center; */
+        align-items: center;
     }
 
     .approachContentV2 .tabBox .icons {
@@ -1212,6 +1264,12 @@
     .approachContentV2 .tabBox {
         height: 175px;
         width: 175px;
+    }
+    .ourApproach .desktopV {
+        display: none;
+    }
+    .ourApproach .mobileV {
+        display: block;
     }
 }
 
