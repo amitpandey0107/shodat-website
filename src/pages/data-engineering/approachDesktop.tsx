@@ -8,6 +8,8 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import DataStorageAppraoch from "./dataStorageAppraoch";
+
 export default function ApproachDesktop(props: any) {
 
     const [items, setItems] = useState(1);
@@ -204,7 +206,7 @@ export default function ApproachDesktop(props: any) {
                 <div className={`row ${styles.appraochRow}`}>
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className={`${styles.approachLeftContent}`}>
-                            <h3>We provide comprehensive solutions for data storage and management.</h3>
+                            <h3>We provide comprehensive solutions for data storage and management:</h3>
                             <div className={`${styles.imageBox}`}>
                                 <Image
                                     height={291}
@@ -218,92 +220,7 @@ export default function ApproachDesktop(props: any) {
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className={`${styles.approachRightContent}`}>
                             <div className={`${styles.dataAccordianAppraoch}`}>
-                                <Accordion defaultActiveKey="10" className="appraochAccordion">
-                                    <Accordion.Item eventKey="10">
-                                        <Accordion.Header>
-                                            <div className={`${styles.accordionHeader}`}>
-                                                <h6>Data Warehousing</h6>
-                                            </div>
-                                        </Accordion.Header>
-                                        <Accordion.Body>
-                                            <div className={`${styles.accBody}`}>
-                                                <p>We design and implement scalable data warehouses that provide a centralized repository for all your data needs and enable . Customized data marts are developed for specific business lines or departments, facilitating focused and efficient data analysis.</p>
-                                            </div>
-                                        </Accordion.Body>
-                                    </Accordion.Item>
-                                    <Accordion.Item eventKey="11">
-                                        <Accordion.Header>
-                                            <div className={`${styles.accordionHeader}`}>
-                                                <h6>Building Customized Data Models</h6>
-                                            </div>
-                                        </Accordion.Header>
-                                        <Accordion.Body>
-                                            <div className={`${styles.accBody}`}>
-                                                <p>We design and implement scalable data warehouses that provide a centralized repository for all your data needs and enable . Customized data marts are developed for specific business lines or departments, facilitating focused and efficient data analysis.</p>
-                                            </div>
-                                        </Accordion.Body>
-                                    </Accordion.Item>
-                                    <Accordion.Item eventKey="12">
-                                        <Accordion.Header>
-                                            <div className={`${styles.accordionHeader}`}>
-                                                <h6>Building Customized Data Models</h6>
-                                            </div>
-                                        </Accordion.Header>
-                                        <Accordion.Body>
-                                            <div className={`${styles.accBody}`}>
-                                                <p>We design and implement scalable data warehouses that provide a centralized repository for all your data needs and enable . Customized data marts are developed for specific business lines or departments, facilitating focused and efficient data analysis.</p>
-                                            </div>
-                                        </Accordion.Body>
-                                    </Accordion.Item>
-                                    <Accordion.Item eventKey="13">
-                                        <Accordion.Header>
-                                            <div className={`${styles.accordionHeader}`}>
-                                                <h6>Building Visualization Layers</h6>
-                                            </div>
-                                        </Accordion.Header>
-                                        <Accordion.Body>
-                                            <div className={`${styles.accBody}`}>
-                                                <p>We design and implement scalable data warehouses that provide a centralized repository for all your data needs and enable . Customized data marts are developed for specific business lines or departments, facilitating focused and efficient data analysis.</p>
-                                            </div>
-                                        </Accordion.Body>
-                                    </Accordion.Item>
-                                    <Accordion.Item eventKey="14">
-                                        <Accordion.Header>
-                                            <div className={`${styles.accordionHeader}`}>
-                                                <h6>Handling Complex Analytical Calculations</h6>
-                                            </div>
-                                        </Accordion.Header>
-                                        <Accordion.Body>
-                                            <div className={`${styles.accBody}`}>
-                                                <p>We design and implement scalable data warehouses that provide a centralized repository for all your data needs and enable . Customized data marts are developed for specific business lines or departments, facilitating focused and efficient data analysis.</p>
-                                            </div>
-                                        </Accordion.Body>
-                                    </Accordion.Item>
-                                    <Accordion.Item eventKey="15">
-                                        <Accordion.Header>
-                                            <div className={`${styles.accordionHeader}`}>
-                                                <h6>Building Visualization Layers</h6>
-                                            </div>
-                                        </Accordion.Header>
-                                        <Accordion.Body>
-                                            <div className={`${styles.accBody}`}>
-                                                <p>We design and implement scalable data warehouses that provide a centralized repository for all your data needs and enable . Customized data marts are developed for specific business lines or departments, facilitating focused and efficient data analysis.</p>
-                                            </div>
-                                        </Accordion.Body>
-                                    </Accordion.Item>
-                                    <Accordion.Item eventKey="16">
-                                        <Accordion.Header>
-                                            <div className={`${styles.accordionHeader}`}>
-                                                <h6>File Based Storage</h6>
-                                            </div>
-                                        </Accordion.Header>
-                                        <Accordion.Body>
-                                            <div className={`${styles.accBody}`}>
-                                                <p>We design and implement scalable data warehouses that provide a centralized repository for all your data needs and enable . Customized data marts are developed for specific business lines or departments, facilitating focused and efficient data analysis.</p>
-                                            </div>
-                                        </Accordion.Body>
-                                    </Accordion.Item>
-                                </Accordion>
+                                <DataStorageAppraoch />
                             </div>
                         </div>
                     </div>
@@ -315,7 +232,7 @@ export default function ApproachDesktop(props: any) {
                 <div className={`row ${styles.appraochRow}`}>
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className={`${styles.approachLeftContent}`}>
-                            <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </h3>
+                            {/* <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </h3> */}
                             <div className={`${styles.imageBox}`}>
                                 <Image
                                     height={291}
@@ -330,7 +247,7 @@ export default function ApproachDesktop(props: any) {
                         <div className={`${styles.approachRightContent}`}>
                             <div className={`${styles.dataRow}`}>
                                 {/* <h6>Building Publish-Subscribe Systems:</h6> */}
-                                <p>Our expertise spans across various powerful business intelligence (BI) tools like Power BI, Tableau, and custom-built solutions, ensuring we meet diverse business needs effectively We excel in creating comprehensive visualization layers that transform raw data into actionable insights through intuitive and interactive dashboards.</p>
+                                <p>Our expertise spans across various powerful business intelligence (BI) tools like Power BI, Tableau, and custom-built solutions, ensuring we meet diverse business needs effectively.We excel in creating comprehensive visualization layers that transform raw data into actionable insights through intuitive and interactive dashboards.</p>
                             </div>
                         </div>
                     </div>
@@ -341,7 +258,7 @@ export default function ApproachDesktop(props: any) {
                 <div className={`row ${styles.appraochRow}`}>
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className={`${styles.approachLeftContent}`}>
-                            <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </h3>
+                            {/* <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </h3> */}
                             <div className={`${styles.imageBox}`}>
                                 <Image
                                     height={291}
@@ -355,7 +272,7 @@ export default function ApproachDesktop(props: any) {
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className={`${styles.approachRightContent}`}>
                             <div className={`${styles.dataRow}`}>
-                                <p>The data pipeline extends into our Machine Learning (ML) capabilities for further value enrichment. Processed data is cleansed and a layer of feature engineering is applied before feeding it into our model training and testing frameworks. Anomaly detection, predictive analytics, forecasting, document extraction, image processing and automated report generation functions are designed to empower businesses with crucial insights to drive innovation, efficiency, and gain a competitive edge. Our comprehensive suite of ML services and autonomous turn key pipelines ensures that your organisation can leverage the full potential of data to achieve your strategic objectives.</p>
+                                <p>The data pipeline extends into our Machine Learning (ML) capabilities for further value enrichment. Processed data is cleansed and a layer of feature engineering is applied before feeding it into our model training and testing frameworks. Anomaly detection, predictive analytics, forecasting, document extraction, image processing and automated report generation functions are designed to empower businesses with crucial insights to drive innovation, efficiency, and gain a competitive edge. Our comprehensive suite of ML services and autonomous turn key pipelines ensures that your organisation can leverage the full potential of data to achieve your strategic objectives.  </p>
                                 <div className={`${styles.btnWrap}`}>
                                     <button className={`${styles.btnBlack}`}>
                                         <span>Read more</span>
@@ -378,7 +295,7 @@ export default function ApproachDesktop(props: any) {
                 <div className={`row ${styles.appraochRow}`}>
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className={`${styles.approachLeftContent}`}>
-                            <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </h3>
+                            {/* <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been </h3> */}
                             <div className={`${styles.imageBox}`}>
                                 <Image
                                     height={291}
@@ -392,8 +309,7 @@ export default function ApproachDesktop(props: any) {
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className={`${styles.approachRightContent}`}>
                             <div className={`${styles.dataRow}`}>
-                                {/* <h6>Building Publish-Subscribe Systems:</h6> */}
-                                <p>We offer a wide range of Comprehensive APIs  for seamless data integration, ensuring smooth data flow between various systems and applications, allowing for extensive customization to meet specific business requirements, ensuring that the tools fit seamlessly into existing workflows.</p>
+                                <p>We offer a wide range of Comprehensive APIs  for seamless data integration, ensuring smooth data flow between various systems and applications, allowing for extensive customization to meet specific business requirements, ensuring that the tools fit seamlessly into existing workflows.</p>
                             </div>
                             <div className={`${styles.dataRow}`}>
                                 <p>We provide robust and easy-to-use SDKs for developers to quickly integrate Shodat&apos;s data engineering solutions into their applications.</p>
