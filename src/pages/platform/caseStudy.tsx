@@ -163,22 +163,22 @@ export default function CaseStudy() {
                                         <button onClick={() => handleTabChange(2)}>
                                             <Image
                                                 src="/img/casestudy/case_2.png"
-                                                alt="Automotive"
+                                                alt="Transportation"
                                                 height={170}
                                                 width={156}
                                             />
-                                            <span>Automotive</span>
+                                            <span>Transportation</span>
                                         </button>
                                     </div>
                                     <div className={`${styles.clientItem}`}>
                                         <button onClick={() => handleTabChange(3)}>
                                             <Image
                                                 src="/img/casestudy/case_3.png"
-                                                alt="Manfacturing"
+                                                alt="Logistics"
                                                 height={170}
                                                 width={156}
                                             />
-                                            <span>Manufacturing</span>
+                                            <span>Logistics</span>
                                         </button>
                                     </div>
                                     <div className={`${styles.clientItem}`}>
@@ -208,74 +208,7 @@ export default function CaseStudy() {
                             </div>
 
 
-                            {/* <div className={`${styles.caseSliderWrap} caseSliderWrap`}>
-                            <Carousel controls={true} indicators={true}>
-                                <Carousel.Item>
-                                    <Stack
-                                        direction="horizontal"
-                                        gap={3}
-                                    >
-                                        <Card className={`${styles.clientItem}`}>
-                                            <button onClick={() => handleTabChange(1)}>
-                                                <Image
-                                                    src="/img/casestudy/case_study_2.jpg"
-                                                    alt="Energy"
-                                                    height={170}
-                                                    width={156}
-                                                />
-                                            </button>
-                                        </Card>
-                                        <Card className={`${styles.clientItem}`}>
-                                            <button onClick={() => handleTabChange(2)}>
-                                                <Image
-                                                    src="/img/casestudy/case_study_3.png"
-                                                    alt="Automotive"
-                                                    height={170}
-                                                    width={156}
-                                                />
-                                            </button>
-                                        </Card>
-                                        <Card className={`${styles.clientItem}`}>
-                                            <button onClick={() => handleTabChange(3)}>
-                                                <Image
-                                                    src="/img/casestudy/case_study_4.png"
-                                                    alt="Manfacturing"
-                                                    height={170}
-                                                    width={156}
-                                                />
-                                            </button>
-                                        </Card>
-                                    </Stack>
-                                </Carousel.Item>
-                                <Carousel.Item>
-                                    <Stack
-                                        direction="horizontal"
-                                        gap={3}
-                                    >
-                                        <Card className={`${styles.clientItem}`}>
-                                            <button onClick={() => handleTabChange(4)}>
-                                                <Image
-                                                    src="/img/casestudy/case_study_5.png"
-                                                    alt="financial"
-                                                    height={170}
-                                                    width={156}
-                                                />
-                                            </button>
-                                        </Card>
-                                        <Card className={`${styles.clientItem}`}>
-                                            <button onClick={() => handleTabChange(5)}>
-                                                <Image
-                                                    src="/img/casestudy/case_study_6.png"
-                                                    alt="workplace safety"
-                                                    height={170}
-                                                    width={156}
-                                                />
-                                            </button>
-                                        </Card>
-                                    </Stack>
-                                </Carousel.Item>
-                            </Carousel>
-                        </div> */}
+                            
                         </div>
 
                         <div className={`${styles.tabContent}`} ref={ElementRef}>
