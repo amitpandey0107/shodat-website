@@ -42,7 +42,7 @@ export default function WhyChoose() {
                                         />
                                     </div>
                                     <div className={`${styles.textWrap}`}>
-                                        <p>Reduce cost to adopt <br />PDM & BI strategies by </p>
+                                        <p>Reduce cost to adopt <br/>PDM & BI strategies by 30%</p>
                                         <div className={`${styles.percentage}`}>40%</div>
                                     </div>
                                 </div>
@@ -56,7 +56,7 @@ export default function WhyChoose() {
                                         />
                                     </div>
                                     <div className={`${styles.textWrap}`}>
-                                        <p>Predict & reduce <br />operational failures by</p>
+                                        <p>Predict & reduce <br />operational failures by 60%</p>
                                         <div className={`${styles.percentage}`}>35%</div>
                                     </div>
                                 </div>
@@ -72,7 +72,7 @@ export default function WhyChoose() {
                                         />
                                     </div>
                                     <div className={`${styles.textWrap}`}>
-                                        <p>Reduce time for auditing <br/>& compliance by</p>
+                                        <p>Reduce time for auditing <br/>& compliance by 50% </p>
                                         <div className={`${styles.percentage}`}>66%</div>
                                     </div>
                                 </div>
@@ -86,7 +86,7 @@ export default function WhyChoose() {
                                         />
                                     </div>
                                     <div className={`${styles.textWrap}`}>
-                                        <p>Predict time for complex <br/>RCA by</p>
+                                        <p>Reduce time for complex <br />RCA by 40%</p>
                                         <div className={`${styles.percentage}`}>80%</div>
                                     </div>
                                 </div>
