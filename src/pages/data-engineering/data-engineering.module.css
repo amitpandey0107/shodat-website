@@ -1131,6 +1131,98 @@
 }
 
 
+/* Handling Large Data */
+.handlineLargeData {
+    background-color: #E6F8F9;
+    min-height: 423px;
+    position: relative;
+    padding: 30px 0;
+}
+
+.handlineLargeData .whiteBox {
+    padding: 50px 30px 30px 30px;
+    background-color: white;
+    height: 363px;
+}
+.handlineLargeData .whiteBox .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.handlineLargeData .whiteBox .logo img{
+    display: inline-block;
+}
+.handlineLargeData .whiteBox h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.handlineLargeData .whiteBox p{
+    color: rgba(0, 0, 0, 0.8);
+}
+.handlineLargeData .titleBox  {
+    padding-bottom: 15px;
+    margin-bottom: 24px;
+    position: relative;
+    color: #000000;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.handlineLargeData .titleBox :after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 1px;
+    width: 150px;
+    position: absolute;
+    left: 0;
+    bottom: -0px;
+}
+.handlineLargeData .titleBox p {
+    color: rgba(0, 0, 0, 1);
+}
+
+
+/* DataSecurityGovernance */
+.DataSecurityGovernance {
+    position: relative;
+    background-color: white;
+    padding: 30px 0;
+    min-height: 564px;
+}
+.DataSecurityGovernance .titleUnderline {
+    margin-bottom: 10px;
+}
+.DataSecurityGovernance .mt40 {
+    margin-top: 40px;
+}
+.DataSecurityGovernance .purpleBox {
+    padding: 50px 30px 30px 30px;
+    background-color: #68326F;
+    height: 380px;
+}
+.DataSecurityGovernance .purpleBox .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.DataSecurityGovernance .purpleBox .logo img{
+    display: inline-block;
+}
+.DataSecurityGovernance .purpleBox h4{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+}
+.DataSecurityGovernance .purpleBox p{
+    color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+
 /* ================= RESPONSIVE ================= */
 @media screen and (max-width: 1279px) {
     .approachContentV2 .tabBox {
@@ -1179,6 +1271,13 @@
 
     .approachContentV2 .tabBox .icons img {
         height: 48px;
+    }
+    .handlineLargeData .whiteBox {
+        height: auto;
+        min-height: 440px;
+    }
+    .DataSecurityGovernance .purpleBox  {
+        margin-top: 30px;
     }
 }
 
@@ -1285,6 +1384,11 @@
     }
     .ourApproach .mobileV {
         display: block;
+    }
+    .handlineLargeData .whiteBox {
+        height: auto;
+        min-height: 425px;
+        margin-top: 40px;
     }
 }
 
@@ -1434,6 +1538,11 @@
         height: 175px;
         width: 96%;
     }
+    .handlineLargeData .whiteBox {
+        height: auto;
+        min-height: 325px;
+        margin-top: 40px;
+    }
 }
 
 @media screen and (max-width: 576px) {}
@@ -1568,5 +1677,9 @@
 
     .bannerContentLeft .bannerInfo {
         padding-left: 5%;
+    }
+    .DataSecurityGovernance .purpleBox  {
+        height: auto;
+        min-height: 380px;
     }
 }

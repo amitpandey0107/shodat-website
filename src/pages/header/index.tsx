@@ -52,6 +52,8 @@ export default function Header() {
                         <li><Link href="/" className={`${router.pathname === '/' ? `${styles.active}` : ''}`}>Home</Link></li>
                         <li><Link href="/platform" className={`${router.pathname === '/platform' ? `${styles.active}` : ''}`}>Platform</Link></li>
                         <li><Link href="/data-engineering" className={`${router.pathname === '/data-engineering' ? `${styles.active}` : ''}`}>Solutions</Link></li>
+                        <li><Link href="/" className={`${router.pathname === '/industries' ? `${styles.active}` : ''}`}>Industries</Link></li>
+                        <li><Link href="/" className={`${router.pathname === '/about' ? `${styles.active}` : ''}`}>About</Link></li>
                     </ul>
                     <button onClick={openModal} className={`${styles.btnDemo}`}><span>Request Demo</span></button>
                 </div>
@@ -85,6 +87,8 @@ export default function Header() {
                                 <li><Link href="/">Home</Link></li>
                                 <li><Link href="/platform">Platform</Link></li>
                                 <li><Link href="/data-engineering" className={`${styles.active}`}>Solutions</Link></li>
+                                <li><Link href="/" className={`${router.pathname === '/industries' ? `${styles.active}` : ''}`}>Industries</Link></li>
+                                <li><Link href="/" className={`${router.pathname === '/about' ? `${styles.active}` : ''}`}>About</Link></li>
                             </ul>
                             <button onClick={openModal} className={`${styles.btnDemo}`}><span>Request Demo</span></button>
                         </div>

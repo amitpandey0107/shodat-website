@@ -16,6 +16,8 @@ import DataStorage from "./data-storage";
 import InformationWithImage from "./informationWithImage";
 import Data from "./data";
 import UseCase from "./use-case";
+import HandlineLargeData from "./handling-large-data";
+import DataSecurityGovernance from "./data-security-governance";
 
 function DataEngineering() {
     return (
@@ -54,7 +56,13 @@ function DataEngineering() {
                 <OurApproach />
 
                 {/* Data */}
-                <Data />
+                {/* <Data /> */}
+
+                {/* Handling Large Data Volumes */}
+                <HandlineLargeData />
+
+                {/* Data Security, Governance & Compliance */}
+                <DataSecurityGovernance />
 
                 {/* Use Case */}
                 <UseCase />
