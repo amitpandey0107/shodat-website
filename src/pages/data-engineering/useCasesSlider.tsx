@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from "./data-engineering.module.css";
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function UseCasesSlider(props: any) {
     const [oldSlide, setOldSlide] = useState(0);
@@ -77,7 +78,7 @@ export default function UseCasesSlider(props: any) {
                             <p>A leading financial institution employs real-time data processing to monitor transactions and detect fraudulent activities.</p>
                         </div>
                         <div className={`${styles.btwrap}`}>
-                            <button className={`${styles.btnBlack}`}>
+                            <Link href="/use-case/real-time-data-processing-financial-services" className={`${styles.btnBlack}`}>
                                 <span>Read more</span>
                                 <Image
                                     src="/img/dataEngineering/arrow-right.svg"
@@ -85,7 +86,7 @@ export default function UseCasesSlider(props: any) {
                                     height={24}
                                     width={24}
                                 />
-                            </button>
+                            </Link>
                         </div>
                     </div>
 

@@ -1,0 +1,110 @@
+.useCasesWrapper {
+    position: relative;
+}
+
+.layout {
+    padding: 0 0 30px 0;
+    position: relative;
+}
+.layout .layoutTop {
+    height: 316px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    padding: 40px 0;
+}
+.caseBox {
+    width: 940px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 200px;
+}
+.caseBox .logo {
+    padding: 30px;
+    width: 50%;
+}
+
+.caseBox .title{
+    border-left: 1px solid #93479C;
+    padding: 30px;
+    width: 50%;
+}
+.caseBox .title h2{
+    color: #77467D;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.layoutContent {
+    position: relative;
+    padding: 40px 0;
+}
+.layoutContainer {
+    width: 940px;
+    margin: 0 auto;
+}
+.layoutContainer h4 {
+    font-weight: bold;
+    font-size: 23px;
+    color: black;
+    margin-bottom: 15px;
+}
+.textImage {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.textImage .text{
+    width: 50%;
+}
+.textImage .text p {
+    color: rgba(0,0,0,0.8);
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.textImage .text p:last-child {
+    margin-bottom: 0;
+}
+.textImage .image{
+    width: 50%;
+    padding-left: 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.textBlockFull p{
+    color: rgba(0,0,0,0.8);
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.textBlockFull p:last-child {
+    margin-bottom: 0;
+}
+.sectionMargin {
+    margin-bottom: 55px;
+}
+.infoBoxWrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.infoBoxWrap .block {
+    background-color: #F4EDF5;
+    height: 180px;
+    border-left: 4px solid #68326F;
+    padding: 15px 36px;
+    width: 30%;
+}
+.infoBoxWrap .block .highlight {
+    font-weight: bold;
+    font-size: 33px;
+    color: #68326F;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.infoBoxWrap .block .info{
+    font-weight: bold;
+    font-size: 16px;
+    color: #68326F;
+}
