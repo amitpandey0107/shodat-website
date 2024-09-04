@@ -531,7 +531,8 @@
 
 .useCase .useCaseSliderWrap .sliderItems {
     background-color: #FFFFFF;
-    height: 500px;
+    height: 530px;
+    position: relative;
 }
 
 .useCase .useCaseSliderWrap .sliderItems .imageContainer {
@@ -563,7 +564,11 @@
 .useCase .useCaseSliderWrap .sliderItems .textContainer p {
     color: rgba(0, 0, 0, 0.8);
 }
-
+.useCase .useCaseSliderWrap .sliderItems .btwrap {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 
 
