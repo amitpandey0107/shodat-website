@@ -300,6 +300,7 @@
 
 .approachContentV2 .outerBox {
     padding-bottom: 15px;
+    position: relative;
 }
 
 .approachContentV2 .tabBox {
@@ -348,6 +349,30 @@
     color: white;
 }
 
+.approachContentV2 .dottedLine {
+    width: calc(100% + 44px);
+    height: 40px;
+    position: absolute;
+    border: 2px dashed #68326F;
+    border-top: 0;
+}
+.approachContentV2 .dottedLine2 {
+    width: calc(100% + 44px);
+    height: 40px;
+    position: absolute;
+    border: 2px dashed #68326F;
+    border-bottom: 0;
+}
+.approachContentV2 .line1 {
+    left: 50%;
+    bottom: -20px;
+    z-index: -1;
+}
+.approachContentV2 .line2 {
+    left: 50%;
+    top: -31px;
+    z-index: -1;
+}
 .appraochRow {
     margin-top: 48px;
     min-height: 425px;

@@ -41,6 +41,7 @@ export default function ApproachDesktop(props: any) {
                                 </div>
                                 <h6>Data ETL (Extract, Transform, Load)</h6>
                             </div>
+                            <div className={`${styles.dottedLine} ${styles.line1}`}></div>
                         </div>
 
                         <div className={`${styles.outerBox}`}>
@@ -58,6 +59,7 @@ export default function ApproachDesktop(props: any) {
                                 </div>
                                 <h6>Application Integration</h6>
                             </div>
+                            <div className={`${styles.dottedLine2} ${styles.line2}`}></div>
                         </div>
 
                         <div className={`${styles.outerBox}`}>
@@ -75,6 +77,7 @@ export default function ApproachDesktop(props: any) {
                                 </div>
                                 <h6>Data Storage, Warehousing, and Data Marts</h6>
                             </div>
+                            <div className={`${styles.dottedLine} ${styles.line1}`}></div>
                         </div>
 
                         <div className={`${styles.outerBox}`}>
@@ -92,6 +95,7 @@ export default function ApproachDesktop(props: any) {
                                 </div>
                                 <h6>Visualisation Layers and dashboarding capabilities</h6>
                             </div>
+                            <div className={`${styles.dottedLine2} ${styles.line2}`}></div>
                         </div>
 
                         <div className={`${styles.outerBox}`}>
@@ -109,6 +113,7 @@ export default function ApproachDesktop(props: any) {
                                 </div>
                                 <h6>ML Engines Models and consulting</h6>
                             </div>
+                            <div className={`${styles.dottedLine} ${styles.line1}`}></div>
                         </div>
 
                         <div className={`${styles.outerBox}`}>
@@ -127,6 +132,10 @@ export default function ApproachDesktop(props: any) {
                                 <h6>API and SDK toolkits</h6>
                             </div>
                         </div>
+
+
+                        {/* Dotted Lines */}
+
 
                     </div>
 
