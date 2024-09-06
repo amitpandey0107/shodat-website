@@ -23,9 +23,11 @@
 .header .menuList {
     display: flex;
     margin-right: 40px;
+    position: relative;
 }
 .header .menuList li {
     padding-left: 40px;
+    position: relative;
 }
 .header .menuList a {
     color: white;
@@ -46,6 +48,7 @@
 .header .menuList a.active {
     border-bottom: 5px solid #05A7B1;
 }
+
 .btnDemo {
     background-color: #68326F;
     color: white;
@@ -139,50 +142,6 @@
 .mobileMenu .menuList li a:hover {
     border-color: transparent;
 }
-
-
-@media screen and (max-width: 991px) {
-    .header .menuList {
-        margin-right: 30px;
-    }
-    .header .menuList li {
-        padding-left: 15px;
-    }
-    .header .menuList li a {
-        font-size: 14px;
-    }
-}
-
-@media screen and (max-width: 769px) {
-    .header .menu {
-        display: none;
-    }
-    .header .mobileMenu {
-        display: block;
-    }
-    .header .menuList li a {
-        font-size: 16px;
-    }
-    .header .menuList {
-        margin-right: 0px;
-    }
-    .mobileMenu .btnDemo {
-        margin-left: 28px;
-    }
-    
-}
-
-@media screen and (max-width: 479px) {
-    .header .logo img {
-        width: 135px;
-    }
-    .btnDemo {
-        min-width: 120px;
-    }
-}
-
-
-
 
 .headerModal .modalContent,
 .headerModal .modalContentInner {
@@ -280,4 +239,130 @@
 .btnSubmit:hover {
     background-color: rgba(104,50,111, 0.7);
     transition: all ease-in-out 0.3s;
+}
+.menu ul ul {
+    position: absolute;
+    background: black;
+    width: 210px;
+    top: 100%;
+    left: 40px;
+    display: none;
+    transition: all ease-in-out 0.3s;
+}
+.menu ul li:hover > ul {
+    display: block;
+    transition: all ease-in-out 0.3s;
+}
+.menu .menuList .innerList li {
+    padding: 0px;
+    height: 46px;
+}
+.menu .menuList .innerList li a {
+    border-bottom: 0;
+    padding: 12px;
+    height: 46px;
+    display: block;
+}
+.menu .menuList .innerList li a:hover {
+    border-bottom: 0;
+    background-color: rgba(104,50,111, 1);
+}
+.menu .menuList .innerList li a.activeInnerLink {
+    border-bottom: 0;
+    background-color: rgba(104,50,111, 1);
+}
+.mobileInnerList {
+    padding-left: 50px;
+    position: relative;
+}
+.mobileInnerList::after {
+    content: "";
+    background: white;
+    height: 100%;
+    width: 1px;
+    position: absolute;
+    left: 50px;
+    top: -10px;
+}
+.mobileInnerList li {
+    position: relative;
+    padding-left: 0 !important;
+}
+.mobileInnerList li a {
+    padding: 0px 0px 0px 20px !important;
+    height: 36px !important;
+    border: 0 !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+}
+.mobileInnerList li::before {
+    content: "";
+    height: 1px;
+    width: 10px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.menuListForMobile li a:hover {
+    color: #05A7B1 !important;
+}
+.menuListForMobile li a:active {
+    color: #05A7B1 !important;
+}
+.menuListForMobile li a.active {
+    color: #05A7B1 !important;
+}
+.menuListForMobile .mobileInnerList li a:hover {
+    color: #05A7B1 !important;
+}
+.menuListForMobile .mobileInnerList li a:active {
+    color: #05A7B1 !important;
+}
+.menuListForMobile .mobileInnerList li a.activeInnerLink {
+    color: #05A7B1 !important;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 991px) {
+    .header .menuList {
+        margin-right: 30px;
+    }
+    .header .menuList li {
+        padding-left: 15px;
+    }
+    .header .menuList li a {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .header .menu {
+        display: none;
+    }
+    .header .mobileMenu {
+        display: block;
+    }
+    .header .menuList li a {
+        font-size: 16px;
+    }
+    .header .menuList {
+        margin-right: 0px;
+    }
+    .mobileMenu .btnDemo {
+        margin-left: 28px;
+    }
+    
+}
+
+@media screen and (max-width: 479px) {
+    .header .logo img {
+        width: 135px;
+    }
+    .btnDemo {
+        min-width: 120px;
+    }
 }

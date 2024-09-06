@@ -51,7 +51,18 @@ export default function Header() {
                     <ul className={`${styles.menuList}`}>
                         <li><Link href="/" className={`${router.pathname === '/' ? `${styles.active}` : ''}`}>Home</Link></li>
                         <li><Link href="/platform" className={`${router.pathname === '/platform' ? `${styles.active}` : ''}`}>Platform</Link></li>
-                        <li><Link href="/data-engineering" className={`${router.pathname === '/data-engineering' ? `${styles.active}` : ''}`}>Solutions</Link></li>
+                        <li>
+                            <Link href=""
+                                className={`${router.pathname === '/solutions' || router.pathname === '/data-engineering' || router.pathname === '/advance-analytics' || router.pathname === '/ai-innovation' || router.pathname === '/security-and-compliance' ? `${styles.active}` : ''}`}>
+                                Solutions
+                            </Link>
+                            <ul className={`${styles.innerList}`}>
+                                <li><Link href="/data-engineering" className={`${router.pathname === '/data-engineering' ? `${styles.activeInnerLink}` : ''}`}>Data Engineering</Link></li>
+                                <li><Link href="" className={`${router.pathname === '/advance-analytics' ? `${styles.activeInnerLink}` : ''}`}>Advance Analytics & BI</Link></li>
+                                <li><Link href="" className={`${router.pathname === '/ai-innovation' ? `${styles.activeInnerLink}` : ''}`}>AI Innovation</Link></li>
+                                <li><Link href="" className={`${router.pathname === '/security-and-compliance' ? `${styles.activeInnerLink}` : ''}`}>Security & Compliance</Link></li>
+                            </ul>
+                        </li>
                         <li><Link href="/" className={`${router.pathname === '/industries' ? `${styles.active}` : ''}`}>Industries</Link></li>
                         <li><Link href="/" className={`${router.pathname === '/about' ? `${styles.active}` : ''}`}>About</Link></li>
                     </ul>
@@ -83,10 +94,21 @@ export default function Header() {
                                     width={35}
                                 />
                             </button>
-                            <ul className={`${styles.menuList}`}>
-                                <li><Link href="/">Home</Link></li>
-                                <li><Link href="/platform">Platform</Link></li>
-                                <li><Link href="/data-engineering" className={`${styles.active}`}>Solutions</Link></li>
+                            <ul className={`${styles.menuList} ${styles.menuListForMobile}`}>
+                                <li><Link href="/" className={`${router.pathname === '/' ? `${styles.active}` : ''}`}>Home</Link></li>
+                                <li><Link href="/platform" className={`${router.pathname === '/platform' ? `${styles.active}` : ''}`}>Platform</Link></li>
+                                <li>
+                                    <Link href=""
+                                        className={`${router.pathname === '/solutions' || router.pathname === '/data-engineering' || router.pathname === '/advance-analytics' || router.pathname === '/ai-innovation' || router.pathname === '/security-and-compliance' ? `${styles.active}` : ''}`}>
+                                        Solutions
+                                    </Link>
+                                    <ul className={`${styles.mobileInnerList}`}>
+                                        <li><Link href="/data-engineering" className={`${router.pathname === '/data-engineering' ? `${styles.activeInnerLink}` : ''}`}>Data Engineering</Link></li>
+                                        <li><Link href="" className={`${router.pathname === '/advance-analytics' ? `${styles.activeInnerLink}` : ''}`}>Advance Analytics & BI</Link></li>
+                                        <li><Link href="" className={`${router.pathname === '/ai-innovation' ? `${styles.activeInnerLink}` : ''}`}>AI Innovation</Link></li>
+                                        <li><Link href="" className={`${router.pathname === '/security-and-compliance' ? `${styles.activeInnerLink}` : ''}`}>Security & Compliance</Link></li>
+                                    </ul>
+                                </li>
                                 <li><Link href="/" className={`${router.pathname === '/industries' ? `${styles.active}` : ''}`}>Industries</Link></li>
                                 <li><Link href="/" className={`${router.pathname === '/about' ? `${styles.active}` : ''}`}>About</Link></li>
                             </ul>
