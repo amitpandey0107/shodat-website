@@ -5,6 +5,13 @@ import styles from "./use-case.module.css";
 import UseCase from "../data-engineering/use-case";
 
 export default function Layout(props: any) {
+    const [data, setData] = useState({} as any)
+    useEffect(() => {
+        setData(props.pageData)
+    }, [props])
+    console.log({
+        data: data
+    })
     return (
         <div className={`${styles.layout}`}>
 
@@ -15,14 +22,14 @@ export default function Layout(props: any) {
                             <div className={`${styles.caseBox}`}>
                                 <div className={`${styles.logo}`}>
                                     <Image
-                                        src="/img/useCases/sgAnalytics.png"
+                                        src={data?.logo ? `/img/useCases/${data?.logo}` : `/img/useCases/sgAnalytics.png`}
                                         alt="sgAnalytics"
                                         height={179}
                                         width={416}
                                     />
                                 </div>
                                 <div className={`${styles.title}`}>
-                                    <h2>Real-Time Data Processing Financial Services</h2>
+                                    <h2>{data?.title}</h2>
                                 </div>
                             </div>
                         </div>
@@ -38,12 +45,12 @@ export default function Layout(props: any) {
                                 <h4>Overview</h4>
                                 <div className={`${styles.textImage} ${styles.sectionMargin}`}>
                                     <div className={`${styles.text}`}>
-                                        <p>A leading retail and e-commerce company sought to enhance its data management capabilities to improve decision-making, optimize operations, and boost profitability. The company faced several challenges, including fragmented data sources, inefficient data processing, and inadequate insights into customer behavior and sales trends.</p>
-                                        <p>With Shodat Inc, the company  uses advanced ETL (Extract, Transform, Load) processes to handle massive amounts of data The company extracted data from multiple sources including point-of-sale systems, customer relationship management (CRM) software, social media platforms, and product review sites.</p>
+                                        <p>{data?.info_1 && data?.info_1}</p>
+                                        <p>{data?.info_2 && data?.info_2}</p>
                                     </div>
                                     <div className={`${styles.image}`}>
                                         <Image
-                                            src="/img/useCases/real-time-data-img.png"
+                                            src={data?.contentImage ? `/img/useCases/${data?.contentImage}` : `/img/useCases/real-time-data-img.png`}
                                             alt="sgAnalytics"
                                             height={332}
                                             width={420}
@@ -52,35 +59,32 @@ export default function Layout(props: any) {
                                 </div>
 
                                 <div className={`${styles.textBlockFull} ${styles.sectionMargin}`}>
-                                    <p>The ETL processes managed over 1TB of data daily, ensuring that all relevant information was captured and ready for transformation.The extracted data underwent cleansing, normalization, and enrichment to ensure consistency and accuracy, maintaing data availability at 99.9%.</p>
+                                    <p>{data?.info_3 && data?.info_3}</p>
+                                    <p>{data?.info_4 && data?.info_4}</p>
+                                    <p>{data?.info_5 && data?.info_5}</p>
                                 </div>
 
                                 <div className={`${styles.infoBoxWrap} ${styles.sectionMargin}`}>
-                                    <div className={`${styles.block}`}>
-                                        <div className={`${styles.highlight}`}>1TB</div>
-                                        <div className={`${styles.info}`}>The ETL processes managed over 1TB of data daily</div>
-                                    </div>
-                                    <div className={`${styles.block}`}>
-                                        <div className={`${styles.highlight}`}>40%</div>
-                                        <div className={`${styles.info}`}>Optimized to handle real-time data, reducing latency</div>
-                                    </div>
-                                    <div className={`${styles.block}`}>
-                                        <div className={`${styles.highlight}`}>30%</div>
-                                        <div className={`${styles.info}`}>Inventory tracking and forecasting, reducing stockouts</div>
-                                    </div>
+                                    {
+                                        data?.boxedInfo && data.boxedInfo.length > 0 ?
+                                            data?.boxedInfo.map((item: any, index: any) => (
+                                                <div key={index} className={`${styles.block}`}>
+                                                    <div className={`${styles.highlight}`}>{item.highlight}</div>
+                                                    <div className={`${styles.info}`}>{item.text}</div>
+                                                </div>
+                                            )) : null
+                                    }
                                 </div>
 
-                                <div className={`${styles.textBlockFull} ${styles.sectionMargin}`}>
-                                    <h4>Speed</h4>
-                                    <p>The transformation processes were optimized to handle real-time data, reducing latency by 40%.</p>
-                                </div>
-
-                                <div className={`${styles.textBlockFull}`}>
-                                    <h4>Impact</h4>
-                                    <p>Improved inventory management, The centralized data warehouse enabled more accurate inventory tracking and forecasting, reducing stockouts by 30% and overstock situations by 25%.</p>
-                                </div>
-
-
+                                {
+                                    data?.points && data?.points.length > 0 ?
+                                        data?.points.map((item: any, index: any) => (
+                                            <div key={index} className={`${styles.textBlockFull} ${styles.sectionMargin}`}>
+                                                <h4>{item.title}</h4>
+                                                <p>{item.desc}</p>
+                                            </div>
+                                        )) : null
+                                }
                             </div>
                         </div>
                     </div>
