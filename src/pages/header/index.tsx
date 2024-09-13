@@ -59,12 +59,12 @@ export default function Header() {
                             <ul className={`${styles.innerList}`}>
                                 <li><Link href="/data-engineering" className={`${router.pathname === '/data-engineering' ? `${styles.activeInnerLink}` : ''}`}>Data Engineering</Link></li>
                                 <li><Link href="/advanced-analytics" className={`${router.pathname === '/advanced-analytics' ? `${styles.activeInnerLink}` : ''}`}>Advance Analytics & BI</Link></li>
-                                <li><Link href="" className={`${router.pathname === '/ai-innovation' ? `${styles.activeInnerLink}` : ''}`}>AI Innovation</Link></li>
-                                <li><Link href="" className={`${router.pathname === '/security-and-compliance' ? `${styles.activeInnerLink}` : ''}`}>Security & Compliance</Link></li>
+                                <li><Link href="/ai-innovation" className={`${router.pathname === '/ai-innovation' ? `${styles.activeInnerLink}` : ''}`}>AI Innovation</Link></li>
+                                <li><Link href="/security-and-compliance" className={`${router.pathname === '/security-and-compliance' ? `${styles.activeInnerLink}` : ''}`}>Security & Compliance</Link></li>
                             </ul>
                         </li>
-                        <li><Link href="/" className={`${router.pathname === '/industries' ? `${styles.active}` : ''}`}>Industries</Link></li>
-                        <li><Link href="/" className={`${router.pathname === '/about' ? `${styles.active}` : ''}`}>About</Link></li>
+                        <li><Link href="" className={`${router.pathname === '/industries' ? `${styles.active}` : ''}`}>Industries</Link></li>
+                        <li><Link href="" className={`${router.pathname === '/about' ? `${styles.active}` : ''}`}>About</Link></li>
                     </ul>
                     <button onClick={openModal} className={`${styles.btnDemo}`}><span>Request Demo</span></button>
                 </div>
@@ -105,12 +105,12 @@ export default function Header() {
                                     <ul className={`${styles.mobileInnerList}`}>
                                         <li><Link href="/data-engineering" className={`${router.pathname === '/data-engineering' ? `${styles.activeInnerLink}` : ''}`}>Data Engineering</Link></li>
                                         <li><Link href="/advanced-analytics" className={`${router.pathname === '/advanced-analytics' ? `${styles.activeInnerLink}` : ''}`}>Advance Analytics & BI</Link></li>
-                                        <li><Link href="" className={`${router.pathname === '/ai-innovation' ? `${styles.activeInnerLink}` : ''}`}>AI Innovation</Link></li>
-                                        <li><Link href="" className={`${router.pathname === '/security-and-compliance' ? `${styles.activeInnerLink}` : ''}`}>Security & Compliance</Link></li>
+                                        <li><Link href="/ai-innovation" className={`${router.pathname === '/ai-innovation' ? `${styles.activeInnerLink}` : ''}`}>AI Innovation</Link></li>
+                                        <li><Link href="/security-and-compliance" className={`${router.pathname === '/security-and-compliance' ? `${styles.activeInnerLink}` : ''}`}>Security & Compliance</Link></li>
                                     </ul>
                                 </li>
-                                <li><Link href="/" className={`${router.pathname === '/industries' ? `${styles.active}` : ''}`}>Industries</Link></li>
-                                <li><Link href="/" className={`${router.pathname === '/about' ? `${styles.active}` : ''}`}>About</Link></li>
+                                <li><Link href="" className={`${router.pathname === '/industries' ? `${styles.active}` : ''}`}>Industries</Link></li>
+                                <li><Link href="" className={`${router.pathname === '/about' ? `${styles.active}` : ''}`}>About</Link></li>
                             </ul>
                             <button onClick={openModal} className={`${styles.btnDemo}`}><span>Request Demo</span></button>
                         </div>

@@ -5,12 +5,19 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from "./data-engineering.module.css";
 import Image from 'next/image';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation'
 
 export default function UseCasesSlider(props: any) {
     const [oldSlide, setOldSlide] = useState(0);
     const [activeSlide, setActiveSlide] = useState(0);
     const [activeSlide2, setActiveSlide2] = useState(0);
     const [toggleButton, setToggleButton] = useState(false);
+
+    const searchParams = useSearchParams();
+    const sliderID = searchParams?.get('id')
+    console.log({
+        sliderID: sliderID
+    })
 
     const settings = {
         dots: false,
@@ -64,135 +71,140 @@ export default function UseCasesSlider(props: any) {
             <div className={`${styles.useCaseSliderWrap}`}>
                 <Slider {...settings}>
 
-                    <div className={`${styles.sliderItems}`}>
-                        <div className={`${styles.imageContainer}`}>
-                            <Image
-                                height={147}
-                                width={321}
-                                alt="Data ETL (Extract, Transform, Load)"
-                                src={"/img/dataEngineering/usecase/realTime.png"}
-                            />
-                        </div>
-                        <div className={`${styles.textContainer}`}>
-                            <h6>Real-Time Data Processing Financial Services</h6>
-                            <p>A leading financial institution employs real-time data processing to monitor transactions and detect fraudulent activities.</p>
-                        </div>
-                        <div className={`${styles.btwrap}`}>
-                            <Link href="/use-case/real-time-data-processing-financial-services" className={`${styles.btnBlack}`}>
-                                <span>Read more</span>
+                    {sliderID !== '1' &&
+                        <div className={`${styles.sliderItems}`}>
+                            <div className={`${styles.imageContainer}`}>
                                 <Image
-                                    src="/img/dataEngineering/arrow-right.svg"
-                                    alt="Teradata"
-                                    height={24}
-                                    width={24}
+                                    height={147}
+                                    width={321}
+                                    alt="Data ETL (Extract, Transform, Load)"
+                                    src={"/img/dataEngineering/usecase/realTime.png"}
                                 />
-                            </Link>
-                        </div>
-                    </div>
+                            </div>
+                            <div className={`${styles.textContainer}`}>
+                                <h6>Real-Time Data Processing Financial Services</h6>
+                                <p>A leading financial institution employs real-time data processing to monitor transactions and detect fraudulent activities.</p>
+                            </div>
+                            <div className={`${styles.btwrap}`}>
+                                <Link href="/use-case/real-time-data-processing-financial-services?id=1" className={`${styles.btnBlack}`}>
+                                    <span>Read more</span>
+                                    <Image
+                                        src="/img/dataEngineering/arrow-right.svg"
+                                        alt="Teradata"
+                                        height={24}
+                                        width={24}
+                                    />
+                                </Link>
+                            </div>
+                        </div>}
 
-                    <div className={`${styles.sliderItems}`}>
-                        <div className={`${styles.imageContainer}`}>
-                            <Image
-                                height={147}
-                                width={321}
-                                alt="Predictive Maintenance in Manufacturing"
-                                src={"/img/dataEngineering/usecase/PredictiveMaintenanceManufacturing.png"}
-                            />
-                        </div>
-                        <div className={`${styles.textContainer}`}>
-                            <h6>Predictive Maintenance in Manufacturing</h6>
-                            <p>A global machine tools manufacturer uses predictive analytics to foresee equipment failures before they occur.</p>
-                        </div>
-                        <div className={`${styles.btwrap}`}>
-                            <Link href="/use-case/predictive-maintenance-in-manufacturing" className={`${styles.btnBlack}`}>
-                                <span>Read more</span>
+                    {sliderID !== '2' &&
+                        <div className={`${styles.sliderItems}`}>
+                            <div className={`${styles.imageContainer}`}>
                                 <Image
-                                    src="/img/dataEngineering/arrow-right.svg"
-                                    alt="Teradata"
-                                    height={24}
-                                    width={24}
+                                    height={147}
+                                    width={321}
+                                    alt="Predictive Maintenance in Manufacturing"
+                                    src={"/img/dataEngineering/usecase/PredictiveMaintenanceManufacturing.png"}
                                 />
-                            </Link>
-                        </div>
-                    </div>
+                            </div>
+                            <div className={`${styles.textContainer}`}>
+                                <h6>Predictive Maintenance in Manufacturing</h6>
+                                <p>A global machine tools manufacturer uses predictive analytics to foresee equipment failures before they occur.</p>
+                            </div>
+                            <div className={`${styles.btwrap}`}>
+                                <Link href="/use-case/predictive-maintenance-in-manufacturing?id=2" className={`${styles.btnBlack}`}>
+                                    <span>Read more</span>
+                                    <Image
+                                        src="/img/dataEngineering/arrow-right.svg"
+                                        alt="Teradata"
+                                        height={24}
+                                        width={24}
+                                    />
+                                </Link>
+                            </div>
+                        </div>}
 
-                    <div className={`${styles.sliderItems}`}>
-                        <div className={`${styles.imageContainer}`}>
-                            <Image
-                                height={147}
-                                width={321}
-                                alt="Real-time tracking & Monitoring in Modern Logistics"
-                                src={"/img/dataEngineering/usecase/Realtimetracking.png"}
-                            />
-                        </div>
-                        <div className={`${styles.textContainer}`}>
-                            <h6>Real-time tracking & Monitoring in Modern Logistics</h6>
-                            <p>A global logistics firm utilized a combination of IoT sensors, GPS tracking, and advanced analytics platforms to achieve real-time visibility into their operations.</p>
-                        </div>
-                        <div className={`${styles.btwrap}`}>
-                            <Link href="/use-case/real-time-data-processing-financial-services" className={`${styles.btnBlack}`}>
-                                <span>Read more</span>
+                    {sliderID !== '3' &&
+                        <div className={`${styles.sliderItems}`}>
+                            <div className={`${styles.imageContainer}`}>
                                 <Image
-                                    src="/img/dataEngineering/arrow-right.svg"
-                                    alt="Teradata"
-                                    height={24}
-                                    width={24}
+                                    height={147}
+                                    width={321}
+                                    alt="Real-time tracking & Monitoring in Modern Logistics"
+                                    src={"/img/dataEngineering/usecase/Realtimetracking.png"}
                                 />
-                            </Link>
-                        </div>
-                    </div>
+                            </div>
+                            <div className={`${styles.textContainer}`}>
+                                <h6>Real-time tracking & Monitoring in Modern Logistics</h6>
+                                <p>A global logistics firm utilized a combination of IoT sensors, GPS tracking, and advanced analytics platforms to achieve real-time visibility into their operations.</p>
+                            </div>
+                            <div className={`${styles.btwrap}`}>
+                                <Link href="/use-case/real-time-tracking-and-monitoring-in-modern-logistics?id=3" className={`${styles.btnBlack}`}>
+                                    <span>Read more</span>
+                                    <Image
+                                        src="/img/dataEngineering/arrow-right.svg"
+                                        alt="Teradata"
+                                        height={24}
+                                        width={24}
+                                    />
+                                </Link>
+                            </div>
+                        </div>}
 
-                    <div className={`${styles.sliderItems}`}>
-                        <div className={`${styles.imageContainer}`}>
-                            <Image
-                                height={147}
-                                width={321}
-                                alt="Handling Large Data Volumes In Automotive"
-                                src={"/img/dataEngineering/usecase/HandlingLargeDataVolumesInAutomotive.png"}
-                            />
-                        </div>
-                        <div className={`${styles.textContainer}`}>
-                            <h6>Handling Large Data Volumes In Automotive</h6>
-                            <p>An automotive manufacturer faced challenges in managing and leveraging vast amounts of data generated by sensors embedded in vehicles and manufacturing equipment.</p>
-                        </div>
-                        <div className={`${styles.btwrap}`}>
-                            <Link href="/use-case/real-time-data-processing-financial-services" className={`${styles.btnBlack}`}>
-                                <span>Read more</span>
+                    {sliderID !== '4' &&
+                        <div className={`${styles.sliderItems}`}>
+                            <div className={`${styles.imageContainer}`}>
                                 <Image
-                                    src="/img/dataEngineering/arrow-right.svg"
-                                    alt="Teradata"
-                                    height={24}
-                                    width={24}
+                                    height={147}
+                                    width={321}
+                                    alt="Handling Large Data Volumes In Automotive"
+                                    src={"/img/dataEngineering/usecase/HandlingLargeDataVolumesInAutomotive.png"}
                                 />
-                            </Link>
-                        </div>
-                    </div>
+                            </div>
+                            <div className={`${styles.textContainer}`}>
+                                <h6>Handling Large Data Volumes In Automotive</h6>
+                                <p>An automotive manufacturer faced challenges in managing and leveraging vast amounts of data generated by sensors embedded in vehicles and manufacturing equipment.</p>
+                            </div>
+                            <div className={`${styles.btwrap}`}>
+                                <Link href="/use-case/handling-large-data-volumes-in-automotive?id=4" className={`${styles.btnBlack}`}>
+                                    <span>Read more</span>
+                                    <Image
+                                        src="/img/dataEngineering/arrow-right.svg"
+                                        alt="Teradata"
+                                        height={24}
+                                        width={24}
+                                    />
+                                </Link>
+                            </div>
+                        </div>}
 
-                    <div className={`${styles.sliderItems}`}>
-                        <div className={`${styles.imageContainer}`}>
-                            <Image
-                                height={147}
-                                width={321}
-                                alt="Predictive Maintenance in Manufacturing"
-                                src={"/img/dataEngineering/usecase/PredictiveMaintenanceManufacturing.png"}
-                            />
-                        </div>
-                        <div className={`${styles.textContainer}`}>
-                            <h6>Predictive Maintenance in Manufacturing</h6>
-                            <p>A global machine tools manufacturer uses predictive analytics to foresee equipment failures before they occur.</p>
-                        </div>
-                        <div className={`${styles.btwrap}`}>
-                            <Link href="/use-case/real-time-data-processing-financial-services" className={`${styles.btnBlack}`}>
-                                <span>Read more</span>
+                    {sliderID !== '5' &&
+                        <div className={`${styles.sliderItems}`}>
+                            <div className={`${styles.imageContainer}`}>
                                 <Image
-                                    src="/img/dataEngineering/arrow-right.svg"
-                                    alt="Teradata"
-                                    height={24}
-                                    width={24}
+                                    height={147}
+                                    width={321}
+                                    alt="Predictive Maintenance in Manufacturing"
+                                    src={"/img/dataEngineering/usecase/PredictiveMaintenanceManufacturing.png"}
                                 />
-                            </Link>
-                        </div>
-                    </div>
+                            </div>
+                            <div className={`${styles.textContainer}`}>
+                                <h6>Predictive Analytics : Predictive Maintenance in Manufacturing</h6>
+                                <p>A global Machine tools manufacturer uses predictive analytics to foresee equipment failures before they occur.</p>
+                            </div>
+                            <div className={`${styles.btwrap}`}>
+                                <Link href="/use-case/predictive-analytics?id=5" className={`${styles.btnBlack}`}>
+                                    <span>Read more</span>
+                                    <Image
+                                        src="/img/dataEngineering/arrow-right.svg"
+                                        alt="Teradata"
+                                        height={24}
+                                        width={24}
+                                    />
+                                </Link>
+                            </div>
+                        </div>}
 
                 </Slider>
             </div>

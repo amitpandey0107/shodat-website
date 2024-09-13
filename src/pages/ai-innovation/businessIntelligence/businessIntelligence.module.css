@@ -1,0 +1,90 @@
+.titleUnderline {
+    position: relative;
+    font-size: 33px;
+    color: #77467D;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.titleUnderline:after {
+    position: absolute;
+    background-color: #000000;
+    height: 1px;
+    width: 250px;
+    content: '';
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+.titleCenter {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subTitle {
+    position: relative;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    width: 80%;
+}
+
+.titleCenter p {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 23px;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.businessIntelligence {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.sectionImage {
+    position: relative;
+}
+
+.sectionImage .thumbnail {
+    overflow: hidden;
+}
+
+.sectionInfo {
+    position: relative;
+}
+
+.sectionInfo>h2 {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.accordianWrap {
+    position: relative;
+    padding-left: 20px;
+}
+
+.accordionHeader {
+    margin-bottom: 0;
+}
+
+.accordianWrap h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+
+/* ============================================
+#### RESPONSIVE ####
+============================================= */
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 769px) {}
+
+@media screen and (max-width: 479px) {}

@@ -64,7 +64,7 @@ export default function Layout(props: any) {
                                     <p>{data?.info_5 && data?.info_5}</p>
                                 </div>
 
-                                <div className={`${styles.infoBoxWrap} ${styles.sectionMargin}`}>
+                                <div className={`${styles.infoBoxWrap} ${data?.boxedInfo && data.boxedInfo.length > 0 ? `${styles.sectionMargin}` : `${styles.null}`} `}>
                                     {
                                         data?.boxedInfo && data.boxedInfo.length > 0 ?
                                             data?.boxedInfo.map((item: any, index: any) => (
@@ -82,6 +82,14 @@ export default function Layout(props: any) {
                                             <div key={index} className={`${styles.textBlockFull} ${styles.sectionMargin}`}>
                                                 <h4>{item.title}</h4>
                                                 <p>{item.desc}</p>
+                                                <>{item.desc2 ? <p><strong>{item.desc2}</strong></p> : null}</>
+                                                <ul className={`${styles.lists}`}>
+                                                    {item?.listItems && item?.listItems.length > 0 ?
+                                                        item?.listItems.map((it: any, idx: any) => (
+                                                            <li key={idx}><strong>{it.title}</strong> <span>{it.text}</span></li>
+                                                        ))
+                                                        : null}
+                                                </ul>
                                             </div>
                                         )) : null
                                 }
