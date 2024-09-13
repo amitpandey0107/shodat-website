@@ -78,7 +78,7 @@ export default function UseCasesSlider(props: any) {
                             <p>A leading logistics company, operating globally and managing vast volumes of tonnage, sought to</p>
                         </div>
                         <div className={`${styles.btwrap}`}>
-                            <Link href="/advanced-analytics/use-case/enhancing-operations-for-a-leading-logistics-player" className={`${styles.btnBlack}`}>
+                            <Link href="/advanced-analytics/use-case/enhancing-operations-for-a-leading-logistics-player?id=1" className={`${styles.btnBlack}`}>
                                 <span>Read more</span>
                                 <Image
                                     src="/img/dataEngineering/arrow-right.svg"
@@ -104,7 +104,7 @@ export default function UseCasesSlider(props: any) {
                             <p>A leading player in the manufacturing industry sought to improve operational efficiency and inventory management processes.</p>
                         </div>
                         <div className={`${styles.btwrap}`}>
-                            <Link href="/advanced-analytics/use-case/enhancing-operational-efficiency-and-inventory-management-in-manufacturing-with-power-BI" className={`${styles.btnBlack}`}>
+                            <Link href="/advanced-analytics/use-case/enhancing-operational-efficiency-and-inventory-management-in-manufacturing-with-power-BI?id=2" className={`${styles.btnBlack}`}>
                                 <span>Read more</span>
                                 <Image
                                     src="/img/dataEngineering/arrow-right.svg"
@@ -130,7 +130,7 @@ export default function UseCasesSlider(props: any) {
                             <p>A leading manufacturing company faced significant challenges related to internal inefficiencies and warranty costs.</p>
                         </div>
                         <div className={`${styles.btwrap}`}>
-                            <Link href="/advanced-analytics/use-case/reducing-costs-of-internal-inefficiencies-and-warranties-in-manufacturing-with-advanced-analytics-and-BI" className={`${styles.btnBlack}`}>
+                            <Link href="/advanced-analytics/use-case/reducing-costs-of-internal-inefficiencies-and-warranties-in-manufacturing-with-advanced-analytics-and-BI?id=3" className={`${styles.btnBlack}`}>
                                 <span>Read more</span>
                                 <Image
                                     src="/img/dataEngineering/arrow-right.svg"
@@ -156,7 +156,7 @@ export default function UseCasesSlider(props: any) {
                             <p>A prominent player in the oil and gas trading industry recognized the need for advanced reporting capabilities</p>
                         </div>
                         <div className={`${styles.btwrap}`}>
-                            <Link href="/advanced-analytics/use-case/enhancing-reporting-capabilities-in-the-oil-and-gas-trading-industry" className={`${styles.btnBlack}`}>
+                            <Link href="/advanced-analytics/use-case/enhancing-reporting-capabilities-in-the-oil-and-gas-trading-industry?id=4" className={`${styles.btnBlack}`}>
                                 <span>Read more</span>
                                 <Image
                                     src="/img/dataEngineering/arrow-right.svg"
@@ -182,7 +182,33 @@ export default function UseCasesSlider(props: any) {
                             <p>A leading electronics manufacturer faced escalating costs and inefficiencies in managing warranty claims.</p>
                         </div>
                         <div className={`${styles.btwrap}`}>
-                            <Link href="/advanced-analytics/use-case/optimizing-inventory-management-in-retail-with-power-BI" className={`${styles.btnBlack}`}>
+                            <Link href="/advanced-analytics/use-case/optimizing-warranty-claim-management-with-advanced-analytics-and-BI?id=5" className={`${styles.btnBlack}`}>
+                                <span>Read more</span>
+                                <Image
+                                    src="/img/dataEngineering/arrow-right.svg"
+                                    alt="Teradata"
+                                    height={24}
+                                    width={24}
+                                />
+                            </Link>
+                        </div>
+                    </div>
+
+                    <div className={`${styles.sliderItems}`}>
+                        <div className={`${styles.imageContainer}`}>
+                            <Image
+                                height={147}
+                                width={321}
+                                alt="Predictive Maintenance in Manufacturing"
+                                src={"/img/dataEngineering/usecase/PredictiveMaintenanceManufacturing.png"}
+                            />
+                        </div>
+                        <div className={`${styles.textContainer}`}>
+                            <h6>Optimizing Inventory Management in Retail with Power BI</h6>
+                            <p>A leading retail company faced challenges in managing its extensive inventory across multiple warehouses.</p>
+                        </div>
+                        <div className={`${styles.btwrap}`}>
+                            <Link href="/advanced-analytics/use-case/optimizing-inventory-management-in-retail-with-power-BI?id=6" className={`${styles.btnBlack}`}>
                                 <span>Read more</span>
                                 <Image
                                     src="/img/dataEngineering/arrow-right.svg"
