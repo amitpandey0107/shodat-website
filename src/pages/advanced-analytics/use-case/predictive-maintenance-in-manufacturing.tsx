@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import Link from "next/link";
+import React from "react";
 import styles from "./use-case.module.css";
 import Head from "next/head";
 
-import Header from "../header";
-import FooterVersionSecond from "../footerv2";
+import Header from "../../header";
+import FooterVersionSecond from "../../footerv2";
 import Layout from "./layout";
 
 export default function PredictiveMaintenanceInManufacturing(props: any) {
