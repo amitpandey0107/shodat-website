@@ -130,7 +130,7 @@ export default function UseCasesSlider(props: any) {
                             <p>A leading manufacturing company faced significant challenges related to internal inefficiencies and warranty costs.</p>
                         </div>
                         <div className={`${styles.btwrap}`}>
-                            <Link href="/advanced-analytics/use-case/enhancing-operations-for-a-leading-logistics-player" className={`${styles.btnBlack}`}>
+                            <Link href="/advanced-analytics/use-case/reducing-costs-of-internal-inefficiencies-and-warranties-in-manufacturing-with-advanced-analytics-and-BI" className={`${styles.btnBlack}`}>
                                 <span>Read more</span>
                                 <Image
                                     src="/img/dataEngineering/arrow-right.svg"
@@ -156,7 +156,7 @@ export default function UseCasesSlider(props: any) {
                             <p>A prominent player in the oil and gas trading industry recognized the need for advanced reporting capabilities</p>
                         </div>
                         <div className={`${styles.btwrap}`}>
-                            <Link href="/advanced-analytics/use-case/enhancing-operations-for-a-leading-logistics-player" className={`${styles.btnBlack}`}>
+                            <Link href="/advanced-analytics/use-case/enhancing-reporting-capabilities-in-the-oil-and-gas-trading-industry" className={`${styles.btnBlack}`}>
                                 <span>Read more</span>
                                 <Image
                                     src="/img/dataEngineering/arrow-right.svg"
@@ -182,7 +182,7 @@ export default function UseCasesSlider(props: any) {
                             <p>A leading electronics manufacturer faced escalating costs and inefficiencies in managing warranty claims.</p>
                         </div>
                         <div className={`${styles.btwrap}`}>
-                            <Link href="/advanced-analytics/use-case/enhancing-operations-for-a-leading-logistics-player" className={`${styles.btnBlack}`}>
+                            <Link href="/advanced-analytics/use-case/optimizing-inventory-management-in-retail-with-power-BI" className={`${styles.btnBlack}`}>
                                 <span>Read more</span>
                                 <Image
                                     src="/img/dataEngineering/arrow-right.svg"
