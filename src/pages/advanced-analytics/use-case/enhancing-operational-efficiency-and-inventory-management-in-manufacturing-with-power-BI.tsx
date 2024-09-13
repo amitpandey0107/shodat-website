@@ -10,7 +10,7 @@ export default function EnhancingOperationalEfficiencyandInventoryManagementinMa
     const data = {
         "title": "Enhancing Operational Efficiency and Inventory Management in Manufacturing  with Power BI",
         "logo": "sgAnalytics.png",
-        "contentImage": "real-time-data-img.png",
+        "contentImage": "case2.png",
         "info_1": "A leading player in the manufacturing industry sought to improve operational efficiency and inventory management processes. Facing challenges such as inefficient inventory management across multiple warehouses, difficulty in identifying slow-moving stock, and lack of accurate sales and demand forecasting, they turned to Power BI to streamline operations and gain valuable insights from their data.",
         "info_2":"",
         "info_3":"",

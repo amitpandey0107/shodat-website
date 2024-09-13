@@ -10,7 +10,7 @@ export default function PredictiveMaintenanceInManufacturing(props: any) {
     const data = {
         "title": "Predictive Maintenance in Manufacturing",
         "logo": "sgAnalytics.png",
-        "contentImage": "real-time-data-img.png",
+        "contentImage": "case2.png",
         "info_1": "A global Machine tools manufacturer uses predictive analytics to foresee equipment failures before they occur. By analyzing data from sensors and machinery, they can predict when maintenance is needed, thus preventing downtime.",
         "info_2":"The company integrated IoT sensors across its production lines to collect real-time data on machine performance, including vibration, temperature, and pressure",
         "info_3":"Collected data was fed into a predictive analytics platform that used machine learning algorithms to identify patterns and predict potential failures.",

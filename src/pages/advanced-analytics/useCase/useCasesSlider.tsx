@@ -5,12 +5,19 @@ import "slick-carousel/slick/slick-theme.css";
 import styles from "./usecase.module.css";
 import Image from 'next/image';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation'
+
 
 export default function UseCasesSlider(props: any) {
     const [oldSlide, setOldSlide] = useState(0);
     const [activeSlide, setActiveSlide] = useState(0);
     const [activeSlide2, setActiveSlide2] = useState(0);
     const [toggleButton, setToggleButton] = useState(false);
+    const searchParams = useSearchParams();
+    const sliderID = searchParams?.get('id')
+    console.log({
+        sliderID:sliderID  
+    })
 
     const settings = {
         dots: false,
@@ -64,6 +71,7 @@ export default function UseCasesSlider(props: any) {
             <div className={`${styles.useCaseSliderWrap}`}>
                 <Slider {...settings}>
 
+                    {sliderID !== '1' &&
                     <div className={`${styles.sliderItems}`}>
                         <div className={`${styles.imageContainer}`}>
                             <Image
@@ -88,8 +96,9 @@ export default function UseCasesSlider(props: any) {
                                 />
                             </Link>
                         </div>
-                    </div>
+                    </div> }
 
+                    {sliderID !== '2' &&
                     <div className={`${styles.sliderItems}`}>
                         <div className={`${styles.imageContainer}`}>
                             <Image
@@ -114,8 +123,9 @@ export default function UseCasesSlider(props: any) {
                                 />
                             </Link>
                         </div>
-                    </div>
+                    </div> }
 
+                    {sliderID !== '3' &&
                     <div className={`${styles.sliderItems}`}>
                         <div className={`${styles.imageContainer}`}>
                             <Image
@@ -140,8 +150,9 @@ export default function UseCasesSlider(props: any) {
                                 />
                             </Link>
                         </div>
-                    </div>
+                    </div> }
 
+                    {sliderID !== '4' &&
                     <div className={`${styles.sliderItems}`}>
                         <div className={`${styles.imageContainer}`}>
                             <Image
@@ -166,8 +177,9 @@ export default function UseCasesSlider(props: any) {
                                 />
                             </Link>
                         </div>
-                    </div>
+                    </div> }
 
+                    {sliderID !== '5' &&
                     <div className={`${styles.sliderItems}`}>
                         <div className={`${styles.imageContainer}`}>
                             <Image
@@ -192,8 +204,9 @@ export default function UseCasesSlider(props: any) {
                                 />
                             </Link>
                         </div>
-                    </div>
+                    </div> }
 
+                    {sliderID !== '6' &&
                     <div className={`${styles.sliderItems}`}>
                         <div className={`${styles.imageContainer}`}>
                             <Image
@@ -218,7 +231,7 @@ export default function UseCasesSlider(props: any) {
                                 />
                             </Link>
                         </div>
-                    </div>
+                    </div> }
 
                 </Slider>
             </div>

@@ -10,7 +10,7 @@ export default function EnhancingReportingCapabilities(props: any) {
     const data = {
         "title": "Enhancing Reporting Capabilities in the Oil and Gas Trading Industry",
         "logo": "sgAnalytics.png",
-        "contentImage": "real-time-data-img.png",
+        "contentImage": "case4.png",
         "info_1": "A prominent player in the oil and gas trading industry recognized the need for advanced reporting capabilities to perform complex calculations, such as forward pricing, price index analysis, weighted hedges, and exposures. The existing system was inadequate, leading to delays and inaccuracies in decision-making.",
         "info_2":"",
         "info_3":"",

@@ -10,7 +10,7 @@ export default function OptimizingWarrantyClaimManagement(props: any) {
     const data = {
         "title": "Optimizing Warranty Claim Management with Advanced Analytics and BI",
         "logo": "sgAnalytics.png",
-        "contentImage": "real-time-data-img.png",
+        "contentImage": "case4.png",
         "info_1": "A leading electronics manufacturer faced escalating costs and inefficiencies in managing warranty claims. The manual processes and lack of integrated data systems led to delays, inaccuracies, and high warranty expenses. To address these challenges, the company partnered with Shodat Inc. to implement advanced analytics and business intelligence (BI) solutions.",
         "info_2":"",
         "info_3":"",

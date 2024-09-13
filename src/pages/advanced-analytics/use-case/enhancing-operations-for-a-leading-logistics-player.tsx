@@ -10,7 +10,7 @@ export default function EnhancingOperationsforaLeadingLogisticsPlayer(props: any
     const data = {
         "title": "Enhancing Operations for a Leading Logistics Player with Data-Driven Insights and BI Implementation",
         "logo": "sgAnalytics.png",
-        "contentImage": "real-time-data-img.png",
+        "contentImage": "case1.png",
         "info_1": "A leading logistics company, operating globally and managing vast volumes of tonnage, sought to optimize its operations through data-driven insights and Business Intelligence (BI) implementation. The company faced challenges such as a lack of visibility into daily profitability calculations, difficulties in tracking tonnage across specialized ports and terminals, inefficient customer management and invoicing processes, and delays in demand forecasting.",
         "info_2":"By adopting a BI-driven approach, the company aimed to improve operational efficiency, reduce delays, and enhance decision-making across its widespread logistics network.",
         "info_3":"",

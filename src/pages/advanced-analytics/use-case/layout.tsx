@@ -20,14 +20,6 @@ export default function Layout(props: any) {
                     <div className="row">
                         <div className="col-sm-12">
                             <div className={`${styles.caseBox}`}>
-                                {/* <div className={`${styles.logo}`}>
-                                    <Image
-                                        src={data?.logo ? `/img/useCases/${data?.logo}` : `/img/useCases/sgAnalytics.png`}
-                                        alt="sgAnalytics"
-                                        height={179}
-                                        width={416}
-                                    />
-                                </div> */}
                                 <div className={`${styles.title}`}>
                                     <h2>{data?.title}</h2>
                                 </div>
@@ -50,7 +42,7 @@ export default function Layout(props: any) {
                                     </div>
                                     <div className={`${styles.image}`}>
                                         <Image
-                                            src={data?.contentImage ? `/img/useCases/${data?.contentImage}` : `/img/useCases/real-time-data-img.png`}
+                                            src={data?.contentImage ? `/img/advancedAnalytics/useCase/${data?.contentImage}` : `/img/useCases/real-time-data-img.png`}
                                             alt="sgAnalytics"
                                             height={332}
                                             width={420}

@@ -10,7 +10,7 @@ export default function ReducingCostsofInternalInefficiencies(props: any) {
     const data = {
         "title": "Reducing Costs of Internal Inefficiencies and Warranties in Manufacturing with Advanced Analytics and BI",
         "logo": "sgAnalytics.png",
-        "contentImage": "real-time-data-img.png",
+        "contentImage": "case1.png",
         "info_1": "A leading manufacturing company faced significant challenges related to internal inefficiencies and warranty costs. The company sought to leverage advanced analytics and business intelligence (BI) to optimize its test and repair data processes, aiming to improve operational efficiency and reduce warranty claims.",
         "info_2":"",
         "info_3":"",
