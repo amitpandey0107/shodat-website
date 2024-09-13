@@ -1,0 +1,70 @@
+.purpleBox {
+    background-color: #68326F;
+    padding: 60px 0;
+}
+
+.titleBlock {
+    margin-bottom: 58px;
+    text-align: center;
+}
+
+.titleBlock p {
+    color: white;
+    font-size: 16px;
+}
+
+.titleBlock h2 {
+    position: relative;
+    font-size: 33px;
+    color: #FFF;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.titleBlock h2:after {
+    position: absolute;
+    border-top: 1px solid white;
+    width: 350px;
+    content: '';
+    left: 50%;
+    bottom: 8px;
+    transform: translate(-50%, -50%);
+}
+
+.infoBlock {
+    position: relative;
+}
+
+.infoBlock h6 {
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 15px;
+    height: 57px;
+}
+
+.infoBlock h6:before {
+    content: "";
+    height: 30px;
+    width: 2px;
+    position: absolute;
+    left: -10px;
+    top: 0;
+    background-color: #B784BD;
+}
+
+.infoBlock p {
+    color: rgba(255,255,255,0.8);
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.infoBlock p:last-child {
+    margin-bottom: 0;
+}
+
+.marginBot {
+    margin-bottom: 60px;
+}

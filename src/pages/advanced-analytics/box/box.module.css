@@ -1,0 +1,75 @@
+.blackBox {
+    position: relative;
+    background-color: #000000;
+    padding: 22px 0;
+}
+
+.blackBox .phraseBox {
+    border: 2px solid #05A7B1;
+    height: 215px;
+    padding: 24px;
+}
+
+.blackBox .phraseBox h4 {
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.blackBox .phraseBox h4 span {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+.blackBox .phraseBox p {
+    color: rgba(255, 255, 255, 0.45);
+    font-size: 14px;
+    text-align: right;
+}
+
+
+
+/* ============================================
+#### RESPONSIVE ####
+============================================= */
+
+@media screen and (max-width: 1199px) {
+    .blackBox .phraseBox {
+        padding: 20px;
+        height: 280px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .blackBox .phraseBox {
+        margin-bottom: 30px;
+        height: auto;
+        padding: 35px;
+        min-height: 250px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .blackBox .phraseBox {
+        margin-bottom: 30px;
+        height: auto;
+        padding: 35px;
+        min-height: 300px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .blackBox .phraseBox {
+        min-height: auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .blackBox .phraseBox {
+        min-height: auto;
+    }
+}

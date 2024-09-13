@@ -1182,6 +1182,39 @@ button.slick-arrow.slick-next {
     height: 1.5rem;
     width: 1.5rem;
 }
+.appraochAccordion.businessAccordian .accordion-button::after {
+    background-image: url(/img/advancedAnalytics/svg/angleDown.svg) !important;
+    background-size: 1.1rem;
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+.appraochAccordion.businessAccordian .accordion-item {
+    border-radius: 0 !important;
+    margin-bottom: 0px;
+    padding: 7px 0;
+    box-shadow: none;
+    background-color: transparent;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    position: relative;
+}
+.appraochAccordion.businessAccordian .accordion-header .accordion-button {
+    padding-left: 0;
+}
+.businessAccordian .accordion-body {
+    padding-left: 0;
+}
+.businessAccordian .accordion-collapse.collapse.show:after {
+    content: '';
+    border-left: 5px solid #A96CB0;
+    position: absolute;
+    top: 23px;
+    left: -15px;
+    height: calc(100% - 23px);
+}
 
 
 

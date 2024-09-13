@@ -53,12 +53,12 @@ export default function Header() {
                         <li><Link href="/platform" className={`${router.pathname === '/platform' ? `${styles.active}` : ''}`}>Platform</Link></li>
                         <li>
                             <Link href=""
-                                className={`${router.pathname === '/solutions' || router.pathname === '/data-engineering' || router.pathname === '/advance-analytics' || router.pathname === '/ai-innovation' || router.pathname === '/security-and-compliance' ? `${styles.active}` : ''}`}>
+                                className={`${router.pathname === '/solutions' || router.pathname === '/data-engineering' || router.pathname === '/advanced-analytics' || router.pathname === '/ai-innovation' || router.pathname === '/security-and-compliance' ? `${styles.active}` : ''}`}>
                                 Solutions
                             </Link>
                             <ul className={`${styles.innerList}`}>
                                 <li><Link href="/data-engineering" className={`${router.pathname === '/data-engineering' ? `${styles.activeInnerLink}` : ''}`}>Data Engineering</Link></li>
-                                <li><Link href="" className={`${router.pathname === '/advance-analytics' ? `${styles.activeInnerLink}` : ''}`}>Advance Analytics & BI</Link></li>
+                                <li><Link href="/advanced-analytics" className={`${router.pathname === '/advanced-analytics' ? `${styles.activeInnerLink}` : ''}`}>Advance Analytics & BI</Link></li>
                                 <li><Link href="" className={`${router.pathname === '/ai-innovation' ? `${styles.activeInnerLink}` : ''}`}>AI Innovation</Link></li>
                                 <li><Link href="" className={`${router.pathname === '/security-and-compliance' ? `${styles.activeInnerLink}` : ''}`}>Security & Compliance</Link></li>
                             </ul>
@@ -99,12 +99,12 @@ export default function Header() {
                                 <li><Link href="/platform" className={`${router.pathname === '/platform' ? `${styles.active}` : ''}`}>Platform</Link></li>
                                 <li>
                                     <Link href=""
-                                        className={`${router.pathname === '/solutions' || router.pathname === '/data-engineering' || router.pathname === '/advance-analytics' || router.pathname === '/ai-innovation' || router.pathname === '/security-and-compliance' ? `${styles.active}` : ''}`}>
+                                        className={`${router.pathname === '/solutions' || router.pathname === '/data-engineering' || router.pathname === '/advanced-analytics' || router.pathname === '/ai-innovation' || router.pathname === '/security-and-compliance' ? `${styles.active}` : ''}`}>
                                         Solutions
                                     </Link>
                                     <ul className={`${styles.mobileInnerList}`}>
                                         <li><Link href="/data-engineering" className={`${router.pathname === '/data-engineering' ? `${styles.activeInnerLink}` : ''}`}>Data Engineering</Link></li>
-                                        <li><Link href="" className={`${router.pathname === '/advance-analytics' ? `${styles.activeInnerLink}` : ''}`}>Advance Analytics & BI</Link></li>
+                                        <li><Link href="/advanced-analytics" className={`${router.pathname === '/advanced-analytics' ? `${styles.activeInnerLink}` : ''}`}>Advance Analytics & BI</Link></li>
                                         <li><Link href="" className={`${router.pathname === '/ai-innovation' ? `${styles.activeInnerLink}` : ''}`}>AI Innovation</Link></li>
                                         <li><Link href="" className={`${router.pathname === '/security-and-compliance' ? `${styles.activeInnerLink}` : ''}`}>Security & Compliance</Link></li>
                                     </ul>
