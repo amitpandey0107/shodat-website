@@ -1,0 +1,154 @@
+.tabs {
+    position: relative;
+    padding: 40px 0;
+    background-color: #F4EDF5;
+}
+
+.titleCenter {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subTitle {
+    position: relative;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    width: 80%;
+}
+
+.titleCenter p {
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 23px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.titleUnderline {
+    position: relative;
+    font-size: 33px;
+    color: #77467D;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.titleUnderline:after {
+    position: absolute;
+    background-color: #000000;
+    height: 1px;
+    width: 250px;
+    content: '';
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+.tabwrap {
+    background-color: white;
+    height: 90px;
+    overflow: hidden;
+    box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tabwrap .btnwrap {
+    width: 16.66%;
+}
+.btnTab {
+    color: #68326F;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 4px solid transparent;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    height: 90px;
+    padding: 0 15px;
+}
+.btnTab.active {
+    border-bottom: 4px solid #68326F;
+}
+
+.tabsContent {
+    margin-top: 40px;
+}
+.tabsContent .leftContent {
+    position: relative;
+}
+.tabsContent .leftContent .imageThumbnail {
+    margin-bottom: 24px;
+    position: relative;
+}
+.tabsContent .leftContent .imageThumbnail span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    font-weight: bold;
+    color: #68326F;
+    width: 100%;
+    text-align: center;
+}
+.tabsContent .leftContent .infoText {
+    position: relative;
+}
+.tabsContent .leftContent .infoText .textRow {
+    margin-bottom: 24px;
+}
+.tabsContent .leftContent .infoText .textRow:last-child {
+   margin-bottom: 0; 
+}
+.tabsContent .leftContent .infoText .textRow p{
+    color: rgba(0, 0, 0, 0.8);
+}
+.tabsContent .rightContent {
+    position: relative;
+}
+
+
+.iconTxtRow {
+    margin-bottom: 32px;
+    display: flex;
+}
+.tabsContent .rightContent .iconTxtRow:last-child {
+    margin-bottom: 0;
+}
+.iconTxtRow .icon{
+    margin-right: 24px;
+    width: 9%;
+}
+.iconTxtRow .text{
+    width: 85%;
+}
+.iconTxtRow .text h6{
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.iconTxtRow .text p{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+}
+
+/* ============================================
+#### RESPONSIVE ####
+============================================= */
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 769px) {}
+
+@media screen and (max-width: 479px) {}

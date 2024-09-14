@@ -1,0 +1,51 @@
+.infoblock {
+    position: relative;
+    padding: 40px 0;
+    background-color: #F4EDF5;
+}
+.infoblock .contentLeft {}
+.infoblock .contentLeft .title {}
+.infoblock .contentLeft .title h2{
+    position: relative;
+    font-size: 33px;
+    color: #77467D;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.infoblock .contentLeft .title h2:after {
+    position: absolute;
+    background-color: #000000;
+    height: 1px;
+    width: 350px;
+    content: '';
+    left: 0%;
+    bottom: 0;
+}
+.infoblock .contentLeft .infoText {
+    margin-bottom: 24px;
+}
+.infoblock .contentLeft .infoText:last-child {
+    margin-bottom: 0;
+}
+.infoblock .contentLeft .infoText p{
+    color: rgba(0,0,0,0.8);
+     font-size: 16px;
+}
+.infoblock .contentRight {}
+
+
+.block {}
+.block .icon {
+    margin-bottom: 25px;
+}
+.block h6{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+.block p{
+    color: rgba(0,0,0,0.8);
+    font-size: 16px;
+}

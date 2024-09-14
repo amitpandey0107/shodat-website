@@ -1,0 +1,64 @@
+.experienceFuture {
+    height: 223px;
+    background-image: url('/img/future-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.experienceFuture .experienceContent {
+    position: relative;
+    z-index: 1;
+}
+
+.experienceFuture .experienceContent h2 {
+    color: white;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.experienceFuture .experienceContent h2:after {
+    content: "";
+    height: 1px;
+    width: 350px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;    
+}
+
+.experienceFuture .experienceContent p {
+    color: white;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+/* ============================================
+#### RESPONSIVE ####
+============================================= */
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 769px) {
+    .experienceFuture {
+        height: auto;
+        padding: 35px 0;
+    }
+
+    .experienceFuture .experienceContent p {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 479px) {}

@@ -10,6 +10,10 @@ import Features from "./features/features";
 import UseCase from "./useCase/usecase";
 import BusinessIntelligence from "./businessIntelligence/businessIntelligence";
 import PurpleBox from "./purpleBox/purpleBox";
+import Cta from "./cta/cta";
+import Tabs from "./tabs/tabs";
+import InfoBlock from "./infoBlock/infoblock";
+import InfoBlock2 from "./infoBlock2/infoblock";
 import FooterVersionSecond from "../footerv2";
 
 export default function AdvancedAnalytics() {
@@ -58,6 +62,18 @@ export default function AdvancedAnalytics() {
 
                 {/* Purple Section */}
                 {/* <PurpleBox /> */}
+
+                {/* CTA */}
+                <Cta />
+
+                {/* TABS */}
+                <Tabs/> 
+
+                {/* INFO BLOCK */}
+                <InfoBlock />
+
+                {/* INFO BLOCK */}
+                <InfoBlock2 />
 
                 {/* Use Cases */}
                 <UseCase />
