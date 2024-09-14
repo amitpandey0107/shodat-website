@@ -105,6 +105,13 @@
 
 @media screen and (max-width: 991px) {}
 
-@media screen and (max-width: 769px) {}
+@media screen and (max-width: 769px) {
+    .useCase .useCaseSliderWrap .sliderItems  {
+        height: 650px;
+    }
+    .useCase .useCaseSliderWrap .sliderItems .textContainer h6 {
+        height: 234px;
+    }
+}
 
 @media screen and (max-width: 479px) {}

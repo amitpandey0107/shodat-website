@@ -81,3 +81,24 @@
     bottom: -47px;
     left: 0;
 }
+
+/* ============================================
+#### RESPONSIVE ####
+============================================= */
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 769px) {
+    .bannerContentLeft .bannerInfo {
+        position: absolute;
+        top: 46%;
+        left: 5%;
+        transform: translate(-0%, -50%);
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 479px) {}
+

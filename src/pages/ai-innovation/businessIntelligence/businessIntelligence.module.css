@@ -85,6 +85,19 @@
 
 @media screen and (max-width: 991px) {}
 
-@media screen and (max-width: 769px) {}
+@media screen and (max-width: 769px) {
+    .sectionImage .thumbnail {
+        margin-top: 40px;
+    }
+    .titleCenter p {
+        width: 100%;
+    }
+    .sectionImage .thumbnail img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+}
 
 @media screen and (max-width: 479px) {}

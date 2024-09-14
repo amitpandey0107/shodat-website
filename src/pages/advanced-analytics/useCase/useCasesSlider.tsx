@@ -54,7 +54,7 @@ export default function UseCasesSlider(props: any) {
                 }
             },
             {
-                breakpoint: 480,
+                breakpoint: 550,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1
