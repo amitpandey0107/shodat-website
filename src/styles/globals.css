@@ -1351,7 +1351,6 @@ button.slick-arrow.slick-next {
 }
 
 /* advancedAnalyticsSlider Slider */
-
 .advancedAnalyticsSlider button.slick-arrow.slick-prev {
     background-color: transparent;
     height: 50px;
@@ -1396,6 +1395,7 @@ button.slick-arrow.slick-next {
     border-radius: 50%;
     border: 1PX solid #68326F;
     left: auto;
+    
 }
 
 .advancedAnalyticsSlider .slick-next:before {
@@ -1415,4 +1415,7 @@ button.slick-arrow.slick-next {
 .advancedAnalyticsSlider button.slick-arrow.slick-next:visited {
     background-color: rgba(104,50,111, 0.5);
     opacity: 1;
+}
+.advancedAnalyticsSlider .slick-slide+div {
+    padding: 0;
 }

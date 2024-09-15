@@ -145,7 +145,11 @@
 #### RESPONSIVE ####
 ============================================= */
 
-@media screen and (max-width: 1199px) {}
+@media screen and (max-width: 1199px) {
+    .btnTab {
+        border-right: 1px solid #efefef;
+    }
+}
 
 @media screen and (max-width: 991px) {}
 
