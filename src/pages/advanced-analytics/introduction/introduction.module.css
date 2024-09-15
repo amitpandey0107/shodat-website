@@ -104,6 +104,15 @@
         object-fit: cover;
         object-position: center;
     }
+    .sectionImage .thumbnail .floater  {
+        width: 90%;
+        padding: 20px;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 190px;
+    }
 }
 
 @media screen and (max-width: 479px) {}
