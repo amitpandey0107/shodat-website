@@ -3,8 +3,9 @@
     padding: 40px 0;
     background-color: #F4EDF5;
 }
-.infoblock .contentLeft {}
-.infoblock .contentLeft .title {}
+.infoblock .contentLeft {
+    position: relative;
+}
 .infoblock .contentLeft .title h2{
     position: relative;
     font-size: 33px;
@@ -32,10 +33,7 @@
     color: rgba(0,0,0,0.8);
      font-size: 16px;
 }
-.infoblock .contentRight {}
 
-
-.block {}
 .block .icon {
     margin-bottom: 25px;
 }
@@ -49,3 +47,30 @@
     color: rgba(0,0,0,0.8);
     font-size: 16px;
 }
+
+
+/* ============================================
+#### RESPONSIVE ####
+============================================= */
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {
+    .infoblock .contentLeft .title h2:after {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .infoblock .contentLeft {
+        margin-bottom: 34px;
+    }
+    .block {
+        margin-bottom: 34px;
+    }
+    .infoblock {
+        padding: 40px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 479px) {}

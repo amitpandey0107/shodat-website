@@ -49,9 +49,9 @@
     height: 90px;
     overflow: hidden;
     box-shadow: 0px 3px 7px -1px rgba(0,0,0,0.2);
-    display: flex;
+    /* display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center; */
 }
 .tabwrap .btnwrap {
     width: 16.66%;
@@ -149,6 +149,16 @@
 
 @media screen and (max-width: 991px) {}
 
-@media screen and (max-width: 769px) {}
+@media screen and (max-width: 769px) {
+    .tabsContent .leftContent .infoText {
+        margin-bottom: 36px;
+    }
+    .btnTab {
+        height: 100px;
+    }
+    .tabwrap {
+        height: 100px;
+    }
+}
 
 @media screen and (max-width: 479px) {}

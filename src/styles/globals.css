@@ -1349,3 +1349,70 @@ button.slick-arrow.slick-next {
         padding-right: 0;
     }
 }
+
+/* advancedAnalyticsSlider Slider */
+
+.advancedAnalyticsSlider button.slick-arrow.slick-prev {
+    background-color: transparent;
+    height: 50px;
+    width: 50PX;
+    left: 0px;
+    top: 46px;
+    position: absolute;
+    z-index: 999;
+    opacity: 0.4;
+    border-radius: 50%;
+    border: 1PX solid #68326F;
+}
+.advancedAnalyticsSlider button.slick-arrow.slick-prev:hover, 
+.advancedAnalyticsSlider button.slick-arrow.slick-prev:active,
+.advancedAnalyticsSlider button.slick-arrow.slick-prev:visited {
+    background-color: rgba(104,50,111, 0.5);
+    opacity: 1;
+}
+
+.advancedAnalyticsSlider .slick-prev:before {
+    background-image: url(/img/advancedAnalytics/svg/angle_left.svg) !important;
+    content: "" !important;
+    height: 30px;
+    width: 16px;
+    left: 16px;
+    top: 8px;
+    position: absolute !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1 !important;
+}
+
+.advancedAnalyticsSlider button.slick-arrow.slick-next {
+    background-color: transparent;
+    height: 50px;
+    width: 50PX;
+    right: 0px;
+    top: 46px;
+    position: absolute;
+    z-index: 999;
+    opacity: 0.4;
+    border-radius: 50%;
+    border: 1PX solid #68326F;
+    left: auto;
+}
+
+.advancedAnalyticsSlider .slick-next:before {
+    background-image: url(/img/advancedAnalytics/svg/angle_right.svg) !important;
+    content: "" !important;
+    height: 30px;
+    width: 16px;
+    left: 16px;
+    top: 8px;
+    position: absolute !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 1 !important;
+}
+.advancedAnalyticsSlider button.slick-arrow.slick-next:hover, 
+.advancedAnalyticsSlider button.slick-arrow.slick-next:active,
+.advancedAnalyticsSlider button.slick-arrow.slick-next:visited {
+    background-color: rgba(104,50,111, 0.5);
+    opacity: 1;
+}
