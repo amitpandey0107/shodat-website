@@ -9,6 +9,7 @@ import Introduction from "./introduction/introduction";
 import BusinessIntelligence from "./businessIntelligence/businessIntelligence";
 import AISection from "./aisection/ai";
 import AIInfoBlock from "./infoblock/infoblock";
+import Cta from "./cta/cta";
 import FooterVersionSecond from "../footerv2";
 
 export default function AiInovation() {
@@ -140,6 +141,9 @@ export default function AiInovation() {
 
                 {/* AI Info Block */}
                 <AIInfoBlock sectionData={data3} mode={1} />
+
+                {/* CTA */}
+                <Cta />
 
                 {/* Footer */}
                 <FooterVersionSecond />
