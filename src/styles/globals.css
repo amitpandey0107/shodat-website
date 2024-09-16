@@ -1217,7 +1217,7 @@ button.slick-arrow.slick-next {
 }
 
 .aiAccordian .accordion-collapse.collapse.show:after {
-    border-left: 2px solid #A96CB0;
+    border-left: 4px solid #A96CB0;
 }
 
 .aiAccordian .accordion-header .accordion-button {
