@@ -1,0 +1,83 @@
+.shodatXDI {
+    position: relative;
+    background-color: #F4EDF5;
+    padding: 40px 0;
+}
+
+.thumbnail {
+    overflow: hidden;
+}
+
+.shodatAccordian .accordionHeader h6 {
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.keyFeature {
+    margin-top: 31px;
+}
+
+.accBody {
+    margin-top: 20px;
+}
+
+.keyFeature .featTitle {
+    margin-bottom: 26px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.keyFeatureWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.featBox {
+    height: 191px;
+    width: 220px;
+    padding: 20px;
+    color: white;
+    margin-right: 30px;
+}
+
+.keyFeatureWrapper .featBox:last-child {
+    margin-right: 0;
+}
+
+.featBox.purpleBG {
+    background-color: #68326F;
+}
+
+.featBox.blueBG {
+    background-color: #04838A;
+}
+
+.featBox.blackBG {
+    background-color: #000000;
+}
+
+.featBox p {
+    margin-bottom: 12px;
+}
+
+.featBox p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+/* ============================================
+#### RESPONSIVE ####
+============================================= */
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 769px) {}
+
+@media screen and (max-width: 479px) {}
