@@ -117,7 +117,7 @@ export default function AiInovation() {
                 {/* Banner */}
                 <Banner />
 
-                {/* Box */}
+                {/* Box */} 
                 <Box />
 
                 {/* Introduction */}
