@@ -10,6 +10,7 @@ import BusinessIntelligence from "./businessIntelligence/businessIntelligence";
 import AISection from "./aisection/ai";
 import AIInfoBlock from "./infoblock/infoblock";
 import Cta from "./cta/cta";
+import Explainable from "./explainable/explainable";
 import FooterVersionSecond from "../footerv2";
 
 export default function AiInovation() {
@@ -144,6 +145,9 @@ export default function AiInovation() {
 
                 {/* CTA */}
                 <Cta />
+
+                {/* Explainable */}
+                <Explainable />
 
                 {/* Footer */}
                 <FooterVersionSecond />
