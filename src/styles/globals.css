@@ -1216,7 +1216,13 @@ button.slick-arrow.slick-next {
     height: calc(100% - 23px);
 }
 
+.aiAccordian .accordion-collapse.collapse.show:after {
+    border-left: 2px solid #A96CB0;
+}
 
+.aiAccordian .accordion-header .accordion-button {
+    height: auto;
+}
 
 .useCaseSlickSlider button.slick-arrow.slick-prev {
     background-color: #F8F9F9;

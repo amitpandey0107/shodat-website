@@ -7,12 +7,85 @@ import Banner from './banner/banner';
 import Box from "./box/box";
 import Introduction from "./introduction/introduction";
 import BusinessIntelligence from "./businessIntelligence/businessIntelligence";
-// import Features from "./features/features";
-// import UseCase from "./useCase/usecase";
-// import PurpleBox from "./purpleBox/purpleBox";
+import AISection from "./aisection/ai";
+import AIInfoBlock from "./infoblock/infoblock";
 import FooterVersionSecond from "../footerv2";
 
 export default function AiInovation() {
+
+    const data1 = {
+        title: "Vision AI Advanced Image Recognition and Inspection",
+        subTitle: "Our Vision AI capabilities",
+        intro: "Offer advanced image recognition capabilities, enabling businesses to perform detailed inspections and quality checks. This system is ideal for industries where precise image analysis is crucial, such as manufacturing and healthcare.",
+        feat: [
+            {
+                title: "Key Benefits",
+                text: [
+                    {
+                        bold: "Comprehensive Image Analysis",
+                        text: "Detects and classifies a wide range of defects and anomalies."
+                    },
+                    {
+                        bold: "Enhanced Inspection",
+                        text: "Automates routine inspections, reducing manual labor and error rates."
+                    },
+                    {
+                        bold: "Scalable Solutions",
+                        text: "Easily adapts to various scales of operation."
+                    }
+                ]
+            }
+        ]
+    }
+    const data2 = {
+        title: "Lightweight ML Models",
+        subTitle: "Efficiency Meets Performance",
+        intro: "Shodat Inc. specializes in developing lightweight machine learning models that deliver high performance without requiring extensive computational resources. These models are ideal for applications where speed and efficiency are critical.",
+        feat: [
+            {
+                title: "Advantages",
+                text: [
+                    {
+                        bold: "Scalability: ",
+                        text: "Easily scalable across various devices and platforms."
+                    },
+                    {
+                        bold: "Cost-Effective: ",
+                        text: "Reduces the need for expensive hardware."
+                    },
+                    {
+                        bold: "High Performance: ",
+                        text: "Maintains high accuracy and reliability."
+                    }
+                ]
+            }
+        ]
+    }
+    const data3 = {
+        title: "Intelligent Process Automation (IPA)",
+        subTitle: "",
+        intro: "Our Intelligent Process Automation (IPA) solutions integrate AI and machine learning to automate repetitive tasks, streamline workflows, and enhance operational efficiency. Shodat Inc.'s IPA capabilities help businesses reduce manual labor, minimize errors, and improve productivity.",
+        feat: [
+            {
+                title: "IPA Capabilities:",
+                text: [
+                    {
+                        bold: "Automated Workflows: ",
+                        text: "Seamless automation of complex business processes."
+                    },
+                    {
+                        bold: "Enhanced Decision-Making: ",
+                        text: "AI-driven insights for better decision-making."
+                    },
+                    {
+                        bold: "Resource Optimization: ",
+                        text: "Maximizing resource utilization and minimizing waste."
+                    }
+                ]
+            }
+        ]
+    }
+
     return (
         <>
 
@@ -56,11 +129,17 @@ export default function AiInovation() {
                 {/* Business Intelligence */}
                 <BusinessIntelligence />
 
-                {/* Purple Section */}
-                {/* <PurpleBox /> */}
+                {/* AI Section */}
+                <AISection />
 
-                {/* Use Cases */}
-                {/* <UseCase /> */}
+                {/* AI Info Block */}
+                <AIInfoBlock sectionData={data1} mode={1} />
+
+                {/* AI Info Block */}
+                <AIInfoBlock sectionData={data2} mode={2} />
+
+                {/* AI Info Block */}
+                <AIInfoBlock sectionData={data3} mode={1} />
 
                 {/* Footer */}
                 <FooterVersionSecond />

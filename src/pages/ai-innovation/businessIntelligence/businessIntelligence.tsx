@@ -20,7 +20,7 @@ export default function BusinessIntelligence() {
                 <div className="container-fluid">
                     <div className="row">
 
-                        <div className="col-sm-12 col-md-6 col-lg-6">
+                        <div className="col-sm-12 col-md-6 col-lg-7">
                             <div className={`${styles.sectionInfo}`}>
                                 <h2>We specialize in:</h2>
                                 <div className={`${styles.accordianWrap}`}>
@@ -29,13 +29,13 @@ export default function BusinessIntelligence() {
                             </div>
                         </div>
 
-                        <div className="col-sm-12 col-md-6 col-lg-6">
+                        <div className="col-sm-12 col-md-6 col-lg-5">
                             <div className={`${styles.sectionImage}`}>
                                 <div className={`${styles.thumbnail}`}>
                                     <Image
                                         src="/img/advancedAnalytics/dummyRect.png"
                                         alt="dummy images"
-                                        height={528}
+                                        height={433}
                                         width={624}
                                     />
                                 </div>

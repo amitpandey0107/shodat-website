@@ -1,0 +1,105 @@
+.aiInfoBlock {
+    position: relative;
+    background-color: #F4EDF5;
+    padding: 60px 0;
+}
+
+.aiInfoBlock .leftSection h2 {
+    position: relative;
+    font-size: 33px;
+    color: #77467D;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.aiInfoBlock .leftSection h2:after {
+    position: absolute;
+    background-color: #000000;
+    height: 1px;
+    width: 250px;
+    content: '';
+    left: 0;
+    bottom: 6px;
+}
+
+.aiInfoBlock .leftSection h6 {
+    position: relative;
+    font-size: 23px;
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.leftSection .textRow {
+    margin-bottom: 40px;
+}
+
+.leftSection .textRow:last-child {
+    margin-bottom: 0;
+}
+
+.leftSection .textRow p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 24px;
+}
+
+.leftSection .textRow p:last-child {
+    margin-bottom: 0;
+}
+
+.aiInfoBlock .rightSection {
+    position: relative;
+}
+.rightSection .thumbnail {
+    position: relative;
+    overflow: hidden;
+}
+
+.rightSection .thumbnail .floater {
+    height: 190px;
+    padding: 40px 27px;
+    background-color: rgba(119, 70, 125, 0.7);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    width: 75%;
+}
+
+/* ============================================
+#### RESPONSIVE ####
+============================================= */
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 769px) {
+    .aiInfoBlock .leftSection h2 br {
+        display: none;
+    }
+    .rightSection .thumbnail img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .rightSection .thumbnail {
+        margin: 40px 0 0 0;
+    }
+    .aiInfoBlock {
+        padding: 30px 0;
+    }
+    .column1 {
+        order: 1 !important;
+    }
+    .column2 {
+        order: 2 !important;
+    }
+}
+
+@media screen and (max-width: 479px) {}
