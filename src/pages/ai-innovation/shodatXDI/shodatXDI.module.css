@@ -76,8 +76,50 @@
 
 @media screen and (max-width: 1199px) {}
 
-@media screen and (max-width: 991px) {}
+@media screen and (max-width: 991px) {
+    .featBox {
+        width: 100%;
+        margin-right: 30px;
+        height: auto;
+        min-height: 150px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .keyFeatureWrapper .featBox:last-child {
+        margin-bottom: 0;
+    } 
+}
 
-@media screen and (max-width: 769px) {}
+@media screen and (max-width: 769px) {
+    .featBox {
+        width: 100%;
+        margin-right: 30px;
+        height: auto;
+        min-height: 150px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    .keyFeatureWrapper .featBox:last-child {
+        margin-bottom: 0;
+    }
+    .thumbnail {
+        margin-top: 30px;
+    }
+}
 
-@media screen and (max-width: 479px) {}
+@media screen and (max-width: 479px) {
+    .featBox {
+        width: 100%;
+        margin-right: 30px;
+        height: auto;
+        min-height: 150px;
+        margin-bottom: 15px;
+    }
+
+    .keyFeatureWrapper {
+        flex-direction: column;
+    }
+    .keyFeatureWrapper .featBox:last-child {
+        margin-bottom: 0;
+    }
+}

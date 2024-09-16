@@ -63,3 +63,33 @@
     font-size: 16px;
     color: rgba(0, 0, 0, 0.8);
 }
+
+
+/* ============================================
+#### RESPONSIVE ####
+============================================= */
+
+@media screen and (max-width: 1199px) {
+    .whiteBox {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .sectionLeft {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .whiteBox {
+        margin-bottom: 30px;
+        min-height: 200px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    
+}
