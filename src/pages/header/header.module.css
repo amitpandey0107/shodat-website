@@ -9,26 +9,31 @@
     padding: 0 30px;
     z-index: 999;
 }
+
 .header .logo {
     color: white;
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
 }
+
 .header .menu {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .header .menuList {
     display: flex;
     margin-right: 40px;
     position: relative;
 }
+
 .header .menuList li {
     padding-left: 40px;
     position: relative;
 }
+
 .header .menuList a {
     color: white;
     text-transform: capitalize;
@@ -42,9 +47,11 @@
     transition: border-bottom 0.5s ease-out;
     cursor: pointer;
 }
+
 .header .menuList a:hover {
     border-bottom: 5px solid #05A7B1;
 }
+
 .header .menuList a.active {
     border-bottom: 5px solid #05A7B1;
 }
@@ -64,10 +71,12 @@
     box-shadow: none;
     border-radius: 0;
 }
+
 .mobileMenu {
     display: none;
     position: relative;
 }
+
 .mobileMenu .openButton {
     background-color: #68326F;
     color: white;
@@ -123,22 +132,27 @@
     margin-right: 0;
     margin-top: 60px;
 }
+
 .mobileMenu .menuList li {
     padding-left: 0;
 }
+
 .mobileMenu .menuList li a {
     height: auto;
     padding: 15px;
     display: block;
     font-size: 16px;
 }
+
 .mobileMenu .menuList li a.active {
     border-bottom: 0;
 }
+
 .mobileMenu .btnDemo {
     margin-left: 15px;
     margin-top: 10px;
 }
+
 .mobileMenu .menuList li a:hover {
     border-color: transparent;
 }
@@ -189,18 +203,33 @@
     font-weight: bold;
     margin-bottom: 24px;
 }
+
+.headerModal .modalContentInner .formWrapper {
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.formGroupFull {
+    width: 100% !important;
+}
+
 .headerModal .modalContentInner .formGroup {
     margin-bottom: 24px;
+    width: 48%;
 }
+
 .headerModal .modalContentInner .formGroup label {
     font-weight: bold;
     margin-bottom: 7px;
 }
+
 .headerModal .modalContentInner .formGroup label span {
     color: red;
     font-size: 14px;
 }
-.headerModal .modalContentInner .formGroup input{
+
+.headerModal .modalContentInner .formGroup input {
     height: 45px;
     border-radius: 0;
     width: 100%;
@@ -208,13 +237,14 @@
     padding: 7px 15px;
 }
 
-.headerModal .modalContentInner .formGroup textarea{
+.headerModal .modalContentInner .formGroup textarea {
     min-height: 120px;
     border-radius: 0;
     width: 100%;
     border: 1px solid #CCCCCC;
     padding: 7px 15px;
 }
+
 .headerModal .modalContentInner .formGroup.formGroupLastNode {
     margin-bottom: 0;
 }
@@ -237,9 +267,10 @@
 }
 
 .btnSubmit:hover {
-    background-color: rgba(104,50,111, 0.7);
+    background-color: rgba(104, 50, 111, 0.7);
     transition: all ease-in-out 0.3s;
 }
+
 .menu ul ul {
     position: absolute;
     background: black;
@@ -249,32 +280,39 @@
     display: none;
     transition: all ease-in-out 0.3s;
 }
-.menu ul li:hover > ul {
+
+.menu ul li:hover>ul {
     display: block;
     transition: all ease-in-out 0.3s;
 }
+
 .menu .menuList .innerList li {
     padding: 0px;
     height: 46px;
 }
+
 .menu .menuList .innerList li a {
     border-bottom: 0;
     padding: 12px;
     height: 46px;
     display: block;
 }
+
 .menu .menuList .innerList li a:hover {
     border-bottom: 0;
-    background-color: rgba(104,50,111, 1);
+    background-color: rgba(104, 50, 111, 1);
 }
+
 .menu .menuList .innerList li a.activeInnerLink {
     border-bottom: 0;
-    background-color: rgba(104,50,111, 1);
+    background-color: rgba(104, 50, 111, 1);
 }
+
 .mobileInnerList {
     padding-left: 50px;
     position: relative;
 }
+
 .mobileInnerList::after {
     content: "";
     background: white;
@@ -284,10 +322,12 @@
     left: 50px;
     top: -10px;
 }
+
 .mobileInnerList li {
     position: relative;
     padding-left: 0 !important;
 }
+
 .mobileInnerList li a {
     padding: 0px 0px 0px 20px !important;
     height: 36px !important;
@@ -296,6 +336,7 @@
     justify-content: flex-start !important;
     align-items: center !important;
 }
+
 .mobileInnerList li::before {
     content: "";
     height: 1px;
@@ -309,18 +350,23 @@
 .menuListForMobile li a:hover {
     color: #05A7B1 !important;
 }
+
 .menuListForMobile li a:active {
     color: #05A7B1 !important;
 }
+
 .menuListForMobile li a.active {
     color: #05A7B1 !important;
 }
+
 .menuListForMobile .mobileInnerList li a:hover {
     color: #05A7B1 !important;
 }
+
 .menuListForMobile .mobileInnerList li a:active {
     color: #05A7B1 !important;
 }
+
 .menuListForMobile .mobileInnerList li a.activeInnerLink {
     color: #05A7B1 !important;
 }
@@ -331,9 +377,11 @@
     .header .menuList {
         margin-right: 30px;
     }
+
     .header .menuList li {
         padding-left: 15px;
     }
+
     .header .menuList li a {
         font-size: 14px;
     }
@@ -343,26 +391,34 @@
     .header .menu {
         display: none;
     }
+
     .header .mobileMenu {
         display: block;
     }
+
     .header .menuList li a {
         font-size: 16px;
     }
+
     .header .menuList {
         margin-right: 0px;
     }
+
     .mobileMenu .btnDemo {
         margin-left: 28px;
     }
-    
+
 }
 
 @media screen and (max-width: 479px) {
     .header .logo img {
         width: 135px;
     }
+
     .btnDemo {
         min-width: 120px;
+    }
+    .headerModal .modalContentInner .formGroup {
+        width: 100% !important;
     }
 }

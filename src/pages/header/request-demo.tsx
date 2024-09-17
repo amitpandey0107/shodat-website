@@ -201,7 +201,7 @@ export default function RequestDemoModal(props: any) {
                                     {errors.companyName}
                                 </span>
                             </div>
-                            <div className={`${styles.formGroup}`}>
+                            <div className={`${styles.formGroup} ${styles.formGroupFull}`}>
                                 <label htmlFor="message">Message <span>*</span></label>
                                 <textarea
                                     name="message"
@@ -215,10 +215,11 @@ export default function RequestDemoModal(props: any) {
                                     {errors.message}
                                 </span>
                             </div>
-                            <div className={`${styles.formGroup} ${styles.formGroupLastNode}`}>
+                            
+                        </div>
+                        <div className={`${styles.formGroup1} ${styles.formGroupLastNode}`}>
                                 <button className={`${styles.btnSubmit}`} id="submitForm">Submit</button>
                             </div>
-                        </div>
                     </form>
                 </div>
             </div>

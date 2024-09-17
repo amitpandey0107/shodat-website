@@ -19,6 +19,7 @@ export default function Banner() {
                                 alt="arrow right"
                                 height={20}
                                 width={20}
+                                style={{ width: '100%', height: 'auto' }}
                             />
                         </Link> */}
                     </div>

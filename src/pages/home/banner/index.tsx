@@ -14,6 +14,7 @@ export default function Banner() {
             alt="ellipse"
             width={557}
             height={557}
+            style={{ width: '100%', height: 'auto' }}
           />
       <Carousel controls={false} fade>
         <Carousel.Item interval={7000}>
@@ -23,6 +24,8 @@ export default function Banner() {
             alt="Image One"
             width={1400}
             height={700}
+            priority
+            style={{ width: '100%', height: 'auto' }}
           />
           <div className={`${styles.carouselCaption}`}>
             <div className={`${styles.carouselContent}`}>
@@ -37,6 +40,7 @@ export default function Banner() {
                   alt="arrow right"
                   height={20}
                   width={20}
+                  style={{ width: '100%', height: 'auto' }}
                 />
               </Link>
             </div>
@@ -50,6 +54,7 @@ export default function Banner() {
             alt="Image One"
             width={1400}
             height={700}
+            style={{ width: '100%', height: 'auto' }}
           />
           <div className={`${styles.carouselCaption}`}>
             <div className={`${styles.carouselContent}`}>
