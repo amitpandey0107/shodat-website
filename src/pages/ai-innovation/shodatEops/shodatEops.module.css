@@ -2,7 +2,8 @@
     height: auto;
     min-height: 505px;
     padding: 60px 0;
-    background-color: #E9DAEB;
+    /* background-color: #E9DAEB;
+    background-image: linear-gradient(to right top, #E9DAEB, #E9DAEB, #DFE3EE, #DFE3EE, #DFE3EE); */
 }
 
 .sectionLeft h2 {

@@ -2,16 +2,17 @@
     height: auto;
     min-height: 505px;
     padding: 60px 0;
-    background-color: #93479c;
-    background-image: linear-gradient(to left bottom, #05b8c3, #00a4d2, #048cd6, #676dc4, #93479c);
+    /* background-color: #DFE3EE; */
+    /* background-image: linear-gradient(to right top, #E9DAEB, #E9DAEB, #DFE3EE, #DFE3EE, #DFE3EE); */
+    /* background-image: linear-gradient(to left bottom, #05b8c3, #00a4d2, #048cd6, #676dc4, #93479c);
     background-image: url(/img/aiInnovation/explainableBG.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: left; */
 }
 
 .sectionLeft h2 {
-    color: white;
+    color: black;
     font-size: 33px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -26,19 +27,19 @@
     bottom: -15px;
     left: 00%;
     transform: translate(0%, -50%);
-    background-color: white;
+    background-color: black;
 }
 
 .sectionLeft h6 {
     margin-bottom: 24px;
     font-weight: bold;
     font-size: 23px;
-    color: #ffffff;
+    color: black;
 }
 
 .sectionLeft p {
     font-size: 16px;
-    color: rgba(255, 255, 255, 0.9);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .whiteBox {

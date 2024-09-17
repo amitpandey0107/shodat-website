@@ -149,18 +149,19 @@ export default function AiInovation() {
 
                 {/* CTA */}
                 <Cta />
+                <div className="bgColors">
+                    {/* Explainable */}
+                    <Explainable />
 
-                {/* Explainable */}
-                <Explainable />
+                    {/* Shodat XDI */}
+                    <ShodatXDI />
 
-                {/* Shodat XDI */}
-                <ShodatXDI />
+                    {/* Shodat YAI */}
+                    <ShodatYAI />
 
-                {/* Shodat YAI */}
-                <ShodatYAI />
-
-                {/* Shodat EOPS */}
-                <ShodatEops />
+                    {/* Shodat EOPS */}
+                    <ShodatEops />
+                </div>
 
                 {/* Use Cases */}
                 <UseCases />

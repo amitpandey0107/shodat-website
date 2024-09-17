@@ -1,6 +1,6 @@
 .shodatXDI {
     position: relative;
-    background-color: #F4EDF5;
+    /* background-color: #DFE3EE; */
     padding: 40px 0;
 }
 
@@ -40,7 +40,7 @@
     height: 191px;
     width: 220px;
     padding: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-right: 15px;
     margin-bottom: 15px;
 }
@@ -49,7 +49,7 @@
     margin-right: 0;
 }
 
-.featBox.purpleBG {
+/* .featBox.purpleBG {
     background-color: #68326F;
 }
 
@@ -59,7 +59,7 @@
 
 .featBox.blackBG {
     background-color: #000000;
-}
+} */
 
 .featBox p {
     margin-bottom: 12px;
