@@ -17,7 +17,7 @@ import FooterVersionSecond from "../footerv2";
 export default function AiInovation() {
 
     const data1 = {
-        title: "Vision AI Advanced Image Recognition and Inspection",
+        title: "Vision AI : Advanced Image Recognition and Inspection",
         subTitle: "Our Vision AI capabilities",
         intro: "Offer advanced image recognition capabilities, enabling businesses to perform detailed inspections and quality checks. This system is ideal for industries where precise image analysis is crucial, such as manufacturing and healthcare.",
         feat: [

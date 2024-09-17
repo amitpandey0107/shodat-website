@@ -20,7 +20,7 @@ export default function ShodatXDI() {
                                             </Accordion.Header>
                                             <Accordion.Body>
                                                 <div className={`${styles.accBody}`}>
-                                                    <p>Shodat XDI is our flagship defect detection system, leveraging advanced computer vision to identify even the most minute defects that are often missed by the human eye. Whether it&apos;s fine crack detection in manufacturing or quality control in production lines, Shodat XDI ensures the highest standards of product integrity.</p>
+                                                    <p><strong>Shodat XDI</strong> is our flagship defect detection system, leveraging advanced computer vision to identify even the most minute defects that are often missed by the human eye. Whether it&apos;s fine crack detection in manufacturing or quality control in production lines, Shodat XDI ensures the highest standards of product integrity.</p>
                                                     <div className={`${styles.keyFeature}`}>
                                                         <div className={`${styles.featTitle}`}>Key Benefits:</div>
                                                         <div className={`${styles.keyFeatureWrapper}`}>

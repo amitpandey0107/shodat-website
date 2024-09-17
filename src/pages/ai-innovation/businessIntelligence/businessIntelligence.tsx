@@ -11,7 +11,7 @@ export default function BusinessIntelligence() {
                         <div className="col-sm-12">
                             <div className={`${styles.titleCenter}`}>
                                 <h1 className={`${styles.titleUnderline}`}>Our AI Expertise</h1>
-                                <p>At the core of our AI innovation strategy is driven by a deep <br /> understanding of diverse technologies and industry-specific needs.</p>
+                                <p>At the core of our AI innovation strategy is driven by a <br/> deep understanding of diverse technologies and industry-specific needs. </p>
                             </div>
                         </div>
                     </div>

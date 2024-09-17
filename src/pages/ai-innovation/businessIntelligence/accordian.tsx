@@ -13,7 +13,7 @@ export default function AccordionBusiness(props: any) {
                 </Accordion.Header>
                 <Accordion.Body>
                     <div className={`${styles.accBody}`}>
-                        <p>Enabling organizations to make data-driven decisions through advanced algorithms that predict future trends, optimize operations, and deliver actionable insights</p>
+                        <p>Enabling organizations to make data-driven decisions through advanced algorithms that predict future trends, optimize operations, and deliver actionable insights.</p>
                     </div>
                 </Accordion.Body>
             </Accordion.Item>
@@ -26,7 +26,7 @@ export default function AccordionBusiness(props: any) {
                 </Accordion.Header>
                 <Accordion.Body>
                     <div className={`${styles.accBody}`}>
-                        <p>Our team excels in creating tailored data models to suit your specific business requirements, ensuring data is organized, accessible, and optimized for performance. Utilizing advanced schema designs and other modelling techniques, we organize data into well integrated facts and dimensions to enhance performance and usability, ensuring a structured and scalable approach to data management.</p>
+                        <p>Harnessing the power of language understanding to develop intelligent chatbots, sentiment analysis systems, and automation of text-heavy processes, enhancing customer experiences and operational efficiency.</p>
                     </div>
                 </Accordion.Body>
             </Accordion.Item>
@@ -39,7 +39,7 @@ export default function AccordionBusiness(props: any) {
                 </Accordion.Header>
                 <Accordion.Body>
                     <div className={`${styles.accBody}`}>
-                        <p>We utilize sophisticated data transformation techniques  to prepare data for complex analyses. Our approach ensures that data is cleansed, normalised, and structured efficiently, which is crucial for accurate analytical computations. Indexing techniques, complex joins and aggregate calculations are employed to utilise processing capabilities of db engines and ensure that data is in optimal format for further analysis.</p>
+                        <p>Leveraging AI-powered vision systems for applications such as defect detection, facial recognition, image analysis, and more, enabling smarter, faster, and more reliable decisions in manufacturing, retail, and other industries.</p>
                     </div>
                 </Accordion.Body>
             </Accordion.Item>
@@ -52,7 +52,7 @@ export default function AccordionBusiness(props: any) {
                 </Accordion.Header>
                 <Accordion.Body>
                     <div className={`${styles.accBody}`}>
-                        <p>We transform raw data into intuitive dashboards and reports, making complex data easily understandable. Our team also builds efficient views for report consumption, ensuring that data is presented in a user-friendly manner. By leveraging visualization tools, we enable businesses to gain insights quickly and make informed decisions.</p>
+                        <p>Streamlining workflows through AI-driven automation of routine tasks, improving accuracy, reducing operational costs, and allowing businesses to focus on strategic initiatives.</p>
                     </div>
                 </Accordion.Body>
             </Accordion.Item>

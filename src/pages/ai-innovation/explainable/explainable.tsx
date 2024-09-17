@@ -56,7 +56,8 @@ export default function Explainable() {
                                                 />
                                             </div>
                                             <h6>Supply Chain Optimization</h6>
-                                            <p>Streamline operations and improve supply chain efficiency with data-driven insights.</p>
+                                            <p>Streamline operations and improve supply chain efficiency with data-driven insights.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

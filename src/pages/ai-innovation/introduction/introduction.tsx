@@ -33,9 +33,9 @@ export default function Introduction() {
                     <div className="col-sm-12 col-md-6 col-lg-7">
                         <div className={`${styles.sectionContent}`}>
                             <h1>AI Innovation at Shodat Inc.</h1>
-                            <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
-                            <p>At Shodat Inc. we harness the power of Vision AI and GenAI to drive innovation across various industries like Automotive , Manufacturing, Oil & Gas, Supply Chain and Logistics industries. </p>
-                            <p>Our commitment to AI innovation is transforming industries and driving new levels of efficiency, accuracy, and growth. </p>
+                            {/* <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3> */}
+                            <p>At Shodat Inc. we harness the power of Vision AI and GenAI  to drive innovation across various industries like Automotive , Manufacturing, Oil & Gas, Supply Chain and Logistics industries. </p>
+                            <p>commitment to AI innovation is transforming industries and driving new levels of efficiency, accuracy, and growth. </p>
                             <p>With our cutting-edge solutions, we harness the power of artificial intelligence to deliver unparalleled insights and capabilities that propel your business into the future.</p>
                         </div>
                     </div>

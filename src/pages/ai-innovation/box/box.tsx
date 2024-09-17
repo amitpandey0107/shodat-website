@@ -11,22 +11,23 @@ export default function Box() {
                 <div className="row">
                     <div className="col-sm-6 col-md-6 col-lg-3">
                         <div className={`${styles.phraseBox}`}>
-                            <h4><span>91.9% of organizations</span> achieved measurable value from data and analytics investments in 2023.</h4>
+                            <h4><span>49% of frontrunners</span> have a full AI adoption plan in place, with departments expected to follow, providing them an instant size and speed advantage over competitors.</h4>
                         </div>
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-3">
                         <div className={`${styles.phraseBox}`}>
-                            <h4>3 in 5 organizations are using data analytics to drive business innovation. <span>56% of data leaders</span> plan on increasing their budgets this year.</h4>
+                            <h4>As per Cisco&apos;s survey,<span> 83% of executives</span> think AI is a top priority in their business plans today, and <span>75%</span> find AI as their gateway to shift into new businesses and ventures.
+                            </h4>
                         </div>
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-3">
                         <div className={`${styles.phraseBox}`}>
-                            <h4>Data governance is the top priority for <span>3 in 5 data leaders-In</span> an age of pervasive cyberattacks and stricter data regulations.</h4>
+                            <h4>Business leaders trust AI’s power in driving growth. <span>84% of C-level</span> executives believe that they need to adopt and leverage Artificial Intelligence to drive growth objectives.</h4>
                         </div>
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-3">
                         <div className={`${styles.phraseBox}`}>
-                            <h4>Just one-third of data leaders currently track their teams&apos; <span>ROI: 23% track</span> operational KPIs while <span>10% use</span> quantitative and qualitative success metrics.</h4>
+                            <h4>Around <span>4 in 5 companies</span> deem AI to be a top priority in their business strategy</h4>
                         </div>
                     </div>
                 </div>

@@ -10,8 +10,8 @@ export default function AISection() {
 
                     <div className={`${styles.bLeft}`}>
                         <div className={`${styles.lc}`}>
-                            <h2>We integrate cutting-edge Azure OpenAI and Generative AI capabilities to bring our clients unparalleled AI-powered solutions</h2>
-                            <p>By tapping into Microsoft’s robust AI infrastructure, we offer businesses the ability to harness generative models and OpenAI&apos;s advanced machine learning capabilities for real-time, scalable AI applications.</p>
+                            <h2>We integrate cutting-edge Azure OpenAI and Generative AI capabilities to bring our clients unparalleled AI-powered solutions. </h2>
+                            <p>By tapping into Microsoft&apos;s robust AI infrastructure, we offer businesses the ability to harness generative models and OpenAI&apos;s advanced machine learning capabilities for real-time, scalable AI applications.</p>
                         </div>
                     </div>
 
@@ -61,7 +61,7 @@ export default function AISection() {
                                     </Accordion.Header>
                                     <Accordion.Body>
                                         <div className={`${styles.accBody}`}>
-                                            <p>Our team excels in creating tailored data models to suit your specific business requirements, ensuring data is organized, accessible, and optimized for performance. Utilizing advanced schema designs and other modelling techniques, we organize data into well integrated facts and dimensions to enhance performance and usability, ensuring a structured and scalable approach to data management.</p>
+                                            <p>Generative AI transforms how businesses approach innovation, with applications in creative design, product development, marketing, and more. Our expertise in generative models allows us to offer solutions for content creation, AI-assisted design, and even AI-generated insights, helping businesses to quickly iterate and bring new ideas to market.</p>
                                         </div>
                                     </Accordion.Body>
                                 </Accordion.Item>
@@ -82,7 +82,7 @@ export default function AISection() {
                                     </Accordion.Header>
                                     <Accordion.Body>
                                         <div className={`${styles.accBody}`}>
-                                            <p>We utilize sophisticated data transformation techniques  to prepare data for complex analyses. Our approach ensures that data is cleansed, normalised, and structured efficiently, which is crucial for accurate analytical computations. Indexing techniques, complex joins and aggregate calculations are employed to utilise processing capabilities of db engines and ensure that data is in optimal format for further analysis.</p>
+                                            <p>Through the Azure platform, we implement conversational AI systems that understand and respond to natural language queries, enhancing customer support and automating internal workflows. These systems are scalable, secure, and seamlessly integrate into existing infrastructure, providing high-quality interaction at any scale.</p>
                                         </div>
                                     </Accordion.Body>
                                 </Accordion.Item>
@@ -103,7 +103,8 @@ export default function AISection() {
                                     </Accordion.Header>
                                     <Accordion.Body>
                                         <div className={`${styles.accBody}`}>
-                                            <p>We transform raw data into intuitive dashboards and reports, making complex data easily understandable. Our team also builds efficient views for report consumption, ensuring that data is presented in a user-friendly manner. By leveraging visualization tools, we enable businesses to gain insights quickly and make informed decisions.</p>
+                                            <p>Generative AI&apos;s capability to produce human-like content and designs enables companies to expedite marketing strategies, product manuals, and creative campaigns. Azure OpenAI&apos;s tools allow us to rapidly generate content, analyze large datasets, and provide context-based recommendations.
+                                            </p>
                                         </div>
                                     </Accordion.Body>
                                 </Accordion.Item>
