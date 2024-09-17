@@ -49,22 +49,26 @@ export default function ShodatXDI() {
                                             </Accordion.Header>
                                             <Accordion.Body>
                                                 <div className={`${styles.accBody}`}>
-                                                    <p>Shodat XDI is our flagship defect detection system, leveraging advanced computer vision to identify even the most minute defects that are often missed by the human eye. Whether it&apos;s fine crack detection in manufacturing or quality control in production lines, Shodat XDI ensures the highest standards of product integrity.</p>
+                                                    <p>Shodat XRI is our advanced regulatory technology solution, designed to provide explainable AI-driven insights for regulatory compliance and risk management. By utilizing Shodat XRI, businesses can navigate complex regulatory landscapes with greater ease and confidence.</p>
                                                     <div className={`${styles.keyFeature}`}>
                                                         <div className={`${styles.featTitle}`}>Key Benefits:</div>
                                                         <div className={`${styles.keyFeatureWrapper}`}>
                                                             <div className={`${styles.featBox} ${styles.purpleBG}`}> 
-                                                                <p><strong>High Accuracy</strong></p> 
-                                                                <p><strong>98% precision </strong> in detecting fine defects.</p>  
+                                                                <p><strong>Regulatory Compliance</strong></p> 
+                                                                <p>Automated compliance checks and reporting</p>  
                                                             </div>   
                                                             <div className={`${styles.featBox} ${styles.blueBG}`}> 
                                                                 <p><strong>Real-Time Processing</strong></p> 
                                                                 <p>Instantaneous analysis for immediate quality control.</p>  
                                                             </div>
                                                             <div className={`${styles.featBox} ${styles.blackBG}`}> 
-                                                                <p><strong>Cost Efficiency</strong></p> 
-                                                                <p>Reduces warranty claims by 20%, improving overall profitability.</p>  
-                                                            </div>        
+                                                                <p><strong>Risk Management:</strong></p> 
+                                                                <p>Identifying and mitigating potential risks.</p>  
+                                                            </div> 
+                                                            <div className={`${styles.featBox} ${styles.blackBG}`}> 
+                                                                <p><strong>Transparency:</strong></p> 
+                                                                <p>Explainable AI models ensure transparency and accountability in decision-making.</p>  
+                                                            </div>       
                                                         </div>
                                                     </div>
                                                 </div>

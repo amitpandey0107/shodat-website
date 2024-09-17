@@ -1,0 +1,129 @@
+.ShodatEops {
+    height: auto;
+    min-height: 505px;
+    padding: 60px 0;
+    /* background-color: #93479c;
+    background-image: linear-gradient(to left bottom, #05b8c3, #00a4d2, #048cd6, #676dc4, #93479c);
+    background-image: url(/img/aiInnovation/explainableBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left; */
+    background-color: #F4EDF5;
+}
+
+.sectionLeft h2 {
+    color: black;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.sectionLeft h2:after {
+    content: "";
+    height: 1px;
+    width: 250px;
+    position: absolute;
+    bottom: -15px;
+    left: 00%;
+    transform: translate(0%, -50%);
+    background-color: black;
+}
+
+.sectionLeft h6 {
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 23px;
+    color: #000000;
+}
+
+.sectionLeft p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.whiteBox {
+    padding: 30px 25px;
+    background-color: white;
+    height: 380px;
+    overflow: hidden;
+}
+
+.whiteBox .icon {
+    margin-bottom: 16px;
+}
+
+.whiteBox h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.whiteBox p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.ShodatEopsBoxes {
+    margin-top: 60px
+}
+.colorBox {
+    padding: 25px 25px;
+    height: 271px;
+    overflow: hidden;
+}
+
+.colorBox .icon {
+    margin-bottom: 16px;
+}
+
+.colorBox h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.colorBox p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.8);
+}
+.colorBox.purpleBox {
+    background-color: #68326F;
+}
+.colorBox.blueBox {
+    background-color: #04838A;
+}
+.colorBox.blackBox {
+    background-color: #000000;
+}
+
+
+/* ============================================
+#### RESPONSIVE ####
+============================================= */
+
+@media screen and (max-width: 1199px) {
+    .whiteBox {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .sectionLeft {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .whiteBox {
+        margin-bottom: 30px;
+        min-height: 200px;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    
+}

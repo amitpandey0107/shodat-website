@@ -12,6 +12,8 @@ import AIInfoBlock from "./infoblock/infoblock";
 import Cta from "./cta/cta";
 import Explainable from "./explainable/explainable";
 import ShodatXDI from "./shodatXDI/shodatXDI";
+import ShodatYAI from "./shodatYAI/shodatYAI";
+import ShodatEops from "./shodatEops/shodatEops";
 import FooterVersionSecond from "../footerv2";
 
 export default function AiInovation() {
@@ -152,6 +154,12 @@ export default function AiInovation() {
 
                 {/* Shodat XDI */}
                 <ShodatXDI />
+
+                {/* Shodat YAI */}
+                <ShodatYAI />
+
+                {/* Shodat EOPS */}
+                <ShodatEops />
 
                 {/* Footer */}
                 <FooterVersionSecond />
