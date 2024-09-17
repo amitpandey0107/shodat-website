@@ -14,6 +14,7 @@ import Explainable from "./explainable/explainable";
 import ShodatXDI from "./shodatXDI/shodatXDI";
 import ShodatYAI from "./shodatYAI/shodatYAI";
 import ShodatEops from "./shodatEops/shodatEops";
+import UseCases from "./usecases/usecases";
 import FooterVersionSecond from "../footerv2";
 
 export default function AiInovation() {
@@ -160,6 +161,9 @@ export default function AiInovation() {
 
                 {/* Shodat EOPS */}
                 <ShodatEops />
+
+                {/* Use Cases */}
+                <UseCases />
 
                 {/* Footer */}
                 <FooterVersionSecond />

@@ -1,0 +1,86 @@
+.useCases {
+    position: relative;
+    background-color: #F0F0F0;
+    padding: 40px 0;
+}
+
+.sectionLeft h2 {
+    color: #68326F;
+    font-size: 33px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.sectionLeft h2:after {
+    content: "";
+    height: 1px;
+    width: 250px;
+    position: absolute;
+    bottom: -15px;
+    left: 00%;
+    transform: translate(0%, -50%);
+    background-color: black;
+}
+
+.sectionLeft h6 {
+    margin-bottom: 24px;
+    font-weight: bold;
+    font-size: 23px;
+    color: black;
+}
+
+.sectionLeft p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.sectionLeft .btnWrp {
+    margin-top: 30px;
+}
+
+.readMore {
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+    min-width: 154px;
+    box-shadow: none;
+    border-radius: 0;
+    transition: all ease-out 0.25s;
+}
+
+.readMore img {
+    margin-left: 5px;
+}
+
+.readMore:hover {
+    background-color: #06bcc6;
+    transition: all ease-out 0.25s;
+}
+
+
+/* ============================================
+#### RESPONSIVE ####
+============================================= */
+
+@media screen and (max-width: 1199px) {
+    .whiteBox {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .sectionLeft {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 769px) {}
+
+@media screen and (max-width: 479px) {}

@@ -2,13 +2,7 @@
     height: auto;
     min-height: 505px;
     padding: 60px 0;
-    /* background-color: #93479c;
-    background-image: linear-gradient(to left bottom, #05b8c3, #00a4d2, #048cd6, #676dc4, #93479c);
-    background-image: url(/img/aiInnovation/explainableBG.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left; */
-    background-color: #F4EDF5;
+    background-color: #E9DAEB;
 }
 
 .sectionLeft h2 {
