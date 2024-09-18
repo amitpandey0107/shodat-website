@@ -15,10 +15,10 @@ export default function PerformanceOptimization() {
             </div>
             <div className={`${styles.infoText}`}>
                 <div className={`${styles.textRow}`}>
-                    <p><strong>Composite Models:</strong> Combine direct query and import data models for greater flexibility.</p>
+                    <p><strong>Performance Analyzer:</strong> Use the Performance Analyzer to identify and troubleshoot performance issues in reports. </p>
                 </div>
                 <div className={`${styles.textRow}`}>
-                    <p><strong>Aggregations:</strong> Optimize performance for large datasets with aggregations and pre-calculated tables.</p>
+                    <p><strong>Incremental Refresh:</strong> Enable incremental refresh to keep data updated without full dataset reloads.</p>
                 </div>
             </div>
         </>

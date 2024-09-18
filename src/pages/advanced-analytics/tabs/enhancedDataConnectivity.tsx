@@ -15,10 +15,10 @@ export default function EnhancedDataConnectivity() {
             </div>
             <div className={`${styles.infoText}`}>
                 <div className={`${styles.textRow}`}>
-                    <p><strong>Composite Models:</strong> Combine direct query and import data models for greater flexibility.</p>
+                    <p><strong>Dataflows:</strong> Create reusable data preparation logic across multiple reports and datasets. </p>
                 </div>
                 <div className={`${styles.textRow}`}>
-                    <p><strong>Aggregations:</strong> Optimize performance for large datasets with aggregations and pre-calculated tables.</p>
+                    <p><strong>Connectivity:</strong> Connect to a wide range of data sources, including cloud-based and on-premises databases.</p>
                 </div>
             </div>
         </>

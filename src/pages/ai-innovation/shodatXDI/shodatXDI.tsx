@@ -55,12 +55,8 @@ export default function ShodatXDI() {
                                                         <div className={`${styles.keyFeatureWrapper}`}>
                                                             <div className={`${styles.featBox} ${styles.purpleBG}`}> 
                                                                 <p><strong>Regulatory Compliance</strong></p> 
-                                                                <p>Automated compliance checks and reporting</p>  
-                                                            </div>   
-                                                            <div className={`${styles.featBox} ${styles.blueBG}`}> 
-                                                                <p><strong>Real-Time Processing</strong></p> 
-                                                                <p>Instantaneous analysis for immediate quality control.</p>  
-                                                            </div>
+                                                                <p>Automated compliance checks and reporting.</p>  
+                                                            </div> 
                                                             <div className={`${styles.featBox} ${styles.blackBG}`}> 
                                                                 <p><strong>Risk Management:</strong></p> 
                                                                 <p>Identifying and mitigating potential risks.</p>  

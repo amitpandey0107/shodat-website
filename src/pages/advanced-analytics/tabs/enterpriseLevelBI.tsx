@@ -15,10 +15,10 @@ export default function EnterpriseLevelBI() {
             </div>
             <div className={`${styles.infoText}`}>
                 <div className={`${styles.textRow}`}>
-                    <p><strong>Composite Models:</strong> Combine direct query and import data models for greater flexibility.</p>
+                    <p><strong>Row-Level Security (RLS): </strong> Implement row-level security to ensure data is accessible only to authorized users.</p>
                 </div>
                 <div className={`${styles.textRow}`}>
-                    <p><strong>Aggregations:</strong> Optimize performance for large datasets with aggregations and pre-calculated tables.</p>
+                    <p><strong>Deployment Pipelines:</strong> Manage content lifecycle with deployment pipelines for development, testing, and production environments.</p>
                 </div>
             </div>
         </>

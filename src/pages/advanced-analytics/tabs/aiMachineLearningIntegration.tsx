@@ -15,10 +15,10 @@ export default function AIMachineLearningIntegration() {
             </div>
             <div className={`${styles.infoText}`}>
                 <div className={`${styles.textRow}`}>
-                    <p><strong>Composite Models:</strong> Combine direct query and import data models for greater flexibility.</p>
+                    <p><strong>Power Automate:</strong> Leverage AI features like text analytics, OCR and automated insights. </p>
                 </div>
                 <div className={`${styles.textRow}`}>
-                    <p><strong>Aggregations:</strong> Optimize performance for large datasets with aggregations and pre-calculated tables.</p>
+                    <p><strong>Integration with Auto ML:</strong> Use Azure Machine Learning models within Power BI for enhanced predictive analytics.</p>
                 </div>
             </div>
         </>

@@ -15,10 +15,10 @@ export default function CustomVisualsReporting() {
             </div>
             <div className={`${styles.infoText}`}>
                 <div className={`${styles.textRow}`}>
-                    <p><strong>Composite Models:</strong> Combine direct query and import data models for greater flexibility.</p>
+                    <p><strong>Custom Visualizations:</strong> Build and import custom visuals & Reports tailored to specific needs.</p>
                 </div>
                 <div className={`${styles.textRow}`}>
-                    <p><strong>Aggregations:</strong> Optimize performance for large datasets with aggregations and pre-calculated tables.</p>
+                    <p><strong>R and Python Integration:</strong> Use R and Python scripts for advanced data manipulation and visualizations.</p>
                 </div>
             </div>
         </>
