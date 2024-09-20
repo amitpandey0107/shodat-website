@@ -71,11 +71,11 @@ export default function ApproachDesktop(props: any) {
                                     <Image
                                         height={64}
                                         width={64}
-                                        alt="Data Storage, Warehousing, and Data Marts"
+                                        alt="Data Storage, Warehousing and Data Marts"
                                         src={`${items === 3 ? '/img/dataEngineering/svg/data-storage-active.svg' : '/img/dataEngineering/svg/data-storage.svg'}`}
                                     />
                                 </div>
-                                <h6>Data Storage, Warehousing, and Data Marts</h6>
+                                <h6>Data Storage, Warehousing and Data Marts</h6>
                             </div>
                             <div className={`${styles.dottedLine} ${styles.line1}`}></div>
                         </div>
@@ -256,7 +256,7 @@ export default function ApproachDesktop(props: any) {
                         <div className={`${styles.approachRightContent}`}>
                             <div className={`${styles.dataRow}`}>
                                 {/* <h6>Building Publish-Subscribe Systems:</h6> */}
-                                <p>Our expertise spans across various powerful business intelligence (BI) tools like Power BI, Tableau, and custom-built solutions, ensuring we meet diverse business needs effectively.We excel in creating comprehensive visualization layers that transform raw data into actionable insights through intuitive and interactive dashboards.</p>
+                                <p>Our expertise spans across various powerful business intelligence (BI) tools like Power BI, Tableau and custom-built solutions, ensuring we meet diverse business needs effectively.We excel in creating comprehensive visualization layers that transform raw data into actionable insights through intuitive and interactive dashboards.</p>
                             </div>
                         </div>
                     </div>
@@ -281,7 +281,7 @@ export default function ApproachDesktop(props: any) {
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className={`${styles.approachRightContent}`}>
                             <div className={`${styles.dataRow}`}>
-                                <p>The data pipeline extends into our Machine Learning (ML) capabilities for further value enrichment. Processed data is cleansed and a layer of feature engineering is applied before feeding it into our model training and testing frameworks. Anomaly detection, predictive analytics, forecasting, document extraction, image processing and automated report generation functions are designed to empower businesses with crucial insights to drive innovation, efficiency, and gain a competitive edge. Our comprehensive suite of ML services and autonomous turn key pipelines ensures that your organisation can leverage the full potential of data to achieve your strategic objectives.  </p>
+                                <p>The data pipeline extends into our Machine Learning (ML) capabilities for further value enrichment. Processed data is cleansed and a layer of feature engineering is applied before feeding it into our model training and testing frameworks. Anomaly detection, predictive analytics, forecasting, document extraction, image processing and automated report generation functions are designed to empower businesses with crucial insights to drive innovation, efficiency and gain a competitive edge. Our comprehensive suite of ML services and autonomous turn key pipelines ensures that your organisation can leverage the full potential of data to achieve your strategic objectives.  </p>
                                 <div className={`${styles.btnWrap}`}>
                                     <button className={`${styles.btnBlack}`}>
                                         <span>Read more</span>

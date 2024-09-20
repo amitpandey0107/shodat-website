@@ -11,7 +11,7 @@ export default function DataStorage() {
                 <div className="row">
                     <div className="col-sm-12 col-md-5 col-lg-5 px-0">
                         <div className={`${styles.dataEtlBox}`}>
-                            <h2>Data Storage, Warehousing, and <br/>Data Marts</h2>
+                            <h2>Data Storage, Warehousing and <br/>Data Marts</h2>
                             <p>We provide comprehensive solutions for data storage and management</p>
                             <div className={`${styles.etlImage}`}>
                                 <Image

@@ -110,7 +110,7 @@ export default function UseCasesSlider(props: any) {
                             </div>
                             <div className={`${styles.textContainer}`}>
                                 <h6>ETL and Data Warehousing - Retail and E-Commerce</h6>
-                                <p>A leading retail and e-commerce company aimed to enhance its data management capabilities to drive better decision-making, optimise operations, and increase profitability.</p>
+                                <p>A leading retail and e-commerce company aimed to enhance its data management capabilities to drive better decision-making, optimise operations and increase profitability.</p>
                             </div>
                             <div className={`${styles.btwrap}`}>
                                 <Link href="/use-case/predictive-maintenance-in-manufacturing?id=2" className={`${styles.btnBlack}`}>
@@ -164,7 +164,7 @@ export default function UseCasesSlider(props: any) {
                             </div>
                             <div className={`${styles.textContainer}`}>
                                 <h6>Real-time Tracking and Monitoring in Modern Logistics</h6>
-                                <p>A global logistics firm partnered with Shodat Inc. to implement real-time tracking and monitoring systems, enhancing operational visibility, resource allocation, and profitability.</p>
+                                <p>A global logistics firm partnered with Shodat Inc. to implement real-time tracking and monitoring systems, enhancing operational visibility, resource allocation and profitability.</p>
                             </div>
                             <div className={`${styles.btwrap}`}>
                                 <Link href="/use-case/handling-large-data-volumes-in-automotive?id=4" className={`${styles.btnBlack}`}>

@@ -10,7 +10,7 @@ export default function Innovation() {
                 <div className={`row ${styles.rowFlex}`}>
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className={`${styles.blackBox}`}>
-                            <h3>Engineering Data for Precision, <span>Insight, and Innovation</span></h3>
+                            <h3>Engineering Data for Precision, <span>Insight and Innovation</span></h3>
                         </div>
                     </div>
                     <div className="col-sm-12 col-md-6 col-lg-6">

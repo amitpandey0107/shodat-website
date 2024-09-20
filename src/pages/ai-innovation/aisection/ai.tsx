@@ -40,7 +40,7 @@ export default function AISection() {
                                     </Accordion.Header>
                                     <Accordion.Body>
                                         <div className={`${styles.accBody}`}>
-                                            <p>With Azure OpenAI, we leverage powerful language models to solve complex problems in natural language understanding and generation, enabling applications like intelligent document processing, automated content creation, and conversational agents. This allows businesses to automate customer service, generate dynamic content, and create personalized experiences at scale.</p>
+                                            <p>With Azure OpenAI, we leverage powerful language models to solve complex problems in natural language understanding and generation, enabling applications like intelligent document processing, automated content creation and conversational agents. This allows businesses to automate customer service, generate dynamic content and create personalized experiences at scale.</p>
                                         </div>
                                     </Accordion.Body>
                                 </Accordion.Item>
@@ -61,7 +61,7 @@ export default function AISection() {
                                     </Accordion.Header>
                                     <Accordion.Body>
                                         <div className={`${styles.accBody}`}>
-                                            <p>Generative AI transforms how businesses approach innovation, with applications in creative design, product development, marketing, and more. Our expertise in generative models allows us to offer solutions for content creation, AI-assisted design, and even AI-generated insights, helping businesses to quickly iterate and bring new ideas to market.</p>
+                                            <p>Generative AI transforms how businesses approach innovation, with applications in creative design, product development, marketing and more. Our expertise in generative models allows us to offer solutions for content creation, AI-assisted design and even AI-generated insights, helping businesses to quickly iterate and bring new ideas to market.</p>
                                         </div>
                                     </Accordion.Body>
                                 </Accordion.Item>
@@ -82,7 +82,7 @@ export default function AISection() {
                                     </Accordion.Header>
                                     <Accordion.Body>
                                         <div className={`${styles.accBody}`}>
-                                            <p>Through the Azure platform, we implement conversational AI systems that understand and respond to natural language queries, enhancing customer support and automating internal workflows. These systems are scalable, secure, and seamlessly integrate into existing infrastructure, providing high-quality interaction at any scale.</p>
+                                            <p>Through the Azure platform, we implement conversational AI systems that understand and respond to natural language queries, enhancing customer support and automating internal workflows. These systems are scalable, secure and seamlessly integrate into existing infrastructure, providing high-quality interaction at any scale.</p>
                                         </div>
                                     </Accordion.Body>
                                 </Accordion.Item>
@@ -103,7 +103,7 @@ export default function AISection() {
                                     </Accordion.Header>
                                     <Accordion.Body>
                                         <div className={`${styles.accBody}`}>
-                                            <p>Generative AI&apos;s capability to produce human-like content and designs enables companies to expedite marketing strategies, product manuals, and creative campaigns. Azure OpenAI&apos;s tools allow us to rapidly generate content, analyze large datasets, and provide context-based recommendations.
+                                            <p>Generative AI&apos;s capability to produce human-like content and designs enables companies to expedite marketing strategies, product manuals and creative campaigns. Azure OpenAI&apos;s tools allow us to rapidly generate content, analyze large datasets and provide context-based recommendations.
                                             </p>
                                         </div>
                                     </Accordion.Body>

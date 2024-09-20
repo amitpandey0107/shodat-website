@@ -54,18 +54,18 @@ export default function Casestudy() {
 
                                 <div className={`${styles.block}`}>
                                     <h3 className={`${styles.title}`}>Solution Implementation</h3>
-                                    <p>To overcome these challenges, the company deployed an intelligent, vision-based safety system across its facilities. This solution leverages advanced computer vision and AI to monitor the workplace in real-time, proactively detecting hazards, ensuring compliance, and enhancing overall safety.</p>
+                                    <p>To overcome these challenges, the company deployed an intelligent, vision-based safety system across its facilities. This solution leverages advanced computer vision and AI to monitor the workplace in real-time, proactively detecting hazards, ensuring compliance and enhancing overall safety.</p>
                                 </div>
 
                                 <div className={`${styles.block}`}>
                                     <div className={`${styles.borderBoxGreen}`}>
-                                        <h4>Object Detection: PPE, Helmet, and Safety Equipment Compliance Management</h4>
-                                        <p>A compliance management solution was implemented using advanced object detection techniques. Convolutional Neural Networks (CNN), particularly YOLO (You Only Look Once), were trained to recognize multiple safety items within a single frame, such as helmets, safety vests, and gloves. The models were trained on annotated datasets, and performance metrics like Mean Average Precision (mAP) and Intersection over Union (IoU) were continually tracked and optimized to ensure high detection accuracy.</p>
+                                        <h4>Object Detection: PPE, Helmet and Safety Equipment Compliance Management</h4>
+                                        <p>A compliance management solution was implemented using advanced object detection techniques. Convolutional Neural Networks (CNN), particularly YOLO (You Only Look Once), were trained to recognize multiple safety items within a single frame, such as helmets, safety vests and gloves. The models were trained on annotated datasets and performance metrics like Mean Average Precision (mAP) and Intersection over Union (IoU) were continually tracked and optimized to ensure high detection accuracy.</p>
                                     </div>
                                     <div className={`${styles.borderBoxGreen}`}>
                                         <h4>Advanced Image Analysis using YOLO and Depth Sensing</h4>
                                         <p>YOLOv4 and YOLOv5 models were fine-tuned for precise PPE detection, with depth estimation (via MiDaS and DPT) improving spatial accuracy. Paired with tracking algorithms like SORT and DeepSORT, the system provided real-time feedback on compliance across video frames.</p>
-                                        <p>Performance was evaluated using Mean Average Precision (mAP) for detection accuracy, and Intersection over Union (IoU) to assess alignment of predicted bounding boxes with actual PPE positions, ensuring a reliable and accurate monitoring solution.</p>
+                                        <p>Performance was evaluated using Mean Average Precision (mAP) for detection accuracy and Intersection over Union (IoU) to assess alignment of predicted bounding boxes with actual PPE positions, ensuring a reliable and accurate monitoring solution.</p>
                                     </div>
                                     <div className={`${styles.borderBoxGreen}`}>
                                         <h4>Advanced Safety Management</h4>
@@ -73,7 +73,7 @@ export default function Casestudy() {
                                     </div>
                                     <div className={`${styles.borderBoxGreen}`}>
                                         <h4>Alerting Mechanism</h4>
-                                        <p>When potential hazards were detected, the system automatically triggered alerts to safety officers and site supervisors. These alerts were delivered via SMS, email, and integrated directly into a central site management dashboard, ensuring immediate action could be taken to address safety risks.</p>
+                                        <p>When potential hazards were detected, the system automatically triggered alerts to safety officers and site supervisors. These alerts were delivered via SMS, email and integrated directly into a central site management dashboard, ensuring immediate action could be taken to address safety risks.</p>
                                     </div>
                                     <div className={`${styles.borderBoxGreen}`}>
                                         <h4>Data Logging and Analysis</h4>
@@ -112,7 +112,7 @@ export default function Casestudy() {
                                     </div>
                                     <div className={`${styles.borderBoxGray}`}>
                                         <h4>Regulatory Compliance</h4>
-                                        <p>High-risk areas and hazardous conditions were proactively identified, leading to strict adherence to regulations like OSHA, ANSI, and CCOHS. This reduced the risk of violations and penalties while ensuring ongoing compliance.</p>
+                                        <p>High-risk areas and hazardous conditions were proactively identified, leading to strict adherence to regulations like OSHA, ANSI and CCOHS. This reduced the risk of violations and penalties while ensuring ongoing compliance.</p>
                                     </div>
                                     <div className={`${styles.borderBoxGray}`}>
                                         <h4>Operational Continuity</h4>
@@ -126,7 +126,7 @@ export default function Casestudy() {
 
                                 <div className={`${styles.block}`}>
                                     <div className={`${styles.purpleBG}`}>
-                                        By adopting an Intelligent, Vision-Based Safety System, the manufacturing company effectively addressed workplace safety challenges across its expansive, high-risk operations. Proactive hazard detection, real-time alerts, and centralised compliance monitoring not only cut safety incidents but also cultivated a robust culture of safety and compliance throughout the organisation.
+                                        By adopting an Intelligent, Vision-Based Safety System, the manufacturing company effectively addressed workplace safety challenges across its expansive, high-risk operations. Proactive hazard detection, real-time alerts and centralised compliance monitoring not only cut safety incidents but also cultivated a robust culture of safety and compliance throughout the organisation.
                                     </div>
                                     <div className={`${styles.blackBG}`}>
                                         Interested in discovering how our vision-based AI solutions can elevate your workplace safety? Contact us today.

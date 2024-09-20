@@ -11,7 +11,7 @@ export default function Cta() {
                             <div className={`${styles.experienceContent}`}>
                                 <h2>Our AI Innovation Suite</h2>
                                 <p>
-                                    At Shodat Inc., we offer a comprehensive suite of AI-driven solutions designed to address the unique challenges of various industries. Our flagship platforms, Shodat X, Shodat YAI, and Shodat eOps, embody our commitment to innovation and excellence.
+                                    At Shodat Inc., we offer a comprehensive suite of AI-driven solutions designed to address the unique challenges of various industries. Our flagship platforms, Shodat X, Shodat YAI and Shodat eOps, embody our commitment to innovation and excellence.
                                 </p>
                             </div>
                         </div>

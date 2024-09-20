@@ -18,7 +18,7 @@ export default function Manufacturing(props: any) {
             <div className={`${styles.infoContent}`}>
                 <div className={`${styles.contentBox}`}>
                     <h3>Logistics </h3>
-                    <p>A nationwide fleet management company needed a more accurate solution to predict tire wear, optimize maintenance, and enhance safety. Traditional methods, like manual inspections and mileage-based predictions, were often inaccurate, time-consuming, and led to either costly premature replacements or dangerous delays in tire maintenance.</p>
+                    <p>A nationwide fleet management company needed a more accurate solution to predict tire wear, optimize maintenance and enhance safety. Traditional methods, like manual inspections and mileage-based predictions, were often inaccurate, time-consuming and led to either costly premature replacements or dangerous delays in tire maintenance.</p>
                     <p>By implementing Shodat eOps™, the manufacturer is aiming to enhance their tire wear prediction capabilities.
                     </p>
                 </div>

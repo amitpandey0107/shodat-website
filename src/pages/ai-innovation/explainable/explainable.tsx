@@ -11,7 +11,7 @@ export default function Explainable() {
                             <div className={`${styles.sectionLeft}`}>
                                 <h2>Shodat X: Explainable Intelligence</h2>
                                 <h6>Illuminate the Unknown</h6>
-                                <p>Shodat X is our state-of-the-art explainable intelligence platform that provides deep insights into product defects, process inefficiencies, and operational risks. By leveraging generative AI and inference analytics, Shodat X uncovers the root causes of issues and presents them in an understandable and actionable manner.</p>
+                                <p>Shodat X is our state-of-the-art explainable intelligence platform that provides deep insights into product defects, process inefficiencies and operational risks. By leveraging generative AI and inference analytics, Shodat X uncovers the root causes of issues and presents them in an understandable and actionable manner.</p>
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-12 col-lg-8">

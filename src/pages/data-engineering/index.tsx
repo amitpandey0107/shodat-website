@@ -76,7 +76,7 @@ function DataEngineering() {
                 {/* Application Integration */}
                 {/* <ApplicationIntegration /> */}
 
-                {/* Data Storage, Warehousing, and Data Marts */}
+                {/* Data Storage, Warehousing and Data Marts */}
                 {/* <DataStorage /> */}
 
                 {/* Text & Image Inforamtion Section */}

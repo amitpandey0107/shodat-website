@@ -90,7 +90,7 @@ export default function DataStorageSlider(props: any) {
                         </div>
                         <div className={`${styles.itemBottom}`}>
                             <h6>Building Customized Data Models</h6>
-                            <p>Our team excels in creating tailored data models to suit your specific business requirements, ensuring data is organized, accessible, and optimized for performance. </p>
+                            <p>Our team excels in creating tailored data models to suit your specific business requirements, ensuring data is organized, accessible and optimized for performance. </p>
                         </div>
                     </div>        
                     
@@ -106,7 +106,7 @@ export default function DataStorageSlider(props: any) {
                         </div>
                         <div className={`${styles.itemBottom}`}>
                             <h6>Handling Complex Analytical Calculations</h6>
-                            <p>We utilize sophisticated data transformation techniques  to prepare data for complex analyses. Our approach ensures that data is cleansed, normalised, and structured efficiently, which is crucial for accurate analytical computations. </p>
+                            <p>We utilize sophisticated data transformation techniques  to prepare data for complex analyses. Our approach ensures that data is cleansed, normalised and structured efficiently, which is crucial for accurate analytical computations. </p>
                         </div>
                     </div>
 
@@ -136,7 +136,7 @@ export default function DataStorageSlider(props: any) {
                         </div>
                         <div className={`${styles.itemBottom}`}>
                             <h6>File Based Storage</h6>
-                            <p>We offer the ability to store, extract and process data stored in various file formats such as CSV, XLSX, PDFs, JPEGs, and more, ensuring all your data sources are integrated and managed efficiently.</p>
+                            <p>We offer the ability to store, extract and process data stored in various file formats such as CSV, XLSX, PDFs, JPEGs and more, ensuring all your data sources are integrated and managed efficiently.</p>
                         </div>
                     </div>
 

@@ -13,7 +13,7 @@ export default function AccordionBusiness(props: any) {
                 </Accordion.Header>
                 <Accordion.Body>
                     <div className={`${styles.accBody}`}>
-                        <p>Enabling organizations to make data-driven decisions through advanced algorithms that predict future trends, optimize operations, and deliver actionable insights.</p>
+                        <p>Enabling organizations to make data-driven decisions through advanced algorithms that predict future trends, optimize operations and deliver actionable insights.</p>
                     </div>
                 </Accordion.Body>
             </Accordion.Item>
@@ -26,7 +26,7 @@ export default function AccordionBusiness(props: any) {
                 </Accordion.Header>
                 <Accordion.Body>
                     <div className={`${styles.accBody}`}>
-                        <p>Harnessing the power of language understanding to develop intelligent chatbots, sentiment analysis systems, and automation of text-heavy processes, enhancing customer experiences and operational efficiency.</p>
+                        <p>Harnessing the power of language understanding to develop intelligent chatbots, sentiment analysis systems and automation of text-heavy processes, enhancing customer experiences and operational efficiency.</p>
                     </div>
                 </Accordion.Body>
             </Accordion.Item>
@@ -39,7 +39,7 @@ export default function AccordionBusiness(props: any) {
                 </Accordion.Header>
                 <Accordion.Body>
                     <div className={`${styles.accBody}`}>
-                        <p>Leveraging AI-powered vision systems for applications such as defect detection, facial recognition, image analysis, and more, enabling smarter, faster, and more reliable decisions in manufacturing, retail, and other industries.</p>
+                        <p>Leveraging AI-powered vision systems for applications such as defect detection, facial recognition, image analysis and more, enabling smarter, faster and more reliable decisions in manufacturing, retail and other industries.</p>
                     </div>
                 </Accordion.Body>
             </Accordion.Item>
@@ -52,7 +52,7 @@ export default function AccordionBusiness(props: any) {
                 </Accordion.Header>
                 <Accordion.Body>
                     <div className={`${styles.accBody}`}>
-                        <p>Streamlining workflows through AI-driven automation of routine tasks, improving accuracy, reducing operational costs, and allowing businesses to focus on strategic initiatives.</p>
+                        <p>Streamlining workflows through AI-driven automation of routine tasks, improving accuracy, reducing operational costs and allowing businesses to focus on strategic initiatives.</p>
                     </div>
                 </Accordion.Body>
             </Accordion.Item>

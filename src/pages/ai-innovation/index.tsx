@@ -70,7 +70,7 @@ export default function AiInovation() {
     const data3 = {
         title: "Intelligent Process Automation (IPA)",
         subTitle: "",
-        intro: "Our Intelligent Process Automation (IPA) solutions integrate AI and machine learning to automate repetitive tasks, streamline workflows, and enhance operational efficiency. Shodat Inc.'s IPA capabilities help businesses reduce manual labor, minimize errors, and improve productivity.",
+        intro: "Our Intelligent Process Automation (IPA) solutions integrate AI and machine learning to automate repetitive tasks, streamline workflows and enhance operational efficiency. Shodat Inc.'s IPA capabilities help businesses reduce manual labor, minimize errors and improve productivity.",
         feat: [
             {
                 title: "IPA Capabilities:",

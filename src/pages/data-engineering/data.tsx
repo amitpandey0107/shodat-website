@@ -89,7 +89,7 @@ export default function Data(props: any) {
                         <div className="row">
                             <div className="col-sm-12">
                                 <h2>Data Security, Governance & Compliance</h2>
-                                <p>At Shodat Inc, We prioritize data governance to ensure the accuracy, consistency, and security of your data:</p>
+                                <p>At Shodat Inc, We prioritize data governance to ensure the accuracy, consistency and security of your data:</p>
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@ export default function Data(props: any) {
                                     </div>
                                     <div className={`${styles.dataRight}`}>
                                         <h6>Data Security:</h6>
-                                        <p>Implementing robust security measures to protect your data from unauthorized access, breaches, and other cyber threats.</p>
+                                        <p>Implementing robust security measures to protect your data from unauthorized access, breaches and other cyber threats.</p>
                                     </div>
                                 </div>
                             </div>
@@ -173,7 +173,7 @@ export default function Data(props: any) {
                                     </div>
                                     <div className={`${styles.dataRight}`}>
                                         <h6>Regulatory Compliance:</h6>
-                                        <p>Our solutions adhere to industry regulations such as GDPR, HIPAA, and CCPA, providing you with peace of mind that your data handling practices are compliant with legal requirements.</p>
+                                        <p>Our solutions adhere to industry regulations such as GDPR, HIPAA and CCPA, providing you with peace of mind that your data handling practices are compliant with legal requirements.</p>
                                     </div>
                                 </div>
                             </div>

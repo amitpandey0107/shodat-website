@@ -18,7 +18,7 @@ export default function Energy(props:any) {
             <div className={`${styles.infoContent}`}>
                 <div className={`${styles.contentBox}`}>
                     <h3>Energy</h3>
-                    <p>A leading EV ride sharing company faced significant challenges in predicting battery life accurately. Inconsistent performance data, variations in usage patterns, and environmental factors made it difficult to provide reliable predictions.</p>
+                    <p>A leading EV ride sharing company faced significant challenges in predicting battery life accurately. Inconsistent performance data, variations in usage patterns and environmental factors made it difficult to provide reliable predictions.</p>
                     <p>To address these issues, the ride sharing company is implementing Shodat eOps™, an advanced asset tracking and quality management platform, to enhance their battery life prediction capabilities.</p>
                 </div>
                 <div className={`${styles.resultBox}`}>

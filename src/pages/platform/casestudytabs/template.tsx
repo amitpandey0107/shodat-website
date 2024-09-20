@@ -18,7 +18,7 @@ export default function Energy() {
             <div className={`${styles.infoContent}`}>
                 <div className={`${styles.contentBox}`}>
                     <h3>Energy</h3>
-                    <p>A prominent manufacturer of Energy faced significant challenges in predicting battery life accurately. Inconsistent performance data, variations in usage patterns, and environmental factors made it difficult to provide reliable predictions. </p>
+                    <p>A prominent manufacturer of Energy faced significant challenges in predicting battery life accurately. Inconsistent performance data, variations in usage patterns and environmental factors made it difficult to provide reliable predictions. </p>
                     <p>To address these issues, the manufacturer implemented Shodat eOps™, an advanced asset tracking and quality management platform, to enhance their battery life prediction capabilities.</p>
                 </div>
                 <div className={`${styles.resultBox}`}>

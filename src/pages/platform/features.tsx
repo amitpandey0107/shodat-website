@@ -193,7 +193,7 @@ export default function Features() {
                                             </div>
                                             <div className={`${styles.textRow}`}>
                                                 <h6>Data Ingestion</h6>
-                                                <p>Efficiently ingest data from various sources including sensors, vision cameras, documents (OCR), and other systems.</p>
+                                                <p>Efficiently ingest data from various sources including sensors, vision cameras, documents (OCR) and other systems.</p>
                                             </div>
                                             <div className={`${styles.textRow}`}>
                                                 <h6>Data Streams and Feeds</h6>

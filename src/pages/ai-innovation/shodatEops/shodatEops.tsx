@@ -11,7 +11,7 @@ export default function ShodatEops() {
                             <div className={`${styles.sectionLeft}`}>
                                 <h2>Shodat eOps: The Vehicle for AI Excellence</h2>
                                 <h6>Empowering Intelligent Operations</h6>
-                                <p>Shodat eOps is the backbone of our AI-driven solutions, providing the infrastructure and tools necessary to deliver the capabilities of Shodat X and Shodat YAI. It ensures seamless integration, real-time data processing, and actionable intelligence for optimized operations.</p>
+                                <p>Shodat eOps is the backbone of our AI-driven solutions, providing the infrastructure and tools necessary to deliver the capabilities of Shodat X and Shodat YAI. It ensures seamless integration, real-time data processing and actionable intelligence for optimized operations.</p>
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-12 col-lg-8">

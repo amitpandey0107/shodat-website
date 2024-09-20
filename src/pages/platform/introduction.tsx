@@ -93,14 +93,14 @@ export default function Introduction() {
                                 <div className={`${styles.sectionImageBox}`}>
 
                                     <div className={`${styles.textBox} ${styles.skyBlueBox}`}>
-                                        <p>The platform adheres to industry standards, including OSHA, ANSI, CCOHS, and ISO 9001, providing a robust quality management framework to meet stringent regulatory requirements. Its capabilities in predictive analytics and real-time monitoring ensure proactive issue resolution and continuous process optimization. </p>
+                                        <p>The platform adheres to industry standards, including OSHA, ANSI, CCOHS and ISO 9001, providing a robust quality management framework to meet stringent regulatory requirements. Its capabilities in predictive analytics and real-time monitoring ensure proactive issue resolution and continuous process optimization. </p>
                                     </div>
                                 </div>
 
                                 <div className={`${styles.sectionImageBox}`}>
 
                                     <div className={`${styles.textBox} ${styles.blackBox}`}>
-                                        <p>With Shodat eOps, organizations can achieve significant reductions in defect rates, operational costs, and customer complaints, while simultaneously enhancing employee engagement and market reputation.</p>
+                                        <p>With Shodat eOps, organizations can achieve significant reductions in defect rates, operational costs and customer complaints, while simultaneously enhancing employee engagement and market reputation.</p>
                                     </div>
                                 </div>
 

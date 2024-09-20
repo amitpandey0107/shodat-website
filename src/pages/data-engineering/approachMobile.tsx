@@ -137,7 +137,7 @@ export default function ApproachMobile(props: any) {
                                                 </defs>
                                             </svg>
                                         </div>
-                                        <h6>Data Storage, Warehousing, and Data Marts</h6>
+                                        <h6>Data Storage, Warehousing and Data Marts</h6>
                                     </div>
                                 </Accordion.Header>
                                 <Accordion.Body>
@@ -157,11 +157,11 @@ export default function ApproachMobile(props: any) {
                                         </div>
                                         <div className={`${styles.dataRow}`}>
                                             <h6>Building Customized Data Models</h6>
-                                            <p>Our team excels in creating tailored data models to suit your specific business requirements, ensuring data is organized, accessible, and optimized for performance. Utilizing advanced schema designs and other modelling techniques, we organize data into well integrated facts and dimensions to enhance performance and usability, ensuring a structured and scalable approach to data management.</p>
+                                            <p>Our team excels in creating tailored data models to suit your specific business requirements, ensuring data is organized, accessible optimized for performance. Utilizing advanced schema designs and other modelling techniques, we organize data into well integrated facts and dimensions to enhance performance and usability, ensuring a structured and scalable approach to data management.</p>
                                         </div>
                                         <div className={`${styles.dataRow}`}>
                                             <h6>Handling Complex Analytical Calculations</h6>
-                                            <p>We utilize sophisticated data transformation techniques  to prepare data for complex analyses. Our approach ensures that data is cleansed, normalised, and structured efficiently, which is crucial for accurate analytical computations. Indexing techniques, complex joins and aggregate calculations are employed to utilise processing capabilities of db engines and ensure that data is in optimal format for further analysis.</p>
+                                            <p>We utilize sophisticated data transformation techniques  to prepare data for complex analyses. Our approach ensures that data is cleansed, normalised and structured efficiently, which is crucial for accurate analytical computations. Indexing techniques, complex joins and aggregate calculations are employed to utilise processing capabilities of db engines and ensure that data is in optimal format for further analysis.</p>
                                         </div>
                                         <div className={`${styles.dataRow}`}>
                                             <h6>Building Visualization Layers</h6>
@@ -169,7 +169,7 @@ export default function ApproachMobile(props: any) {
                                         </div>
                                         <div className={`${styles.dataRow}`}>
                                             <h6>File Based Storage </h6>
-                                            <p>We offer the ability to store, extract and process data stored in various file formats such as CSV, XLSX, PDFs, JPEGs, and more, ensuring all your data sources are integrated and managed efficiently.</p>
+                                            <p>We offer the ability to store, extract and process data stored in various file formats such as CSV, XLSX, PDFs, JPEGs and more, ensuring all your data sources are integrated and managed efficiently.</p>
                                         </div>
                                     </div>
                                 </Accordion.Body>
@@ -202,7 +202,7 @@ export default function ApproachMobile(props: any) {
                                         </div>
                                         <div className={`${styles.dataRow}`}>
                                             {/* <h6>Building Publish-Subscribe Systems:</h6> */}
-                                            <p>Our expertise spans across various powerful business intelligence (BI) tools like Power BI, Tableau, and custom-built solutions, ensuring we meet diverse business needs effectively.We excel in creating comprehensive visualization layers that transform raw data into actionable insights through intuitive and interactive dashboards.</p>
+                                            <p>Our expertise spans across various powerful business intelligence (BI) tools like Power BI, Tableau and custom-built solutions, ensuring we meet diverse business needs effectively.We excel in creating comprehensive visualization layers that transform raw data into actionable insights through intuitive and interactive dashboards.</p>
                                         </div>
                                     </div>
                                 </Accordion.Body>
@@ -259,7 +259,8 @@ export default function ApproachMobile(props: any) {
                                             />
                                         </div>
                                         <div className={`${styles.dataRow}`}>
-                                            <p>The data pipeline extends into our Machine Learning (ML) capabilities for further value enrichment. Processed data is cleansed and a layer of feature engineering is applied before feeding it into our model training and testing frameworks. Anomaly detection, predictive analytics, forecasting, document extraction, image processing and automated report generation functions are designed to empower businesses with crucial insights to drive innovation, efficiency, and gain a competitive edge. Our comprehensive suite of ML services and autonomous turn key pipelines ensures that your organisation can leverage the full potential of data to achieve your strategic objectives.</p>
+                                            <p>The data pipeline extends into our Machine Learning (ML) capabilities for further value enrichment. Processed data is cleansed and a layer of feature engineering is applied before feeding it into our model training and testing frameworks. Anomaly detection, predictive analytics, forecasting, document extraction, image processing and automated report generation functions are designed to empower businesses with crucial insights to drive innovation, efficiency,
+                                                 and gain a competitive edge. Our comprehensive suite of ML services and autonomous turn key pipelines ensures that your organisation can leverage the full potential of data to achieve your strategic objectives.</p>
                                             <div className={`${styles.btnWrap}`}>
                                                 <button className={`${styles.btnBlack}`}>
                                                     <span>Read more</span>

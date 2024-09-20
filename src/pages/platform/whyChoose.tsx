@@ -17,7 +17,7 @@ export default function WhyChoose() {
                             <h2 className={`${styles.title}`}>Why Choose <br />Shodat eOps™ Platform?</h2>
                             <div className={`${styles.text}`}>
                                 <h6>Drive Operational Excellence</h6>
-                                <p>Optimize processes, reduce costs, and improve efficiency with AI-driven intelligence.</p>
+                                <p>Optimize processes, reduce costs and improve efficiency with AI-driven intelligence.</p>
                             </div>
                             <div className={`${styles.text}`}>
                                 <h6>Make Informed Decisions</h6>

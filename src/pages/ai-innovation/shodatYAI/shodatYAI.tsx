@@ -71,7 +71,7 @@ export default function ShodatYAI() {
                             <div className="col-sm-12 col-md-12 col-lg-4">
                                 <div className={`${styles.sectionLeft}`}>
                                     <h6>Unlock Unparalleled Insights</h6>
-                                    <p>Combining generative and causal AI to provide deep reasoning and insight capabilities. Our platform enables organizations to understand the cause-and-effect relationships behind real-world incidents, driving growth, innovation, and operational excellence.</p>
+                                    <p>Combining generative and causal AI to provide deep reasoning and insight capabilities. Our platform enables organizations to understand the cause-and-effect relationships behind real-world incidents, driving growth, innovation and operational excellence.</p>
                                 </div>
                             </div>
                             <div className="col-sm-12 col-md-12 col-lg-8">

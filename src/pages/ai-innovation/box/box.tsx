@@ -16,7 +16,7 @@ export default function Box() {
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-3">
                         <div className={`${styles.phraseBox}`}>
-                            <h4>As per Cisco&apos;s survey,<span> 83% of executives</span> think AI is a top priority in their business plans today, and <span>75%</span> find AI as their gateway to shift into new businesses and ventures.
+                            <h4>As per Cisco&apos;s survey,<span> 83% of executives</span> think AI is a top priority in their business plans today and <span>75%</span> find AI as their gateway to shift into new businesses and ventures.
                             </h4>
                         </div>
                     </div>
