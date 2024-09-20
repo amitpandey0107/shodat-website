@@ -11,7 +11,7 @@ export default function Casestudy() {
                 <Header />
 
                 <div className={`${styles.caseBanner}`}>
-                    <div className="container-fluid">
+                    <div className="container-fluid1">
                         <div className="row">
                             <div className="col-sm-12">
                                 <div className={`${styles.bannerTitle}`}>
@@ -23,7 +23,7 @@ export default function Casestudy() {
                 </div>
 
                 <div className={`${styles.caseContent}`}>
-                    <div className="container-fluid">
+                    <div className="container-fluid1">
                         <div className="row">
                             <div className="col-sm-12">
                                 <div className={`${styles.block}`}>
