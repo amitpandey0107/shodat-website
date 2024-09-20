@@ -19,7 +19,7 @@ export default function Introduction() {
                         <div className={`${styles.sectionImage}`}>
                             <div className={`${styles.thumbnail}`}>
                                 <Image
-                                    src="/img/aiInnovation/intro/introduction.png"
+                                    src="/img/aiInnovation/intro/ai-page-img1.png"
                                     alt="intro"
                                     height={429}
                                     width={560}

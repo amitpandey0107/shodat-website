@@ -13,7 +13,7 @@ export default function UseCases() {
                             <h6>Enhancing Workplace Safety with Vision-Based AI Solutions</h6>
                             <p>A major manufacturing organisation with large-scale production facilities faced ongoing challenges in workplace safety. With operations spanning multiple high-risk sites, safety incidents and near-misses were on the rise. Despite established safety protocols, the scale and complexity of operations made it difficult to ensure compliance and identify hazards proactively.</p>
                             <div className={`${styles.btnWrp}`}>
-                                <Link href="" className={`${styles.readMore}`}>
+                                <Link href="/ai-innovation/case-studies" className={`${styles.readMore}`}>
                                     <span>Read more</span>
                                     <Image
                                         src="/img/arrowRight.svg"
@@ -29,7 +29,7 @@ export default function UseCases() {
                         <div className={`${styles.sectionRight}`}>
                             <div className={`${styles.thumbnail}`}>
                                 <Image
-                                    src="/img/aiInnovation/use_case.png"
+                                    src="/img/aiInnovation/casestudies/ai-case-img-main.png"
                                     alt="use case"
                                     height={277}
                                     width={545}

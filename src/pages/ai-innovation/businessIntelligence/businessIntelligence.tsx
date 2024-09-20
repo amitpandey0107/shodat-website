@@ -33,8 +33,8 @@ export default function BusinessIntelligence() {
                             <div className={`${styles.sectionImage}`}>
                                 <div className={`${styles.thumbnail}`}>
                                     <Image
-                                        src="/img/advancedAnalytics/dummyRect.png"
-                                        alt="dummy images"
+                                        src="/img/aiInnovation/ai-page-img2.png"
+                                        alt="Our AI Expertise"
                                         height={433}
                                         width={624}
                                     />
