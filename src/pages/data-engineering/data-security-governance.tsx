@@ -27,7 +27,7 @@ export default function DataSecurityGovernance(props: any) {
                                 />
                             </div>
                             <div className={`${styles.contentArea}`}>
-                                <h4>Data Security:</h4>
+                                <h4>Data Security</h4>
                                 <p>Implementing robust security measures to protect your data from unauthorized access, breaches, and other cyber threats.</p>
                             </div>
                         </div>

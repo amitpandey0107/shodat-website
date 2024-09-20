@@ -148,7 +148,8 @@ export default function AiInovation() {
                 <AIInfoBlock sectionData={data3} mode={1} />
 
                 {/* CTA */}
-                <Cta />
+                {/* <Cta /> */}
+
                 <div className="bgColors">
                     {/* Explainable */}
                     <Explainable />

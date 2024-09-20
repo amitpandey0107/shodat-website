@@ -51,8 +51,8 @@ export default function Header() {
                     <ul className={`${styles.menuList}`}>
                         <li><Link href="/" className={`${router.pathname === '/' ? `${styles.active}` : ''}`}>Home</Link></li>
                         <li><Link href="/platform" className={`${router.pathname === '/platform' ? `${styles.active}` : ''}`}>Platform</Link></li>
-                        <li><Link href="/data-engineering" className={`${router.pathname === '/data-engineering' ? `${styles.activeInnerLink}` : ''}`}>Data Engineering</Link></li>
-                        <li><Link href="/ai-innovation" className={`${router.pathname === '/ai-innovation' ? `${styles.activeInnerLink}` : ''}`}>AI Innovation</Link></li>
+                        <li><Link href="/data-engineering" className={`${router.pathname === '/data-engineering' ? `${styles.active}` : ''}`}>Data Engineering</Link></li>
+                        <li><Link href="/ai-innovation" className={`${router.pathname === '/ai-innovation' ? `${styles.active}` : ''}`}>AI Innovation</Link></li>
                         {/* <li>
                             <Link href=""
                                 className={`${router.pathname === '/solutions' || router.pathname === '/data-engineering' || router.pathname === '/advanced-analytics' || router.pathname === '/ai-innovation' || router.pathname === '/security-and-compliance' ? `${styles.active}` : ''}`}>

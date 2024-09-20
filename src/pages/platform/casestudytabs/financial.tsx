@@ -24,7 +24,7 @@ export default function Financial(props: any) {
                 </div>
                 <div className={`${styles.resultBox}`}>
                     <h3>Results</h3>
-                    <div className={`${styles.resultText}`}>Compliance processes are being streamlined , reducing the time and effort required for compliance management by 40%.</div>
+                    <div className={`${styles.resultText}`}>Compliance processes are being streamlined, reducing the time and effort required for compliance management by 40%.</div>
 
                     <div className={`${styles.resultText}`}>Decreasing the risk of non-compliance incidents by 25% by proactive alerting and monitoring. The enhanced efficiency and accuracy in compliance is helping the firm protecting their reputation, avoid huge penalties and regulatory actions.
                     </div>

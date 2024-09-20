@@ -13,7 +13,7 @@ export default function Questions() {
                         
 
                         <div className={`${styles.infoBox} ${styles.box1}`}>
-                            <p>Are you facing challenges with maintaining product quality and struggling to minimize defect rates</p>
+                            <p>Are you facing challenges in maintaining product quality and struggling to minimize defect rates</p>
                             <div className={`${styles.queMark}`}>
                                 <Image
                                     src="/img/platform/que_mark.svg"
@@ -25,7 +25,7 @@ export default function Questions() {
                         </div>
 
                         <div className={`${styles.infoBox} ${styles.box2}`}>
-                            <p>Is there a lack of visibility into your operations and processes due to data being dispersed across multiple systems or insufficient data inputs</p>
+                            <p>Is there a lack of visibility in your operations and processes due to data being dispersed across multiple systems or insufficient data inputs</p>
                             <div className={`${styles.queMark2}`}>
                                 <Image
                                     src="/img/platform/que_mark.svg"
@@ -74,7 +74,7 @@ export default function Questions() {
                         </div>
 
                         <div className={`${styles.circle}`}>
-                            <p>You&apos;re not alone in facing these complex operational challenges !</p>
+                            <p>You&apos;re not alone in facing these complex operational challenges </p>
                         </div>
 
                         
@@ -98,7 +98,8 @@ export default function Questions() {
                             </div>
                             <div className="col-sm-6 col-md-6 col-lg-3">
                                 <div className={`${styles.phraseBox}`}>
-                                    <h4>Unplanned downtime in manufacturing costs industrial manufacturers an estimated <span>$50 billion</span> each year</h4>
+                                    {/* <h4>Unplanned downtime in manufacturing costs industrial manufacturers an estimated <span>$50 billion</span> each year</h4> */}
+                                    <h4>Unplanned downtime in manufacturing, costs industrial manufacturers an estimated <span>$50 billion</span> each year</h4>
                                     <p>- Forbes</p>
                                 </div>
                             </div>

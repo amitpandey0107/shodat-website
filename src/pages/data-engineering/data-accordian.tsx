@@ -220,7 +220,7 @@ export default function DataAccordian() {
                                     <div className={`${styles.text}`}>
                                         <h6>Power BI</h6>
                                         <p>Our Power BI solutions enable you to visualize your data like never before, making it easier to identify trends, spot anomalies, and drive strategic decisions.</p>
-                                        <button className={`${styles.btnBlack}`}>
+                                        {/* <button className={`${styles.btnBlack}`}>
                                             <span>Read more</span>
                                             <Image
                                                 src="/img/dataEngineering/arrow-right.png"
@@ -228,7 +228,7 @@ export default function DataAccordian() {
                                                 height={24}
                                                 width={24}
                                             />
-                                        </button>
+                                        </button> */}
                                     </div>
                                 </div>
                             </div>

@@ -280,14 +280,15 @@
 }
 
 .phrase .phraseBox {
-    border: 2px solid #05A7B1;
+    /* border: 2px solid #05A7B1; */
     height: 255px;
     padding: 24px;
+    background-image: linear-gradient(to right top , rgba(147,74,156, 0.5), rgba(5, 167, 177, 0.5));
 }
 
 .phrase .phraseBox h4 {
     font-weight: normal;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.9);
     line-height: 28px;
     margin-bottom: 25px;
 }
@@ -300,7 +301,7 @@
 }
 
 .phrase .phraseBox p {
-    color: rgba(255, 255, 255, 0.45);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     text-align: right;
 }
@@ -622,7 +623,7 @@
 }
 
 .introductionV2 .sectionContent .btnWrap {
-    margin-top: 63px;
+    margin-top: 35px;
 }
 
 .introductionV2 .thumbnails {
@@ -696,16 +697,6 @@
     object-fit: contain;
     object-position: center;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 
