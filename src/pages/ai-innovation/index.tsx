@@ -143,13 +143,13 @@ export default function AiInovation() {
                 <VisionAI />
 
                 {/* AI Info Block */}
-                <AIInfoBlock sectionData={data1} mode={1} />
+                {/* <AIInfoBlock sectionData={data1} mode={1} /> */}
 
                 {/* AI Info Block */}
-                <AIInfoBlock sectionData={data2} mode={2} />
+                {/* <AIInfoBlock sectionData={data2} mode={2} /> */}
 
                 {/* AI Info Block */}
-                <AIInfoBlock sectionData={data3} mode={1} />
+                {/* <AIInfoBlock sectionData={data3} mode={1} /> */}
 
                 {/* CTA */}
                 {/* <Cta /> */}

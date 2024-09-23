@@ -19,41 +19,47 @@ export default function Explainable() {
                                 <div className="row">
                                     <div className="col-sm-12 col-md-4 col-lg-4">
                                         <div className={`${styles.whiteBox}`}>
-                                            <div className={`${styles.icon}`}>
-                                                <Image
-                                                    src="/img/aiInnovation/iconRect.png"
-                                                    alt="icon"
-                                                    height={110}
-                                                    width={120}
-                                                />
+                                            <div className={`${styles.iconWrap}`}>
+                                                <div className={`${styles.icon}`}>
+                                                    <Image
+                                                        src="/img/aiInnovation/DefectDetection.svg"
+                                                        alt="Defect Detection"
+                                                        height={44}
+                                                        width={44}
+                                                    />
+                                                </div>
                                             </div>
                                             <h6>Defect Detection</h6>
                                             <p>Identify defects in manufacturing processes and optimize quality control measures.</p>
                                         </div>
                                     </div>
                                     <div className="col-sm-12 col-md-4 col-lg-4">
-                                    <div className={`${styles.whiteBox}`}>
-                                            <div className={`${styles.icon}`}>
-                                                <Image
-                                                    src="/img/aiInnovation/iconRect.png"
-                                                    alt="icon"
-                                                    height={110}
-                                                    width={120}
-                                                />
+                                        <div className={`${styles.whiteBox}`}>
+                                            <div className={`${styles.iconWrap}`}>
+                                                <div className={`${styles.icon}`}>
+                                                    <Image
+                                                        src="/img/aiInnovation/OperationalSafety.svg"
+                                                        alt="Operational Safety"
+                                                        height={44}
+                                                        width={44}
+                                                    />
+                                                </div>
                                             </div>
                                             <h6>Operational Safety</h6>
                                             <p>Enhance safety protocols by understanding and mitigating potential risks.</p>
                                         </div>
                                     </div>
                                     <div className="col-sm-12 col-md-4 col-lg-4">
-                                    <div className={`${styles.whiteBox}`}>
-                                            <div className={`${styles.icon}`}>
-                                                <Image
-                                                    src="/img/aiInnovation/iconRect.png"
-                                                    alt="icon"
-                                                    height={110}
-                                                    width={120}
-                                                />
+                                        <div className={`${styles.whiteBox}`}>
+                                            <div className={`${styles.iconWrap}`}>
+                                                <div className={`${styles.icon}`}>
+                                                    <Image
+                                                        src="/img/aiInnovation/SupplyChainOptimization.svg"
+                                                        alt="Supply Chain Optimization"
+                                                        height={44}
+                                                        width={44}
+                                                    />
+                                                </div>
                                             </div>
                                             <h6>Supply Chain Optimization</h6>
                                             <p>Streamline operations and improve supply chain efficiency with data-driven insights.
