@@ -23,13 +23,13 @@ export default function AISection() {
                                         <div className={`${styles.accordionHeader}`}>
                                             <div className={`${styles.icons}`}>
                                                 <Image
-                                                    src="/img/aiInnovation/svg/azure.svg"
+                                                    src="/img/aiInnovation/azure.svg"
                                                     alt="Azure Services"
                                                     height={48}
                                                     width={48}
                                                 />
                                                 <Image
-                                                    src="/img/aiInnovation/svg/openAI.svg"
+                                                    src="/img/aiInnovation/openAI.svg"
                                                     alt="OpenAI Services"
                                                     height={48}
                                                     width={48}
@@ -50,7 +50,7 @@ export default function AISection() {
                                         <div className={`${styles.accordionHeader}`}>
                                             <div className={`${styles.icons}`}>
                                                 <Image
-                                                    src="/img/aiInnovation/svg/genAI.svg"
+                                                    src="/img/aiInnovation/genAI.svg"
                                                     alt="Generative AI"
                                                     height={48}
                                                     width={48}
@@ -71,7 +71,7 @@ export default function AISection() {
                                         <div className={`${styles.accordionHeader}`}>
                                             <div className={`${styles.icons}`}>
                                                 <Image
-                                                    src="/img/aiInnovation/svg/chatbot.svg"
+                                                    src="/img/aiInnovation/chatbot.svg"
                                                     alt="Conversational AI & Chatbots"
                                                     height={48}
                                                     width={48}
@@ -92,7 +92,7 @@ export default function AISection() {
                                         <div className={`${styles.accordionHeader}`}>
                                             <div className={`${styles.icons}`}>
                                                 <Image
-                                                    src="/img/aiInnovation/svg/contentCreation.svg"
+                                                    src="/img/aiInnovation/contentCreation.svg"
                                                     alt="AI-Driven Insights and Content Creation"
                                                     height={48}
                                                     width={48}

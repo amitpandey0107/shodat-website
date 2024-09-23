@@ -84,7 +84,7 @@ export default function Casestudy() {
                                 <div className={`${styles.block}`}>
                                     <div className={`${styles.imageThumbnail}`}>
                                         <Image
-                                            src="/img/aiInnovation/casestudies/aicaseimage1.png"
+                                            src="/img/aiInnovation/aicaseimage1.png"
                                             alt="use case image"
                                             height={433}
                                             width={940}
@@ -92,7 +92,7 @@ export default function Casestudy() {
                                     </div>
                                     <div className={`${styles.imageThumbnail}`}>
                                         <Image
-                                            src="/img/aiInnovation/casestudies/AI-case-img2.png"
+                                            src="/img/aiInnovation/AI-case-img2.png"
                                             alt="use case image"
                                             height={433}
                                             width={940}

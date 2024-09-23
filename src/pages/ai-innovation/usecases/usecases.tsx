@@ -29,7 +29,7 @@ export default function UseCases() {
                         <div className={`${styles.sectionRight}`}>
                             <div className={`${styles.thumbnail}`}>
                                 <Image
-                                    src="/img/aiInnovation/casestudies/ai-case-img-main.png"
+                                    src="/img/aiInnovation/ai-case-img-main.png"
                                     alt="use case"
                                     height={277}
                                     width={545}
