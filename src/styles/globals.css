@@ -1201,6 +1201,9 @@ button.slick-arrow.slick-next {
     border-right: 0;
     position: relative;
 }
+.appraochAccordion.businessAccordian .accordion-item:last-child {
+    border-bottom: 0;
+}
 .appraochAccordion.businessAccordian .accordion-header .accordion-button {
     padding-left: 0;
 }

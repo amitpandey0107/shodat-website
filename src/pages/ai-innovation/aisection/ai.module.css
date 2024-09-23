@@ -1,5 +1,5 @@
 .ai {
-    background-color: #E6F8F9;
+    background-color: #F4EDF5;
     position: relative;
     min-height: 650px;
 }
@@ -12,14 +12,15 @@
 }
 
 .bLeft {
-    background-color: #93479c;
-    background-image: linear-gradient(to left bottom, #05b8c3, #00a4d2, #048cd6, #676dc4, #93479c);
-    min-height: 705px;
-    position: relative;
-    background-image: url("/img/aiInnovation/gradientBG.png");
+    /* background-color: #93479c;
+    background-image: linear-gradient(to left bottom, #05b8c3, #00a4d2, #048cd6, #676dc4, #93479c); */
+    /* background-image: url("/img/aiInnovation/gradientBG.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: left;
+    background-position: left; */
+    background-color: #000000;
+    min-height: 700px;
+    position: relative;
     width: 40%;
     padding: 30px 40px;
 }
@@ -39,7 +40,7 @@
 
 .bRight {
     width: 60%;
-    padding: 30px 40px;
+    padding: 10px 40px 10px 40px;
 }
 
 .aiAccordian {

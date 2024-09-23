@@ -16,6 +16,7 @@ import ShodatYAI from "./shodatYAI/shodatYAI";
 import ShodatEops from "./shodatEops/shodatEops";
 import UseCases from "./usecases/usecases";
 import FooterVersionSecond from "../footerv2";
+import VisionAI from "./vision/visionai";
 
 export default function AiInovation() {
 
@@ -137,6 +138,9 @@ export default function AiInovation() {
 
                 {/* AI Section */}
                 <AISection />
+
+                {/* Vision AI */}
+                <VisionAI />
 
                 {/* AI Info Block */}
                 <AIInfoBlock sectionData={data1} mode={1} />
