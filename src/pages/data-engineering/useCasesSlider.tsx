@@ -78,7 +78,7 @@ export default function UseCasesSlider(props: any) {
                                     height={147}
                                     width={321}
                                     alt="Data ETL (Extract, Transform, Load)"
-                                    src={"/img/dataEngineering/usecase/realTime.png"}
+                                    src={"/img/dataEngineering/realTime.png"}
                                 />
                             </div>
                             <div className={`${styles.textContainer}`}>
@@ -105,7 +105,7 @@ export default function UseCasesSlider(props: any) {
                                     height={147}
                                     width={321}
                                     alt="ETL and Data Warehousing - Retail and E-Commerce"
-                                    src={"/img/dataEngineering/usecase/PredictiveMaintenanceManufacturing.png"}
+                                    src={"/img/dataEngineering/PredictiveMaintenanceManufacturing.png"}
                                 />
                             </div>
                             <div className={`${styles.textContainer}`}>
@@ -132,7 +132,7 @@ export default function UseCasesSlider(props: any) {
                                     height={147}
                                     width={321}
                                     alt="Predictive Maintenance in Manufacturing"
-                                    src={"/img/dataEngineering/usecase/Realtimetracking.png"}
+                                    src={"/img/dataEngineering/Realtimetracking.png"}
                                 />
                             </div>
                             <div className={`${styles.textContainer}`}>
@@ -159,7 +159,7 @@ export default function UseCasesSlider(props: any) {
                                     height={147}
                                     width={321}
                                     alt="Real-time Tracking and Monitoring in Modern Logistics"
-                                    src={"/img/dataEngineering/usecase/HandlingLargeDataVolumesInAutomotive.png"}
+                                    src={"/img/dataEngineering/HandlingLargeDataVolumesInAutomotive.png"}
                                 />
                             </div>
                             <div className={`${styles.textContainer}`}>
@@ -186,7 +186,7 @@ export default function UseCasesSlider(props: any) {
                                     height={147}
                                     width={321}
                                     alt="Managing Large Data Volumes in Automotive"
-                                    src={"/img/dataEngineering/usecase/PredictiveMaintenanceManufacturing.png"}
+                                    src={"/img/dataEngineering/PredictiveMaintenanceManufacturing.png"}
                                 />
                             </div>
                             <div className={`${styles.textContainer}`}>

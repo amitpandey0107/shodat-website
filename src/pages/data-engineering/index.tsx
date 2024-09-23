@@ -1,20 +1,12 @@
 import React from "react";
-import { useState, useEffect } from "react";
 import Head from "next/head";
-
 import Header from "../header";
 import FooterVersionSecond from "../footerv2";
 import Banner from "./banner";
 import Innovation from "./innovation";
 import OurApproach from "./our-approach";
-import OurCapabilities from "./our-capabilities";
-import KeyFeatures from "./key-features";
-import ApplicationIntegration from "./application-integration";
 import Cta from "./cta";
 import DataAccordian from "./data-accordian";
-import DataStorage from "./data-storage";
-import InformationWithImage from "./informationWithImage";
-import Data from "./data";
 import UseCase from "./use-case";
 import HandlineLargeData from "./handling-large-data";
 import DataSecurityGovernance from "./data-security-governance";
@@ -55,9 +47,6 @@ function DataEngineering() {
                 {/* Our Approach */}
                 <OurApproach />
 
-                {/* Data */}
-                {/* <Data /> */}
-
                 {/* Handling Large Data Volumes */}
                 <HandlineLargeData />
 
@@ -66,21 +55,6 @@ function DataEngineering() {
 
                 {/* Use Case */}
                 <UseCase />
-
-                {/* Our Capabilities */}
-                {/* <OurCapabilities /> */}
-
-                {/* Key Features */}
-                {/* <KeyFeatures /> */}
-
-                {/* Application Integration */}
-                {/* <ApplicationIntegration /> */}
-
-                {/* Data Storage, Warehousing and Data Marts */}
-                {/* <DataStorage /> */}
-
-                {/* Text & Image Inforamtion Section */}
-                {/* <InformationWithImage /> */}
 
                 {/* CTA */}
                 <Cta />
