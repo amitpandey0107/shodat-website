@@ -1,13 +1,13 @@
 .ShodatEops {
     height: auto;
     min-height: 505px;
-    padding: 60px 0;
+    padding: 30px 0;
     /* background-color: #E9DAEB;
     background-image: linear-gradient(to right top, #E9DAEB, #E9DAEB, #DFE3EE, #DFE3EE, #DFE3EE); */
 }
 
 .sectionLeft h2 {
-    color: black;
+    color: #68326F;
     font-size: 33px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -29,35 +29,50 @@
     margin-bottom: 24px;
     font-weight: bold;
     font-size: 23px;
-    color: #000000;
+    color: black;
 }
 
 .sectionLeft p {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.9);
+    line-height: 28px;
 }
 
 .whiteBox {
-    padding: 30px 25px;
-    background-color: white;
-    height: 380px;
-    overflow: hidden;
+    padding: 10px 25px 30px 25px;
+    background-color: #04838A;
+    height: 387px;
 }
 
+.whiteBox .iconWrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -35px;
+}
 .whiteBox .icon {
     margin-bottom: 16px;
+    height: 90px;
+    width: 90px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #F4EDF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .whiteBox h6 {
     font-size: 16px;
     font-weight: bold;
-    color: black;
+    color: white;
     margin-bottom: 16px;
 }
 
 .whiteBox p {
     font-size: 16px;
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.8);
 }
 .ShodatEopsBoxes {
     margin-top: 60px
@@ -115,6 +130,9 @@
         margin-bottom: 30px;
         min-height: 200px;
         height: auto;
+    }
+    .sectionLeft h2 br{
+        display: none;
     }
 
 }

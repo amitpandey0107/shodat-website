@@ -9,7 +9,7 @@ export default function ShodatYAI() {
                     <div className="row">
                         <div className="col-sm-12 col-md-12 col-lg-4">
                             <div className={`${styles.sectionLeft}`}>
-                                <h2>Shodat YAI: Your Partner in AI Transformation</h2>
+                                <h2>Shodat YAI: <br />Your Partner in AI <br />Transformation</h2>
                                 <h6>Shodat YAI Consulting </h6>
                                 <p>Offers expert guidance and strategic consulting to help businesses integrate AI into their operations. Our team of seasoned consultants works closely with clients to develop customized AI solutions that address specific challenges and opportunities.</p>
                             </div>
@@ -19,13 +19,15 @@ export default function ShodatYAI() {
                                 <div className="row">
                                     <div className="col-sm-12 col-md-4 col-lg-4">
                                         <div className={`${styles.whiteBox}`}>
-                                            <div className={`${styles.icon}`}>
-                                                <Image
-                                                    src="/img/aiInnovation/iconRect.png"
-                                                    alt="icon"
-                                                    height={110}
-                                                    width={120}
-                                                />
+                                            <div className={`${styles.iconWrap}`}>
+                                                <div className={`${styles.icon}`}>
+                                                    <Image
+                                                        src="/img/aiInnovation/AIStrategyDevelopment.svg"
+                                                        alt="AI Strategy Development"
+                                                        height={44}
+                                                        width={44}
+                                                    />
+                                                </div>
                                             </div>
                                             <h6>AI Strategy Development</h6>
                                             <p>Crafting tailored AI strategies.</p>
@@ -33,13 +35,15 @@ export default function ShodatYAI() {
                                     </div>
                                     <div className="col-sm-12 col-md-4 col-lg-4">
                                         <div className={`${styles.whiteBox}`}>
-                                            <div className={`${styles.icon}`}>
-                                                <Image
-                                                    src="/img/aiInnovation/iconRect.png"
-                                                    alt="icon"
-                                                    height={110}
-                                                    width={120}
-                                                />
+                                            <div className={`${styles.iconWrap}`}>
+                                                <div className={`${styles.icon}`}>
+                                                    <Image
+                                                        src="/img/aiInnovation/AIStrategyDevelopment.svg"
+                                                        alt="AI Strategy Development"
+                                                        height={44}
+                                                        width={44}
+                                                    />
+                                                </div>
                                             </div>
                                             <h6>Implementation Support</h6>
                                             <p>Assisting in the deployment of AI technologies.</p>
@@ -47,13 +51,15 @@ export default function ShodatYAI() {
                                     </div>
                                     <div className="col-sm-12 col-md-4 col-lg-4">
                                         <div className={`${styles.whiteBox}`}>
-                                            <div className={`${styles.icon}`}>
-                                                <Image
-                                                    src="/img/aiInnovation/iconRect.png"
-                                                    alt="icon"
-                                                    height={110}
-                                                    width={120}
-                                                />
+                                            <div className={`${styles.iconWrap}`}>
+                                                <div className={`${styles.icon}`}>
+                                                    <Image
+                                                        src="/img/aiInnovation/AIStrategyDevelopment.svg"
+                                                        alt="AI Strategy Development"
+                                                        height={44}
+                                                        width={44}
+                                                    />
+                                                </div>
                                             </div>
                                             <h6>Training & Support</h6>
                                             <p>Providing ongoing training and support for AI initiatives.</p>
@@ -78,13 +84,13 @@ export default function ShodatYAI() {
                                 <div className={`${styles.sectionRight}`}>
                                     <div className="row">
                                         <div className="col-sm-12 col-md-4 col-lg-4">
-                                            <div className={`${styles.colorBox} ${styles.purpleBox}`}>
+                                            <div className={`${styles.colorBox} ${styles.blackBox}`}>
                                                 <h6>Generative AI</h6>
                                                 <p>Create new data insights and predictive models to foresee and mitigate future challenges.</p>
                                             </div>
                                         </div>
                                         <div className="col-sm-12 col-md-4 col-lg-4">
-                                            <div className={`${styles.colorBox} ${styles.blueBox}`}>
+                                            <div className={`${styles.colorBox} ${styles.blackBox}`}>
                                                 <h6>Causal AI</h6>
                                                 <p>Understand the underlying factors and relationships that influence outcomes, enabling more effective decision-making.</p>
                                             </div>
