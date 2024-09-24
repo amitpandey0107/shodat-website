@@ -89,7 +89,7 @@ export default function ShodatXDI() {
                             <div className={`${styles.contentRight}`}>
                                 <div className={`${styles.thumbnail}`}>
                                     <Image
-                                        src="/img/advancedAnalytics/dummyRect.png"
+                                        src="/img/aiInnovation/shodatXDI.PNG"
                                         alt="dummy images"
                                         height={433}
                                         width={624}

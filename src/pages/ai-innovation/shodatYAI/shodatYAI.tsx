@@ -51,7 +51,7 @@ export default function ShodatYAI() {
                                         </div>
                                     </div>
                                     <div className="col-sm-12 col-md-4 col-lg-4">
-                                        <div className={`${styles.whiteBox}`}>
+                                        <div className={`${styles.whiteBox} ${styles.br0}`}>
                                             <div className={`${styles.iconWrap}`}>
                                                 <div className={`${styles.icon}`}>
                                                     <Image

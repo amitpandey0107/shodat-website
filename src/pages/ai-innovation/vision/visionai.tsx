@@ -26,7 +26,7 @@ export default function VisionAI() {
 
                             <div className="col-sm-12 col-md-12 col-lg-7">
                                 <div className={`${styles.leftBlock}`}>
-                                    <h2>Vision AI Advanced Image <br />Recognition and Inspection</h2>
+                                    <h2>Vision AI Advanced Image Recognition <br />and Inspection</h2>
                                     <h4>Our Vision AI capabilities </h4>
                                     <p>Offer advanced image recognition capabilities, enabling businesses to perform detailed inspections and quality checks. This system is ideal for industries where precise image analysis is crucial, such as manufacturing and healthcare.</p>
 

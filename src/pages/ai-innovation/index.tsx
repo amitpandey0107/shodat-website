@@ -165,7 +165,7 @@ export default function AiInovation() {
                     <ShodatYAI />
 
                     {/* Shodat EOPS */}
-                    <ShodatEops />
+                    {/* <ShodatEops /> */}
                 </div>
 
                 {/* Use Cases */}
