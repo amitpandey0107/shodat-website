@@ -1,7 +1,7 @@
 .shodatXDI {
     position: relative;
-    /* background-color: #DFE3EE; */
-    padding: 40px 0;
+    background-color: #FFFFFF;
+    padding: 25px 0;
 }
 
 .thumbnail {
@@ -49,18 +49,6 @@
     margin-right: 0;
 }
 
-/* .featBox.purpleBG {
-    background-color: #68326F;
-}
-
-.featBox.blueBG {
-    background-color: #04838A;
-}
-
-.featBox.blackBG {
-    background-color: #000000;
-} */
-
 .featBox p {
     margin-bottom: 12px;
 }
@@ -94,8 +82,8 @@
 
 .keyBenefits .boxContainer .box {
     padding: 20px;
-    background-color: #04838A;
-    height: 160px;
+    background-color: #68326F;
+    height: 175px;
     width: 31%;
     margin-right: 16px;
 }
@@ -114,6 +102,7 @@
 .keyBenefits .boxContainer .box p {
     color: rgba(255,255,255, 0.8);
     font-size: 16px;
+    line-height: 28px;
 }
 
 .keyBenefits .lineLeft {

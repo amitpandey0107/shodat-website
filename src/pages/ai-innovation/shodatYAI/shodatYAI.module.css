@@ -1,14 +1,8 @@
-.shodatYAI {
+.explainable {
     height: auto;
-    min-height: 505px;
-    padding: 30px 0;
-    /* background-color: #DFE3EE; */
-    /* background-image: linear-gradient(to right top, #E9DAEB, #E9DAEB, #DFE3EE, #DFE3EE, #DFE3EE); */
-    /* background-image: linear-gradient(to left bottom, #05b8c3, #00a4d2, #048cd6, #676dc4, #93479c);
-    background-image: url(/img/aiInnovation/explainableBG.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left; */
+    min-height: 370px;
+    padding: 60px 0 20px 0;
+    background-color: #F4EDF5;
 }
 
 .sectionLeft h2 {
@@ -40,28 +34,25 @@
 .sectionLeft p {
     font-size: 16px;
     color: rgba(0, 0, 0, 0.8);
+    line-height: 27px;
+    padding-right: 21px;
 }
 
 .whiteBox {
     padding: 10px 25px 30px 25px;
-    background-color: #68326F;
-    height: 338px;
+    height: 320px;
+    border-right: 1px dashed #68326F;
 }
 
 .whiteBox .iconWrap {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     position: relative;
-    top: -35px;
+    margin-bottom: 30px;
 }
-.whiteBox .icon {
-    margin-bottom: 16px;
-    height: 90px;
-    width: 90px;
+.whiteBox .icon {   
     overflow: hidden;
-    border-radius: 50%;
-    background-color: #F4EDF5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,47 +61,13 @@
 .whiteBox h6 {
     font-size: 16px;
     font-weight: bold;
-    color: white;
+    color: #68326F;
     margin-bottom: 16px;
 }
 
 .whiteBox p {
     font-size: 16px;
-    color: rgba(255,255,255, 0.8);
-    line-height: 28px;
-}
-.shodatYAIBoxes {
-    margin-top: 60px
-}
-.colorBox {
-    padding: 25px 25px;
-    height: 271px;
-    overflow: hidden;
-}
-
-.colorBox .icon {
-    margin-bottom: 16px;
-}
-
-.colorBox h6 {
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 16px;
-}
-
-.colorBox p {
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.8);
-}
-.colorBox.purpleBox {
-    background-color: #68326F;
-}
-.colorBox.blueBox {
-    background-color: #04838A;
-}
-.colorBox.blackBox {
-    background-color: #000000;
+    color: rgba(0,0,0, 0.8);
 }
 
 
@@ -135,9 +92,6 @@
         margin-bottom: 30px;
         min-height: 200px;
         height: auto;
-    }
-    .sectionLeft h2 br{
-        display: none;
     }
 
 }

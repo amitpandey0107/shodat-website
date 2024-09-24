@@ -1,11 +1,11 @@
 .visionAIWrap {
-    background-color: #68326F;
+    background-color: #F4EDF5;
     position: relative;
-    padding: 60px 0;
+    padding: 20px 0;
 }
 
 .visionAI {
-    background-color: #68326F;
+    background-color: #F4EDF5;
     margin-bottom: 90px;
     overflow: hidden;
 }
@@ -13,7 +13,7 @@
 .leftBlock h2 {
     position: relative;
     font-size: 33px;
-    color: white;
+    color: #68326F;
     font-weight: bold;
     padding-bottom: 20px;
     margin-bottom: 20px;
@@ -21,7 +21,7 @@
 
 .leftBlock h2:after {
     position: absolute;
-    background-color: white;
+    background-color: black;
     height: 1px;
     width: 250px;
     content: '';
@@ -30,14 +30,14 @@
 }
 
 .leftBlock h4 {
-    color: #DDDDDD;
+    color: #000000;
     font-weight: bold;
     font-size: 23px;
     margin-bottom: 24px;
 }
 
 .leftBlock p {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .keyBenefits {
@@ -46,7 +46,7 @@
 }
 
 .keyBenefits .benefitTitle {
-    color: white;
+    color: #68326F;
     font-weight: 600;
     font-size: 23px;
     margin-bottom: 43px;
@@ -64,6 +64,7 @@
 .boxContainer .box {
     padding: 20px;
     background-color: white;
+    border: 1px solid #CDAAD1;
     height: 160px;
     width: 31%;
     margin-right: 16px;
@@ -74,7 +75,7 @@
 }
 
 .boxContainer .box h6 {
-    color: rgba(0, 0, 0, 0.8);
+    color: #68326F;
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 8px;
@@ -88,8 +89,8 @@
 .keyBenefits .lineLeft {
     width: 24%;
     background: transparent;
-    border-left: 1px solid white;
-    border-top: 1px solid white;
+    border-left: 1px solid #68326F;
+    border-top: 1px solid #68326F;
     height: 58px;
     position: absolute;
     top: 20px;
@@ -101,7 +102,7 @@
     position: absolute;
     height: 7px;
     width: 7px;
-    background-color: white;
+    background-color: #68326F;
     border-radius: 50%;
     bottom: 0;
     left: -4px;
@@ -112,7 +113,7 @@
     position: absolute;
     height: 7px;
     width: 7px;
-    background-color: white;
+    background-color: #68326F;
     border-radius: 50%;
     top: -4px;
     right: -4px;
@@ -121,8 +122,8 @@
 .keyBenefits .lineRight {
     width: 24%;
     background: transparent;
-    border-right: 1px solid white;
-    border-top: 1px solid white;
+    border-right: 1px solid #68326F;
+    border-top: 1px solid #68326F;
     height: 58px;
     position: absolute;
     top: 20px;
@@ -134,7 +135,7 @@
     position: absolute;
     height: 7px;
     width: 7px;
-    background-color: white;
+    background-color: #68326F;
     border-radius: 50%;
     bottom: 0;
     right: -4px;
@@ -145,7 +146,7 @@
     position: absolute;
     height: 7px;
     width: 7px;
-    background-color: white;
+    background-color: #68326F;
     border-radius: 50%;
     top: -4px;
     left: -4px;
@@ -154,8 +155,8 @@
 .keyBenefits .lineBottom {
     width: 1px;
     background: transparent;
-    border-right: 1px solid white;
-    border-top: 1px solid white;
+    border-right: 1px solid #68326F;
+    border-top: 1px solid #68326F;
     height: 37px;
     position: absolute;
     top: 41px;
@@ -167,7 +168,7 @@
     position: absolute;
     height: 7px;
     width: 7px;
-    background-color: white;
+    background-color: #68326F;
     border-radius: 50%;
     bottom: 0px;
     left: -3px;
@@ -178,7 +179,7 @@
     position: absolute;
     height: 7px;
     width: 7px;
-    background-color: white;
+    background-color: #68326F;
     border-radius: 50%;
     top: -4px;
     left: -3px;

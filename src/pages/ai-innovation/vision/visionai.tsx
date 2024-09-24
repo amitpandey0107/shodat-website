@@ -10,6 +10,20 @@ export default function VisionAI() {
                 <div className={`${styles.visionAI}`}>
                     <div className="container-fluid">
                         <div className="row">
+
+                            <div className="col-sm-12 col-md-12 col-lg-5">
+                                <div className={`${styles.rightBlock}`}>
+                                    <div className={`${styles.imageThumbnail}`}>
+                                        <Image
+                                            src="/img/aiInnovation/Vision-AI-Advanced-Image.svg"
+                                            alt='Vision AI Advanced Image Recognition and Inspection'
+                                            height={560}
+                                            width={644}
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+
                             <div className="col-sm-12 col-md-12 col-lg-7">
                                 <div className={`${styles.leftBlock}`}>
                                     <h2>Vision AI Advanced Image <br />Recognition and Inspection</h2>
@@ -38,18 +52,7 @@ export default function VisionAI() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-12 col-md-12 col-lg-5">
-                                <div className={`${styles.rightBlock}`}>
-                                    <div className={`${styles.imageThumbnail}`}>
-                                        <Image
-                                            src="/img/aiInnovation/vision-ai-img.png"
-                                            alt='Vision AI Advanced Image Recognition and Inspection'
-                                            height={560}
-                                            width={644}
-                                        />
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -57,18 +60,7 @@ export default function VisionAI() {
                 <div className={`${styles.visionAI}`}>
                     <div className="container-fluid">
                         <div className="row">
-                        <div className={`col-sm-12 col-md-12 col-lg-5 ${styles.col1}`}>
-                                <div className={`${styles.rightBlock}`}>
-                                    <div className={`${styles.imageThumbnail}`}>
-                                        <Image
-                                            src="/img/aiInnovation/ML-img.svg"
-                                            alt='Lightweight ML Models'
-                                            height={337}
-                                            width={517}
-                                        />
-                                    </div>
-                                </div>
-                            </div>
+
                             <div className={`col-sm-12 col-md-12 col-lg-7 ${styles.col2}`}>
                                 <div className={`${styles.leftBlock}`}>
                                     <h2>Lightweight ML Models</h2>
@@ -96,7 +88,21 @@ export default function VisionAI() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>                            
+                            </div>
+
+                            <div className={`col-sm-12 col-md-12 col-lg-5 ${styles.col1}`}>
+                                <div className={`${styles.rightBlock}`}>
+                                    <div className={`${styles.imageThumbnail}`}>
+                                        <Image
+                                            src="/img/aiInnovation/ML-img.svg"
+                                            alt='Lightweight ML Models'
+                                            height={337}
+                                            width={517}
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -104,6 +110,20 @@ export default function VisionAI() {
                 <div className={`${styles.visionAI} ${styles.mb0} ${styles.ipa}`}>
                     <div className="container-fluid">
                         <div className="row">
+
+                            <div className="col-sm-12 col-md-12 col-lg-5">
+                                <div className={`${styles.rightBlock}`}>
+                                    <div className={`${styles.imageThumbnail}`}>
+                                        <Image
+                                            src="/img/aiInnovation/IPA_img.svg"
+                                            alt='Intelligent Process Automation (IPA)'
+                                            height={560}
+                                            width={644}
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+
                             <div className="col-sm-12 col-md-12 col-lg-7">
                                 <div className={`${styles.leftBlock}`}>
                                     <h2>Intelligent Process Automation (IPA)</h2>
@@ -131,18 +151,7 @@ export default function VisionAI() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-sm-12 col-md-12 col-lg-5">
-                                <div className={`${styles.rightBlock}`}>
-                                    <div className={`${styles.imageThumbnail}`}>
-                                        <Image
-                                            src="/img/aiInnovation/IPA_img.svg"
-                                            alt='Intelligent Process Automation (IPA)'
-                                            height={560}
-                                            width={644}
-                                        />
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                     </div>
                 </div>

@@ -98,9 +98,7 @@ export default function Questions() {
                             </div>
                             <div className="col-sm-6 col-md-6 col-lg-3">
                                 <div className={`${styles.phraseBox}`}>
-                                    {/* <h4>Unplanned downtime in manufacturing costs industrial manufacturers an estimated <span>$50 billion</span> each year</h4> */}
                                     <h4>Unplanned downtime in manufacturing, costs industrial manufacturers an estimated <span>$50 billion</span> each year</h4>
-                                    <p>- Forbes</p>
                                 </div>
                             </div>
                             <div className="col-sm-6 col-md-6 col-lg-3">

@@ -137,7 +137,7 @@ export default function AiInovation() {
                 <BusinessIntelligence />
 
                 {/* AI Section */}
-                <AISection />
+                {/* <AISection /> */}
 
                 {/* Vision AI */}
                 <VisionAI />

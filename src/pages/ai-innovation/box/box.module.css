@@ -7,7 +7,9 @@
 .blackBox .phraseBox {
     height: 230px;
     padding: 24px;
-    background-image: linear-gradient(to right top , rgba(147,74,156, 0.5), rgba(5, 167, 177, 0.5));
+    border: 2px solid #52A8B1;
+    background: #2D6170;
+    /* background-image: linear-gradient(to right top , rgba(147,74,156, 0.5), rgba(5, 167, 177, 0.5)); */
     
 }
 
@@ -19,7 +21,7 @@
 
 .blackBox .phraseBox h4 span {
     color: white;
-    font-size: 24px;
+    font-size: 23px;
     font-weight: bold;
     padding: 0 2px;
 }
