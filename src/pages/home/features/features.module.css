@@ -131,6 +131,11 @@
     mix-blend-mode: normal;
 }
 
+.sliderItem:hover> a >.sliderImage {
+    filter: none;
+    mix-blend-mode: normal;
+}
+
 .sliderItem:before {
     content: "";
     background-image: url('/img/feature_box_black_bg.png');

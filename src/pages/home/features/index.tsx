@@ -34,7 +34,7 @@ export default function Features() {
           <div className="col-sm-12 col-md-12 col-lg-4">
             <div className={`${styles.infoBox}`}>
               <p>
-              We at Shodat specialize in delivering advanced analytics and AI-driven solutions that transform industries and empower businesses to thrive in the digital era. Our commitment to excellence and continuous innovation ensures that we stay ahead of the curve, providing intelligent technologies that drive efficiency, foster growth, and unlock new opportunities.
+                We at Shodat specialize in delivering advanced analytics and AI-driven solutions that transform industries and empower businesses to thrive in the digital era. Our commitment to excellence and continuous innovation ensures that we stay ahead of the curve, providing intelligent technologies that drive efficiency, foster growth, and unlock new opportunities.
               </p>
             </div>
           </div>
@@ -134,61 +134,69 @@ export default function Features() {
                     gap={3}
                   >
                     <Card className={`${styles.sliderItem}`}>
-                      <Image
-                        className={`${styles.sliderImage}`}
-                        src="/img/dataEngineering.png"
-                        alt="Image One"
-                        width={324}
-                        height={353}
-                      />
-                      <div className={`${styles.sliderContent}`}>
-                        <h4>Data Engineering</h4>
-                        <p>
-                        Building a robust data infrastructure for seamless integration and analysis.
-                        </p>
-                      </div>
+                      <Link href="/data-engineering">
+                        <Image
+                          className={`${styles.sliderImage}`}
+                          src="/img/dataEngineering.png"
+                          alt="Image One"
+                          width={324}
+                          height={353}
+                        />
+                        <div className={`${styles.sliderContent}`}>
+                          <h4>Data Engineering</h4>
+                          <p>
+                            Building a robust data infrastructure for seamless integration and analysis.
+                          </p>
+                        </div>
+                      </Link>
                     </Card>
                     <Card className={`${styles.sliderItem}`}>
-                      <Image
-                        className={`${styles.sliderImage}`}
-                        src="/img/advancedAnalytics.png"
-                        alt="Image One"
-                        width={324}
-                        height={353}
-                      />
-                      <div className={`${styles.sliderContent}`}>
-                        <h4>Advanced Analytics & BI</h4>
-                        <p>In-depth custom analytics, dashboarding and reporting frameworks to enable data-driven decision making.</p>
-                      </div>
+                      <Link href="">
+                        <Image
+                          className={`${styles.sliderImage}`}
+                          src="/img/advancedAnalytics.png"
+                          alt="Image One"
+                          width={324}
+                          height={353}
+                        />
+                        <div className={`${styles.sliderContent}`}>
+                          <h4>Advanced Analytics & BI</h4>
+                          <p>In-depth custom analytics, dashboarding and reporting frameworks to enable data-driven decision making.</p>
+                        </div>
+                      </Link>
                     </Card>
                     <Card className={`${styles.sliderItem}`}>
-                      <Image
-                        className={`${styles.sliderImage}`}
-                        src="/img/ai-innovation-img1.jpg"
-                        alt="Image One"
-                        width={324}
-                        height={353}
-                      />
-                      <div className={`${styles.sliderContent}`}>
-                        <h4>AI Innovation</h4>
-                        <p>
-                        Transforming data into actionable insights and predictive intelligence.
-                        </p>
-                      </div>
+                      <Link href="/ai-innovation">
+                        <Image
+                          className={`${styles.sliderImage}`}
+                          src="/img/ai-innovation-img1.jpg"
+                          alt="Image One"
+                          width={324}
+                          height={353}
+                        />
+                        <div className={`${styles.sliderContent}`}>
+                          <h4>AI Innovation</h4>
+                          <p>
+                            Transforming data into actionable insights and predictive intelligence.
+                          </p>
+                        </div>
+                      </Link>
                     </Card>
-                    
+
                     <Card className={`${styles.sliderItem}`}>
-                      <Image
-                        className={`${styles.sliderImage}`}
-                        src="/img/security.png"
-                        alt="Image One"
-                        width={324}
-                        height={353}
-                      />
-                      <div className={`${styles.sliderContent}`}>
-                        <h4>Security & Compliance</h4>
-                        <p>Ensure data protection & navigate compliance with precision and speed.</p>
-                      </div>
+                      <Link href="">
+                        <Image
+                          className={`${styles.sliderImage}`}
+                          src="/img/security.png"
+                          alt="Image One"
+                          width={324}
+                          height={353}
+                        />
+                        <div className={`${styles.sliderContent}`}>
+                          <h4>Security & Compliance</h4>
+                          <p>Ensure data protection & navigate compliance with precision and speed.</p>
+                        </div>
+                      </Link>
                     </Card>
                   </Stack>
                 </Carousel.Item>
