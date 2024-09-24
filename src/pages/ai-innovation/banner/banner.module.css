@@ -45,7 +45,7 @@
 .bannerContentLeft .bannerInfo {
     position: absolute;
     top: 50%;
-    left: 34%;
+    left: 36%;
     transform: translate(-50%, -50%);
     width: 60%;
 }
