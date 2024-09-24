@@ -813,7 +813,7 @@ body {
 }
 
 .accordion-button::after {
-    background-image: url("/img/dataEngineering/angle_down.png") !important;
+    background-image: url("/img/dataEngineering/angleDown.svg") !important;
     background-size: 2rem;
     height: 2rem;
     width: 2rem;
