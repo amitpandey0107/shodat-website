@@ -325,7 +325,7 @@ export default function Scheduling() {
                                                 decision-making through advanced analytics, Shodat AI
                                                 solutions is the key to scalability and innovation.
                                             </p>
-                                            <Link
+                                            {/* <Link
                                                 href="#scheduling"
                                                 className={`${styles.btnLetsTalkAI} btnBlack`}
                                             >
@@ -336,7 +336,7 @@ export default function Scheduling() {
                                                     height={20}
                                                     width={20}
                                                 />
-                                            </Link>
+                                            </Link> */}
                                         </div>
                                     </div>
                                     <div className="col-sm-12 col-md-12 col-lg-6">

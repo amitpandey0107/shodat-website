@@ -15,15 +15,6 @@
     position: relative;
 }
 
-/* .experienceFuture:after {
-    background-color: rgba(000,000,000,0.3);
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-} */
-
 .experienceFuture .experienceContent {
     position: relative;
     z-index: 1;
