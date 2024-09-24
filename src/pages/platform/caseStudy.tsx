@@ -206,84 +206,9 @@ export default function CaseStudy() {
 
                                 </Carousel>
                             </div>
-
-
                             
                         </div>
 
-                        <div className={`${styles.tabContent}`} ref={ElementRef}>
-                            <div className={`${styles.arrowLeft}`}>
-                                <button onClick={handleLeftArrow}>
-                                    <Image
-                                        src="/img/casestudy/angle_left_purple.png"
-                                        alt="arrow left"
-                                        height={32}
-                                        width={16}
-                                    />
-                                </button>
-                            </div>
-                            <div className={`${styles.tab}`}>
-                                <button onClick={() => handleTabChange(1)}>
-                                    <Image
-                                        src="/img/casestudy/case_study_2.jpg"
-                                        alt="Energy"
-                                        height={170}
-                                        width={156}
-                                    />
-                                </button>
-                            </div>
-                            <div className={`${styles.tab}`}>
-                                <button onClick={() => handleTabChange(2)}>
-                                    <Image
-                                        src="/img/casestudy/case_study_3.png"
-                                        alt="Automotive"
-                                        height={170}
-                                        width={156}
-                                    />
-                                </button>
-                            </div>
-                            <div className={`${styles.tab}`}>
-                                <button onClick={() => handleTabChange(3)}>
-                                    <Image
-                                        src="/img/casestudy/case_study_4.png"
-                                        alt="Manfacturing"
-                                        height={170}
-                                        width={156}
-                                    />
-                                </button>
-                            </div>
-                            <div className={`${styles.tab}`}>
-                                <button onClick={() => handleTabChange(4)}>
-                                    <Image
-                                        src="/img/casestudy/case_study_5.png"
-                                        alt="financial"
-                                        height={170}
-                                        width={156}
-                                    />
-                                </button>
-                            </div>
-                            <div className={`${styles.tab}`}>
-                                <button onClick={() => handleTabChange(5)}>
-                                    <Image
-                                        src="/img/casestudy/case_study_6.png"
-                                        alt="workplace safety"
-                                        height={170}
-                                        width={156}
-                                    />
-                                </button>
-                            </div>
-
-                            <div className={`${styles.arrowRight}`}>
-                                <button onClick={handleRightArrow}>
-                                    <Image
-                                        src="/img/casestudy/angle_right_purple.png"
-                                        alt="arrow right"
-                                        height={32}
-                                        width={16}
-                                    />
-                                </button>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

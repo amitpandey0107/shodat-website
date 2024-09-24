@@ -179,7 +179,7 @@ export default function Features() {
                                         <div className={`${styles.picture}`}>
                                             <Image
                                                 src="/img/platform/platform-page-imgs/assets-creation-img1.png"
-                                                alt="feature_image.png"
+                                                alt="Feature Images"
                                                 height={371}
                                                 width={588}
                                             />
@@ -212,7 +212,7 @@ export default function Features() {
                                         <div className={`${styles.picture}`}>
                                             <Image
                                                 src="/img/platform/platform-page-imgs/features-img2.png"
-                                                alt="feature_image.png"
+                                                alt="Feature Images"
                                                 height={371}
                                                 width={588}
                                             />
@@ -242,7 +242,7 @@ export default function Features() {
                                         <div className={`${styles.picture}`}>
                                             <Image
                                                 src="/img/platform/platform-page-imgs/features-img3.png"
-                                                alt="feature_image.png"
+                                                alt="Feature Images"
                                                 height={371}
                                                 width={588}
                                             />
@@ -271,7 +271,7 @@ export default function Features() {
                                         <div className={`${styles.picture}`}>
                                             <Image
                                                 src="/img/platform/platform-page-imgs/features-img4.png"
-                                                alt="feature_image.png"
+                                                alt="Feature Images"
                                                 height={371}
                                                 width={588}
                                             />
