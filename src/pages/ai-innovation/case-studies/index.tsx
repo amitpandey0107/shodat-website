@@ -12,7 +12,7 @@ export default function Casestudy() {
 
                 <div className={`${styles.caseBanner}`}>
                     <div className="container-fluid1">
-                        <div className="row">
+                        <div className={`row ${styles.rowBlock}`}>
                             <div className="col-sm-12">
                                 <div className={`${styles.bannerTitle}`}>
                                     Enhancing Workplace Safety with <br />Vision-Based AI Solutions
@@ -24,7 +24,7 @@ export default function Casestudy() {
 
                 <div className={`${styles.caseContent}`}>
                     <div className="container-fluid1">
-                        <div className="row">
+                        <div className={`row ${styles.rowBlock}`}>
                             <div className="col-sm-12">
                                 <div className={`${styles.block} ${styles.mt0}`}>
                                     <h3 className={`${styles.title}`}>Overview</h3>
@@ -92,8 +92,8 @@ export default function Casestudy() {
                                 </div>
 
                                 <div className={`${styles.block}`}>
-                                    <div className="row">
-                                        <div className="col-sm-12 col-md-12 col-lg-6">
+                                    <div className={`row ${styles.rowBlock}`}>
+                                        <div className="col-sm-12 col-md-6 col-lg-6">
                                             <div className={`${styles.borderBoxGreen}`}>
                                                 <div className={`${styles.icon}`}>
                                                     <Image
@@ -156,7 +156,7 @@ export default function Casestudy() {
                                                 <p>Non-compliance events were logged in a centralised database, enabling safety teams to analyse recurring patterns in safety breaches. By identifying specific areas or timeframes with low compliance, the system facilitated targeted interventions. Detailed reports, including video footage of incidents, were generated to support root cause analysis (RCA) and improve future safety protocols.</p>
                                             </div>
                                         </div>
-                                        <div className="col-sm-12 col-md-12 col-lg-6">
+                                        <div className="col-sm-12 col-md-6 col-lg-6">
                                             <div className={`${styles.thumbnail}`}>
                                                 <Image
                                                     src="/img/aiInnovation/case-study-image-1.png"
