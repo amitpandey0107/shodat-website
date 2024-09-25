@@ -6,6 +6,7 @@ import styles from "./footer.module.css";
 
 export default function FooterVersionSecond() {
 
+
     const [formData, setFormData] = useState({
         newsletterEMail: ""
     } as any);
@@ -16,6 +17,35 @@ export default function FooterVersionSecond() {
     const [hiddenField, setHiddenField] = useState({} as any);
     const [success, setSuccess] = useState(false);
     const [currentYear, setCurrentYear] = useState('' as any);
+    const [isVisible, setIsVisible] = useState(false);
+
+
+    const isBrowser = () => typeof window !== 'undefined';
+    function scrollToTop() {
+        if (!isBrowser()) return;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    const handleScroll = () => {
+        // Show the button when the user scrolls down
+        if (window.scrollY > 100) {
+            setIsVisible(true);
+        } else {
+            setIsVisible(false);
+        }
+    };
+
+    useEffect(() => {
+        // Add scroll event listener when the component mounts
+        window.addEventListener('scroll', handleScroll);
+
+        // Remove the event listener when the component unmounts
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
+
     useEffect(() => {
         let newDate = new Date()
         let date = newDate.getDate();
@@ -189,19 +219,6 @@ export default function FooterVersionSecond() {
                                     </div>
                                 </div>
                             </div>
-                            <div className={`${styles.footerRight}`}>
-                                {/* <ul className={`${styles.copyrightMenu}`}>
-                  <li>
-                    <Link href="">Cookie Policy</Link>
-                  </li>
-                  <li>
-                    <Link href="">Terms of Use</Link>
-                  </li>
-                  <li>
-                    <Link href="">Privacy Policy</Link>
-                  </li>
-                </ul> */}
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -216,6 +233,19 @@ export default function FooterVersionSecond() {
                     </div>
                 </div>
             </div>
+
+            <button
+                className={`${styles.scrollToTop} ${isVisible ? `${styles.visible}` : ''}`}
+                onClick={scrollToTop}
+            >
+                <Image
+                    src="/img/angleUpWhite.svg"
+                    alt="arrow-up"
+                    height={25}
+                    width={25}
+                />
+            </button>
+
         </footer>
     );
 }
