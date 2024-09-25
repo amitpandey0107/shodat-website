@@ -1,6 +1,6 @@
 /* ========= Banner ============ */
 .platformBanner {
-    height: 586px;
+    height: 569px;
     background-color: #f0f0f0;
     position: relative;
     overflow: hidden;
@@ -18,7 +18,7 @@
 }
 
 .platformBanner .bannerContent .bannerContentLeft {
-    width: 45%;
+    width: 100%;
     height: 100%;
     position: relative;
 }
@@ -42,11 +42,13 @@
 }
 
 .bannerContentLeft .bannerInfo {
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60%;
+    width: 60%; */
+    margin-top: 110px;
+    margin-left: 80px;
 }
 
 .btnGetStarted {
