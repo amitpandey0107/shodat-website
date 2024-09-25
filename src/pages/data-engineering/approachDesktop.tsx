@@ -161,19 +161,19 @@ export default function ApproachDesktop(props: any) {
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className={`${styles.approachRightContent}`}>
                             <div className={`${styles.dataRow}`}>
-                                <h6>Ingesting Data into the Cloud:</h6>
+                                <h6>Ingesting Data into the Cloud</h6>
                                 <p>We facilitate smooth and secure data migration to cloud platforms, leveraging the scalability and flexibility of cloud infrastructure.</p>
                             </div>
                             <div className={`${styles.dataRow}`}>
-                                <h6>Ingesting Data from Various Sources: </h6>
+                                <h6>Ingesting Data from Various Sources </h6>
                                 <p>Our solutions can handle data from diverse sources such as databases, APIs, IoT devices, FTP servers and more.</p>
                             </div>
                             <div className={`${styles.dataRow}`}>
-                                <h6>Near Real-Time Uploads and Bulk Uploads: </h6>
+                                <h6>Near Real-Time Uploads and Bulk Uploads </h6>
                                 <p>We support both near real-time data ingestion and bulk uploads, ensuring timely data availability. </p>
                             </div>
                             <div className={`${styles.dataRow}`}>
-                                <h6>Scheduled Uploads: </h6>
+                                <h6>Scheduled Uploads </h6>
                                 <p>Automate your data ingestion processes with our scheduled upload capabilities, reducing manual intervention and ensuring consistency.</p>
                             </div>
                         </div>

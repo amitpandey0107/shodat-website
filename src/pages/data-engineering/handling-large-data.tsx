@@ -23,7 +23,7 @@ export default function HandlineLargeData(props: any) {
                                 />
                             </div>
                             <div className={`${styles.contentArea}`}>
-                                <h4>Scalable Storage Solutions:</h4>
+                                <h4>Scalable Storage Solutions</h4>
                                 <p>Implement scalable storage systems like data lakes and cloud storage to handle vast amounts of structured and unstructured data.</p>
                             </div>
                         </div>
@@ -39,7 +39,7 @@ export default function HandlineLargeData(props: any) {
                                 />
                             </div>
                             <div className={`${styles.contentArea}`}>
-                                <h4>Real-Time Analytics:</h4>
+                                <h4>Real-Time Analytics</h4>
                                 <p>Enable real-time data processing and analytics to provide immediate insights and support rapid decision-making.</p>
                             </div>
                         </div>
@@ -55,7 +55,7 @@ export default function HandlineLargeData(props: any) {
                                 />
                             </div>
                             <div className={`${styles.contentArea}`}>
-                                <h4>Efficient Data Processing:</h4>
+                                <h4>Efficient Data Processing</h4>
                                 <p>Leverage distributed computing frameworks such as Apache Spark and Hadoop to process large datasets quickly and efficiently.</p>
                             </div>
                         </div>
