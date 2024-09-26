@@ -29,7 +29,7 @@ export default function Box() {
           </div>
           <div className="col-sm-6 col-md-6 col-lg-3">
             <div className={`${styles.phraseBox}`}>
-              <h4>
+              <h4> 
                 Business leaders trust AI&apos;s power in driving growth.{" "}
                 <span>84%</span> of C-level executives believe that they need to
                 adopt and leverage Artificial Intelligence to drive growth
