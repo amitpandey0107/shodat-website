@@ -466,10 +466,10 @@ export default function ApproachMobile(props: any) {
                 </Accordion.Header>
                 <Accordion.Body>
                   <div className={`${styles.approachAccBody}`}>
-                    <h3>
+                    {/* <h3>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been 
-                    </h3>
+                    </h3> */}
                     <div className={`${styles.imageBox}`}>
                       <ExportedImage
                         height={291}
