@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import styles from "./prefferedPartner.module.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -13,7 +13,7 @@ import ResponsibleAI from "./responsibleAI";
 export default function PrefferedPartner() {
   const [index, setIndex] = useState(1);
   const [bgClass, setBgClass] = useState("bg1");
-  
+
   return (
     <>
       {/* <div className={`${styles.experienceFuture} experienceFutureSection`}>
@@ -44,31 +44,41 @@ export default function PrefferedPartner() {
               <div className="col-sm-12">
                 <div className={`${styles.tabs}`}>
                   <button
-                    className={`${styles.btnTab} ${index === 1 && styles.active}`}
+                    className={`${styles.btnTab} ${
+                      index === 1 && styles.active
+                    }`}
                     onClick={() => setIndex(1)}
                   >
                     Proven
                   </button>
                   <button
-                    className={`${styles.btnTab} ${index === 2 && styles.active}`}
+                    className={`${styles.btnTab} ${
+                      index === 2 && styles.active
+                    }`}
                     onClick={() => setIndex(2)}
                   >
                     Expertise
                   </button>
                   <button
-                    className={`${styles.btnTab} ${index === 3 && styles.active}`}
+                    className={`${styles.btnTab} ${
+                      index === 3 && styles.active
+                    }`}
                     onClick={() => setIndex(3)}
                   >
                     Customization
                   </button>
                   <button
-                    className={`${styles.btnTab} ${index === 4 && styles.active}`}
+                    className={`${styles.btnTab} ${
+                      index === 4 && styles.active
+                    }`}
                     onClick={() => setIndex(4)}
                   >
                     Innovation
                   </button>
                   <button
-                    className={`${styles.btnTab} ${index === 5 && styles.active}`}
+                    className={`${styles.btnTab} ${
+                      index === 5 && styles.active
+                    }`}
                     onClick={() => setIndex(5)}
                   >
                     Security & Compliance
@@ -77,27 +87,16 @@ export default function PrefferedPartner() {
               </div>
 
               <div className="col-sm-12">
-                {
-                  index === 1 && <Proven />
-                }
+                {index === 1 && <Proven />}
 
-                {
-                  index === 2 && <Expertise />
-                }
+                {index === 2 && <Expertise />}
 
-                {
-                  index === 3 && <Customization />
-                }
+                {index === 3 && <Customization />}
 
-                {
-                  index === 4 && <Innovation />
-                }
+                {index === 4 && <Innovation />}
 
-                {
-                  index === 5 && <ResponsibleAI />
-                }
+                {index === 5 && <ResponsibleAI />}
               </div>
-
             </div>
           </div>
         </div>

@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "../platform.module.css";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import "bootstrap/dist/css/bootstrap.css";
 import Modal from "react-bootstrap/Modal";
 
-export default function Energy(props:any) {
+export default function Energy(props: any) {
   return (
     <Modal
       {...props}
@@ -19,7 +19,7 @@ export default function Energy(props:any) {
 
         <div className={`${styles.modalContentInner}`}>
           <div className={`${styles.modalLeft}`}>
-            <Image
+            <ExportedImage
               src={`/img/platform/platform-page-imgs/casestudies-ev-img1.jpg`}
               alt="evCharging"
               height={554}
@@ -47,7 +47,9 @@ export default function Energy(props:any) {
                     with accuracy rates close to 93%.
                   </p>
                   <p>
-                  Proactive alerting and predictive maintenance strategies resulting in a 25% reduction in maintenance costs by preventing unexpected battery failures.
+                    Proactive alerting and predictive maintenance strategies
+                    resulting in a 25% reduction in maintenance costs by
+                    preventing unexpected battery failures.
                   </p>
                 </div>
               </div>
@@ -62,7 +64,9 @@ export default function Energy(props:any) {
                 accuracy rates close to 93%.
               </p>
               <p>
-              Proactive alerting and predictive maintenance strategies resulting in a 25% reduction in maintenance costs by preventing unexpected battery failures.
+                Proactive alerting and predictive maintenance strategies
+                resulting in a 25% reduction in maintenance costs by preventing
+                unexpected battery failures.
               </p>
             </div>
           </div>

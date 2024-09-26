@@ -2,8 +2,11 @@
 
 # dependencies
 /node_modules
+platform
 /.pnp
 .pnp.js
+pnpm-lock.yaml
+package-lock.json
 .yarn/install-state.gz
 
 # testing

@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "optimize-img": "next-image-export-optimizer",
     "start": "next start",
     "lint": "next lint"
   },
@@ -12,14 +13,14 @@
     "@ntegral/react-owl-carousel": "^1.0.1",
     "axios": "^1.7.3",
     "bootstrap": "^5.3.3",
-    "emailjs-com": "^3.2.0",
     "next": "14.2.4",
     "react": "^18",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18",
     "react-multi-carousel": "^2.8.5",
     "react-slick": "^0.30.2",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "next-image-export-optimizer": "^1.14.1"
   },
   "devDependencies": {
     "@types/node": "^20",

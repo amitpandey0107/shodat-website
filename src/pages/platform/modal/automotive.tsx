@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../platform.module.css";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import "bootstrap/dist/css/bootstrap.css";
 import Modal from "react-bootstrap/Modal";
 
@@ -19,7 +19,7 @@ export default function Automotive(props: any) {
 
         <div className={`${styles.modalContentInner}`}>
           <div className={`${styles.modalLeft}`}>
-            <Image
+            <ExportedImage
               src={`/img/platform/platform-page-imgs/casestudies-ev-img2.jpg`}
               alt="evCharging"
               height={554}
@@ -44,7 +44,8 @@ export default function Automotive(props: any) {
                     maintenance planning.
                   </p>
                   <p>
-                    PProactive maintenance based on accurate predictions is resulting in a 15% reduction in overall maintenance costs.
+                    PProactive maintenance based on accurate predictions is
+                    resulting in a 15% reduction in overall maintenance costs.
                   </p>
                 </div>
               </div>
@@ -58,7 +59,8 @@ export default function Automotive(props: any) {
                 maintenance planning.
               </p>
               <p>
-              Proactive maintenance based on accurate predictions is resulting in a 15% reduction in overall maintenance costs.
+                Proactive maintenance based on accurate predictions is resulting
+                in a 15% reduction in overall maintenance costs.
               </p>
             </div>
           </div>

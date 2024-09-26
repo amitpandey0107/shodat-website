@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../platform.module.css";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import "bootstrap/dist/css/bootstrap.css";
 import Modal from "react-bootstrap/Modal";
 
@@ -19,7 +19,7 @@ export default function Financial(props: any) {
 
         <div className={`${styles.modalContentInner}`}>
           <div className={`${styles.modalLeft}`}>
-            <Image
+            <ExportedImage
               src={`/img/platform/platform-page-imgs/financial-services.jpg`}
               alt="evCharging"
               height={554}

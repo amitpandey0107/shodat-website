@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import styles from "./footer.module.css";
 
@@ -19,7 +19,7 @@ export default function Footer() {
               <div className={`${styles.newsletterInput}`}>
                 <input type="text" placeholder="Business email address" />
                 <button>
-                  <Image
+                  <ExportedImage
                     src="/img/newsletterBtn.svg"
                     alt="arrow right"
                     height={38}
@@ -38,7 +38,7 @@ export default function Footer() {
             <div className={`${styles.fotterContent}`}>
               <div className={`${styles.footerBlock}`}>
                 <div className={`${styles.footerLogo}`}>
-                  <Image
+                  <ExportedImage
                     src="/img/footerLogo.svg"
                     alt="arrow right"
                     height={49}
@@ -48,7 +48,7 @@ export default function Footer() {
                 <ul className={`${styles.footerList}`}>
                   <li>
                     <Link href="tel:+1(123)4567890">
-                      <Image
+                      <ExportedImage
                         src="/img/phone-call.svg"
                         alt="arrow right"
                         height={24}
@@ -59,7 +59,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link href="mailto:contact@shodat.com">
-                      <Image
+                      <ExportedImage
                         src="/img/mail.svg"
                         alt="arrow right"
                         height={24}

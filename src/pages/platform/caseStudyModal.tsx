@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./platform.module.css";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import "bootstrap/dist/css/bootstrap.css";
 import Modal from "react-bootstrap/Modal";
 import axios from "axios";
@@ -37,7 +37,7 @@ export default function MyVerticallyCenteredModal(props: any) {
           ? data.map((item: any, index: any) => (
               <div className={`${styles.modalContentInner}`} key={index}>
                 <div className={`${styles.modalLeft}`}>
-                  <Image
+                  <ExportedImage
                     src={`/img/platform/platform-page-imgs/${item.image}`}
                     alt="evCharging"
                     height={554}

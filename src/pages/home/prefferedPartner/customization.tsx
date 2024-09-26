@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import styles from "./prefferedPartner.module.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -7,7 +7,9 @@ import Carousel from "react-bootstrap/Carousel";
 
 export default function Customization() {
   return (
-    <div className={`${styles.tabsContent} ${styles.customization} ${styles.customizationBG} customizationSection`}>
+    <div
+      className={`${styles.tabsContent} ${styles.customization} ${styles.customizationBG} customizationSection`}
+    >
       <div className={`${styles.contentLeft}`}>
         <div className={`${styles.contentBlock}`}>
           <h3>Customized AI Applications</h3>
@@ -41,7 +43,8 @@ export default function Customization() {
         <div className={`${styles.couonterRow}`}>
           <div className={`${styles.counterBox}`}>
             <h6>
-              Custom integrations make it seamless and reduce time to adopt analytics & AI strategies on an average by
+              Custom integrations make it seamless and reduce time to adopt
+              analytics & AI strategies on an average by
             </h6>
             <div className={`${styles.count}`}>20%</div>
           </div>

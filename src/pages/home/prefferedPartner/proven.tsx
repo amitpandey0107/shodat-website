@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import styles from "./prefferedPartner.module.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -7,7 +7,9 @@ import Carousel from "react-bootstrap/Carousel";
 
 export default function Proven() {
   return (
-    <div className={`${styles.tabsContent} ${styles.proven} ${styles.provenBG} provenSection`}>
+    <div
+      className={`${styles.tabsContent} ${styles.proven} ${styles.provenBG} provenSection`}
+    >
       <div className={`${styles.contentLeft}`}>
         <h3>
           Shodat&apos;s experience in developing Analytics & AI technologies

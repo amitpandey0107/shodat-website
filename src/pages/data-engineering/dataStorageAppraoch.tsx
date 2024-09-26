@@ -65,7 +65,7 @@ export default function DataStorageAppraoch(props: any) {
                 </Accordion.Header>
                 <Accordion.Body>
                     <div className={`${styles.accBody}`}>
-                        <p>We offer the ability to store, extract and process data stored in various file formats such as CSV, XLSX, PDFs, JPEGs and more, ensuring all your data sources are integrated and managed efficiently</p>
+                        <p>We offer the ability to store, extract and process data stored in various file formats such as CSV, XLSX, PDFs, JPEGs and more, ensuring all your data sources are integrated and managed efficiently.</p>
                     </div>
                 </Accordion.Body>
             </Accordion.Item>
