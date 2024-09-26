@@ -48,8 +48,8 @@ export default function Industries() {
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
-                  src="/img/industries/industries-img1.jpg"
-                  alt="industries"
+                  src="/img/home/manufacturing.webp"
+                  alt="Manufacturing"
                   height={604}
                   width={666}
                 />
@@ -72,7 +72,7 @@ export default function Industries() {
                 >
                   <span>Read More</span>
                   <Image
-                    src="/img/arrowRight.svg"
+                    src="/img/home/arrowRight.svg"
                     alt="arrow right"
                     height={20}
                     width={20}
@@ -86,7 +86,7 @@ export default function Industries() {
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
-                  src="/img/industries/automotive-img.png"
+                  src="/img/home/automotive.webp"
                   alt="Automotive "
                   height={604}
                   width={666}
@@ -110,7 +110,7 @@ export default function Industries() {
                 >
                   <span>Read More</span>
                   <Image
-                    src="/img/arrowRight.svg"
+                    src="/img/home/arrowRight.svg"
                     alt="arrow right"
                     height={20}
                     width={20}
@@ -124,8 +124,8 @@ export default function Industries() {
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
-                  src="/img/industries/oil-gas-rig-industries.jpg"
-                  alt="industries"
+                  src="/img/home/oil-gas-rig-industries.webp"
+                  alt="Energy"
                   height={604}
                   width={666}
                 />
@@ -144,7 +144,7 @@ export default function Industries() {
                 >
                   <span>Read More</span>
                   <Image
-                    src="/img/arrowRight.svg"
+                    src="/img/home/arrowRight.svg"
                     alt="arrow right"
                     height={20}
                     width={20}
@@ -158,8 +158,8 @@ export default function Industries() {
             <div className={`${styles.indContent}`}>
               <div className={`${styles.indImage}`}>
                 <Image
-                  src="/img/industries/logistics-img1.jpg"
-                  alt="industries"
+                  src="/img/home/logistics.webp"
+                  alt="Logistics"
                   height={604}
                   width={666}
                 />
@@ -185,7 +185,7 @@ export default function Industries() {
                 >
                   <span>Read More</span>
                   <Image
-                    src="/img/arrowRight.svg"
+                    src="/img/home/arrowRight.svg"
                     alt="arrow right"
                     height={20}
                     width={20}

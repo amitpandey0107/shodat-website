@@ -10,7 +10,7 @@ export default function Banner() {
     <div className={`banner ${styles.carouselContainer}`}>
       <Image
             className={`${styles.ellipseImage}`}
-            src="/img/banner/ellipse.png" 
+            src="/img/home/banner/ellipse.webp" 
             alt="ellipse"
             width={557}
             height={557}
@@ -19,7 +19,7 @@ export default function Banner() {
         <Carousel.Item interval={7000}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/banner/slider5.jpg"
+            src="/img/home/banner/slider5.webp"
             alt="Image One"
             width={1400}
             height={700}
@@ -33,7 +33,7 @@ export default function Banner() {
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image
-                  src="/img/arrowRight.svg"
+                  src="/img/home/arrowRight.svg"
                   alt="arrow right"
                   height={20}
                   width={20}
@@ -46,7 +46,7 @@ export default function Banner() {
         <Carousel.Item interval={7000}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/banner/slider3.jpg"
+            src="/img/home/banner/slider3.webp"
             alt="Image One"
             width={1400}
             height={700}
@@ -62,7 +62,7 @@ export default function Banner() {
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image
-                  src="/img/arrowRight.svg"
+                  src="/img/home/arrowRight.svg"
                   alt="arrow right"
                   height={20}
                   width={20}
@@ -75,7 +75,7 @@ export default function Banner() {
         <Carousel.Item interval={7000}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/banner/slider2.jpg"
+            src="/img/home/banner/slider2.webp"
             alt="Image One"
             width={1400}
             height={700}
@@ -87,7 +87,7 @@ export default function Banner() {
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image
-                  src="/img/arrowRight.svg"
+                  src="/img/home/arrowRight.svg"
                   alt="arrow right"
                   height={20}
                   width={20}
@@ -100,7 +100,7 @@ export default function Banner() {
         <Carousel.Item interval={7000}>
           <Image
             className={`${styles.sliderImage}`}
-            src="/img/banner/slider1.jpg"
+            src="/img/home/banner/slider1.webp"
             alt="Image One"
             width={1400}
             height={700}
@@ -114,7 +114,7 @@ export default function Banner() {
               <Link href="#scheduling" className={`${styles.btnGetStarted}`}>
                 <span>Get Started</span>
                 <Image
-                  src="/img/arrowRight.svg"
+                  src="/img/home/arrowRight.svg"
                   alt="arrow right"
                   height={20}
                   width={20}
@@ -127,7 +127,7 @@ export default function Banner() {
 
       <Link href="#features" className={`${styles.mouseIcon} iconmouse`}>
         <Image
-          src="/img/mouseIcon.svg"
+          src="/img/home/mouseIcon.svg"
           alt="mouse icon"
           height={30}
           width={30}

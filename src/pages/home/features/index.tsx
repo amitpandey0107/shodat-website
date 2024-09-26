@@ -44,8 +44,8 @@ export default function Features() {
                 <div className={`${styles.logo}`}>
                   <Image
                     className={`${styles.logoImage}`}
-                    src="/img/marketReady.svg"
-                    alt="Image One"
+                    src="/img/home/marketReady.svg"
+                    alt="Adopt"
                     width={100}
                     height={100}
                   />
@@ -61,8 +61,8 @@ export default function Features() {
                 <div className={`${styles.logo}`}>
                   <Image
                     className={`${styles.logoImage}`}
-                    src="/img/re-engineering.svg"
-                    alt="Image One"
+                    src="/img/home/re-engineering.svg"
+                    alt="re-engineering"
                     width={100}
                     height={100}
                   />
@@ -78,8 +78,8 @@ export default function Features() {
                 <div className={`${styles.logo}`}>
                   <Image
                     className={`${styles.logoImage}`}
-                    src="/img/exploreSolutions.svg"
-                    alt="Image One"
+                    src="/img/home/exploreSolutions.svg"
+                    alt="Explore"
                     width={100}
                     height={100}
                   />
@@ -94,7 +94,7 @@ export default function Features() {
               <Link href="#scheduling" className={`${styles.btnLetsTalk}`}>
                 <span>Let&#39;s Talk AI</span>
                 <Image
-                  src="/img/arrowRight.svg"
+                  src="/img/home/arrowRight.svg"
                   alt="arrow right"
                   height={20}
                   width={20}
@@ -137,8 +137,8 @@ export default function Features() {
                       <Link href="/data-engineering">
                         <Image
                           className={`${styles.sliderImage}`}
-                          src="/img/dataEngineering.png"
-                          alt="Image One"
+                          src="/img/home/data-engineering.webp"
+                          alt="Data Engineering"
                           width={324}
                           height={353}
                         />
@@ -154,8 +154,8 @@ export default function Features() {
                       <Link href="">
                         <Image
                           className={`${styles.sliderImage}`}
-                          src="/img/advancedAnalytics.png"
-                          alt="Image One"
+                          src="/img/home/advancedAnalytics.webp"
+                          alt="Advanced Analytics & BI"
                           width={324}
                           height={353}
                         />
@@ -169,8 +169,8 @@ export default function Features() {
                       <Link href="/ai-innovation">
                         <Image
                           className={`${styles.sliderImage}`}
-                          src="/img/ai-innovation-img1.jpg"
-                          alt="Image One"
+                          src="/img/home/ai-innovation-img1.webp"
+                          alt="AI Innovation"
                           width={324}
                           height={353}
                         />
@@ -187,8 +187,8 @@ export default function Features() {
                       <Link href="">
                         <Image
                           className={`${styles.sliderImage}`}
-                          src="/img/security.png"
-                          alt="Image One"
+                          src="/img/home/security.webp"
+                          alt="Security & Compliance"
                           width={324}
                           height={353}
                         />
