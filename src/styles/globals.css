@@ -1432,3 +1432,8 @@ button.slick-arrow.slick-next {
 .bgColors {
     background-image: linear-gradient(to right top, #E9DAEB, #E9DAEB, #DFE3EE, #DFE3EE, #DFE3EE);
 }
+
+.appraochAccordion {
+    position: relative;
+    z-index: 99;
+}
