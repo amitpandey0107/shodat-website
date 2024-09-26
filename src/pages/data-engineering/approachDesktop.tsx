@@ -247,7 +247,7 @@ export default function ApproachDesktop(props: any) {
           <div className="col-sm-12 col-md-6 col-lg-6">
             <div className={`${styles.approachRightContent}`}>
               <div className={`${styles.dataRow}`}>
-                <h6>Building Publish-Subscribe Systems:</h6>
+                <h6>Building Publish-Subscribe Systems</h6>
                 <p>
                   We develop robust publish-subscribe systems to manage alerts
                   and enable asynchronous communication across your data
@@ -255,7 +255,7 @@ export default function ApproachDesktop(props: any) {
                 </p>
               </div>
               <div className={`${styles.dataRow}`}>
-                <h6>Azure Service Bus Integration:</h6>
+                <h6>Azure Service Bus Integration</h6>
                 <p>
                   Leverage Azure Service Bus for reliable cloud messaging
                   between applications and services, ensuring smooth data
@@ -273,7 +273,7 @@ export default function ApproachDesktop(props: any) {
             <div className={`${styles.approachLeftContent}`}>
               <h3>
                 We provide comprehensive solutions for data storage and
-                management:
+                management.
               </h3>
               <div className={`${styles.imageBox}`}>
                 <ExportedImage
