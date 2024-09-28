@@ -145,7 +145,7 @@
     overflow: hidden;
 }
 
-.ourApproach:before {
+/* .ourApproach:before {
     content: "";
     background-image: url('/img/dataEngineering/purpleEllipse.png');
     background-repeat: no-repeat;
@@ -156,9 +156,9 @@
     position: absolute;
     top: 0;
     left: 0;
-}
+} */
 
-.ourApproach:after {
+/* .ourApproach:after {
     content: "";
     background-image: url('/img/dataEngineering/blueEllipse.png');
     background-repeat: no-repeat;
@@ -169,7 +169,7 @@
     position: absolute;
     bottom: -116px;
     right: -44px;
-}
+} */
 
 .ourApproach .approachContent {
     position: relative;
@@ -1317,10 +1317,12 @@
 
 @media screen and (max-width: 991px) {
     .bannerContentLeft .bannerInfo {
-        left: 0;
+        /* left: 0;
         padding-left: 10%;
         transform: translate(0%, -50%);
-        width: 100%;
+        width: 100%; */
+        position: relative;
+        margin: 0;
     }
 
     .bannerContentLeft .bannerTitle br {
@@ -1329,6 +1331,8 @@
 
     .platformBanner .bannerContent {
         display: block;
+        margin-top: 100px;
+        padding: 15px 15px 15px 40px;
     }
 
     .innovation .rowFlex {
@@ -1577,9 +1581,19 @@
         min-height: 325px;
         margin-top: 40px;
     }
+    .platformBanner {
+        height: auto;
+        min-height: 550px;
+    }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .platformBanner .bannerContent {
+        display: block;
+        margin-top: 20px;
+        padding: 15px;
+    }
+}
 
 @media screen and (max-width: 479px) {
     .ourApproach .approachContent .columns {
@@ -1710,10 +1724,22 @@
     }
 
     .bannerContentLeft .bannerInfo {
-        padding-left: 5%;
+        padding-left: 0%;
     }
     .DataSecurityGovernance .purpleBox  {
         height: auto;
         min-height: 380px;
+    }
+    .platformBanner .bannerContent {
+        margin-top: 40px;
+        padding: 0 15px 0 0;
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width:380px) {
+    .bannerContentLeft .bannerTitle {
+        font-size: 33px;
+        line-height: 43px;
     }
 }

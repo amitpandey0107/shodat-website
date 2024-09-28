@@ -2105,7 +2105,9 @@
         left: auto;
         transform: none;
         width: 100%;
-        padding: 15px;
+        padding: 15px 15px 15px 40px;
+        margin-top: 0;
+        margin-left: 0;
     }
 
     .bannerContentLeft p br {
@@ -2115,14 +2117,14 @@
     .platformBanner {
         height: auto;
         padding-bottom: 15px;
-        min-height: 350px;
+        min-height: 450px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
 
     .platformBanner .bannerContent .bannerContentLeft .bannerTitle {
-        font-size: 36px;
+        font-size: 46px;
     }
 
     .platformBanner .bannerContent .bannerContentLeft p {
@@ -2554,6 +2556,12 @@
 
     .offers .offerContent {
         height: 800px;
+    }
+
+    .bannerContentLeft .bannerInfo {
+        position: relative;
+        margin-top: 40px;
+        padding: 0 15px 0 30px;
     }
 }
 

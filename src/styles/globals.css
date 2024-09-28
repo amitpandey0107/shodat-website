@@ -813,7 +813,7 @@ body {
 }
 
 .accordion-button::after {
-    background-image: url("/img/dataEngineering/angleDown.svg") !important;
+    background-image: url("/img/dataEngineering/svg/chevron-down-thin.svg") !important;
     background-size: 2rem;
     height: 2rem;
     width: 2rem;
@@ -1174,6 +1174,10 @@ button.slick-arrow.slick-next {
     height: 46px;
     box-shadow: none;
     background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
 }
 
 .appraochAccordion .accordion-button::after {

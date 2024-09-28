@@ -148,7 +148,7 @@
 @media screen and (max-width: 769px) {
     .carouselContainer .carouselCaption {
         right: 0;
-        top: 20%;
+        top: 15%;
         left: 0;
         transform: none;
         position: absolute;
@@ -176,5 +176,11 @@
     }
     .banner_title span {
         display: inline;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .carouselContainer .carouselCaption {
+        top: 10%;
     }
 }
