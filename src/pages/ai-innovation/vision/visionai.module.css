@@ -209,11 +209,11 @@
 @media screen and (max-width: 1199px) {}
 
 @media screen and (max-width: 991px) {
-    .col1{
-        order: 2;
-    }
-    .col2{
+    /* .column1{
         order: 1;
+    } */
+    .column2{
+        order: 2;
     }
     .rightBlock .imageThumbnail {
         margin-top: 40px;

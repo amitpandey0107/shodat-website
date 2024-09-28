@@ -1361,6 +1361,13 @@ button.slick-arrow.slick-next {
     .useCaseSlickSlider .slick-track .slick-slide[data-index='0'] {
         padding-right: 0;
     }
+    .appraochAccordion .accordion-header .accordion-button {
+        height: 90px;
+    }
+    .businessAccordian .accordion-body {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 /* advancedAnalyticsSlider Slider */
@@ -1440,4 +1447,44 @@ button.slick-arrow.slick-next {
 .appraochAccordion {
     position: relative;
     z-index: 99;
+}
+
+.platformCaseSlider button.slick-arrow.slick-prev {
+    left: -30px;
+    top: calc(50%  - 15px);
+    background-color: transparent;
+    height: 30px;
+    width: 16px;
+}
+.platformCaseSlider .slick-prev:before {
+    background-image: url(/img/platform/chevron-left.svg) !important;
+    content: "" !important;
+    height: 30px;
+    width: 16px;
+    left: auto;
+    top: auto;
+    position: absolute !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.platformCaseSlider button.slick-arrow.slick-next {
+    right: -7px;
+    left: auto;
+    top: calc(50% - 15px);
+    background-color: transparent;
+    height: 30px;
+    width: 16px;
+}
+
+.platformCaseSlider .slick-next:before {
+    background-image: url(/img/platform/chevron-right.svg) !important;
+    content: "" !important;
+    left: auto;
+    top: auto;
+    height: 30px;
+    width: 16px;
+    position: absolute !important;
+    background-repeat: no-repeat;
+    background-size: contain;
 }

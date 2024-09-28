@@ -1,7 +1,6 @@
 /* ========= Banner ============ */
 .platformBanner {
     height: 569px;
-    background-color: #f0f0f0;
     position: relative;
     overflow: hidden;
     background-image: url('/img/dataEngineering/banner.png');

@@ -94,6 +94,9 @@
     .titleCenter p {
         width: 100%;
     }
+    .titleCenter p br {
+        display: none;
+    }
     .sectionImage .thumbnail img {
         height: 100%;
         width: 100%;
@@ -102,4 +105,9 @@
     }
 }
 
-@media screen and (max-width: 479px) {}
+@media screen and (max-width: 479px) {
+    .accordianWrap {
+        padding-left: 18px;
+        padding-right: 0;
+    }
+}

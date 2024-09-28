@@ -15,9 +15,6 @@ export default function UseCasesSlider(props: any) {
 
   const searchParams = useSearchParams();
   const sliderID = searchParams?.get("id");
-  console.log({
-    sliderID: sliderID,
-  });
 
   const settings = {
     dots: false,
@@ -66,6 +63,7 @@ export default function UseCasesSlider(props: any) {
   useEffect(() => {
     activeSlide > 0 ? setToggleButton(true) : setToggleButton(false);
   }, [activeSlide]);
+  
   return (
     <div
       className={`slider-container useCaseSlickSlider ${

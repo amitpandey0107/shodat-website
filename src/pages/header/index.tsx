@@ -57,9 +57,8 @@ export default function Header() {
             <li>
               <Link
                 href="/"
-                className={`${
-                  router.pathname === "/" ? `${styles.active}` : ""
-                }`}
+                className={`${router.pathname === "/" ? `${styles.active}` : ""
+                  }`}
               >
                 Home
               </Link>
@@ -67,31 +66,28 @@ export default function Header() {
             <li>
               <Link
                 href="/platform"
-                className={`${
-                  router.pathname === "/platform" ? `${styles.active}` : ""
-                }`}
+                className={`${router.pathname === "/platform" ? `${styles.active}` : ""
+                  }`}
               >
                 Platform
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link
                 href="/data-engineering"
-                className={`${
-                  router.pathname === "/data-engineering"
+                className={`${router.pathname === "/data-engineering"
                     ? `${styles.active}`
                     : ""
-                }`}
+                  }`}
               >
                 Data Engineering
               </Link>
-            </li> */}
+            </li>
             <li>
               <Link
                 href="/ai-innovation"
-                className={`${
-                  router.pathname === "/ai-innovation" ? `${styles.active}` : ""
-                }`}
+                className={`${router.pathname === "/ai-innovation" ? `${styles.active}` : ""
+                  }`}
               >
                 AI Innovation
               </Link>
@@ -138,9 +134,8 @@ export default function Header() {
                 <li>
                   <Link
                     href="/"
-                    className={`${
-                      router.pathname === "/" ? `${styles.active}` : ""
-                    }`}
+                    className={`${router.pathname === "/" ? `${styles.active}` : ""
+                      }`}
                   >
                     Home
                   </Link>
@@ -148,9 +143,8 @@ export default function Header() {
                 <li>
                   <Link
                     href="/platform"
-                    className={`${
-                      router.pathname === "/platform" ? `${styles.active}` : ""
-                    }`}
+                    className={`${router.pathname === "/platform" ? `${styles.active}` : ""
+                      }`}
                   >
                     Platform
                   </Link>
@@ -158,11 +152,10 @@ export default function Header() {
                 <li>
                   <Link
                     href="/data-engineering"
-                    className={`${
-                      router.pathname === "/data-engineering"
+                    className={`${router.pathname === "/data-engineering"
                         ? `${styles.activeInnerLink}`
                         : ""
-                    }`}
+                      }`}
                   >
                     Data Engineering
                   </Link>
@@ -170,11 +163,10 @@ export default function Header() {
                 <li>
                   <Link
                     href="/ai-innovation"
-                    className={`${
-                      router.pathname === "/ai-innovation"
+                    className={`${router.pathname === "/ai-innovation"
                         ? `${styles.activeInnerLink}`
                         : ""
-                    }`}
+                      }`}
                   >
                     AI Innovation
                   </Link>

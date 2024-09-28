@@ -10,7 +10,7 @@ export default function VisionAI() {
         <div className={`${styles.visionAI}`}>
           <div className="container-fluid">
             <div className="row">
-              <div className="col-sm-12 col-md-12 col-lg-5">
+              <div className={`col-sm-12 col-md-12 col-lg-5 ${styles.column2}`}>
                 <div className={`${styles.rightBlock}`}>
                   <div className={`${styles.imageThumbnail}`}>
                     <ExportedImage
@@ -23,7 +23,7 @@ export default function VisionAI() {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-12 col-lg-7">
+              <div className={`col-sm-12 col-md-12 col-lg-7 ${styles.column1}`}>
                 <div className={`${styles.leftBlock}`}>
                   <h2>
                     Vision AI Advanced Image Recognition <br />
@@ -73,7 +73,7 @@ export default function VisionAI() {
         <div className={`${styles.visionAI}`}>
           <div className="container-fluid">
             <div className="row">
-              <div className={`col-sm-12 col-md-12 col-lg-7 ${styles.col2}`}>
+              <div className={`col-sm-12 col-md-12 col-lg-7 ${styles.column1}`}>
                 <div className={`${styles.leftBlock}`}>
                   <h2>Lightweight ML Models</h2>
                   <h4>Efficiency Meets Performance</h4>
@@ -110,7 +110,7 @@ export default function VisionAI() {
                 </div>
               </div>
 
-              <div className={`col-sm-12 col-md-12 col-lg-5 ${styles.col1}`}>
+              <div className={`col-sm-12 col-md-12 col-lg-5 ${styles.column2}`}>
                 <div className={`${styles.rightBlock}`}>
                   <div className={`${styles.imageThumbnail}`}>
                     <ExportedImage
@@ -129,7 +129,7 @@ export default function VisionAI() {
         <div className={`${styles.visionAI} ${styles.mb0} ${styles.ipa}`}>
           <div className="container-fluid">
             <div className="row">
-              <div className="col-sm-12 col-md-12 col-lg-5">
+              <div className={`col-sm-12 col-md-12 col-lg-5 ${styles.column2}`}>
                 <div className={`${styles.rightBlock}`}>
                   <div className={`${styles.imageThumbnail}`}>
                     <ExportedImage
@@ -142,7 +142,7 @@ export default function VisionAI() {
                 </div>
               </div>
 
-              <div className="col-sm-12 col-md-12 col-lg-7">
+              <div className={`col-sm-12 col-md-12 col-lg-7 ${styles.column1}`}>
                 <div className={`${styles.leftBlock}`}>
                   <h2>Intelligent Process Automation (IPA)</h2>
                   <p>

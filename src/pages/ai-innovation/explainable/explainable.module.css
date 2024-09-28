@@ -100,5 +100,15 @@
 }
 
 @media screen and (max-width: 479px) {
-    
+    .whiteBox {
+        margin-bottom: 15px;
+        min-height: 200px;
+        height: auto;
+        padding: 15px 0;
+        border-right: 0;
+        border-bottom: 1px dashed #68326F;
+    }
+    .whiteBox h6 br {
+        display: none;
+    }
 }

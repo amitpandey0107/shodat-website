@@ -251,6 +251,7 @@
 @media screen and (max-width: 991px) {
     .caseContent {
         width: 100%;
+        padding: 40px 20px;
     }
 
     .boxWrap {
@@ -286,8 +287,17 @@
     }
 
     .boxWrap .boxed {
-        width: 49%;
-        margin-bottom: 2%;
+        width: 47%;
+        margin-bottom: 6%;
+    }
+    .bannerTitle br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .bannerTitle {
+        padding: 6%;
     }
 }
 
