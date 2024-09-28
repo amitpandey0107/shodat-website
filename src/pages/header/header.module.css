@@ -70,6 +70,12 @@
     min-width: 150px;
     box-shadow: none;
     border-radius: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.btnDemo:hover {
+    background-color: #05a7b1;
+    transition: all 0.3s ease-in-out;
 }
 
 .mobileMenu {

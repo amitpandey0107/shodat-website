@@ -131,6 +131,12 @@
     box-shadow: none;
     border-radius: 0;
     margin-top: 10px;
+    transition: all ease-out 0.25s;
+}
+
+.btnSubmit:hover {
+    background-color: #05a7b1;
+    transition: all ease-out 0.25s;
 }
 
 .cta {

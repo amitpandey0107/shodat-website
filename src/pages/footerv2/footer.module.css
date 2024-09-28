@@ -235,6 +235,7 @@
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     border-radius: 3px;
+    transition: all ease-out 0.25s;
 }
 
 .scrollToTop img {
@@ -243,10 +244,17 @@
 
 .scrollToTop:hover {
     background-color: rgba(104, 50, 111, 1);
+    background-color: #05a7b1;
+    transition: all ease-out 0.25s;
 }
 
 .scrollToTop.visible {
     opacity: 1;
+}
+
+.readMore:hover {
+    background-color: #05a7b1;
+    transition: all ease-out 0.25s;
 }
 
 /* Responsive */

@@ -64,6 +64,12 @@
     min-width: 150px;
     box-shadow: none;
     border-radius: 0;
+    transition: all ease-out 0.25s;
+}
+
+.btnGetStarted {
+    background-color: #05a7b1;
+    transition: all ease-out 0.25s;
 }
 
 .btnGetStarted img {
